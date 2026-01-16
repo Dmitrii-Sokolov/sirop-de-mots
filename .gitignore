@@ -1,0 +1,40 @@
+# Lexique.org data files (download from http://www.lexique.org/databases/Lexique383/)
+Lexique383.tsv
+Lexique383.xlsb
+Lexique383.rds
+make_rds.R
+Manuel_Lexique.3.pdf
+README-Lexique.txt
+RELEASE NOTES-Lexique.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+nul
+
+# Project specific
+*.log
