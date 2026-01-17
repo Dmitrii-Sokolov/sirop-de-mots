@@ -1,0 +1,99 @@
+lemme,genre,meaning_ru,meaning_fr,frequency_note
+mort,m,мертвец,mort (personne),high
+mort,f,смерть,mort (décès),high
+fin,m,знаток (устар.),fin (connaisseur),low
+fin,f,конец,fin (terme),high
+livre,m,книга,livre (ouvrage),high
+livre,f,фунт (вес/валюта),livre (poids/monnaie),medium
+tour,m,"обход, ход, оборот, трюк","tour (mouvement, ruse)",high
+tour,f,башня,tour (bâtiment),high
+poste,m,"пост, должность, аппарат","poste (emploi, appareil)",high
+poste,f,почта,poste (courrier),high
+mode,m,"способ, режим",mode (manière),high
+mode,f,мода,mode (tendance),high
+voile,m,"вуаль, покрывало, завеса",voile (tissu),medium
+voile,f,парус,voile (nautique),medium
+manche,m,ручка (инструмента),manche (d'outil),medium
+manche,f,"рукав, Ла-Манш","manche (vêtement), la Manche",medium
+vase,m,ваза,vase (récipient),medium
+vase,f,"ил, тина",vase (boue),low
+mousse,m,юнга,mousse (marin),low
+mousse,f,"пена, мох",mousse (écume/plante),medium
+mémoire,m,"меморандум, записка, доклад",mémoire (document),medium
+mémoire,f,память,mémoire (souvenir),high
+page,m,паж,page (serviteur),low
+page,f,страница,page (feuille),high
+crêpe,m,креп (ткань),crêpe (tissu),low
+crêpe,f,блин,crêpe (galette),medium
+pendule,m,маятник,pendule (balancier),low
+pendule,f,часы (настенные),pendule (horloge),low
+physique,m,телосложение,physique (apparence),medium
+physique,f,физика,physique (science),medium
+politique,m,политик,politique (personne),medium
+politique,f,политика,politique (domaine),high
+critique,m,критик,critique (personne),medium
+critique,f,критика,critique (jugement),medium
+manœuvre,m,разнорабочий,manœuvre (ouvrier),low
+manœuvre,f,манёвр,manœuvre (action),medium
+aide,m,помощник,aide (personne),medium
+aide,f,помощь,aide (assistance),high
+garde,m,"охранник, сторож",garde (personne),medium
+garde,f,"охрана, стража",garde (surveillance),medium
+somme,m,"сон, дремота",somme (sommeil),low
+somme,f,сумма,somme (total),high
+moule,m,форма (для литья),moule (modèle),medium
+moule,f,мидия,moule (coquillage),medium
+solde,m,"остаток, баланс",solde (reste),medium
+solde,f,распродажа,solde (rabais),medium
+espace,m,пространство,espace (étendue),high
+espace,f,пробел (типографский),espace (typographie),low
+parallèle,m,параллель (сравнение),parallèle (comparaison),medium
+parallèle,f,параллельная линия,parallèle (ligne),low
+greffe,m,секретариат суда,greffe (tribunal),low
+greffe,f,"прививка, трансплантат",greffe (transplant),medium
+office,m,"служба, обязанность",office (fonction),medium
+office,f,кладовая,office (pièce),low
+ombre,m,хариус (рыба),ombre (poisson),low
+ombre,f,тень,ombre (obscurité),high
+carpe,m,запястье (анат.),carpe (os),low
+carpe,f,карп (рыба),carpe (poisson),low
+foudre,m,большая бочка,foudre (tonneau),low
+foudre,f,молния,foudre (éclair),medium
+platine,m,платина,platine (métal),low
+platine,f,дека (проигрывателя),platine (appareil),low
+rose,m,розовый цвет,rose (couleur),medium
+rose,f,роза (цветок),rose (fleur),high
+plastique,m,пластик (материал),plastique (matière),high
+plastique,f,пластика (тела),plastique (silhouette),low
+basket,m,баскетбол,basket (sport),medium
+basket,f,кроссовок,basket (chaussure),medium
+poêle,m,печь,poêle (chauffage),low
+poêle,f,сковорода,poêle (ustensile),high
+enseigne,m,прапорщик (ист.),enseigne (officier),low
+enseigne,f,вывеска,enseigne (panneau),medium
+cartouche,m,картуш (орнамент),cartouche (ornement),low
+cartouche,f,патрон,cartouche (munition),medium
+pique,m,пики (масть),pique (carte),medium
+pique,f,пика (оружие),pique (arme),low
+faux,m,"подделка, фальшивка",faux (contrefaçon),medium
+faux,f,коса (инструмент),faux (outil),low
+martyre,m,мученичество,martyre (souffrance),low
+martyre,f,мученица,martyre (personne f),low
+pupille,m,подопечный,pupille (personne m),low
+pupille,f,"зрачок, подопечная","pupille (œil, personne f)",medium
+cache,m,"кеш, маска","cache (informatique, masque)",medium
+cache,f,тайник,cache (cachette),medium
+faune,m,фавн,faune (divinité),low
+faune,f,фауна,faune (animaux),medium
+matricule,m,номер (регистрационный),matricule (numéro),low
+matricule,f,регистрация,matricule (registre),low
+pourpre,m,пурпурный цвет,pourpre (couleur),low
+pourpre,f,багрянка (моллюск),pourpre (mollusque),low
+ponte,m,"шишка, босс (сленг)",ponte (personnage),low
+ponte,f,яйцекладка,ponte (œufs),low
+aune,m,ольха (дерево),aune (arbre),low
+aune,f,локоть (мера длины),aune (mesure),low
+coche,m,дилижанс (ист.),coche (voiture),low
+coche,f,зарубка,coche (entaille),low
+cosmétique,m,косметическое средство,cosmétique (produit),medium
+cosmétique,f,косметология,cosmétique (domaine),low
