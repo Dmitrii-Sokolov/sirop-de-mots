@@ -1,0 +1,2107 @@
+lemme,cgram,genre,freqlem,forms,nbhomogr
+être,VER,,47321.97,été,3
+avoir,VER,,19998.89,eu/eue eus/eues,3
+faire,VER,,14142.47,fait/faite faits/faites,1
+aller,VER,,12847.7,allé/allée allés/allées,2
+dire,VER,,10778.65,dit/dite dits/dites,2
+pouvoir,VER,,8184.27,pu,2
+vouloir,VER,,6889.4400000000005,voulu/voulue voulus/voulues,2
+voir,VER,,6521.1900000000005,vu/vue vus/vues,1
+savoir,VER,,6520.29,su/sue sus/sues,2
+devoir,VER,,4550.75,dû/due dus/dues,2
+venir,VER,,4278.35,venu/venue venus/venues,1
+prendre,VER,,3380.25,pris/prise prises,1
+parler,VER,,3056.56,parlé/parlée parlés/parlées,3
+suivre,VER,,3039.66,suivi/suivie suivis/suivies,1
+falloir,VER,,2904.17,fallu,1
+passer,VER,,2660.76,passé/passée passés/passées,2
+croire,VER,,2659.2200000000003,cru/crue crus/crues,1
+aimer,VER,,2450.68,aimé/aimée aimés/aimées,1
+penser,VER,,2355.27,pensé/pensée pensés/pensées,1
+trouver,VER,,2307.99,trouvé/trouvée trouvés/trouvées,1
+regarder,VER,,2195.2,regardé/regardée regardés/regardées,1
+laisser,VER,,2185.6499999999996,laissé/laissée laissés/laissées,1
+donner,VER,,2105.6800000000003,donné/donnée donnés/données,2
+mettre,VER,,2088.55,mis/mise mises,1
+attendre,VER,,2058.15,attendu/attendue attendus/attendues,1
+arriver,VER,,1975.46,arrivé/arrivée arrivés/arrivées,1
+demander,VER,,1894.23,demandé/demandée demandés/demandées,1
+rester,VER,,1797.34,resté/restée restés/restées,1
+appeler,VER,,1630.82,appelé/appelée appelés/appelées,1
+partir,VER,,1597.65,parti/partie partis/parties,1
+connaître,VER,,1590.29,connu/connue connus/connues,1
+sortir,VER,,1511.83,sorti/sortie sortis/sorties,2
+comprendre,VER,,1508.31,compris/comprise comprises,1
+arrêter,VER,,1456.29,arrêté/arrêtée arrêtés/arrêtées,1
+entendre,VER,,1447.79,entendu/entendue entendus/entendues,1
+mourir,VER,,1307.48,mort/morte morts/mortes,1
+sentir,VER,,1254.1799999999998,senti/sentie sentis/senties,1
+tenir,VER,,1245.91,tenu/tenue tenus/tenues,1
+chercher,VER,,1161.45,cherché/cherchée cherchés/cherchées,1
+revenir,VER,,1109.16,revenu/revenue revenus/revenues,1
+tuer,VER,,1099.21,tué/tuée tués/tuées,1
+rendre,VER,,976.9200000000001,rendu/rendue rendus/rendues,1
+finir,VER,,975.58,fini/finie finis/finies,1
+devenir,VER,,972.0799999999999,devenu/devenue devenus/devenues,2
+vivre,VER,,970.53,vécu/vécue vécus/vécues,2
+essayer,VER,,967.0899999999999,essayé/essayée essayés/essayées,1
+perdre,VER,,923.44,perdu/perdue perdus/perdues,1
+jouer,VER,,907.35,joué/jouée joués/jouées,1
+ouvrir,VER,,905.8199999999999,ouvert/ouverte ouverts/ouvertes,1
+commencer,VER,,858.72,commencé/commencée commencés/commencées,1
+tomber,VER,,849.24,tombé/tombée tombés/tombées,1
+entrer,VER,,848.49,entré/entrée entrés/entrées,1
+aider,VER,,847.36,aidé/aidée aidés/aidées,1
+rentrer,VER,,812.44,rentré/rentrée rentrés/rentrées,1
+sembler,VER,,802.09,semblé,1
+tirer,VER,,798.38,tiré/tirée tirés/tirées,1
+porter,VER,,794.9100000000001,porté/portée portés/portées,2
+écouter,VER,,784.98,écouté/écoutée écoutés/écoutées,1
+oublier,VER,,773.92,oublié/oubliée oubliés/oubliées,1
+manger,VER,,748.4300000000001,mangé/mangée mangés/mangées,2
+plaire,VER,,747.01,plût,1
+répondre,VER,,718.3299999999999,répondues,1
+asseoir,VER,,717.98,assis/assise assises,1
+retrouver,VER,,711.3900000000001,retrouvé/retrouvée retrouvés/retrouvées,1
+marcher,VER,,689.98,"marché, marchés",1
+travailler,VER,,682.19,travaillé/travaillée travaillés/travaillées,1
+monter,VER,,681.91,monté/montée montés/montées,1
+changer,VER,,658.48,changé/changée changés/changées,1
+dormir,VER,,651.14,dormi,1
+écrire,VER,,647.74,écrit/écrite écrits/écrites,1
+apprendre,VER,,635.1600000000001,appris/apprise apprises,1
+poser,VER,,626.25,posé/posée posés/posées,1
+boire,VER,,613.37,"bu, bus",2
+lever,VER,,606.72,levé/levée levés/levées,2
+lire,VER,,605.89,lu/lue lus/lues,2
+montrer,VER,,603.88,montré/montrée montrés/montrées,1
+servir,VER,,596.03,servi/servie servis/servies,1
+garder,VER,,595.9,gardé/gardée gardés/gardées,1
+quitter,VER,,594.95,quitté/quittée quittés/quittées,1
+occuper,VER,,594.94,occupé/occupée occupés/occupées,1
+tourner,VER,,581.24,tourné/tournée tournés/tournées,1
+foutre,VER,,572.97,foutu/foutue foutus/foutues,2
+paraître,VER,,570.25,paru/parue parus,1
+payer,VER,,566.88,payé/payée payés/payées,1
+continuer,VER,,552.72,continué/continuée continués/continuées,1
+envoyer,VER,,537.8,envoyé/envoyée envoyés/envoyées,1
+descendre,VER,,537.59,descendu/descendue descendus/descendues,1
+retourner,VER,,536.23,retourné/retournée retournés/retournées,1
+souvenir,VER,,530.46,souvenu/souvenue souvenus,2
+jeter,VER,,529.0,jeté/jetée jetés/jetées,2
+raconter,VER,,515.73,raconté/racontée racontés/racontées,1
+rappeler,VER,,483.98,rappelé/rappelée rappelés,1
+gagner,VER,,475.32,gagné/gagnée gagnés/gagnées,1
+reprendre,VER,,467.06,repris/reprise reprises,1
+excuser,VER,,461.01,excusé/excusée excusés/excusées,1
+rire,VER,,460.78000000000003,ri,2
+toucher,VER,,460.53999999999996,touché/touchée touchés/touchées,2
+manquer,VER,,451.58,manqué/manquée manqués/manquées,1
+acheter,VER,,439.08,acheté/achetée achetés/achetées,1
+espérer,VER,,436.01,espéré/espérée espérés/espérées,1
+fermer,VER,,435.81,fermé/fermée fermés/fermées,1
+imaginer,VER,,435.44,imaginé/imaginée imaginés/imaginées,1
+expliquer,VER,,434.85,expliqué/expliquée expliqués/expliquées,1
+importer,VER,,432.48,importé/importée importés/importées,1
+compter,VER,,431.5,compté/comptée comptés/comptées,1
+rencontrer,VER,,429.54999999999995,rencontré/rencontrée rencontrés/rencontrées,1
+décider,VER,,421.95,décidé/décidée décidés/décidées,1
+prier,VER,,418.86,prié/priée priés/priées,1
+recevoir,VER,,417.19,reçu/reçue reçus/reçues,1
+agir,VER,,415.66999999999996,agi/agie agis,1
+pousser,VER,,414.53000000000003,poussé/poussée poussés/poussées,1
+valoir,VER,,411.81,valu/value values,1
+courir,VER,,409.88,couru/courue courus/courues,1
+offrir,VER,,391.79,offert/offerte offerts/offertes,1
+suffire,VER,,391.47,suffi,1
+cacher,VER,,386.02,caché/cachée cachés/cachées,1
+battre,VER,,382.71000000000004,battu/battue battus/battues,1
+coucher,VER,,378.18,couché/couchée couchés/couchées,2
+emmener,VER,,378.17999999999995,emmené/emmenée emmenés/emmenées,2
+reconnaître,VER,,369.91999999999996,reconnu/reconnue reconnus/reconnues,1
+apporter,VER,,369.23,apporté/apportée apportés/apportées,1
+bouger,VER,,368.65999999999997,bougé/bougée bougées,1
+permettre,VER,,357.05,permis/permise permises,1
+crier,VER,,356.66999999999996,crié/criée criés/criées,1
+pleurer,VER,,354.95,pleuré/pleurée pleurés/pleurées,1
+disparaître,VER,,349.44,disparu/disparue disparus/disparues,1
+remettre,VER,,347.49,remis/remise remises,1
+sauver,VER,,345.59,sauvé/sauvée sauvés/sauvées,1
+préparer,VER,,328.45000000000005,préparé/préparée préparés/préparées,1
+frapper,VER,,328.35,frappé/frappée frappés/frappées,1
+voler,VER,,327.47,volé/volée volés/volées,1
+découvrir,VER,,322.38,"découvert, découverts",1
+sourire,VER,,316.88,souri,2
+conduire,VER,,314.29999999999995,conduit/conduite conduits/conduites,1
+approcher,VER,,313.8,approché/approchée approchés/approchées,1
+préférer,VER,,312.82,préféré/préférée préférés/préférées,1
+désoler,VER,,311.72999999999996,désolé/désolée désolés/désolées,1
+accepter,VER,,310.5,accepté/acceptée acceptés/acceptées,1
+ressembler,VER,,306.12,ressemblé,1
+choisir,VER,,304.4,choisi/choisie choisis/choisies,1
+revoir,VER,,302.3,revu/revue revus/revues,2
+réveiller,VER,,301.35,réveillé/réveillée réveillés/réveillées,1
+présenter,VER,,301.02,présenté/présentée présentés/présentées,2
+vendre,VER,,299.59,vendu/vendue vendus/vendues,1
+répéter,VER,,298.45,répété/répétée répétés/répétées,1
+refuser,VER,,296.73,refusé/refusée refusés/refusées,1
+couper,VER,,296.7,coupé/coupée coupés/coupées,1
+taire,VER,,294.26,"tu, tus",1
+empêcher,VER,,293.13,empêché/empêchée empêchés/empêchées,1
+chanter,VER,,292.15,chanté/chantée chantés/chantées,1
+avancer,VER,,290.62,avancé/avancée avancés/avancées,1
+promettre,VER,,286.68,promis/promise promises,1
+marier,VER,,285.58,marié/mariée mariés/mariées,1
+exister,VER,,284.42,existé/existée existés,1
+amener,VER,,284.24,amené/amenée amenés/amenées,1
+inquiéter,VER,,283.17,inquiété/inquiétée inquiétés/inquiétées,1
+ramener,VER,,281.96,ramené/ramenée ramenés/ramenées,1
+embrasser,VER,,276.47,embrassé/embrassée embrassés/embrassées,1
+traverser,VER,,273.07,traversé/traversée traversés/traversées,1
+apercevoir,VER,,267.67,aperçu/aperçue aperçus/aperçues,1
+ignorer,VER,,265.0,ignoré/ignorée ignorés/ignorées,1
+glisser,VER,,264.07,glissé/glissée glissés/glissées,1
+ajouter,VER,,263.54,ajouté/ajoutée ajoutés/ajoutées,1
+amuser,VER,,262.36,amusé/amusée amusés/amusées,1
+lâcher,VER,,260.27,lâché/lâchée lâchés/lâchées,2
+serrer,VER,,258.49,serré/serrée serrés/serrées,1
+intéresser,VER,,258.16,intéressé/intéressée intéressés/intéressées,1
+sauter,VER,,257.62,sauté/sautée sautés/sautées,1
+réussir,VER,,254.04,réussi/réussie réussis/réussies,1
+casser,VER,,253.31,cassé/cassée cassés/cassées,1
+enlever,VER,,251.25,enlevé/enlevée enlevés/enlevées,1
+rêver,VER,,251.13,rêvé/rêvée rêvés/rêvées,1
+tromper,VER,,246.39,trompé/trompée trompés/trompées,1
+cesser,VER,,245.88,cessé/cessée,1
+oser,VER,,245.74,osé/osée osés/osées,1
+tendre,VER,,245.01,tendu/tendue tendus/tendues,3
+terminer,VER,,242.38,terminé/terminée terminés/terminées,1
+habiter,VER,,240.8,habité/habitée habités/habitées,1
+lancer,VER,,240.29,lancé/lancée lancés/lancées,2
+abandonner,VER,,239.32,abandonné/abandonnée abandonnés/abandonnées,1
+adorer,VER,,238.26,adoré/adorée adorés/adorées,1
+mener,VER,,237.56,mené/menée menés/menées,1
+mentir,VER,,237.19,menti,1
+naître,VER,,235.43,né/née nés/nées,1
+assurer,VER,,234.26,assuré/assurée assurés/assurées,1
+souffrir,VER,,233.09,souffert/soufferte soufferts/souffertes,1
+installer,VER,,232.99,installé/installée installés/installées,1
+rejoindre,VER,,231.78000000000003,rejoint/rejointe rejoints/rejointes,1
+remonter,VER,,231.46999999999997,remonté/remontée remontés/remontées,1
+jurer,VER,,230.17000000000002,juré/jurée jurés/jurées,1
+danser,VER,,229.93,dansé/dansée,1
+échapper,VER,,227.70999999999998,échappé/échappée échappés/échappées,1
+utiliser,VER,,225.95,utilisé/utilisée utilisés/utilisées,1
+craindre,VER,,225.75,craint/crainte craints/craintes,1
+rouler,VER,,225.26999999999998,roulé/roulée roulés/roulées,1
+remarquer,VER,,222.72,remarqué/remarquée remarqués/remarquées,1
+couvrir,VER,,221.8,couvert/couverte couverts/couvertes,1
+maintenir,VER,,219.82999999999998,maintenu/maintenue maintenus/maintenues,1
+retenir,VER,,215.5,retenu/retenue retenus/retenues,1
+charger,VER,,215.18,chargé/chargée chargés/chargées,1
+accompagner,VER,,215.01999999999998,accompagné/accompagnée accompagnés/accompagnées,1
+brûler,VER,,215.01,brûlé/brûlée brûlés/brûlées,1
+calmer,VER,,213.60999999999999,calmé/calmée calmés/calmées,1
+tenter,VER,,206.70999999999998,tenté/tentée tentés/tentées,1
+réfléchir,VER,,205.76,réfléchi/réfléchie réfléchis/réfléchies,1
+apparaître,VER,,203.04,apparu/apparue apparus/apparues,1
+prévenir,VER,,203.0,prévenu/prévenue prévenus/prévenues,1
+protéger,VER,,202.94,protégé/protégée protégés/protégées,1
+risquer,VER,,199.72,risqué/risquée risqués/risquées,1
+obliger,VER,,199.2,obligé/obligée obligés/obligées,1
+inviter,VER,,199.13,invité/invitée invités/invitées,1
+éviter,VER,,197.94,évité/évitée évités/évitées,1
+arranger,VER,,191.95,arrangé/arrangée arrangés/arrangées,1
+emporter,VER,,190.3,emporté/emportée emportés/emportées,1
+proposer,VER,,189.68,proposé/proposée proposés/proposées,1
+annoncer,VER,,189.58999999999997,annoncé/annoncée annoncés/annoncées,1
+filer,VER,,189.48000000000002,filé/filée filés/filées,1
+atteindre,VER,,188.59,atteint/atteinte atteints/atteintes,1
+traîner,VER,,188.26,traîné/traînée traînés/traînées,1
+détester,VER,,185.51,détesté/détestée détestés,1
+deviner,VER,,185.07,deviné/devinée devinés/devinées,1
+pardonner,VER,,184.05,pardonné/pardonnée pardonnés/pardonnées,1
+fumer,VER,,182.88,fumé/fumée fumés/fumées,1
+supposer,VER,,182.81,supposé/supposée supposés/supposées,1
+parvenir,VER,,179.14999999999998,parvenu/parvenue parvenus/parvenues,1
+reposer,VER,,179.12,reposé/reposée reposés/reposées,1
+baisser,VER,,178.95999999999998,baissé/baissée baissés/baissées,2
+retirer,VER,,178.57,retiré/retirée retirés/retirées,1
+respirer,VER,,178.51,respiré/respirée respirés/respirées,1
+détruire,VER,,178.44,détruit/détruite détruits/détruites,1
+épouser,VER,,178.04,épousé/épousée épousés/épousées,1
+séparer,VER,,176.01999999999998,séparé/séparée séparés/séparées,1
+durer,VER,,176.01,duré/durée durées,1
+éloigner,VER,,174.26000000000002,éloigné/éloignée éloignés/éloignées,1
+traiter,VER,,173.97000000000003,traité/traitée traités/traitées,1
+fixer,VER,,173.67999999999998,fixé/fixée fixés/fixées,1
+surprendre,VER,,173.42000000000002,surpris/surprise surprises,1
+appartenir,VER,,172.93,appartenu,1
+pencher,VER,,172.78,penché/penchée penchés/penchées,1
+saisir,VER,,172.55,saisi/saisie saisis/saisies,1
+poursuivre,VER,,171.25,poursuivi/poursuivie poursuivis/poursuivies,1
+allumer,VER,,171.07999999999998,allumé/allumée allumés/allumées,1
+déranger,VER,,170.94,dérangé/dérangée dérangés/dérangées,1
+étonner,VER,,170.18,étonné/étonnée étonnés/étonnées,1
+attaquer,VER,,170.04,attaqué/attaquée attaqués/attaquées,1
+défendre,VER,,169.63,défendu/défendue défendus/défendues,1
+obtenir,VER,,169.03,obtenu/obtenue obtenus/obtenues,1
+couler,VER,,168.71,coulé/coulée coulés/coulées,1
+remercier,VER,,168.16,remercié/remerciée remerciés,1
+recommencer,VER,,168.0,recommencé/recommencée recommencés/recommencées,1
+attraper,VER,,167.86,attrapé/attrapée attrapés/attrapées,1
+souhaiter,VER,,167.75,souhaité/souhaitée souhaités/souhaitées,1
+arracher,VER,,167.57,arraché/arrachée arrachés/arrachées,1
+supporter,VER,,167.26,supporté/supportée supportés/supportées,2
+appuyer,VER,,166.96,appuyé/appuyée appuyés/appuyées,1
+mêler,VER,,166.48000000000002,mêlé/mêlée mêlés/mêlées,1
+sonner,VER,,166.24,sonné/sonnée sonnés/sonnées,1
+douter,VER,,165.88,douté/doutée doutés,1
+regretter,VER,,164.99,regretté/regrettée regrettés/regrettées,2
+relever,VER,,164.42000000000002,relevé/relevée relevés/relevées,1
+engager,VER,,162.81,engagé/engagée engagés/engagées,1
+diriger,VER,,160.78,dirigé/dirigée dirigés/dirigées,1
+dégager,VER,,160.51,dégagé/dégagée dégagés/dégagées,1
+observer,VER,,158.67000000000002,observé/observée observés/observées,1
+coller,VER,,158.47,collé/collée collés/collées,1
+profiter,VER,,158.42000000000002,profité/profitée,1
+partager,VER,,158.07,partagé/partagée partagés/partagées,1
+avouer,VER,,157.78,avoué/avouée avoués/avouées,1
+baiser,VER,,156.94,baisé/baisée baisés/baisées,2
+élever,VER,,155.88,élevé/élevée élevés/élevées,1
+prévoir,VER,,155.31,prévu/prévue prévus/prévues,1
+discuter,VER,,155.07,discuté/discutée discutés/discutées,1
+placer,VER,,154.7,placé/placée placés/placées,2
+signer,VER,,154.0,signé/signée signés/signées,1
+fuir,VER,,153.24,fui/fuie fuis,1
+juger,VER,,153.07999999999998,jugé/jugée jugés/jugées,1
+hésiter,VER,,152.49,hésité,1
+entraîner,VER,,151.76,entraîné/entraînée entraînés/entraînées,1
+mériter,VER,,151.59,mérité/méritée mérités/méritées,1
+accrocher,VER,,151.49,accroché/accrochée accrochés/accrochées,1
+vérifier,VER,,151.14000000000001,vérifié/vérifiée vérifiés/vérifiées,1
+éprouver,VER,,150.44,éprouvé/éprouvée éprouvés/éprouvées,1
+former,VER,,149.95999999999998,formé/formée formés/formées,1
+prêter,VER,,149.09,prêté/prêtée prêtés/prêtées,1
+ressentir,VER,,148.92000000000002,ressenti/ressentie ressentis/ressenties,1
+blesser,VER,,147.05,blessé/blessée blessés/blessées,1
+crever,VER,,146.5,crevé/crevée crevés/crevées,1
+repartir,VER,,146.41,reparti/repartie repartis/reparties,1
+écraser,VER,,145.23000000000002,écrasé/écrasée écrasés/écrasées,1
+marquer,VER,,144.86,marqué/marquée marqués/marquées,1
+laver,VER,,143.88,lavé/lavée lavés/lavées,1
+commander,VER,,143.83,commandé/commandée commandés/commandées,1
+remplir,VER,,142.63,"rempli, remplis",1
+demeurer,VER,,142.03,demeuré/demeurée demeurés/demeurées,1
+éclater,VER,,141.8,éclaté/éclatée éclatés/éclatées,1
+livrer,VER,,141.46,livré/livrée livrés/livrées,1
+prouver,VER,,141.26,prouvé/prouvée prouvés/prouvées,1
+forcer,VER,,140.05,forcé/forcée forcés/forcées,1
+régler,VER,,140.0,réglé/réglée réglés/réglées,1
+créer,VER,,139.97,créé/créée créés/créées,1
+surveiller,VER,,139.20999999999998,surveillé/surveillée surveillés/surveillées,1
+dîner,VER,,138.95999999999998,dîné,3
+soulever,VER,,137.64,soulevé/soulevée soulevés/soulevées,1
+entourer,VER,,136.08,entouré/entourée entourés/entourées,1
+promener,VER,,135.57,promené/promenée promenés/promenées,1
+secouer,VER,,135.35,secoué/secouée secoués/secouées,1
+représenter,VER,,134.32,représenté/représentée représentés/représentées,1
+dépêcher,VER,,134.28,dépêché/dépêchée dépêchés/dépêchées,1
+éteindre,VER,,134.14,éteint/éteinte éteints/éteintes,1
+étendre,VER,,133.79,étendu/étendue étendus/étendues,1
+causer,VER,,133.59,causé/causée causés/causées,1
+coûter,VER,,131.26,coûté/coûtée coûtés/coûtées,1
+murmurer,VER,,130.85,murmuré/murmurée murmurés/murmurées,1
+allonger,VER,,130.70999999999998,allongé/allongée allongés/allongées,1
+considérer,VER,,130.43,considéré/considérée considérés/considérées,1
+attirer,VER,,130.18,attiré/attirée attirés/attirées,1
+songer,VER,,129.45,songé,1
+plaindre,VER,,129.09,plaint/plainte plaints/plaintes,1
+taper,VER,,128.98,tapé/tapée tapés/tapées,1
+gêner,VER,,128.77,gêné/gênée gênés/gênées,1
+adresser,VER,,128.75,adressé/adressée adressés/adressées,1
+enfermer,VER,,128.67000000000002,enfermé/enfermée enfermés/enfermées,1
+trembler,VER,,128.18,tremblé/tremblée tremblés/tremblées,1
+enfoncer,VER,,128.1,enfoncé/enfoncée enfoncés/enfoncées,1
+téléphoner,VER,,127.52000000000001,"téléphoné, téléphonés",1
+désirer,VER,,127.52,désiré/désirée désirés/désirées,1
+fatiguer,VER,,127.3,fatigué/fatiguée fatigués/fatiguées,1
+ficher,VER,,127.16,fiché/fichée fichés/fichées,1
+habiller,VER,,125.63,habillé/habillée habillés/habillées,1
+posséder,VER,,124.99000000000001,possédé/possédée possédés/possédées,1
+libérer,VER,,124.28,libéré/libérée libérés/libérées,1
+virer,VER,,124.14,viré/virée virés/virées,1
+inventer,VER,,123.69,inventé/inventée inventés/inventées,1
+presser,VER,,123.29,"pressé, pressés",1
+chasser,VER,,122.84,chassé/chassée chassés/chassées,1
+hurler,VER,,121.82000000000001,hurlé/hurlée hurlés/hurlées,1
+ennuyer,VER,,121.6,ennuyé/ennuyée ennuyés/ennuyées,1
+moquer,VER,,121.47,moqué/moquée moqués/moquées,1
+dépasser,VER,,121.4,dépassé/dépassée dépassés/dépassées,1
+endormir,VER,,121.37,"endormi, endormis",1
+apprécier,VER,,121.32999999999998,apprécié/appréciée appréciés/appréciées,1
+reculer,VER,,121.19999999999999,reculé/reculée reculés/reculées,1
+construire,VER,,120.23,construit/construite construits/construites,1
+accorder,VER,,120.11000000000001,accordé/accordée accordés/accordées,1
+rapporter,VER,,119.42,rapporté/rapportée rapportés/rapportées,1
+produire,VER,,118.73,produit/produite produits/produites,1
+ramasser,VER,,118.56,ramassé/ramassée ramassés/ramassées,1
+plonger,VER,,118.18,plongé/plongée plongés/plongées,1
+interdire,VER,,118.11,interdit/interdite interdits/interdites,1
+dresser,VER,,117.74,dressé/dressée dressés/dressées,1
+attacher,VER,,117.38,attaché/attachée attachés/attachées,1
+interroger,VER,,117.35000000000001,interrogé/interrogée interrogés/interrogées,1
+écarter,VER,,117.19,écarté/écartée écartés/écartées,1
+nourrir,VER,,117.06,nourri/nourrie nourris/nourries,1
+briser,VER,,116.82,brisé/brisée brisés/brisées,1
+peindre,VER,,116.32,peint/peinte peints/peintes,1
+déposer,VER,,115.79,déposé/déposée déposés/déposées,1
+ranger,VER,,115.58,rangé/rangée rangés/rangées,2
+signifier,VER,,114.94999999999999,signifié/signifiée signifiées,1
+piquer,VER,,114.92,piqué/piquée piqués/piquées,1
+déclarer,VER,,114.77000000000001,déclaré/déclarée déclarés/déclarées,1
+plaisanter,VER,,114.56,plaisanté,1
+pleuvoir,VER,,114.26,plu,1
+planter,VER,,114.16999999999999,planté/plantée plantés/plantées,1
+remplacer,VER,,113.45,remplacé/remplacée remplacés/remplacées,1
+saluer,VER,,112.73,salué/saluée salués/saluées,1
+convenir,VER,,112.6,convenu/convenue convenus/convenues,1
+souffler,VER,,111.98,soufflé/soufflée soufflés/soufflées,1
+prononcer,VER,,111.07,prononcé/prononcée prononcés/prononcées,1
+confier,VER,,111.03,confié/confiée confiés/confiées,1
+débarrasser,VER,,110.69,débarrassé/débarrassée débarrassés/débarrassées,1
+grandir,VER,,110.68,grandi/grandie grandis,1
+briller,VER,,110.13,brillé,1
+dessiner,VER,,109.63,dessiné/dessinée dessinés/dessinées,1
+admettre,VER,,109.50999999999999,admis/admise admises,1
+insister,VER,,109.19,insisté,1
+nommer,VER,,107.9,nommé/nommée nommés/nommées,1
+balancer,VER,,107.82,balancé/balancée balancés/balancées,1
+récupérer,VER,,107.74000000000001,récupéré/récupérée récupérés/récupérées,1
+réaliser,VER,,107.22,réalisé/réalisée réalisés/réalisées,1
+pénétrer,VER,,106.23,pénétré/pénétrée pénétrés/pénétrées,1
+renoncer,VER,,106.10999999999999,renoncé/renoncée,1
+croiser,VER,,105.19,croisé/croisée croisés/croisées,1
+achever,VER,,104.39,achevé/achevée achevés/achevées,1
+disposer,VER,,104.25,disposé/disposée disposés/disposées,1
+éclairer,VER,,103.98,éclairé/éclairée éclairés/éclairées,1
+agiter,VER,,103.81,agité/agitée agités/agitées,1
+refermer,VER,,103.73,refermé/refermée refermés/refermées,1
+rater,VER,,103.15,raté/ratée ratés/ratées,1
+convaincre,VER,,103.06,convaincu/convaincue convaincus/convaincues,1
+prétendre,VER,,103.06,prétendu/prétendue prétendus/prétendues,1
+transformer,VER,,102.83,transformé/transformée transformés/transformées,1
+enfuir,VER,,102.69999999999999,enfui/enfuie enfuis/enfuies,1
+exprimer,VER,,102.66,exprimé/exprimée exprimés/exprimées,1
+menacer,VER,,102.2,menacé/menacée menacés/menacées,1
+imposer,VER,,102.0,imposé/imposée imposés/imposées,1
+renvoyer,VER,,101.92,renvoyé/renvoyée renvoyés/renvoyées,1
+vider,VER,,101.49000000000001,vidé/vidée vidés/vidées,1
+étudier,VER,,101.31,étudié/étudiée étudiés/étudiées,1
+avaler,VER,,101.16,avalé/avalée avalés/avalées,1
+pendre,VER,,101.03,pendu/pendue pendus/pendues,1
+ravir,VER,,100.58,ravi/ravie ravis/ravies,1
+admirer,VER,,100.57000000000001,admiré/admirée admirés/admirées,1
+concerner,VER,,99.78,concerné/concernée concernés/concernées,1
+caresser,VER,,99.41,caressé/caressée caressés/caressées,1
+effacer,VER,,99.36,effacé/effacée effacés/effacées,1
+refaire,VER,,99.08000000000001,refait/refaite refaits/refaites,1
+respecter,VER,,98.99,respecté/respectée respectés/respectées,1
+réunir,VER,,98.62,réuni/réunie réunis/réunies,1
+parier,VER,,97.57,parié,1
+rassurer,VER,,97.29,rassuré/rassurée rassurés/rassurées,1
+dépendre,VER,,96.82,dépendu,1
+soutenir,VER,,96.78,soutenu/soutenue soutenus/soutenues,1
+organiser,VER,,95.06,organisé/organisée organisés/organisées,1
+exiger,VER,,95.03,exigé/exigée exigés/exigées,1
+peser,VER,,94.28999999999999,pesé/pesée pesés/pesées,1
+abattre,VER,,94.08,abattu/abattue abattus/abattues,1
+rompre,VER,,94.00999999999999,rompu/rompue rompus/rompues,1
+mordre,VER,,93.30000000000001,mordu/mordue mordus/mordues,1
+révéler,VER,,93.04,révélé/révélée révélés/révélées,1
+réparer,VER,,92.84,réparé/réparée réparés/réparées,1
+assister,VER,,92.8,assisté/assistée assistés/assistées,1
+accuser,VER,,92.65,accusé/accusée accusés/accusées,1
+enterrer,VER,,92.25999999999999,enterré/enterrée enterrés/enterrées,1
+interrompre,VER,,91.78999999999999,interrompu/interrompue interrompus/interrompues,1
+survivre,VER,,91.39,survécu,1
+haïr,VER,,91.1,haï/haïe haïs/haïes,1
+résister,VER,,91.07,résisté,1
+obéir,VER,,91.0,obéi/obéie obéis,1
+soigner,VER,,90.88,soigné/soignée soignés/soignées,2
+indiquer,VER,,90.61,indiqué/indiquée indiqués/indiquées,1
+chier,VER,,90.17,chié/chiée chiés/chiées,1
+nettoyer,VER,,90.06,nettoyé/nettoyée nettoyés/nettoyées,1
+contenter,VER,,89.65,contenté/contentée contentés/contentées,1
+fouiller,VER,,89.53,fouillé/fouillée fouillés/fouillées,1
+claquer,VER,,89.32,claqué/claquée claqués/claquées,1
+creuser,VER,,89.3,creusé/creusée creusés/creusées,1
+contenir,VER,,88.99000000000001,contenu/contenue contenus/contenues,1
+condamner,VER,,88.74000000000001,condamné/condamnée condamnés/condamnées,1
+trahir,VER,,88.38,trahi/trahie trahis/trahies,1
+supplier,VER,,88.12,supplié/suppliée suppliés,1
+étouffer,VER,,87.96000000000001,étouffé/étouffée étouffés/étouffées,1
+fabriquer,VER,,87.94,fabriqué/fabriquée fabriqués/fabriquées,1
+faillir,VER,,87.84,failli,1
+coincer,VER,,87.56,coincé/coincée coincés/coincées,1
+remuer,VER,,87.26,remué/remuée remués/remuées,1
+bosser,VER,,87.23,bossé,1
+visiter,VER,,87.08,visité/visitée visités/visitées,1
+examiner,VER,,87.03999999999999,examiné/examinée examinés/examinées,1
+distinguer,VER,,86.89,distingué/distinguée distingués/distinguées,1
+accueillir,VER,,86.71,accueilli/accueillie accueillis/accueillies,1
+repousser,VER,,86.07000000000001,repoussé/repoussée repoussés/repoussées,1
+céder,VER,,85.56,cédé/cédée cédés/cédées,1
+échanger,VER,,85.56,échangé/échangée échangés/échangées,1
+déplacer,VER,,85.45,déplacé/déplacée déplacés/déplacées,1
+verser,VER,,85.19,versé/versée versés/versées,1
+détacher,VER,,85.16,détaché/détachée détachés/détachées,1
+évoquer,VER,,85.08000000000001,évoqué/évoquée évoqués/évoquées,1
+commettre,VER,,84.61,commis/commise commises,1
+établir,VER,,84.15,établi/établie établis/établies,1
+surgir,VER,,84.13000000000001,surgi/surgie surgis/surgies,1
+subir,VER,,83.85,subi/subie subis/subies,1
+franchir,VER,,83.72999999999999,franchi/franchie franchis/franchies,1
+lier,VER,,83.25,lié/liée liés/liées,1
+provoquer,VER,,83.03999999999999,provoqué/provoquée provoqués/provoquées,1
+contrôler,VER,,82.14,contrôlé/contrôlée contrôlés/contrôlées,2
+goûter,VER,,82.13,goûté/goûtée goûtés/goûtées,2
+fournir,VER,,81.95,fourni/fournie fournis/fournies,1
+réserver,VER,,81.88,réservé/réservée réservés/réservées,1
+rigoler,VER,,81.41,rigolé,1
+recouvrir,VER,,80.30000000000001,recouvert/recouverte recouverts/recouvertes,1
+accomplir,VER,,80.2,accompli/accomplie accomplis/accomplies,1
+veiller,VER,,80.03,veillé/veillée veillés,1
+parfaire,VER,,79.92,parfait/parfaite parfaits/parfaites,1
+rapprocher,VER,,79.84,rapproché/rapprochée rapprochés/rapprochées,1
+déchirer,VER,,79.57,déchiré/déchirée déchirés/déchirées,1
+emmerder,VER,,79.27,emmerdé/emmerdée emmerdés,1
+combattre,VER,,79.24000000000001,combattu/combattue combattus/combattues,1
+affirmer,VER,,79.12,affirmé/affirmée affirmés/affirmées,1
+joindre,VER,,79.07,"joint, joints",1
+conclure,VER,,79.02,conclu/conclue conclus/conclues,1
+précipiter,VER,,78.85,précipité/précipitée précipités/précipitées,1
+rassembler,VER,,78.69,rassemblé/rassemblée rassemblés/rassemblées,1
+réduire,VER,,78.49,réduit/réduite réduits/réduites,1
+habituer,VER,,78.31,habitué/habituée habitués/habituées,1
+résoudre,VER,,77.91,"résolu, résolus",1
+exploser,VER,,77.84,explosé/explosée explosés/explosées,1
+rattraper,VER,,77.71000000000001,rattrapé/rattrapée rattrapés/rattrapées,1
+énerver,VER,,77.55,énervé/énervée énervés/énervées,1
+louer,VER,,77.53999999999999,loué/louée loués/louées,1
+parcourir,VER,,77.28,parcouru/parcourue parcourus/parcourues,1
+désigner,VER,,76.72999999999999,désigné/désignée désignés/désignées,1
+flotter,VER,,76.64,flotté/flottée flottés/flottées,1
+noter,VER,,75.77,noté/notée notés/notées,1
+bouffer,VER,,75.75999999999999,bouffé/bouffée bouffés/bouffées,1
+soupirer,VER,,75.28,soupiré,1
+envahir,VER,,75.07000000000001,envahi/envahie envahis/envahies,1
+guérir,VER,,75.0,guéri/guérie guéris/guéries,1
+lutter,VER,,74.19,lutté,1
+cracher,VER,,73.74000000000001,craché/crachée crachés/crachées,1
+hausser,VER,,73.72,haussé/haussée haussés/haussées,1
+participer,VER,,73.63,"participé, participés",1
+redresser,VER,,73.32,redressé/redressée redressés/redressées,1
+voyager,VER,,73.24000000000001,voyagé,1
+contempler,VER,,73.03999999999999,contemplé/contemplée contemplés/contemplées,1
+éveiller,VER,,72.55000000000001,éveillé/éveillée éveillés/éveillées,1
+ordonner,VER,,72.41,ordonné/ordonnée ordonnés/ordonnées,1
+raser,VER,,72.32,rasé/rasée rasés/rasées,1
+grimper,VER,,72.2,grimpé/grimpée grimpés/grimpées,2
+foncer,VER,,72.09,foncé/foncée foncés/foncées,1
+figurer,VER,,71.64,figuré/figurée figurés/figurées,1
+inspirer,VER,,71.56,inspiré/inspirée inspirés/inspirées,1
+vêtir,VER,,71.52,vêtu/vêtue vêtus/vêtues,1
+déjeuner,VER,,71.44,déjeuné,2
+rejeter,VER,,71.0,rejeté/rejetée rejetés/rejetées,1
+réclamer,VER,,70.25999999999999,réclamé/réclamée réclamés/réclamées,1
+conserver,VER,,70.22,conservé/conservée conservés/conservées,1
+régner,VER,,70.18,régné,1
+confondre,VER,,70.0,confondu/confondue confondus/confondues,1
+retomber,VER,,69.62,retombé/retombée retombés/retombées,1
+étaler,VER,,69.47,étalé/étalée étalés/étalées,1
+détourner,VER,,69.2,détourné/détournée détournés/détournées,1
+fâcher,VER,,68.59,fâché/fâchée fâchés/fâchées,1
+décrire,VER,,68.51,décrit/décrite décrits/décrites,1
+avertir,VER,,68.5,averti/avertie avertis/averties,1
+inscrire,VER,,68.11,inscrit/inscrite inscrits/inscrites,1
+gâcher,VER,,68.08,gâché/gâchée gâchés/gâchées,1
+constater,VER,,68.01,constaté/constatée constatés/constatées,1
+détendre,VER,,67.97,détendu/détendue détendus/détendues,1
+rechercher,VER,,67.94,recherché/recherchée recherchés/recherchées,1
+baigner,VER,,67.84,baigné/baignée baignés/baignées,1
+bénir,VER,,67.69,béni/bénie bénis/bénies,1
+débrouiller,VER,,67.53,débrouillé/débrouillée débrouillés/débrouillées,1
+conseiller,VER,,67.03999999999999,conseillé/conseillée conseillés/conseillées,2
+mesurer,VER,,66.94999999999999,mesuré/mesurée mesurés/mesurées,1
+effrayer,VER,,66.9,effrayé/effrayée effrayés/effrayées,1
+fonctionner,VER,,66.9,fonctionné,1
+essuyer,VER,,66.82,essuyé/essuyée essuyés/essuyées,1
+priver,VER,,66.76,privé/privée privés/privées,1
+dominer,VER,,66.27,dominé/dominée dominés/dominées,1
+noyer,VER,,65.87,noyé/noyée noyés/noyées,2
+appliquer,VER,,65.73,appliqué/appliquée appliqués/appliquées,1
+employer,VER,,65.69,employé/employée employés/employées,1
+viser,VER,,65.6,visé/visée visés/visées,1
+pisser,VER,,65.52,pissé/pissée,1
+démarrer,VER,,64.99000000000001,démarré/démarrée démarrés/démarrées,1
+répandre,VER,,64.71000000000001,répandu/répandue répandus/répandues,1
+reprocher,VER,,64.58,reproché/reprochée reprochés/reprochées,1
+plier,VER,,64.57000000000001,plié/pliée pliés/pliées,1
+opposer,VER,,64.21,opposé/opposée opposés/opposées,1
+gonfler,VER,,64.09,gonflé/gonflée gonflés/gonflées,1
+pointer,VER,,63.959999999999994,pointé/pointée pointés/pointées,2
+renverser,VER,,63.480000000000004,renversé/renversée renversés/renversées,1
+constituer,VER,,63.38,constitué/constituée constitués/constituées,1
+satisfaire,VER,,63.21,satisfait/satisfaite satisfaits/satisfaites,1
+transporter,VER,,62.95,transporté/transportée transportés/transportées,1
+tarder,VER,,62.82,tardé/tardée,1
+exécuter,VER,,62.790000000000006,exécuté/exécutée exécutés/exécutées,1
+frotter,VER,,62.66,frotté/frottée frottés/frottées,1
+méfier,VER,,62.63,méfié/méfiée méfiés,1
+emprunter,VER,,62.58,emprunté/empruntée empruntés/empruntées,1
+venger,VER,,62.19,vengé/vengée vengés/vengées,1
+punir,VER,,61.84,puni/punie punis/punies,1
+bloquer,VER,,61.73,bloqué/bloquée bloqués/bloquées,1
+composer,VER,,61.64,composé/composée composés/composées,1
+disputer,VER,,61.400000000000006,disputé/disputée disputés/disputées,1
+confirmer,VER,,61.37,confirmé/confirmée confirmés/confirmées,1
+cogner,VER,,61.269999999999996,cogné/cognée cognés/cognées,1
+jouir,VER,,61.25,"joui, jouis",1
+repasser,VER,,61.099999999999994,repassé/repassée repassés/repassées,1
+exposer,VER,,60.6,exposé/exposée exposés/exposées,1
+efforcer,VER,,60.33,efforcé/efforcée efforcés,1
+débarquer,VER,,60.05,débarqué/débarquée débarqués/débarquées,1
+sécher,VER,,59.89999999999999,séché/séchée séchés/séchées,1
+entretenir,VER,,59.69,entretenu/entretenue entretenus/entretenues,1
+dissimuler,VER,,59.68,dissimulé/dissimulée dissimulés/dissimulées,1
+guetter,VER,,59.53,guetté/guettée guettés/guettées,1
+regagner,VER,,59.339999999999996,regagné/regagnée regagnés,1
+embarquer,VER,,59.260000000000005,embarqué/embarquée embarqués/embarquées,1
+informer,VER,,59.11,informé/informée informés/informées,1
+barrer,VER,,59.07,barré/barrée barrés/barrées,1
+estimer,VER,,59.05,estimé/estimée estimés/estimées,1
+ôter,VER,,58.84,ôté/ôtée ôtés/ôtées,1
+exercer,VER,,58.79,exercé/exercée exercés/exercées,1
+envoler,VER,,58.68,envolé/envolée envolés/envolées,1
+violer,VER,,58.620000000000005,violé/violée violés/violées,1
+user,VER,,58.58,usé/usée usés/usées,1
+épuiser,VER,,58.519999999999996,épuisé/épuisée épuisés/épuisées,1
+concentrer,VER,,58.5,concentré/concentrée concentrés/concentrées,1
+craquer,VER,,58.39,craqué/craquée craquées,1
+repérer,VER,,58.379999999999995,repéré/repérée repérés/repérées,1
+mouiller,VER,,58.28,mouillé/mouillée mouillés/mouillées,1
+armer,VER,,58.22,armé/armée armés/armées,1
+percer,VER,,57.8,percé/percée percés/percées,1
+intervenir,VER,,57.730000000000004,intervenu/intervenue intervenus/intervenues,1
+préciser,VER,,57.6,précisé/précisée précisés/précisées,1
+identifier,VER,,57.440000000000005,identifié/identifiée identifiés/identifiées,1
+incliner,VER,,57.35,incliné/inclinée inclinés/inclinées,1
+dévorer,VER,,57.34,dévoré/dévorée dévorés/dévorées,1
+unir,VER,,57.309999999999995,uni/unie unis/unies,1
+saigner,VER,,56.68,saigné/saignée saignés/saignées,1
+réagir,VER,,56.64,"réagi, réagis",1
+consacrer,VER,,56.45,consacré/consacrée consacrés/consacrées,1
+persuader,VER,,56.41,persuadé/persuadée persuadés/persuadées,1
+enfiler,VER,,56.28,enfilé/enfilée enfilés/enfilées,1
+emplir,VER,,56.129999999999995,empli/emplie emplis/emplies,1
+imiter,VER,,56.05,imité/imitée imités/imitées,1
+nager,VER,,56.04,nagé,1
+fondre,VER,,55.5,fondu/fondue fondus/fondues,1
+redevenir,VER,,55.45,redevenu/redevenue redevenus/redevenues,1
+signaler,VER,,55.42,signalé/signalée signalés/signalées,1
+décrocher,VER,,55.41,décroché/décrochée décrochés/décrochées,1
+pourvoir,VER,,55.260000000000005,pourvu/pourvue pourvus/pourvues,1
+comporter,VER,,55.129999999999995,comporté/comportée comportés,1
+soumettre,VER,,55.08,soumis/soumise soumises,1
+enseigner,VER,,55.019999999999996,enseigné/enseignée enseignés/enseignées,1
+publier,VER,,54.99,publié/publiée publiés/publiées,1
+puer,VER,,54.94,puez,1
+décevoir,VER,,54.92,déçu/déçue déçus/déçues,1
+consulter,VER,,54.67,consulté/consultée consultés/consultées,1
+entreprendre,VER,,54.620000000000005,entrepris/entreprise entreprises,1
+exciter,VER,,54.56,excité/excitée excités/excitées,1
+voiler,VER,,54.510000000000005,voilé/voilée voilés/voilées,1
+soupçonner,VER,,54.47,soupçonné/soupçonnée soupçonnés/soupçonnées,1
+suggérer,VER,,54.34,suggéré/suggérée suggérés/suggérées,1
+troubler,VER,,54.3,troublé/troublée troublés/troublées,1
+raccrocher,VER,,54.17,raccroché/raccrochée raccrochés/raccrochées,1
+opérer,VER,,54.120000000000005,opéré/opérée opérés/opérées,1
+piger,VER,,53.730000000000004,pigé,1
+vaincre,VER,,53.519999999999996,vaincu/vaincue vaincus/vaincues,1
+buter,VER,,53.480000000000004,buté/butée butés/butées,1
+suspendre,VER,,53.31,suspendu/suspendue suspendus/suspendues,1
+siffler,VER,,53.24,sifflé/sifflée sifflés/sifflées,1
+affronter,VER,,53.15,affronté/affrontée affrontés/affrontées,1
+luire,VER,,53.01,lui,1
+fêter,VER,,52.980000000000004,fêté/fêtée fêtés,1
+tracer,VER,,52.85,tracé/tracée tracés/tracées,1
+vieillir,VER,,52.699999999999996,vieilli/vieillie vieillis/vieillies,1
+épargner,VER,,52.34,épargné/épargnée épargnés/épargnées,1
+emparer,VER,,52.06,emparé/emparée emparés/emparées,1
+comparer,VER,,51.85,comparé/comparée comparés/comparées,1
+envelopper,VER,,51.7,enveloppé/enveloppée enveloppés/enveloppées,1
+justifier,VER,,51.56,justifié/justifiée justifiés/justifiées,1
+chauffer,VER,,51.55,chauffé/chauffée chauffés/chauffées,1
+approuver,VER,,51.47,approuvé/approuvée approuvés/approuvées,1
+échouer,VER,,51.230000000000004,échoué/échouée échoués/échouées,1
+autoriser,VER,,51.16,autorisé/autorisée autorisés/autorisées,1
+rougir,VER,,51.1,rougi/rougie rougis/rougies,1
+guider,VER,,51.01,guidé/guidée guidés/guidées,1
+tailler,VER,,50.92,taillé/taillée taillés/taillées,1
+dérouler,VER,,50.83,déroulé/déroulée déroulés/déroulées,1
+augmenter,VER,,50.81,augmenté/augmentée augmentés/augmentées,1
+coiffer,VER,,50.81,coiffé/coiffée coiffés/coiffées,1
+déconner,VER,,50.81,déconné,1
+soulager,VER,,50.69,soulagé/soulagée soulagés/soulagées,1
+fonder,VER,,50.629999999999995,fondé/fondée fondés/fondées,1
+tordre,VER,,50.620000000000005,tordu/tordue tordus/tordues,1
+gratter,VER,,50.62,gratté/grattée grattés/grattées,1
+parer,VER,,50.16,paré/parée parés/parées,1
+écrouler,VER,,50.06,écroulé/écroulée écroulés/écroulées,1
+témoigner,VER,,49.97,témoigné/témoignée témoignés/témoignées,1
+fréquenter,VER,,49.78,fréquenté/fréquentée fréquentés/fréquentées,1
+traduire,VER,,49.730000000000004,traduit/traduite traduits/traduites,1
+balayer,VER,,49.6,balayé/balayée balayés/balayées,1
+embêter,VER,,49.519999999999996,embêté/embêtée embêtés/embêtées,1
+exagérer,VER,,49.5,exagéré/exagérée exagérés/exagérées,1
+transmettre,VER,,49.480000000000004,transmis/transmise transmises,1
+bourrer,VER,,49.47,bourré/bourrée bourrés,1
+vomir,VER,,49.43,vomi/vomie vomis/vomies,1
+impressionner,VER,,49.24,impressionné/impressionnée impressionnés/impressionnées,1
+déshabiller,VER,,49.2,déshabillé/déshabillée déshabillés/déshabillées,1
+écrier,VER,,49.18,écrié/écriée écriés,1
+soucier,VER,,49.07,soucié/souciée souciés/souciées,1
+envisager,VER,,49.06,envisagé/envisagée envisagés/envisagées,1
+jaillir,VER,,49.03,jailli/jaillie jaillis/jaillies,1
+impliquer,VER,,48.89,impliqué/impliquée impliqués/impliquées,1
+heurter,VER,,48.839999999999996,heurté/heurtée heurtés/heurtées,1
+protester,VER,,48.71,"protesté, protestés",1
+marrer,VER,,48.7,marré/marrée marrés,1
+dénoncer,VER,,48.620000000000005,dénoncé/dénoncée dénoncés/dénoncées,1
+nier,VER,,48.44,nié/niée niés,1
+percevoir,VER,,48.42,perçu/perçue perçus/perçues,1
+ralentir,VER,,48.370000000000005,ralenti/ralentie ralentis/ralenties,1
+manifester,VER,,48.32,manifesté/manifestée manifestés/manifestées,1
+situer,VER,,48.28,situé/située situés/situées,1
+boucler,VER,,48.06,bouclé/bouclée bouclés/bouclées,1
+tremper,VER,,48.04,trempé/trempée trempés/trempées,1
+péter,VER,,47.94,pété/pétée pétés,1
+enregistrer,VER,,47.8,enregistré/enregistrée enregistrés/enregistrées,1
+consoler,VER,,47.59,consolé/consolée consolés/consolées,1
+annuler,VER,,47.58,annulé/annulée annulés/annulées,1
+destiner,VER,,47.519999999999996,destiné/destinée destinés/destinées,1
+déborder,VER,,47.370000000000005,débordé/débordée débordés/débordées,1
+précéder,VER,,47.31,précédé/précédée précédés/précédées,1
+ressortir,VER,,46.92,ressorti/ressortie ressortis/ressorties,1
+émouvoir,VER,,46.89,ému/émue émus/émues,1
+réjouir,VER,,46.629999999999995,réjoui/réjouie réjouis/réjouies,1
+concevoir,VER,,46.59,conçu/conçue conçus/conçues,1
+dépenser,VER,,46.510000000000005,dépensé/dépensée dépensés/dépensées,1
+assassiner,VER,,46.14,assassiné/assassinée assassinés/assassinées,1
+gémir,VER,,46.08,gémi/gémie gémis,1
+sacrifier,VER,,45.870000000000005,sacrifié/sacrifiée sacrifiés/sacrifiées,1
+aborder,VER,,45.730000000000004,abordé/abordée abordés/abordées,1
+délivrer,VER,,45.599999999999994,délivré/délivrée délivrés/délivrées,1
+communiquer,VER,,45.58,communiqué/communiquée communiqués/communiquées,1
+découper,VER,,45.410000000000004,découpé/découpée découpés/découpées,1
+insulter,VER,,45.239999999999995,insulté/insultée insultés/insultées,1
+semer,VER,,45.21,semé/semée semés/semées,1
+garer,VER,,45.2,garé/garée garés/garées,1
+redouter,VER,,45.16,redouté/redoutée redoutés/redoutées,1
+adopter,VER,,45.04,adopté/adoptée adoptés/adoptées,1
+loger,VER,,44.78,logé/logée logés/logées,1
+pourrir,VER,,44.75,pourri/pourrie pourris/pourries,1
+renseigner,VER,,44.730000000000004,renseigné/renseignée renseignés/renseignées,1
+envier,VER,,44.68,envié/enviée enviés/enviées,1
+citer,VER,,44.6,cité/citée cités/citées,1
+défaire,VER,,44.53,défait/défaite défaits/défaites,1
+évanouir,VER,,43.86,évanoui/évanouie évanouis/évanouies,1
+distraire,VER,,43.769999999999996,distrait/distraite distraits/distraites,1
+étirer,VER,,43.550000000000004,étiré/étirée étirés/étirées,1
+filmer,VER,,43.53,filmé/filmée filmés/filmées,1
+apaiser,VER,,43.519999999999996,apaisé/apaisée apaisés/apaisées,1
+défiler,VER,,43.46,défilé/défilée défilés,1
+bâtir,VER,,43.18,bâti/bâtie bâtis/bâties,1
+introduire,VER,,43.1,introduit/introduite introduits/introduites,1
+bousculer,VER,,43.09,bousculé/bousculée bousculés/bousculées,1
+correspondre,VER,,43.08,correspondu,1
+hocher,VER,,42.949999999999996,hoché,1
+encourager,VER,,42.81,encouragé/encouragée encouragés/encouragées,1
+déménager,VER,,42.739999999999995,déménagé/déménagée déménagés,1
+mépriser,VER,,42.620000000000005,méprisé/méprisée méprisés/méprisées,1
+projeter,VER,,42.52,projeté/projetée projetés/projetées,1
+déclencher,VER,,42.14,déclenché/déclenchée déclenchés/déclenchées,1
+cuire,VER,,42.06,"cuit, cuits",1
+sacrer,VER,,41.980000000000004,sacré/sacrée sacrés/sacrées,1
+sucer,VER,,41.96,sucé/sucée sucés/sucées,1
+développer,VER,,41.83,développé/développée développés/développées,1
+affecter,VER,,41.44,affecté/affectée affectés/affectées,1
+suicider,VER,,41.44,suicidé/suicidée suicidés/suicidées,1
+compliquer,VER,,41.150000000000006,compliqué/compliquée compliqués/compliquées,1
+circuler,VER,,41.0,circulé,1
+contacter,VER,,40.99,contacté/contactée contactés/contactées,1
+torturer,VER,,40.96,torturé/torturée torturés/torturées,1
+aspirer,VER,,40.92,aspiré/aspirée aspirés/aspirées,1
+décoller,VER,,40.879999999999995,décollé/décollée décollés/décollées,1
+bouleverser,VER,,40.82,bouleversé/bouleversée bouleversés/bouleversées,1
+procurer,VER,,40.739999999999995,procuré/procurée procurés/procurées,1
+bavarder,VER,,40.620000000000005,bavardé,1
+étrangler,VER,,40.620000000000005,étranglé/étranglée étranglés/étranglées,1
+planquer,VER,,40.55,planqué/planquée planqués/planquées,1
+bondir,VER,,40.51,"bondi, bondis",1
+consentir,VER,,40.49,consenti/consentie consentis/consenties,1
+geler,VER,,40.44,gelé/gelée gelés/gelées,1
+réciter,VER,,40.400000000000006,récité/récitée récités/récitées,1
+féliciter,VER,,40.38,félicité/félicitée félicités,1
+raccompagner,VER,,40.29,raccompagné/raccompagnée raccompagnés,1
+prolonger,VER,,40.269999999999996,prolongé/prolongée prolongés/prolongées,1
+plaquer,VER,,40.16,plaqué/plaquée plaqués/plaquées,1
+animer,VER,,40.06,animé/animée animés/animées,1
+ronger,VER,,40.06,rongé/rongée rongés/rongées,1
+redescendre,VER,,39.989999999999995,redescendu/redescendue redescendus/redescendues,1
+recueillir,VER,,39.96,recueilli/recueillie recueillis/recueillies,1
+replier,VER,,39.96,replié/repliée repliés/repliées,1
+cueillir,VER,,39.65,cueilli/cueillie cueillis/cueillies,1
+distribuer,VER,,39.6,distribué/distribuée distribués/distribuées,1
+chuchoter,VER,,39.59,chuchoté/chuchotée chuchotés/chuchotées,1
+clore,VER,,39.03,clos/close closes,1
+effondrer,VER,,38.98,effondré/effondrée effondrés/effondrées,1
+tâcher,VER,,38.91,tâché/tâchée tâchés,1
+consister,VER,,38.86,consisté,1
+procéder,VER,,38.79,"procédé, procédés",1
+séduire,VER,,38.71,séduit/séduite séduits/séduites,1
+apprêter,VER,,38.59,apprêté/apprêtée apprêtés/apprêtées,1
+pratiquer,VER,,38.46,pratiqué/pratiquée pratiqués/pratiquées,1
+réchauffer,VER,,38.43,réchauffé/réchauffée réchauffés/réchauffées,1
+éliminer,VER,,38.32,éliminé/éliminée éliminés/éliminées,1
+border,VER,,38.24,bordé/bordée bordés/bordées,1
+recommander,VER,,38.21,recommandé/recommandée recommandés/recommandées,1
+doubler,VER,,38.129999999999995,doublé/doublée doublés/doublées,2
+fasciner,VER,,38.120000000000005,fasciné/fascinée fascinés/fascinées,1
+voter,VER,,38.12,voté/votée votés/votées,1
+succéder,VER,,38.03,succédé,1
+enchanter,VER,,38.0,enchanté/enchantée enchantés/enchantées,1
+acquérir,VER,,37.96,acquis/acquise acquises,1
+grouiller,VER,,37.93,grouillé,1
+contrer,VER,,37.87,contré/contrée contrés/contrées,1
+balader,VER,,37.81,baladé/baladée baladés/baladées,1
+errer,VER,,37.8,"erré, errés",1
+figer,VER,,37.67,figé/figée figés/figées,1
+déboucher,VER,,37.660000000000004,débouché/débouchée débouchés/débouchées,1
+fourrer,VER,,37.629999999999995,fourré/fourrée fourrés/fourrées,1
+célébrer,VER,,37.57,célébré/célébrée célébrés/célébrées,1
+isoler,VER,,37.55,isolé/isolée isolés/isolées,1
+abîmer,VER,,37.52,abîmé/abîmée abîmés/abîmées,1
+boucher,VER,,37.45,bouché/bouchée bouchés/bouchées,2
+surmonter,VER,,37.42,surmonté/surmontée surmontés/surmontées,1
+déployer,VER,,37.36,déployé/déployée déployés/déployées,1
+longer,VER,,37.3,longé/longée longés,1
+aviser,VER,,37.269999999999996,avisé/avisée avisés,1
+lécher,VER,,37.2,léché/léchée léchés/léchées,1
+mélanger,VER,,37.2,mélangé/mélangée mélangés/mélangées,1
+gueuler,VER,,37.11,gueulé/gueulée gueulés,1
+agacer,VER,,37.03,agacé/agacée agacés/agacées,1
+résonner,VER,,37.03,résonné,1
+rembourser,VER,,36.97,remboursé/remboursée remboursés/remboursées,1
+imprimer,VER,,36.91,imprimé/imprimée imprimés/imprimées,1
+trancher,VER,,36.7,tranché/tranchée tranchés/tranchées,1
+basculer,VER,,36.64,basculé/basculée basculés/basculées,1
+garantir,VER,,36.56,garanti/garantie garantis/garanties,1
+flatter,VER,,36.41,flatté/flattée flattés/flattées,1
+préoccuper,VER,,36.35,préoccupé/préoccupée préoccupés/préoccupées,1
+fendre,VER,,36.339999999999996,fendu/fendue fendus/fendues,1
+atterrir,VER,,36.120000000000005,"atterri, atterris",1
+nouer,VER,,36.11,noué/nouée noués/nouées,1
+dégoûter,VER,,35.96,dégoûté/dégoûtée dégoûtés,1
+honorer,VER,,35.89,honoré/honorée honorés/honorées,1
+préserver,VER,,35.76,préservé/préservée préservés/préservées,1
+écouler,VER,,35.63,écoulé/écoulée écoulés/écoulées,1
+divorcer,VER,,35.61,divorcé/divorcée divorcés/divorcées,1
+calculer,VER,,35.5,calculé/calculée calculés/calculées,1
+absorber,VER,,35.31,absorbé/absorbée absorbés/absorbées,1
+entamer,VER,,35.21,entamé/entamée entamés/entamées,1
+débattre,VER,,35.050000000000004,débattu/débattue débattus/débattues,1
+relâcher,VER,,34.849999999999994,relâché/relâchée relâchés/relâchées,1
+rétablir,VER,,34.74,rétabli/rétablie rétablis/rétablies,1
+combler,VER,,34.71,comblé/comblée comblés/comblées,1
+empoisonner,VER,,34.620000000000005,empoisonné/empoisonnée empoisonnés/empoisonnées,1
+aligner,VER,,34.49,aligné/alignée alignés/alignées,1
+pincer,VER,,34.489999999999995,pincé/pincée pincés/pincées,2
+grogner,VER,,34.43,grogné,1
+dérober,VER,,34.38,dérobé/dérobée dérobés/dérobées,1
+abuser,VER,,34.26,abusé/abusée abusés/abusées,1
+orner,VER,,34.26,orné/ornée ornés/ornées,1
+abriter,VER,,34.14,abrité/abritée abrités/abritées,1
+emballer,VER,,34.129999999999995,emballé/emballée emballés/emballées,1
+vanter,VER,,33.97,vanté/vantée vantés/vantées,1
+émerger,VER,,33.93,émergé/émergée émergés,1
+dater,VER,,33.92,daté/datée datés/datées,1
+arroser,VER,,33.8,arrosé/arrosée arrosés/arrosées,1
+applaudir,VER,,33.79,applaudi/applaudie applaudis/applaudies,1
+accélérer,VER,,33.75,accéléré/accélérée accélérés/accélérées,1
+attarder,VER,,33.75,attardé/attardée attardés/attardées,1
+immobiliser,VER,,33.5,immobilisé/immobilisée immobilisés/immobilisées,1
+douer,VER,,33.47,doué/douée doués/douées,1
+salir,VER,,33.46,sali/salie salis/salies,1
+égarer,VER,,33.32,égaré/égarée égarés/égarées,1
+relier,VER,,33.3,relié/reliée reliés/reliées,1
+cuisiner,VER,,33.28,cuisiné/cuisinée cuisinés/cuisinées,1
+entasser,VER,,32.95,entassé/entassée entassés/entassées,1
+glacer,VER,,32.949999999999996,glacé/glacée glacés/glacées,1
+déplaire,VER,,32.84,déplu,1
+ricaner,VER,,32.65,ricané,1
+encombrer,VER,,32.63,encombré/encombrée encombrés/encombrées,1
+conquérir,VER,,32.53,conquis/conquise conquises,1
+ruiner,VER,,32.480000000000004,ruiné/ruinée ruinés/ruinées,1
+expédier,VER,,32.47,expédié/expédiée expédiés/expédiées,1
+crisper,VER,,32.46,crispé/crispée crispés/crispées,1
+tousser,VER,,32.46,toussé,1
+saurer,VER,,32.33,sauriez,1
+reproduire,VER,,32.31,reproduit/reproduite reproduits/reproduites,1
+mater,VER,,32.2,maté/matée matés/matées,1
+relire,VER,,32.12,relu/relue relus/relues,1
+entrevoir,VER,,31.970000000000002,entrevu/entrevue entrevus/entrevues,1
+réfugier,VER,,31.919999999999998,réfugié/réfugiée réfugiés/réfugiées,1
+déguiser,VER,,31.85,déguisé/déguisée déguisés/déguisées,1
+lasser,VER,,31.75,lassé/lassée lassés/lassées,1
+irriter,VER,,31.63,irrité/irritée irrités/irritées,1
+massacrer,VER,,31.53,massacré/massacrée massacrés/massacrées,1
+gronder,VER,,31.439999999999998,grondé/grondée grondés,1
+contraindre,VER,,31.39,contraint/contrainte contraints/contraintes,1
+braquer,VER,,31.22,braqué/braquée braqués/braquées,1
+aboutir,VER,,31.15,abouti/aboutie aboutis,1
+enfouir,VER,,31.060000000000002,enfoui/enfouie enfouis/enfouies,1
+revivre,VER,,31.049999999999997,revécu/revécue,1
+améliorer,VER,,30.990000000000002,amélioré/améliorée améliorés/améliorées,1
+ramper,VER,,30.94,rampé/rampée,1
+gérer,VER,,30.82,géré/gérée gérés/gérées,1
+rédiger,VER,,30.65,rédigé/rédigée rédigés/rédigées,1
+maîtriser,VER,,30.5,maîtrisé/maîtrisée maîtrisés/maîtrisées,1
+limiter,VER,,30.450000000000003,limité/limitée limités/limitées,1
+hisser,VER,,30.45,hissé/hissée hissés/hissées,1
+assommer,VER,,30.32,assommé/assommée assommés/assommées,1
+humilier,VER,,30.270000000000003,humilié/humiliée humiliés/humiliées,1
+brouiller,VER,,30.240000000000002,brouillé/brouillée brouillés/brouillées,1
+racheter,VER,,30.24,racheté/rachetée rachetés/rachetées,1
+convoquer,VER,,30.21,convoqué/convoquée convoqués/convoquées,1
+bander,VER,,30.04,bandé/bandée bandés/bandées,1
+démolir,VER,,30.03,démoli/démolie démolis/démolies,1
+renifler,VER,,29.95,reniflé/reniflée reniflées,1
+frôler,VER,,29.86,frôlé/frôlée frôlés/frôlées,1
+sursauter,VER,,29.77,sursauté,1
+modifier,VER,,29.75,modifié/modifiée modifiés/modifiées,1
+chérir,VER,,29.69,chéri/chérie chéris/chéries,1
+hâter,VER,,29.68,hâté/hâtée hâtés,1
+désespérer,VER,,29.65,désespéré/désespérée désespérés/désespérées,1
+négocier,VER,,29.630000000000003,négocié/négociée négociés/négociées,1
+coudre,VER,,29.619999999999997,cousu/cousue cousus/cousues,1
+attribuer,VER,,29.45,attribué/attribuée attribués/attribuées,1
+disperser,VER,,29.43,dispersé/dispersée dispersés/dispersées,1
+pêcher,VER,,29.36,pêché/pêchée pêchés/pêchées,2
+ressusciter,VER,,29.35,ressuscité/ressuscitée ressuscités/ressuscitées,1
+enchaîner,VER,,29.340000000000003,enchaîné/enchaînée enchaînés/enchaînées,1
+négliger,VER,,29.28,négligé/négligée négligés/négligées,1
+vibrer,VER,,29.26,vibré/vibrée vibrées,1
+provenir,VER,,29.0,provenu,1
+accumuler,VER,,28.990000000000002,accumulé/accumulée accumulés/accumulées,1
+multiplier,VER,,28.98,multiplié/multipliée multipliés/multipliées,1
+choquer,VER,,28.97,choqué/choquée choqués/choquées,1
+effleurer,VER,,28.91,effleuré/effleurée effleurés/effleurées,1
+piéger,VER,,28.86,piégé/piégée piégés/piégées,1
+ménager,VER,,28.77,ménagé/ménagée ménagés/ménagées,3
+revêtir,VER,,28.759999999999998,revêtu/revêtue revêtus/revêtues,1
+cerner,VER,,28.75,cerné/cernée cernés/cernées,1
+décorer,VER,,28.74,décoré/décorée décorés/décorées,1
+graver,VER,,28.72,gravé/gravée gravés/gravées,1
+reparler,VER,,28.58,reparlé,1
+supprimer,VER,,28.52,supprimé/supprimée supprimés/supprimées,1
+agenouiller,VER,,28.509999999999998,agenouillé/agenouillée agenouillés/agenouillées,1
+brancher,VER,,28.38,branché/branchée branchés/branchées,1
+traquer,VER,,28.36,traqué/traquée traqués/traquées,1
+cingler,VER,,28.32,cinglé/cinglée cinglés/cinglées,1
+corriger,VER,,28.32,corrigé/corrigée corrigés/corrigées,1
+faucher,VER,,28.27,fauché/fauchée fauchés/fauchées,1
+retentir,VER,,28.2,retenti,1
+renforcer,VER,,28.18,renforcé/renforcée renforcés/renforcées,1
+frémir,VER,,28.12,"frémi, frémis",1
+associer,VER,,27.86,associé/associée associés/associées,1
+empoigner,VER,,27.85,empoigné/empoignée empoignées,1
+refléter,VER,,27.8,reflété/reflétée reflétés/reflétées,1
+assumer,VER,,27.630000000000003,assumé/assumée assumés/assumées,1
+afficher,VER,,27.61,affiché/affichée affichés/affichées,1
+exclure,VER,,27.54,exclu/exclue exclus/exclues,1
+brandir,VER,,27.490000000000002,brandi/brandie brandis/brandies,1
+évacuer,VER,,27.41,évacué/évacuée évacués/évacuées,1
+piétiner,VER,,27.39,piétiné/piétinée piétinés/piétinées,1
+vexer,VER,,27.32,vexé/vexée vexés/vexées,1
+souligner,VER,,27.29,souligné/soulignée soulignés/soulignées,1
+susciter,VER,,27.25,suscité/suscitée suscités/suscitées,1
+draguer,VER,,27.22,dragué/draguée dragués/draguées,1
+feindre,VER,,27.14,"feint, feints",1
+flanquer,VER,,27.04,flanqué/flanquée flanqués/flanquées,1
+maquiller,VER,,26.950000000000003,maquillé/maquillée maquillés/maquillées,1
+accroupir,VER,,26.93,accroupi/accroupie accroupis/accroupies,1
+clouer,VER,,26.91,cloué/clouée cloués/clouées,1
+compromettre,VER,,26.91,compromis/compromise compromises,1
+engueuler,VER,,26.91,engueulé/engueulée engueulés,1
+griller,VER,,26.9,grillé/grillée grillés/grillées,1
+engloutir,VER,,26.87,englouti/engloutie engloutis/englouties,1
+triompher,VER,,26.86,triomphé,1
+accabler,VER,,26.830000000000002,accablé/accablée accablés/accablées,1
+diviser,VER,,26.830000000000002,divisé/divisée divisés/divisées,1
+ébranler,VER,,26.82,ébranlé/ébranlée ébranlés/ébranlées,1
+dévisager,VER,,26.79,dévisagé/dévisagée dévisagés,1
+tourmenter,VER,,26.78,tourmenté/tourmentée tourmentés/tourmentées,1
+encadrer,VER,,26.770000000000003,encadré/encadrée encadrés/encadrées,1
+cirer,VER,,26.689999999999998,ciré/cirée cirés/cirées,1
+émettre,VER,,26.68,émis/émise émises,1
+hanter,VER,,26.57,hanté/hantée hantés/hantées,1
+tolérer,VER,,26.5,toléré/tolérée tolérés/tolérées,1
+déterminer,VER,,26.47,déterminé/déterminée déterminés/déterminées,1
+affoler,VER,,26.46,affolé/affolée affolés/affolées,1
+illuminer,VER,,26.43,illuminé/illuminée illuminés/illuminées,1
+retarder,VER,,26.42,retardé/retardée retardés/retardées,1
+contourner,VER,,26.27,contourné/contournée contournés/contournées,1
+baptiser,VER,,26.25,baptisé/baptisée baptisés/baptisées,1
+confesser,VER,,26.25,confessé/confessée confessés,1
+défoncer,VER,,26.240000000000002,défoncé/défoncée défoncés/défoncées,1
+rouiller,VER,,26.21,rouillé/rouillée rouillés/rouillées,1
+évader,VER,,26.18,évadé/évadée évadés,1
+adapter,VER,,26.009999999999998,adapté/adaptée adaptés/adaptées,1
+investir,VER,,25.96,investi/investie investis/investies,1
+nuire,VER,,25.96,nui,1
+paniquer,VER,,25.910000000000004,paniqué/paniquée paniqués,1
+tricher,VER,,25.89,triché/trichée trichées,1
+anéantir,VER,,25.88,anéanti/anéantie anéantis/anéanties,1
+rôder,VER,,25.83,rôdé/rôdée rôdés,1
+vouer,VER,,25.8,voué/vouée voués/vouées,1
+défier,VER,,25.79,défié/défiée défiés,1
+progresser,VER,,25.73,progressé/progressée,1
+effectuer,VER,,25.729999999999997,effectué/effectuée effectués/effectuées,1
+acharner,VER,,25.630000000000003,acharné/acharnée acharnés/acharnées,1
+tâter,VER,,25.5,"tâté, tâtés",1
+grossir,VER,,25.37,grossi/grossie grossis/grossies,1
+intriguer,VER,,25.310000000000002,intrigué/intriguée intrigués,1
+gâter,VER,,25.23,gâté/gâtée gâtés/gâtées,1
+rouvrir,VER,,25.21,rouvert/rouverte rouverts/rouvertes,1
+dépouiller,VER,,25.08,dépouillé/dépouillée dépouillés/dépouillées,1
+stopper,VER,,25.07,stoppé/stoppée stoppés/stoppées,1
+fouetter,VER,,24.97,fouetté/fouettée fouettés/fouettées,1
+mentionner,VER,,24.93,mentionné/mentionnée mentionnés/mentionnées,1
+fusiller,VER,,24.869999999999997,fusillé/fusillée fusillés/fusillées,1
+ronfler,VER,,24.86,ronflé,1
+sombrer,VER,,24.83,sombré/sombrée sombrés/sombrées,1
+classer,VER,,24.81,classé/classée classés/classées,1
+hériter,VER,,24.77,hérité/héritée hérités/héritées,1
+élire,VER,,24.740000000000002,"élu, élus",1
+planer,VER,,24.41,plané,1
+dissiper,VER,,24.35,dissipé/dissipée dissipés/dissipées,1
+contrarier,VER,,24.34,contrarié/contrariée contrariés/contrariées,1
+peupler,VER,,24.240000000000002,peuplé/peuplée peuplés/peuplées,1
+diminuer,VER,,24.220000000000002,diminué/diminuée diminués/diminuées,1
+accourir,VER,,24.22,accouru/accourue accourus/accourues,1
+résigner,VER,,24.18,résigné/résignée résignés/résignées,1
+élargir,VER,,24.17,élargi/élargie élargis/élargies,1
+plaider,VER,,24.16,plaidé/plaidée,1
+intimider,VER,,24.13,intimidé/intimidée intimidés/intimidées,1
+renouveler,VER,,24.1,renouvelé/renouvelée renouvelés/renouvelées,1
+ruer,VER,,24.08,rué/ruée rués/ruées,1
+photographier,VER,,24.0,photographié/photographiée photographiés/photographiées,1
+rabattre,VER,,23.970000000000002,rabattu/rabattue rabattus/rabattues,1
+accoucher,VER,,23.919999999999998,accouché/accouchée accouchés,1
+attendrir,VER,,23.91,attendri/attendrie attendris/attendries,1
+cultiver,VER,,23.810000000000002,cultivé/cultivée cultivés/cultivées,1
+contribuer,VER,,23.74,contribué,1
+feuilleter,VER,,23.7,feuilleté/feuilletée feuilletés,1
+éblouir,VER,,23.61,ébloui/éblouie éblouis/éblouies,1
+transférer,VER,,23.599999999999998,transféré/transférée transférés/transférées,1
+capturer,VER,,23.48,capturé/capturée capturés/capturées,1
+agrandir,VER,,23.409999999999997,agrandi/agrandie agrandis/agrandies,1
+détenir,VER,,23.34,détenu/détenue détenus/détenues,1
+fier,VER,,23.259999999999998,fié/fiée fiés,2
+passionner,VER,,23.25,passionné/passionnée passionnés/passionnées,1
+boiter,VER,,23.2,boité,1
+piper,VER,,23.17,"pipé, pipés",1
+tester,VER,,23.09,testé/testée testés/testées,1
+tacher,VER,,23.029999999999998,taché/tachée tachés/tachées,1
+abaisser,VER,,22.97,abaissé/abaissée abaissés/abaissées,1
+proclamer,VER,,22.92,proclamé/proclamée proclamés/proclamées,1
+navrer,VER,,22.87,navré/navrée navrés/navrées,1
+masquer,VER,,22.86,masqué/masquée masqués/masquées,1
+analyser,VER,,22.83,analysé/analysée analysés/analysées,1
+branler,VER,,22.65,branlé/branlée branlés,1
+gifler,VER,,22.65,giflé/giflée giflés/giflées,1
+commenter,VER,,22.63,commenté/commentée commentés/commentées,1
+enquêter,VER,,22.56,enquêté,1
+frissonner,VER,,22.55,frissonné,1
+élancer,VER,,22.52,élancé/élancée élancés/élancées,1
+bercer,VER,,22.5,bercé/bercée bercés,1
+courber,VER,,22.5,courbé/courbée courbés/courbées,1
+rajouter,VER,,22.41,rajouté/rajoutée rajoutés/rajoutées,1
+grincer,VER,,22.37,grincé,1
+souiller,VER,,22.33,souillé/souillée souillés/souillées,1
+évoluer,VER,,22.29,évolué/évoluée évolués/évoluées,1
+émerveiller,VER,,22.209999999999997,émerveillé/émerveillée émerveillés/émerveillées,1
+questionner,VER,,22.17,questionné/questionnée questionnés,1
+baver,VER,,22.15,bavé,1
+interpréter,VER,,22.14,interprété/interprétée interprétés/interprétées,1
+offenser,VER,,22.14,offensé/offensée offensés/offensées,1
+explorer,VER,,22.03,exploré/explorée explorés/explorées,1
+décharger,VER,,22.009999999999998,déchargé/déchargée déchargés/déchargées,1
+résumer,VER,,22.009999999999998,résumé/résumée résumés/résumées,1
+aveugler,VER,,21.97,aveuglé/aveuglée aveuglés/aveuglées,1
+exaspérer,VER,,21.97,exaspéré/exaspérée exaspérés/exaspérées,1
+caler,VER,,21.96,calé/calée calés/calées,1
+manier,VER,,21.919999999999998,manié/maniée maniés/maniées,1
+repenser,VER,,21.84,repensé/repensée,1
+inonder,VER,,21.830000000000002,inondé/inondée inondés/inondées,1
+paralyser,VER,,21.83,paralysé/paralysée paralysés/paralysées,1
+extraire,VER,,21.79,extrait/extraite extraits/extraites,1
+refiler,VER,,21.79,refilé/refilée refilés/refilées,1
+définir,VER,,21.75,défini/définie définis/définies,1
+dévoiler,VER,,21.75,dévoilé/dévoilée dévoilés/dévoilées,1
+choper,VER,,21.740000000000002,chopé/chopée chopés/chopées,1
+faufiler,VER,,21.71,faufilé/faufilée faufilés/faufilées,1
+éclaircir,VER,,21.71,éclairci/éclaircie éclaircis/éclaircies,1
+cligner,VER,,21.650000000000002,"cligné, clignés",1
+accéder,VER,,21.55,accédé,1
+périr,VER,,21.54,péri/périe péris,1
+inspecter,VER,,21.53,inspecté/inspectée inspectés/inspectées,1
+louper,VER,,21.520000000000003,loupé/loupée loupés/loupées,1
+larguer,VER,,21.5,largué/larguée largués/larguées,1
+indigner,VER,,21.46,indigné/indignée indignés/indignées,1
+tasser,VER,,21.400000000000002,tassé/tassée tassés/tassées,1
+trinquer,VER,,21.4,trinqué,1
+faciliter,VER,,21.33,facilité/facilitée facilités/facilitées,1
+pressentir,VER,,21.3,pressenti/pressentie pressentis,1
+bouillir,VER,,21.21,bouilli/bouillie bouillis,1
+botter,VER,,21.15,botté/bottée bottés/bottées,1
+chialer,VER,,21.03,chialé,1
+prescrire,VER,,21.0,prescrit/prescrite prescrits/prescrites,1
+délirer,VER,,20.96,déliré,1
+redonner,VER,,20.92,redonné,1
+forger,VER,,20.84,forgé/forgée forgés/forgées,1
+épier,VER,,20.810000000000002,épié/épiée épiés/épiées,1
+renier,VER,,20.73,renié/reniée reniés/reniées,1
+dicter,VER,,20.72,dicté/dictée dictés/dictées,1
+enculer,VER,,20.7,enculé/enculée enculés,1
+déchiffrer,VER,,20.69,déchiffré/déchiffrée déchiffrés/déchiffrées,1
+obséder,VER,,20.65,obsédé/obsédée obsédés/obsédées,1
+enrouler,VER,,20.64,enroulé/enroulée enroulés/enroulées,1
+exploiter,VER,,20.62,exploité/exploitée exploités/exploitées,1
+encaisser,VER,,20.619999999999997,encaissé/encaissée encaissés/encaissées,1
+infliger,VER,,20.59,infligé/infligée infligés/infligées,1
+embarrasser,VER,,20.54,embarrassé/embarrassée embarrassés/embarrassées,1
+entrouvrir,VER,,20.54,entrouvert/entrouverte entrouverts/entrouvertes,1
+diffuser,VER,,20.53,diffusé/diffusée diffusés/diffusées,1
+liquider,VER,,20.5,liquidé/liquidée liquidés/liquidées,1
+renaître,VER,,20.49,rené/renée,1
+freiner,VER,,20.47,freiné/freinée freinés/freinées,1
+polir,VER,,20.46,poli/polie polis/polies,1
+gésir,VER,,20.45,gisais,1
+fleurir,VER,,20.439999999999998,fleuri/fleurie fleuris/fleuries,1
+couronner,VER,,20.419999999999998,couronné/couronnée couronnés/couronnées,1
+survenir,VER,,20.4,survenu/survenue survenus/survenues,1
+bâiller,VER,,20.380000000000003,bâillé,1
+agripper,VER,,20.38,agrippé/agrippée agrippés/agrippées,1
+déplier,VER,,20.35,déplié/dépliée dépliés/dépliées,1
+méditer,VER,,20.35,médité/méditée médités/méditées,1
+reconstituer,VER,,20.330000000000002,reconstitué/reconstituée reconstitués/reconstituées,1
+décourager,VER,,20.310000000000002,découragé/découragée découragés/découragées,1
+enlacer,VER,,20.3,enlacé/enlacée enlacés/enlacées,1
+obstiner,VER,,20.259999999999998,obstiné/obstinée obstinés,1
+escalader,VER,,20.21,escaladé/escaladée escaladés/escaladées,1
+raidir,VER,,20.16,raidi/raidie raidis/raidies,1
+naviguer,VER,,20.130000000000003,navigué,1
+merder,VER,,20.03,merdé/merdée,1
+étreindre,VER,,20.01,étreint/étreinte étreints/étreintes,1
+camper,VER,,20.009999999999998,campé/campée campés/campées,1
+peiner,VER,,20.009999999999998,peiné/peinée peinés/peinées,1
+poster,VER,,20.009999999999998,posté/postée postés/postées,3
+implorer,VER,,19.990000000000002,imploré/implorée,1
+ruisseler,VER,,19.93,ruisselé,1
+remporter,VER,,19.88,remporté/remportée remportés/remportées,1
+gravir,VER,,19.76,gravi/gravie gravis/gravies,1
+convertir,VER,,19.68,converti/convertie convertis/converties,1
+réconcilier,VER,,19.65,réconcilié/réconciliée réconciliés/réconciliées,1
+insinuer,VER,,19.630000000000003,insinué/insinuée,1
+démissionner,VER,,19.61,démissionné,1
+incarner,VER,,19.59,incarné/incarnée incarnés/incarnées,1
+déchaîner,VER,,19.55,déchaîné/déchaînée déchaînés/déchaînées,1
+bombarder,VER,,19.509999999999998,bombardé/bombardée bombardés/bombardées,1
+enrichir,VER,,19.490000000000002,enrichi/enrichie enrichis/enrichies,1
+capter,VER,,19.48,capté/captée captés/captées,1
+imprégner,VER,,19.46,imprégné/imprégnée imprégnés/imprégnées,1
+répliquer,VER,,19.44,répliqué,1
+harceler,VER,,19.36,harcelé/harcelée harcelés/harcelées,1
+rafraîchir,VER,,19.35,rafraîchi/rafraîchie rafraîchis/rafraîchies,1
+alerter,VER,,19.310000000000002,alerté/alertée alertés/alertées,1
+régaler,VER,,19.3,régalé/régalée régalés,1
+compléter,VER,,19.28,complété/complétée complétés/complétées,1
+aboyer,VER,,19.25,aboyé,1
+exclamer,VER,,19.25,exclamé/exclamée,1
+démontrer,VER,,19.21,démontré/démontrée démontrés/démontrées,1
+activer,VER,,19.2,activé/activée activés/activées,1
+flairer,VER,,19.2,flairé/flairée flairés,1
+engouffrer,VER,,19.189999999999998,engouffré/engouffrée engouffrés/engouffrées,1
+subsister,VER,,19.17,subsisté,1
+épanouir,VER,,19.17,épanoui/épanouie épanouis/épanouies,1
+dessécher,VER,,19.15,desséché/desséchée desséchés/desséchées,1
+refroidir,VER,,19.15,refroidi/refroidie refroidis/refroidies,1
+économiser,VER,,19.12,économisé/économisée économisés/économisées,1
+invoquer,VER,,19.08,invoqué/invoquée invoqués/invoquées,1
+persister,VER,,19.07,persisté,1
+embaucher,VER,,19.06,embauché/embauchée embauchés/embauchées,1
+formuler,VER,,19.06,formulé/formulée formulés/formulées,1
+raisonner,VER,,18.990000000000002,raisonné/raisonnée,1
+consommer,VER,,18.89,consommé/consommée consommés/consommées,1
+redire,VER,,18.81,redit/redite redits/redites,1
+flamber,VER,,18.79,flambé/flambée flambés/flambées,1
+égorger,VER,,18.7,égorgé/égorgée égorgés/égorgées,1
+rayer,VER,,18.64,rayé/rayée rayés/rayées,1
+patienter,VER,,18.549999999999997,patienté,1
+masser,VER,,18.53,massé/massée massés/massées,1
+savourer,VER,,18.5,savouré/savourée savourés,1
+transpirer,VER,,18.490000000000002,transpiré,1
+maudire,VER,,18.44,maudis,1
+broder,VER,,18.38,brodé/brodée brodés/brodées,1
+manipuler,VER,,18.36,manipulé/manipulée manipulés/manipulées,1
+récompenser,VER,,18.340000000000003,récompensé/récompensée récompensés/récompensées,1
+baser,VER,,18.31,basé/basée basés/basées,1
+dévaler,VER,,18.270000000000003,dévalé/dévalée,1
+aggraver,VER,,18.15,aggravé/aggravée aggravés/aggravées,1
+fiancer,VER,,18.1,fiancé/fiancée fiancés/fiancées,1
+accouder,VER,,18.04,accoudé/accoudée accoudés/accoudées,1
+récolter,VER,,18.01,récolté/récoltée récoltés/récoltées,1
+engendrer,VER,,18.0,engendré/engendrée engendrés/engendrées,1
+flipper,VER,,17.939999999999998,flippé/flippée flippés,2
+enflammer,VER,,17.93,enflammé/enflammée enflammés/enflammées,1
+croquer,VER,,17.87,croqué/croquée croqués/croquées,1
+scruter,VER,,17.84,scruté/scrutée scrutés,1
+critiquer,VER,,17.810000000000002,critiqué/critiquée critiqués/critiquées,1
+dorer,VER,,17.810000000000002,doré/dorée dorés/dorées,1
+instruire,VER,,17.810000000000002,instruit/instruite instruits,1
+qualifier,VER,,17.799999999999997,qualifié/qualifiée qualifiés/qualifiées,1
+brosser,VER,,17.79,brossé/brossée brossés/brossées,1
+tapoter,VER,,17.71,tapoté,1
+chantonner,VER,,17.7,chantonné/chantonnée chantonnés,1
+adosser,VER,,17.69,adossé/adossée adossés/adossées,1
+poignarder,VER,,17.63,poignardé/poignardée poignardés/poignardées,1
+suer,VER,,17.62,sué/suée,1
+embrouiller,VER,,17.61,embrouillé/embrouillée embrouillés/embrouillées,1
+empiler,VER,,17.59,empilé/empilée empilés/empilées,1
+gaspiller,VER,,17.58,gaspillé/gaspillée gaspillés/gaspillées,1
+blanchir,VER,,17.57,blanchi/blanchie blanchis/blanchies,1
+esquisser,VER,,17.56,esquissé/esquissée esquissés/esquissées,1
+trébucher,VER,,17.55,trébuché,1
+expulser,VER,,17.52,expulsé/expulsée expulsés/expulsées,1
+garnir,VER,,17.46,garni/garnie garnis/garnies,1
+accentuer,VER,,17.43,accentué/accentuée accentués/accentuées,1
+brailler,VER,,17.43,braillé/braillée braillés,1
+puiser,VER,,17.43,puisé/puisée puisés/puisées,1
+advenir,VER,,17.330000000000002,advenu/advenue advenues,1
+mâcher,VER,,17.3,mâché/mâchée mâchés,1
+piloter,VER,,17.3,piloté/pilotée pilotés/pilotées,1
+débuter,VER,,17.240000000000002,débuté/débutée,1
+endurer,VER,,17.240000000000002,enduré/endurée endurés/endurées,1
+incruster,VER,,17.23,incrusté/incrustée incrustés/incrustées,1
+plisser,VER,,17.08,plissé/plissée plissés/plissées,1
+interpeller,VER,,17.06,interpellé/interpellée interpellés/interpellées,1
+réapparaître,VER,,17.04,réapparu/réapparue réapparus/réapparues,1
+râler,VER,,17.02,râlé,1
+droguer,VER,,17.0,drogué/droguée drogués/droguées,1
+sangloter,VER,,16.93,"sangloté, sanglotés",1
+chausser,VER,,16.88,chaussé/chaussée chaussés/chaussées,1
+détailler,VER,,16.87,détaillé/détaillée détaillés/détaillées,1
+foirer,VER,,16.85,foiré/foirée foirés/foirées,1
+inciter,VER,,16.79,incité/incitée incités,1
+emprisonner,VER,,16.73,emprisonné/emprisonnée emprisonnés/emprisonnées,1
+sculpter,VER,,16.64,sculpté/sculptée sculptés/sculptées,1
+charrier,VER,,16.6,charrié/charriée charriés/charriées,1
+munir,VER,,16.59,muni/munie munis/munies,1
+arrondir,VER,,16.57,arrondi/arrondie arrondis/arrondies,1
+copier,VER,,16.52,copié/copiée copiés/copiées,1
+reparaître,VER,,16.48,reparu/reparue,1
+submerger,VER,,16.48,submergé/submergée submergés/submergées,1
+consumer,VER,,16.47,consumé/consumée consumés/consumées,1
+dédier,VER,,16.46,dédié/dédiée dédiés/dédiées,1
+galoper,VER,,16.45,galopé,1
+accommoder,VER,,16.439999999999998,accommodé/accommodée accommodés,1
+aplatir,VER,,16.439999999999998,aplati/aplatie aplatis/aplaties,1
+chevaucher,VER,,16.439999999999998,chevauché/chevauchée chevauchés,1
+grouper,VER,,16.41,groupé/groupée groupés/groupées,1
+froncer,VER,,16.400000000000002,froncé/froncée froncés,1
+gouverner,VER,,16.38,gouverné/gouvernée gouvernés,1
+agresser,VER,,16.36,agressé/agressée agressés/agressées,1
+débiter,VER,,16.330000000000002,débité/débitée débités/débitées,1
+pâlir,VER,,16.330000000000002,pâli/pâlie pâlis/pâlies,1
+tutoyer,VER,,16.32,tutoyé/tutoyée tutoyés,1
+kidnapper,VER,,16.29,kidnappé/kidnappée kidnappés/kidnappées,1
+solliciter,VER,,16.26,sollicité/sollicitée sollicités/sollicitées,1
+discerner,VER,,16.25,discerné,1
+tracasser,VER,,16.25,tracassé/tracassée tracassées,1
+dissoudre,VER,,16.240000000000002,dissous,1
+froisser,VER,,16.240000000000002,froissé/froissée froissés/froissées,1
+tricoter,VER,,16.23,tricoté/tricotée tricotés/tricotées,1
+avérer,VER,,16.22,avéré/avérée avérés/avérées,1
+déserter,VER,,16.18,déserté/désertée désertés/désertées,1
+exhiber,VER,,16.18,exhibé/exhibée exhibés/exhibées,1
+conférer,VER,,16.17,conféré/conférée conférés/conférées,1
+filtrer,VER,,16.16,filtré/filtrée filtrés/filtrées,1
+bousiller,VER,,16.15,bousillé/bousillée bousillés/bousillées,1
+affairer,VER,,16.130000000000003,affairé/affairée affairés/affairées,1
+rallier,VER,,16.13,rallié/ralliée ralliés/ralliées,1
+encercler,VER,,16.119999999999997,encerclé/encerclée encerclés/encerclées,1
+tournoyer,VER,,16.060000000000002,tournoyé,1
+emménager,VER,,16.06,emménagé,1
+réconforter,VER,,16.05,réconforté/réconfortée réconfortés,1
+piller,VER,,16.04,pillé/pillée pillés/pillées,1
+trouer,VER,,16.03,troué/trouée troués/trouées,1
+rasseoir,VER,,16.02,rassis/rassise,1
+improviser,VER,,16.009999999999998,improvisé/improvisée improvisés/improvisées,1
+alourdir,VER,,16.0,alourdi/alourdie alourdis/alourdies,1
+farcir,VER,,15.96,farci/farcie farcis/farcies,1
+lover,VER,,15.879999999999999,lové/lovée lovés/lovées,1
+prédire,VER,,15.870000000000001,prédit/prédite,1
+empirer,VER,,15.84,empiré/empirée,1
+blâmer,VER,,15.8,blâmé/blâmée blâmés/blâmées,1
+orienter,VER,,15.8,orienté/orientée orientés/orientées,1
+durcir,VER,,15.780000000000001,durci/durcie durcis/durcies,1
+escorter,VER,,15.780000000000001,escorté/escortée escortés/escortées,1
+repentir,VER,,15.77,repenti/repentie repentis/repenties,2
+souper,VER,,15.77,soupé,2
+tripoter,VER,,15.77,tripoté/tripotée tripotés/tripotées,1
+équiper,VER,,15.73,équipé/équipée équipés/équipées,1
+localiser,VER,,15.709999999999999,localisé/localisée localisés/localisées,1
+dériver,VER,,15.7,dérivé/dérivée dérivés/dérivées,1
+manoeuvrer,VER,,15.67,manoeuvré/manoeuvrée manoeuvrés/manoeuvrées,1
+éparpiller,VER,,15.67,éparpillé/éparpillée éparpillés/éparpillées,1
+enjamber,VER,,15.66,enjambé/enjambée enjambés/enjambées,1
+exalter,VER,,15.639999999999999,exalté/exaltée exaltés/exaltées,1
+couver,VER,,15.62,couvé/couvée couvés/couvées,1
+contracter,VER,,15.610000000000001,contracté/contractée contractés/contractées,1
+assombrir,VER,,15.61,assombri/assombrie assombris/assombries,1
+rincer,VER,,15.61,rincé/rincée rincés/rincées,1
+décréter,VER,,15.600000000000001,décrété/décrétée décrétés,1
+miser,VER,,15.58,misé,1
+restaurer,VER,,15.57,restauré/restaurée restaurés/restaurées,1
+évaluer,VER,,15.48,évalué/évaluée évalués/évaluées,1
+flinguer,VER,,15.469999999999999,flingué/flinguée flingués,1
+révolter,VER,,15.46,révolté/révoltée révoltés/révoltées,1
+borner,VER,,15.43,borné/bornée bornés/bornées,1
+damer,VER,,15.379999999999999,damé/damée damées,1
+perturber,VER,,15.37,perturbé/perturbée perturbés/perturbées,1
+percher,VER,,15.34,perché/perchée perchés/perchées,1
+digérer,VER,,15.329999999999998,digéré/digérée digérés/digérées,1
+présider,VER,,15.329999999999998,présidé/présidée présidés,1
+miner,VER,,15.3,miné/minée minés/minées,1
+ajuster,VER,,15.29,ajusté/ajustée ajustés/ajustées,1
+marmonner,VER,,15.25,marmonné/marmonnée marmonnés,1
+prêcher,VER,,15.25,prêché/prêchée,1
+saouler,VER,,15.22,saoulé/saoulée saoulés/saoulées,1
+aventurer,VER,,15.2,aventuré/aventurée aventurés/aventurées,1
+déformer,VER,,15.18,déformé/déformée déformés/déformées,1
+alimenter,VER,,15.16,alimenté/alimentée alimentés/alimentées,1
+croître,VER,,15.129999999999999,crû/crue crues,1
+cramponner,VER,,15.12,cramponné/cramponnée cramponnés/cramponnées,1
+atténuer,VER,,15.110000000000001,atténué/atténuée atténués/atténuées,1
+reconstruire,VER,,15.08,reconstruit/reconstruite reconstruits/reconstruites,1
+affaler,VER,,15.06,affalé/affalée affalés/affalées,1
+rhabiller,VER,,15.03,rhabillé/rhabillée rhabillés/rhabillées,1
+tressaillir,VER,,15.020000000000001,tressailli,1
+tabasser,VER,,15.010000000000002,tabassé/tabassée tabassés,1
+mouvoir,VER,,14.93,"mû, mus",1
+déguster,VER,,14.920000000000002,dégusté/dégustée dégustés/dégustées,1
+répugner,VER,,14.89,répugné/répugnée,1
+intégrer,VER,,14.870000000000001,intégré/intégrée intégrés/intégrées,1
+scier,VER,,14.87,scié/sciée sciés/sciées,1
+palper,VER,,14.85,"palpé, palpés",1
+contredire,VER,,14.83,contredit/contredite contredits/contredites,1
+décliner,VER,,14.829999999999998,décliné/déclinée,1
+resserrer,VER,,14.82,resserré/resserrée resserrés/resserrées,1
+broncher,VER,,14.81,bronché,1
+vaciller,VER,,14.71,vacillé,1
+maigrir,VER,,14.690000000000001,maigri/maigrie maigris,1
+accroître,VER,,14.66,accru/accrue accrus/accrues,1
+tituber,VER,,14.65,titubé,1
+hérisser,VER,,14.63,hérissé/hérissée hérissés/hérissées,1
+démonter,VER,,14.6,démonté/démontée démontés/démontées,1
+empresser,VER,,14.56,empressé/empressée empressés/empressées,1
+mijoter,VER,,14.55,"mijoté, mijotés",1
+blottir,VER,,14.54,blotti/blottie blottis/blotties,1
+aménager,VER,,14.52,aménagé/aménagée aménagés/aménagées,1
+affaiblir,VER,,14.5,affaibli/affaiblie affaiblis/affaiblies,1
+déprimer,VER,,14.459999999999999,déprimé/déprimée déprimés/déprimées,1
+pécher,VER,,14.459999999999999,"péché, péchés",1
+succomber,VER,,14.45,succombé,1
+espionner,VER,,14.44,espionné/espionnée espionnés,1
+dispenser,VER,,14.42,dispensé/dispensée dispensés/dispensées,1
+chatouiller,VER,,14.4,chatouillé/chatouillée chatouillés/chatouillées,1
+river,VER,,14.350000000000001,rivé/rivée rivés/rivées,1
+recroqueviller,VER,,14.34,recroquevillé/recroquevillée recroquevillés/recroquevillées,1
+adoucir,VER,,14.28,adouci/adoucie adoucis/adoucies,1
+intituler,VER,,14.25,intitulé/intitulée intitulés/intitulées,1
+suffoquer,VER,,14.24,suffoqué/suffoquée suffoqués,1
+balbutier,VER,,14.22,"balbutié, balbutiés",1
+articuler,VER,,14.18,articulé/articulée articulés/articulées,1
+rattacher,VER,,14.16,rattaché/rattachée rattachés/rattachées,1
+déshonorer,VER,,14.14,déshonoré/déshonorée déshonorés/déshonorées,1
+illustrer,VER,,14.14,illustré/illustrée illustrés/illustrées,1
+scintiller,VER,,14.129999999999999,scintillé,1
+tisser,VER,,14.120000000000001,tissé/tissée tissés/tissées,1
+bredouiller,VER,,14.110000000000001,bredouillé,1
+rebondir,VER,,14.1,rebondi/rebondie rebondis/rebondies,1
+frayer,VER,,14.09,frayé/frayée,1
+déverser,VER,,14.06,déversé/déversée déversés/déversées,1
+grommeler,VER,,14.06,grommelé/grommelée,1
+amorcer,VER,,13.950000000000001,amorcé/amorcée amorcés/amorcées,1
+contaminer,VER,,13.950000000000001,contaminé/contaminée contaminés/contaminées,1
+saler,VER,,13.95,salé/salée salés/salées,1
+compenser,VER,,13.91,compensé/compensée compensés/compensées,1
+dégringoler,VER,,13.91,dégringolé/dégringolée dégringolés,1
+entraver,VER,,13.899999999999999,entravé/entravée entravés/entravées,1
+inverser,VER,,13.86,inversé/inversée inversés/inversées,1
+racler,VER,,13.86,raclé/raclée raclés/raclées,1
+dénicher,VER,,13.85,déniché/dénichée dénichés/dénichées,1
+officier,VER,,13.84,officié,2
+rallumer,VER,,13.84,rallumé/rallumée rallumés/rallumées,1
+désarmer,VER,,13.829999999999998,désarmé/désarmée désarmés/désarmées,1
+daigner,VER,,13.8,daigné,1
+réprimer,VER,,13.8,réprimé/réprimée réprimés/réprimées,1
+favoriser,VER,,13.799999999999999,favorisé/favorisée favorisés/favorisées,1
+grignoter,VER,,13.79,grignoté/grignotée grignotés/grignotées,1
+différer,VER,,13.780000000000001,différé/différée différées,1
+osciller,VER,,13.74,oscillé,1
+redoubler,VER,,13.74,redoublé/redoublée redoublés,1
+épater,VER,,13.739999999999998,épaté/épatée épatés,1
+dénouer,VER,,13.72,dénoué/dénouée dénoués/dénouées,1
+enrager,VER,,13.7,enragé/enragée enragés/enragées,1
+rendormir,VER,,13.670000000000002,"rendormi, rendormis",1
+ressaisir,VER,,13.64,ressaisi/ressaisie ressaisis,1
+revendre,VER,,13.64,revendu/revendue revendus/revendues,1
+recruter,VER,,13.600000000000001,recruté/recrutée recrutés/recrutées,1
+gaver,VER,,13.580000000000002,gavé/gavée gavés/gavées,1
+acquiescer,VER,,13.58,acquiescé,1
+confronter,VER,,13.55,confronté/confrontée confrontés/confrontées,1
+bénéficier,VER,,13.51,bénéficié,1
+desserrer,VER,,13.420000000000002,desserré/desserrée desserrés/desserrées,1
+contester,VER,,13.42,contesté/contestée contestés/contestées,1
+lisser,VER,,13.39,lissé/lissée lissés/lissées,1
+mobiliser,VER,,13.38,mobilisé/mobilisée mobilisés/mobilisées,1
+assaillir,VER,,13.379999999999999,assailli/assaillie assaillis/assaillies,1
+terrifier,VER,,13.350000000000001,terrifié/terrifiée terrifiés/terrifiées,1
+onduler,VER,,13.309999999999999,ondulé/ondulée ondulés/ondulées,1
+abstenir,VER,,13.299999999999999,abstenu/abstenue abstenus/abstenues,1
+affranchir,VER,,13.29,affranchi/affranchie affranchis/affranchies,1
+impatienter,VER,,13.28,impatienté/impatientée impatientés,1
+infiltrer,VER,,13.23,infiltré/infiltrée infiltrés/infiltrées,1
+replonger,VER,,13.22,replongé/replongée replongés/replongées,1
+enfler,VER,,13.219999999999999,enflé/enflée enflés/enflées,1
+assoupir,VER,,13.19,assoupi/assoupie assoupis/assoupies,1
+paumer,VER,,13.19,paumé/paumée paumés/paumées,1
+déceler,VER,,13.15,décelé/décelée décelés/décelées,1
+bouder,VER,,13.149999999999999,boudé/boudée boudés,1
+rajeunir,VER,,13.11,rajeuni/rajeunie rajeunis/rajeunies,1
+déduire,VER,,13.09,déduit/déduite déduits/déduites,1
+doter,VER,,13.07,doté/dotée dotés/dotées,1
+reconduire,VER,,13.06,reconduit/reconduite reconduits,1
+reporter,VER,,13.02,reporté/reportée reportés/reportées,3
+vautrer,VER,,13.0,vautré/vautrée vautrés/vautrées,1
+coopérer,VER,,12.99,coopéré,1
+éclipser,VER,,12.99,éclipsé/éclipsée éclipsés/éclipsées,1
+crisser,VER,,12.95,crissé,1
+collaborer,VER,,12.940000000000001,collaboré,1
+apprivoiser,VER,,12.94,apprivoisé/apprivoisée apprivoisés/apprivoisées,1
+gerber,VER,,12.94,gerbé/gerbée gerbés/gerbées,1
+présumer,VER,,12.94,présumé/présumée présumés,1
+broyer,VER,,12.93,broyé/broyée broyés/broyées,1
+trotter,VER,,12.93,trotté,1
+sceller,VER,,12.92,scellé/scellée scellés/scellées,1
+ravager,VER,,12.91,ravagé/ravagée ravagés/ravagées,1
+détecter,VER,,12.899999999999999,détecté/détectée détectés/détectées,1
+édifier,VER,,12.860000000000001,édifié/édifiée édifiés/édifiées,1
+grimacer,VER,,12.85,grimacé,1
+influencer,VER,,12.830000000000002,influencé/influencée influencés,1
+griffer,VER,,12.809999999999999,griffé/griffée griffés/griffées,1
+astiquer,VER,,12.8,astiqué/astiquée astiqués/astiquées,1
+répartir,VER,,12.8,réparti/répartie répartis/réparties,1
+purifier,VER,,12.780000000000001,purifié/purifiée purifiés/purifiées,1
+esquiver,VER,,12.77,esquivé/esquivée,1
+conter,VER,,12.75,conté/contée contés/contées,1
+tapir,VER,,12.74,tapi/tapie tapis/tapies,2
+rectifier,VER,,12.719999999999999,rectifié/rectifiée rectifiés/rectifiées,1
+tinter,VER,,12.709999999999999,"tinté, tintés",1
+émaner,VER,,12.7,émané/émanée émanés/émanées,1
+déferler,VER,,12.66,déferlé,1
+blaguer,VER,,12.65,blagué,1
+charmer,VER,,12.65,charmé/charmée charmés,1
+dédaigner,VER,,12.65,dédaigné/dédaignée dédaignés,1
+fouler,VER,,12.65,foulé/foulée foulés/foulées,1
+financer,VER,,12.620000000000001,financé/financée financés,1
+rayonner,VER,,12.62,rayonné,1
+infecter,VER,,12.600000000000001,infecté/infectée infectés/infectées,1
+allier,VER,,12.59,allié/alliée alliés/alliées,3
+requérir,VER,,12.59,requis/requise requises,1
+haleter,VER,,12.55,haleté,1
+noircir,VER,,12.55,noirci/noircie noircis/noircies,1
+transpercer,VER,,12.53,transpercé/transpercée transpercés/transpercées,1
+pétrir,VER,,12.49,pétri/pétrie pétris/pétries,1
+verrouiller,VER,,12.49,verrouillé/verrouillée verrouillés/verrouillées,1
+caser,VER,,12.46,casé/casée casés/casées,1
+éplucher,VER,,12.459999999999999,épluché/épluchée épluchés/épluchées,1
+propager,VER,,12.43,propagé/propagée propagés/propagées,1
+terroriser,VER,,12.41,terrorisé/terrorisée terrorisés/terrorisées,1
+abolir,VER,,12.4,aboli/abolie abolis/abolies,1
+relancer,VER,,12.379999999999999,relancé/relancée relancés/relancées,1
+initier,VER,,12.37,initié/initiée initiés/initiées,1
+prodiguer,VER,,12.31,prodigué/prodiguée prodigués/prodiguées,1
+héberger,VER,,12.26,hébergé/hébergée hébergés/hébergées,1
+affaisser,VER,,12.25,affaissé/affaissée affaissés/affaissées,1
+conjurer,VER,,12.23,conjuré/conjurée conjurés/conjurées,1
+pondre,VER,,12.23,pondu/pondue pondus,1
+déraper,VER,,12.16,dérapé,1
+parfumer,VER,,12.16,parfumé/parfumée parfumés/parfumées,1
+rimer,VER,,12.16,rimé/rimée rimés,1
+absenter,VER,,12.149999999999999,absenté/absentée absentés,1
+acquitter,VER,,12.11,acquitté/acquittée acquittés,1
+ranimer,VER,,12.11,ranimé/ranimée ranimés/ranimées,1
+étinceler,VER,,12.100000000000001,étincelé,1
+tapisser,VER,,12.07,tapissé/tapissée tapissés/tapissées,1
+engourdir,VER,,12.06,engourdi/engourdie engourdis/engourdies,1
+choir,VER,,12.05,chu/chue chus/chues,1
+palpiter,VER,,12.05,palpité,1
+résulter,VER,,12.040000000000001,résulté,1
+mûrir,VER,,12.01,mûri/mûrie mûris/mûries,1
+repeindre,VER,,12.01,repeint/repeinte repeints/repeintes,1
+shooter,VER,,11.98,shooté/shootée shootés,1
+devancer,VER,,11.979999999999999,devancé/devancée devancés,1
+fausser,VER,,11.959999999999999,faussé/faussée faussés/faussées,1
+réviser,VER,,11.930000000000001,révisé/révisée révisés/révisées,1
+clocher,VER,,11.9,cloché,2
+prélever,VER,,11.879999999999999,prélevé/prélevée prélevés/prélevées,1
+marteler,VER,,11.86,martelé/martelée martelés/martelées,1
+ridiculiser,VER,,11.86,ridiculisé/ridiculisée ridiculisés/ridiculisées,1
+éduquer,VER,,11.85,éduqué/éduquée éduqués/éduquées,1
+ronronner,VER,,11.84,ronronné,1
+pleurnicher,VER,,11.83,pleurniché,1
+restituer,VER,,11.83,restitué/restituée restitués/restituées,1
+recoucher,VER,,11.799999999999999,recouché/recouchée recouchés/recouchées,1
+démerder,VER,,11.79,démerdé/démerdée démerdés,1
+neiger,VER,,11.79,neigé,1
+ramer,VER,,11.79,"ramé, ramés",1
+éclabousser,VER,,11.780000000000001,éclaboussé/éclaboussée éclaboussés/éclaboussées,1
+résider,VER,,11.77,résidé,1
+bourdonner,VER,,11.73,bourdonné,1
+angoisser,VER,,11.719999999999999,angoissé/angoissée angoissés/angoissées,1
+dégonfler,VER,,11.719999999999999,dégonflé/dégonflée dégonflés/dégonflées,1
+amasser,VER,,11.7,amassé/amassée amassés/amassées,1
+fracasser,VER,,11.69,fracassé/fracassée fracassés/fracassées,1
+ensevelir,VER,,11.68,enseveli/ensevelie ensevelis/ensevelies,1
+simuler,VER,,11.68,simulé/simulée simulés/simulées,1
+gicler,VER,,11.65,giclé/giclée,1
+enivrer,VER,,11.64,enivré/enivrée enivrés/enivrées,1
+inclure,VER,,11.629999999999999,inclus,1
+tortiller,VER,,11.620000000000001,tortillé/tortillée tortillés/tortillées,1
+exhaler,VER,,11.610000000000001,exhalé/exhalée,1
+varier,VER,,11.61,varié/variée variés/variées,1
+survoler,VER,,11.6,survolé/survolée survolées,1
+gober,VER,,11.58,gobé/gobée gobés/gobées,1
+administrer,VER,,11.569999999999999,administré/administrée administrés/administrées,1
+régir,VER,,11.549999999999999,régi/régie régis/régies,1
+arpenter,VER,,11.53,arpenté/arpentée arpentés,1
+grelotter,VER,,11.52,grelotté/grelottée,1
+trier,VER,,11.52,trié/triée triés/triées,1
+crépiter,VER,,11.51,crépité,1
+surnommer,VER,,11.48,surnommé/surnommée surnommés,1
+haver,VER,,11.47,have,1
+teinter,VER,,11.46,teinté/teintée teintés/teintées,1
+décéder,VER,,11.420000000000002,décédé/décédée décédés/décédées,1
+extirper,VER,,11.42,extirpé/extirpée extirpés/extirpées,1
+fuser,VER,,11.38,fusé/fusée fusées,1
+frire,VER,,11.36,"frit, frits",1
+foudroyer,VER,,11.35,foudroyé/foudroyée foudroyés/foudroyées,1
+fredonner,VER,,11.35,fredonné/fredonnée fredonnés/fredonnées,1
+griser,VER,,11.299999999999999,grisé/grisée grisés/grisées,1
+souder,VER,,11.239999999999998,soudé/soudée soudés/soudées,1
+tâtonner,VER,,11.239999999999998,tâtonné/tâtonnée,1
+écoeurer,VER,,11.22,écoeuré/écoeurée écoeurés/écoeurées,1
+approprier,VER,,11.2,approprié/appropriée appropriés/appropriées,1
+éponger,VER,,11.17,épongé/épongée épongés,1
+meubler,VER,,11.149999999999999,meublé/meublée meublés/meublées,1
+saper,VER,,11.14,sapé/sapée sapés/sapées,1
+visser,VER,,11.14,vissé/vissée vissés/vissées,1
+arborer,VER,,11.139999999999999,arboré/arborée arborés,1
+cavaler,VER,,11.11,cavalé,1
+siffloter,VER,,11.09,siffloté,1
+gaffer,VER,,11.08,gaffé/gaffée gaffés,1
+rétrécir,VER,,11.08,rétréci/rétrécie rétrécis/rétrécies,1
+démasquer,VER,,11.07,démasqué/démasquée démasqués/démasquées,1
+chavirer,VER,,11.06,chaviré/chavirée chavirés,1
+exaucer,VER,,11.059999999999999,exaucé/exaucée exaucés/exaucées,1
+écorcher,VER,,11.05,écorché/écorchée écorchés/écorchées,1
+trafiquer,VER,,11.03,trafiqué/trafiquée trafiqués/trafiquées,1
+coter,VER,,11.020000000000001,coté/cotée cotés/cotées,1
+bafouiller,VER,,11.0,bafouillé,1
+secourir,VER,,10.98,secouru/secourue secourus/secourues,1
+taquiner,VER,,10.98,taquiné/taquinée,1
+somnoler,VER,,10.97,somnolé,1
+exterminer,VER,,10.899999999999999,exterminé/exterminée exterminés/exterminées,1
+assembler,VER,,10.89,assemblé/assemblée assemblés/assemblées,1
+poindre,VER,,10.89,poindre,1
+fléchir,VER,,10.86,fléchi/fléchie fléchis/fléchies,1
+méprendre,VER,,10.850000000000001,mépris,1
+combiner,VER,,10.85,combiné/combinée combinés/combinées,1
+jucher,VER,,10.85,juché/juchée juchés/juchées,1
+bronzer,VER,,10.84,bronzé/bronzée bronzés/bronzées,1
+camoufler,VER,,10.84,camouflé/camouflée camouflés/camouflées,1
+collectionner,VER,,10.81,"collectionné, collectionnés",1
+débloquer,VER,,10.8,débloqué/débloquée débloqués,1
+lamenter,VER,,10.8,"lamenté, lamentés",1
+mimer,VER,,10.79,mimé/mimée,1
+atteler,VER,,10.7,attelé/attelée attelés/attelées,1
+saccager,VER,,10.690000000000001,saccagé/saccagée saccagés/saccagées,1
+décapiter,VER,,10.68,décapité/décapitée décapités/décapitées,1
+patauger,VER,,10.68,pataugé,1
+confectionner,VER,,10.66,confectionné/confectionnée confectionnés/confectionnées,1
+modeler,VER,,10.66,modelé/modelée modelés/modelées,1
+épaissir,VER,,10.66,épaissi/épaissie épaissis/épaissies,1
+expirer,VER,,10.649999999999999,expiré/expirée expirés,1
+simplifier,VER,,10.64,simplifié/simplifiée simplifiés/simplifiées,1
+crouler,VER,,10.61,croulé/croulée croulés,1
+léguer,VER,,10.59,légué/léguée légués/léguées,1
+pivoter,VER,,10.58,pivoté,1
+sillonner,VER,,10.58,sillonné/sillonnée sillonnés/sillonnées,1
+remarier,VER,,10.57,remarié/remariée remariés,1
+déplorer,VER,,10.569999999999999,déploré/déplorée déplorés,1
+mendier,VER,,10.56,mendié/mendiée mendiées,1
+picoler,VER,,10.55,picolé,1
+pétrifier,VER,,10.55,pétrifié/pétrifiée pétrifiés/pétrifiées,1
+alléger,VER,,10.54,allégé/allégée allégés/allégées,1
+trôner,VER,,10.54,trôné,1
+dévouer,VER,,10.52,dévoué/dévouée dévoués/dévouées,1
+stationner,VER,,10.52,stationné/stationnée stationnés/stationnées,1
+vénérer,VER,,10.52,vénéré/vénérée vénérés/vénérées,1
+ruminer,VER,,10.51,ruminé/ruminée ruminés/ruminées,1
+colorer,VER,,10.49,coloré/colorée colorés/colorées,1
+excéder,VER,,10.450000000000001,excédé/excédée excédés/excédées,1
+maltraiter,VER,,10.43,maltraité/maltraitée maltraités/maltraitées,1
+ravaler,VER,,10.41,ravalé/ravalée ravalés/ravalées,1
+estomper,VER,,10.39,estompé/estompée estompés/estompées,1
+retrousser,VER,,10.38,retroussé/retroussée retroussés/retroussées,1
+affamer,VER,,10.34,affamé/affamée affamés/affamées,1
+bannir,VER,,10.34,banni/bannie bannis/bannies,1
+mouler,VER,,10.34,moulé/moulée moulés/moulées,1
+terrer,VER,,10.32,terré/terrée terrés/terrées,1
+barbouiller,VER,,10.3,barbouillé/barbouillée barbouillés/barbouillées,1
+décomposer,VER,,10.3,décomposé/décomposée décomposés/décomposées,1
+intercepter,VER,,10.29,intercepté/interceptée interceptés/interceptées,1
+amplifier,VER,,10.280000000000001,amplifié/amplifiée amplifiés/amplifiées,1
+déballer,VER,,10.280000000000001,déballé/déballée déballés/déballées,1
+vernir,VER,,10.28,verni/vernie vernis/vernies,1
+humer,VER,,10.26,humé/humée humés,1
+friser,VER,,10.24,frisé/frisée frisés/frisées,1
+flâner,VER,,10.200000000000001,flâné,1
+métamorphoser,VER,,10.2,métamorphosé/métamorphosée métamorphosés/métamorphosées,1
+bricoler,VER,,10.18,bricolé/bricolée bricolés/bricolées,1
+incendier,VER,,10.18,incendié/incendiée incendiés/incendiées,1
+altérer,VER,,10.120000000000001,altéré/altérée altérés/altérées,1
+convier,VER,,10.120000000000001,convié/conviée conviés/conviées,1
+bégayer,VER,,10.11,bégayées,1
+flirter,VER,,10.1,flirté,1
+pouffer,VER,,10.1,pouffé,1
+surpasser,VER,,10.09,surpassé/surpassée surpassés/surpassées,1
+délaisser,VER,,10.07,délaissé/délaissée délaissés/délaissées,1
+joncher,VER,,10.06,jonché/jonchée jonchés/jonchées,1
+échauffer,VER,,10.03,échauffé/échauffée échauffés/échauffées,1
+accoutumer,VER,,10.01,accoutumé/accoutumée accoutumés/accoutumées,1
+soustraire,VER,,10.01,soustrait/soustraite soustraits/soustraites,1
+tresser,VER,,10.0,tressé/tressée tressés/tressées,1
+aiguiser,VER,,9.98,aiguisé/aiguisée aiguisés/aiguisées,1
+rappliquer,VER,,9.96,rappliqué,1
+injecter,VER,,9.94,injecté/injectée injectés,1
+embaumer,VER,,9.92,embaumé/embaumée embaumés/embaumées,1
+clamer,VER,,9.91,clamé/clamée clamés,1
+jacter,VER,,9.889999999999999,jacté,1
+cheminer,VER,,9.86,cheminé/cheminée cheminées,1
+enquérir,VER,,9.86,enquis/enquise,1
+côtoyer,VER,,9.85,côtoyé/côtoyée côtoyés/côtoyées,1
+entonner,VER,,9.85,entonné,1
+pomper,VER,,9.83,pompé/pompée pompés,1
+surcharger,VER,,9.82,surchargé/surchargée surchargés/surchargées,1
+pulvériser,VER,,9.8,pulvérisé/pulvérisée pulvérisés/pulvérisées,1
+épouvanter,VER,,9.78,épouvanté/épouvantée épouvantés/épouvantées,1
+avorter,VER,,9.75,avorté/avortée avortés/avortées,1
+assimiler,VER,,9.74,assimilé/assimilée assimilés/assimilées,1
+surfer,VER,,9.74,surfé,1
+spécialiser,VER,,9.73,spécialisé/spécialisée spécialisés/spécialisées,1
+dégouliner,VER,,9.72,dégouliné,1
+recoudre,VER,,9.719999999999999,recousu/recousue recousus,1
+asperger,VER,,9.71,aspergé/aspergée aspergés/aspergées,1
+languir,VER,,9.71,"langui, languis",1
+recopier,VER,,9.71,recopié/recopiée recopiés/recopiées,1
+faiblir,VER,,9.65,faibli,1
+écarquiller,VER,,9.61,écarquillé/écarquillée écarquillés/écarquillées,1
+labourer,VER,,9.59,labouré/labourée labourés/labourées,1
+pourchasser,VER,,9.59,pourchassé/pourchassée pourchassés/pourchassées,1
+épingler,VER,,9.58,épinglé/épinglée épinglés/épinglées,1
+déboutonner,VER,,9.57,déboutonné/déboutonnée déboutonnés/déboutonnées,1
+ligoter,VER,,9.56,ligoté/ligotée ligotés/ligotées,1
+appréhender,VER,,9.559999999999999,appréhendé/appréhendée appréhendés/appréhendées,1
+gorger,VER,,9.559999999999999,gorgé/gorgée gorgés/gorgées,1
+déambuler,VER,,9.540000000000001,déambulé,1
+surplomber,VER,,9.54,surplombé/surplombée surplombés,1
+rétorquer,VER,,9.52,rétorqué,1
+découverte,VER,f,9.51,"découverte, découvertes",3
+regrouper,VER,,9.51,regroupé/regroupée regroupés/regroupées,1
+suspecter,VER,,9.51,suspecté/suspectée suspectés/suspectées,1
+confisquer,VER,,9.5,confisqué/confisquée confisqués/confisquées,1
+ouïr,VER,,9.5,ouï/ouïe ouïs,1
+embraser,VER,,9.49,embrasé/embrasée embrasés/embrasées,1
+piler,VER,,9.49,pilé/pilée pilés/pilées,1
+renouer,VER,,9.47,renoué/renouée renoués,1
+sautiller,VER,,9.45,sautillé,1
+ponctuer,VER,,9.44,ponctué/ponctuée ponctués/ponctuées,1
+programmer,VER,,9.44,programmé/programmée programmés/programmées,1
+séjourner,VER,,9.44,séjourné,1
+connecter,VER,,9.420000000000002,connecté/connectée connectés/connectées,1
+démentir,VER,,9.41,démenti/démentie démenties,1
+débrancher,VER,,9.4,débranché/débranchée débranchés/débranchées,1
+égaler,VER,,9.35,égalé/égalée égalées,1
+substituer,VER,,9.34,"substitué, substitués",1
+doucher,VER,,9.32,douché/douchée douchés,1
+roupiller,VER,,9.290000000000001,roupillé,1
+faner,VER,,9.27,fané/fanée fanés/fanées,1
+approfondir,VER,,9.26,approfondi/approfondie approfondis/approfondies,1
+chiner,VER,,9.26,chiné/chinée chinées,1
+refouler,VER,,9.24,refoulé/refoulée refoulés/refoulées,1
+replacer,VER,,9.24,replacé/replacée replacés,1
+happer,VER,,9.23,happé/happée happés/happées,1
+jaunir,VER,,9.23,jauni/jaunie jaunis/jaunies,1
+rugir,VER,,9.23,"rugi, rugis",1
+attester,VER,,9.219999999999999,attesté/attestée attestées,1
+farder,VER,,9.19,fardé/fardée fardés/fardées,1
+promouvoir,VER,,9.19,promu/promue promus/promues,1
+assigner,VER,,9.18,assigné/assignée assignés/assignées,1
+sommer,VER,,9.18,sommé/sommée sommés,1
+affliger,VER,,9.16,affligé/affligée affligés,1
+omettre,VER,,9.15,omis/omise omises,1
+attrister,VER,,9.129999999999999,attristé/attristée attristés,1
+barder,VER,,9.129999999999999,bardé/bardée bardés/bardées,1
+muter,VER,,9.129999999999999,muté/mutée mutés/mutées,1
+proférer,VER,,9.120000000000001,proféré/proférée proférés/proférées,1
+façonner,VER,,9.11,façonné/façonnée façonnés/façonnées,1
+moucher,VER,,9.1,mouché/mouchée mouchés,1
+abréger,VER,,9.07,abrégé/abrégée,1
+voguer,VER,,9.04,vogué,1
+coïncider,VER,,9.02,coïncidé,1
+saboter,VER,,9.02,saboté/sabotée sabotés/sabotées,1
+affluer,VER,,9.01,afflué,1
+corrompre,VER,,8.97,corrompu/corrompue corrompus/corrompues,1
+déterrer,VER,,8.95,déterré/déterrée déterrés/déterrées,1
+riposter,VER,,8.95,riposté,1
+essouffler,VER,,8.94,essoufflé/essoufflée essoufflés,1
+consigner,VER,,8.93,consigné/consignée consignés/consignées,1
+ferrer,VER,,8.92,ferré/ferrée ferrés/ferrées,1
+niquer,VER,,8.92,niqué/niquée niqués,1
+éprendre,VER,,8.9,épris/éprise éprises,1
+loucher,VER,,8.89,louché/louchée,1
+moisir,VER,,8.85,moisi/moisie moisis/moisies,1
+sévir,VER,,8.84,sévi,1
+planifier,VER,,8.83,planifié/planifiée planifiés,1
+contraster,VER,,8.790000000000001,contrasté/contrastée contrastés/contrastées,1
+incorporer,VER,,8.77,incorporé/incorporée incorporés/incorporées,1
+étourdir,VER,,8.77,étourdi/étourdie étourdis,1
+bonnir,VER,,8.76,bonni/bonnie,1
+rafler,VER,,8.76,raflé/raflée raflés/raflées,1
+divertir,VER,,8.75,diverti/divertie divertis,1
+enduire,VER,,8.75,enduit/enduite enduits/enduites,1
+apitoyer,VER,,8.74,apitoyé/apitoyée apitoyés/apitoyées,1
+fortifier,VER,,8.74,fortifié/fortifiée fortifiés/fortifiées,1
+peloter,VER,,8.74,peloté/pelotée pelotés,1
+torcher,VER,,8.74,torché/torchée torchés,1
+alarmer,VER,,8.73,alarmé/alarmée alarmés/alarmées,1
+ratisser,VER,,8.719999999999999,ratissé/ratissée ratissés/ratissées,1
+persécuter,VER,,8.71,persécuté/persécutée persécutés/persécutées,1
+trimbaler,VER,,8.71,trimbalé/trimbalée trimbalés,1
+purger,VER,,8.7,purgé/purgée purgés/purgées,1
+défigurer,VER,,8.69,défiguré/défigurée défigurés/défigurées,1
+esclaffer,VER,,8.67,esclaffé/esclaffée esclaffés,1
+bluffer,VER,,8.66,bluffé/bluffée bluffés/bluffées,1
+muer,VER,,8.66,mué/muée mués/muées,1
+stimuler,VER,,8.649999999999999,stimulé/stimulée stimulés/stimulées,1
+imbiber,VER,,8.64,imbibé/imbibée imbibés/imbibées,1
+retrancher,VER,,8.64,retranché/retranchée retranchés/retranchées,1
+enfreindre,VER,,8.629999999999999,enfreint/enfreinte enfreintes,1
+boxer,VER,,8.620000000000001,"boxé, boxés",2
+inculper,VER,,8.620000000000001,inculpé/inculpée inculpés,1
+griffonner,VER,,8.62,griffonné/griffonnée griffonnés/griffonnées,1
+énumérer,VER,,8.62,énuméré,1
+casquer,VER,,8.61,casqué/casquée casqués/casquées,1
+gourer,VER,,8.61,gouré/gourée gourés/gourées,1
+pédaler,VER,,8.61,pédalées,1
+tanguer,VER,,8.6,tangué,1
+magner,VER,,8.59,magné,1
+scandaliser,VER,,8.58,scandalisé/scandalisée scandalisés/scandalisées,1
+abrutir,VER,,8.57,abruti/abrutie abrutis/abruties,1
+chanceler,VER,,8.56,chancelé,1
+soûler,VER,,8.56,soûlé/soûlée soûlés/soûlées,1
+sommeiller,VER,,8.559999999999999,sommeillé,1
+cribler,VER,,8.55,criblé/criblée criblés/criblées,1
+embellir,VER,,8.54,embelli/embellie embellis/embellies,1
+entêter,VER,,8.54,entêté/entêtée entêtés,1
+toiser,VER,,8.520000000000001,toisé/toisée toisés,1
+déléguer,VER,,8.52,délégué/déléguée délégués,1
+narguer,VER,,8.48,nargué,1
+interposer,VER,,8.45,interposé/interposée interposés/interposées,1
+refluer,VER,,8.44,reflué/refluée,1
+relayer,VER,,8.44,relayé/relayée relayés/relayées,1
+coffrer,VER,,8.43,coffré/coffrée coffrés/coffrées,1
+raccourcir,VER,,8.41,raccourci/raccourcie raccourcis/raccourcies,1
+braver,VER,,8.4,bravé/bravée,1
+boutonner,VER,,8.39,boutonné/boutonnée boutonnés/boutonnées,1
+gamberger,VER,,8.39,gambergé,1
+sonder,VER,,8.38,sondé/sondée sondés,1
+communier,VER,,8.370000000000001,communié,1
+injurier,VER,,8.36,injurié/injuriée injuriés,1
+murer,VER,,8.35,muré/murée murés/murées,1
+sous-estimer,VER,,8.35,sous-estimé/sous-estimée sous-estimés/sous-estimées,1
+alterner,VER,,8.32,alterné/alternée alternés/alternées,1
+maculer,VER,,8.290000000000001,maculé/maculée maculés/maculées,1
+profiler,VER,,8.29,profilé/profilée profilés/profilées,1
+nécessiter,VER,,8.280000000000001,nécessité/nécessitée nécessités/nécessitées,1
+neutraliser,VER,,8.28,neutralisé/neutralisée neutralisés/neutralisées,1
+rebrousser,VER,,8.28,rebroussé/rebroussée rebroussés/rebroussées,1
+traire,VER,,8.28,"trait, traits",1
+chuter,VER,,8.27,chuté/chutée,1
+répercuter,VER,,8.26,répercuté/répercutée répercutés/répercutées,1
+dévaliser,VER,,8.25,dévalisé/dévalisée dévalisés,1
+damner,VER,,8.24,damné/damnée damnés/damnées,1
+désobéir,VER,,8.24,désobéi,1
+siéger,VER,,8.21,siégé,1
+déchiqueter,VER,,8.2,déchiqueté/déchiquetée déchiquetés/déchiquetées,1
+hacher,VER,,8.19,haché/hachée hachés/hachées,1
+dévier,VER,,8.18,dévié/déviée déviés,1
+déconcerter,VER,,8.17,déconcerté/déconcertée déconcertés,1
+rôtir,VER,,8.17,rôti/rôtie rôtis/rôties,1
+débouler,VER,,8.16,"déboulé, déboulés",1
+lorgner,VER,,8.16,"lorgné, lorgnés",1
+dégrader,VER,,8.15,dégradé/dégradée dégradés/dégradées,1
+perler,VER,,8.15,perlé/perlée perlés/perlées,1
+réintégrer,VER,,8.14,réintégré/réintégrée réintégrés,1
+amarrer,VER,,8.13,amarré/amarrée amarrés/amarrées,1
+ébrouer,VER,,8.12,ébroué,1
+obscurcir,VER,,8.11,obscurci/obscurcie obscurcis/obscurcies,1
+draper,VER,,8.07,drapé/drapée drapés/drapées,1
+truquer,VER,,8.07,truqué/truquée truqués/truquées,1
+recharger,VER,,8.06,rechargé/rechargée rechargés/rechargées,1
+superposer,VER,,8.06,superposé/superposée superposés/superposées,1
+attabler,VER,,8.04,attablé/attablée attablés/attablées,1
+importuner,VER,,8.04,importuné/importunée importunés,1
+teindre,VER,,8.030000000000001,"teint, teints",1
+ébaucher,VER,,8.02,ébauché/ébauchée,1
+égrener,VER,,8.02,égrené/égrenée égrenés/égrenées,1
+tamponner,VER,,8.01,tamponné/tamponnée tamponnés,1
+éventrer,VER,,8.01,éventré/éventrée éventrés/éventrées,1
+frimer,VER,,7.99,frimé/frimée frimés/frimées,1
+bouillonner,VER,,7.98,bouillonné/bouillonnée bouillonnés/bouillonnées,1
+extasier,VER,,7.9799999999999995,extasié/extasiée extasiés/extasiées,1
+fouiner,VER,,7.970000000000001,fouiné,1
+déjouer,VER,,7.97,déjoué/déjouée déjoués/déjouées,1
+endosser,VER,,7.97,endossé/endossée endossés/endossées,1
+revendiquer,VER,,7.960000000000001,revendiqué/revendiquée,1
+assortir,VER,,7.95,assorti/assortie assortis/assorties,1
+gesticuler,VER,,7.95,gesticulé,1
+inaugurer,VER,,7.95,inauguré/inaugurée inaugurés,1
+cambrioler,VER,,7.949999999999999,cambriolé/cambriolée cambriolés/cambriolées,1
+tatouer,VER,,7.9399999999999995,tatoué/tatouée tatoués/tatouées,1
+enserrer,VER,,7.930000000000001,enserré/enserrée enserrés/enserrées,1
+motiver,VER,,7.93,motivé/motivée motivés/motivées,1
+dérailler,VER,,7.92,déraillé,1
+hypnotiser,VER,,7.92,hypnotisé/hypnotisée hypnotisés/hypnotisées,1
+redemander,VER,,7.91,redemandé,1
+perfectionner,VER,,7.880000000000001,perfectionné/perfectionnée perfectionnés/perfectionnées,1
+assourdir,VER,,7.87,assourdi/assourdie assourdis/assourdies,1
+barricader,VER,,7.87,barricadé/barricadée barricadés/barricadées,1
+flétrir,VER,,7.86,flétri/flétrie flétris/flétries,1
+renfermer,VER,,7.84,renfermé/renfermée renfermés/renfermées,1
+patiner,VER,,7.81,patiné/patinée patinés/patinées,1
+ployer,VER,,7.800000000000001,ployé/ployée ployés/ployées,1
+priser,VER,,7.79,prisé/prisée prisés/prisées,1
+châtier,VER,,7.78,châtié/châtiée châtiés,1
+ruser,VER,,7.78,rusé/rusée rusés/rusées,1
+adhérer,VER,,7.74,adhéré,1
+éternuer,VER,,7.74,éternué,1
+symboliser,VER,,7.720000000000001,symbolisé/symbolisée symbolisés,1
+trottiner,VER,,7.72,trottiné,1
+parsemer,VER,,7.71,parsemé/parsemée parsemés/parsemées,1
+trimer,VER,,7.6899999999999995,trimé,1
+voleter,VER,,7.680000000000001,voleta,1
+carrer,VER,,7.68,carré/carrée carrés/carrées,1
+stresser,VER,,7.68,stressé/stressée stressés/stressées,1
+brouter,VER,,7.66,brouté/broutée broutés,1
+scander,VER,,7.66,scandé/scandée scandés/scandées,1
+éjecter,VER,,7.640000000000001,éjecté/éjectée éjectés/éjectées,1
+reluquer,VER,,7.63,reluqué/reluquée reluqués,1
+actionner,VER,,7.62,actionné/actionnée actionnés/actionnées,1
+ficeler,VER,,7.62,ficelé/ficelée ficelés/ficelées,1
+ternir,VER,,7.6000000000000005,terni/ternie ternis/ternies,1
+téter,VER,,7.59,tété/tétée tétées,1
+convoiter,VER,,7.58,convoité/convoitée convoités/convoitées,1
+assouvir,VER,,7.5600000000000005,assouvi/assouvie assouvis/assouvies,1
+cramer,VER,,7.5600000000000005,cramé/cramée cramés/cramées,1
+acclamer,VER,,7.56,acclamé/acclamée acclamés/acclamées,1
+dandiner,VER,,7.56,dandinés,1
+hospitaliser,VER,,7.550000000000001,hospitalisé/hospitalisée hospitalisés/hospitalisées,1
+retaper,VER,,7.55,retapé/retapée retapés/retapées,1
+fourguer,VER,,7.540000000000001,fourgué/fourguée fourgués/fourguées,1
+concéder,VER,,7.53,concédé/concédée concédés,1
+klaxonner,VER,,7.53,klaxonné,1
+diluer,VER,,7.49,dilué/diluée dilués/diluées,1
+terrasser,VER,,7.48,terrassé/terrassée terrassés/terrassées,1
+duper,VER,,7.47,dupé/dupée dupés,1
+anticiper,VER,,7.449999999999999,anticipé/anticipée anticipés/anticipées,1
+hasarder,VER,,7.449999999999999,hasardé/hasardée,1
+licencier,VER,,7.42,licencié/licenciée licenciés,1
+délier,VER,,7.41,délié/déliée déliés/déliées,1
+harper,VER,,7.39,harpions,1
+dissuader,VER,,7.380000000000001,dissuadé/dissuadée dissuadés,1
+télégraphier,VER,,7.380000000000001,télégraphié/télégraphiée télégraphiés/télégraphiées,1
+empocher,VER,,7.38,empoché/empochée empochés/empochées,1
+incomber,VER,,7.38,incomber,1
+objecter,VER,,7.36,objecté,1
+sangler,VER,,7.3500000000000005,sanglé/sanglée sanglés/sanglées,1
+abreuver,VER,,7.35,abreuvé/abreuvée abreuvés,1
+adonner,VER,,7.34,adonné/adonnée adonnés/adonnées,1
+désapprouver,VER,,7.34,désapprouvé/désapprouvée,1
+ancrer,VER,,7.33,ancré/ancrée ancrés/ancrées,1
+bagarrer,VER,,7.33,bagarré/bagarrée bagarrés,1
+siroter,VER,,7.33,siroté,1
+bafouer,VER,,7.32,bafoué/bafouée bafoués/bafouées,1
+propulser,VER,,7.32,propulsé/propulsée propulsés/propulsées,1
+repêcher,VER,,7.32,repêché/repêchée repêchés/repêchées,1
+équilibrer,VER,,7.31,équilibré/équilibrée équilibrés/équilibrées,1
+miauler,VER,,7.300000000000001,miaulé,1
+instaurer,VER,,7.29,instauré/instaurée instaurés/instaurées,1
+recouvrer,VER,,7.289999999999999,recouvré/recouvrée recouvrés/recouvrées,1
+élaborer,VER,,7.28,élaboré/élaborée élaborés/élaborées,1
+clignoter,VER,,7.25,clignoté,1
+engraisser,VER,,7.24,engraissé/engraissée engraissés/engraissées,2
+dévêtir,VER,,7.23,dévêtu/dévêtue dévêtus/dévêtues,1
+rythmer,VER,,7.2299999999999995,rythmé/rythmée rythmés/rythmées,1
+gazer,VER,,7.21,gazé/gazée gazés/gazées,1
+reformer,VER,,7.2,reformé/reformée reformés,1
+insérer,VER,,7.18,inséré/insérée insérés/insérées,1
+assiéger,VER,,7.17,assiégé/assiégée assiégés/assiégées,1
+confiner,VER,,7.17,confiné/confinée confinés/confinées,1
+divaguer,VER,,7.17,divagué,1
+rabaisser,VER,,7.17,rabaissé/rabaissée rabaissées,1
+décimer,VER,,7.15,décimé/décimée décimés/décimées,1
+meurtrir,VER,,7.1499999999999995,meurtri/meurtrie meurtris/meurtries,1
+nicher,VER,,7.130000000000001,niché/nichée nichés/nichées,1
+opter,VER,,7.119999999999999,opté,1
+ériger,VER,,7.11,érigé/érigée érigés/érigées,1
+capituler,VER,,7.109999999999999,capitulé,1
+endommager,VER,,7.1000000000000005,endommagé/endommagée endommagés/endommagées,1
+enfourcher,VER,,7.09,enfourché,1
+bomber,VER,,7.08,bombé/bombée bombés/bombées,1
+resplendir,VER,,7.08,resplendi,1
+tonner,VER,,7.08,tonné,1
+valser,VER,,7.069999999999999,valsé,1
+égayer,VER,,7.069999999999999,égayé/égayée égayés/égayées,1
+emboîter,VER,,7.0600000000000005,emboîté/emboîtée emboîtés/emboîtées,1
+arnaquer,VER,,7.05,arnaqué/arnaquée arnaqués,1
+décroître,VER,,7.04,décru,1
+tourbillonner,VER,,7.04,tourbillonné,1
+affubler,VER,,7.029999999999999,affublé/affublée affublés/affublées,1
+crucifier,VER,,7.029999999999999,crucifié/crucifiée crucifiés/crucifiées,1
+tondre,VER,,7.029999999999999,tondu/tondue tondus/tondues,1
+outrager,VER,,7.02,outragé/outragée outragés/outragées,1
+déporter,VER,,7.01,déporté/déportée déportés/déportées,1
+graisser,VER,,7.01,graissé/graissée graissés/graissées,1
+mutiler,VER,,7.01,mutilé/mutilée mutilés/mutilées,1
+raffoler,VER,,7.01,raffolé,1
+glapir,VER,,6.99,glapi/glapie,1
+acheminer,VER,,6.98,acheminé/acheminée acheminés/acheminées,1
+remédier,VER,,6.98,remédié,1
+raviser,VER,,6.94,ravisé/ravisée,1
+rêvasser,VER,,6.93,rêvassé,1
+dégainer,VER,,6.91,"dégainé, dégainés",1
+suinter,VER,,6.91,suinté,1
+expérimenter,VER,,6.890000000000001,expérimenté/expérimentée expérimentés/expérimentées,1
+cabrer,VER,,6.89,cabré/cabrée cabrés/cabrées,1
+rétracter,VER,,6.85,rétracté/rétractée rétractés/rétractées,1
+dilater,VER,,6.84,dilaté/dilatée dilatés/dilatées,1
+héler,VER,,6.84,"hélé, hélés",1
+instituer,VER,,6.83,institué/instituée institués/instituées,1
+sécuriser,VER,,6.82,sécurisé/sécurisée sécurisés/sécurisées,1
+enliser,VER,,6.81,enlisé/enlisée enlisés/enlisées,1
+référer,VER,,6.8,référé/référée,1
+agglutiner,VER,,6.79,agglutiné/agglutinée agglutinés/agglutinées,1
+défaillir,VER,,6.79,défailli,1
+dérouiller,VER,,6.79,dérouillé/dérouillée,1
+relater,VER,,6.79,relaté/relatée relatés/relatées,1
+aérer,VER,,6.77,aéré/aérée aérés,1
+seconder,VER,,6.76,secondé/secondée secondés,1
+tarir,VER,,6.76,tari/tarie taris/taries,1
+paître,VER,,6.75,paissent,1
+exiler,VER,,6.73,exilé/exilée exilés/exilées,1
+perpétuer,VER,,6.73,perpétué/perpétuée perpétués,1
+peler,VER,,6.71,pelé/pelée pelés/pelées,1
+réquisitionner,VER,,6.71,réquisitionné/réquisitionnée réquisitionnés/réquisitionnées,1
+agoniser,VER,,6.7,agonisé,1
+dealer,VER,,6.6899999999999995,dealé,2
+culbuter,VER,,6.68,culbuté/culbutée culbutés/culbutées,1
+croupir,VER,,6.67,croupi/croupie croupies,1
+recourir,VER,,6.65,recouru,1
+écosser,VER,,6.65,"écossé, écossés",1
+brasser,VER,,6.640000000000001,brassé/brassée brassés/brassées,1
+percuter,VER,,6.640000000000001,percuté/percutée percutés/percutées,1
+peigner,VER,,6.64,"peigné, peignés",1
+sucrer,VER,,6.630000000000001,sucré/sucrée sucrés/sucrées,1
+raviver,VER,,6.63,ravivé/ravivée,1
+conformer,VER,,6.62,conformé/conformée,1
+dévaster,VER,,6.62,dévasté/dévastée dévastés/dévastées,1
+amortir,VER,,6.619999999999999,amorti/amortie amortis/amorties,1
+recréer,VER,,6.619999999999999,recréé/recréée recréés/recréées,1
+démêler,VER,,6.61,"démêlé, démêlés",1
+démanger,VER,,6.609999999999999,"démangé, démangés",1
+empester,VER,,6.59,empesté/empestée empestées,1
+glousser,VER,,6.59,gloussé,1
+rehausser,VER,,6.58,rehaussé/rehaussée rehaussés/rehaussées,1
+ressasser,VER,,6.58,ressassé/ressassée ressassés/ressassées,1
+amocher,VER,,6.57,amoché/amochée amochés,1
+effilocher,VER,,6.55,effiloché/effilochée effilochés/effilochées,1
+ensuivre,VER,,6.54,ensuivi/ensuivie ensuivies,1
+décamper,VER,,6.52,décampé,1
+oeuvrer,VER,,6.52,oeuvré,1
+colorier,VER,,6.51,colorié/coloriée coloriés/coloriées,1
+emmêler,VER,,6.51,emmêlé/emmêlée emmêlés/emmêlées,1
+beugler,VER,,6.49,beuglé/beuglée,1
+désintéresser,VER,,6.49,désintéressé/désintéressée désintéressés/désintéressées,1
+rajuster,VER,,6.49,rajusté/rajustée rajustées,1
+prosterner,VER,,6.48,prosterné/prosternée prosternés/prosternées,1
+prétexter,VER,,6.48,prétexté,1
+espacer,VER,,6.470000000000001,espacé/espacée espacés/espacées,1
+émigrer,VER,,6.46,émigré/émigrée émigrés,1
+trimballer,VER,,6.449999999999999,trimballé/trimballée trimballés,1
+dépeindre,VER,,6.430000000000001,dépeint/dépeinte dépeints,1
+sauvegarder,VER,,6.42,sauvegardé/sauvegardée sauvegardés/sauvegardées,1
+ballotter,VER,,6.3999999999999995,ballotté/ballottée ballottés/ballottées,1
+amputer,VER,,6.390000000000001,amputé/amputée amputés/amputées,1
+absoudre,VER,,6.380000000000001,absous/absoute absoutes,1
+manigancer,VER,,6.380000000000001,manigancé/manigancée,1
+énoncer,VER,,6.380000000000001,énoncé/énoncée énoncées,1
+rivaliser,VER,,6.38,rivalisé,1
+démener,VER,,6.37,démené/démenée,1
+mordiller,VER,,6.37,mordillé/mordillée mordillés/mordillées,1
+tramer,VER,,6.37,"tramé, tramés",1
+troquer,VER,,6.37,troqué/troquée troqués/troquées,1
+évaporer,VER,,6.37,"évaporé, évaporés",1
+ceinturer,VER,,6.36,ceinturé/ceinturée ceinturés/ceinturées,1
+conjuguer,VER,,6.33,conjugué/conjuguée conjugués/conjuguées,1
+dépanner,VER,,6.33,dépanné/dépannée dépannés,1
+enthousiasmer,VER,,6.33,enthousiasmé/enthousiasmée enthousiasmés,1
+desservir,VER,,6.3,desservi/desservie desservis/desservies,1
+jubiler,VER,,6.2700000000000005,jubilé/jubilée,1
+geindre,VER,,6.27,geint,2
+stabiliser,VER,,6.26,stabilisé/stabilisée stabilisés,1
+relaxer,VER,,6.220000000000001,relaxé/relaxée,1
+délibérer,VER,,6.22,délibéré/délibérée délibérés/délibérées,1
+dérouter,VER,,6.22,dérouté/déroutée déroutés/déroutées,1
+plumer,VER,,6.22,plumé/plumée plumés/plumées,1
+obstruer,VER,,6.210000000000001,obstrué/obstruée obstrués/obstruées,1
+berner,VER,,6.2,berné/bernée bernés/bernées,1
+tambouriner,VER,,6.2,tambouriné/tambourinée,1
+comploter,VER,,6.18,comploté,1
+déguerpir,VER,,6.18,"déguerpi, déguerpis",1
+affleurer,VER,,6.16,affleuré,1
+agréer,VER,,6.16,agréé/agréée agréés/agréées,1
+exceller,VER,,6.16,excellé,1
+dénuder,VER,,6.15,dénudé/dénudée dénudés/dénudées,1
+subjuguer,VER,,6.1499999999999995,subjugué/subjuguée subjugués/subjuguées,1
+saturer,VER,,6.130000000000001,saturé/saturée saturés/saturées,1
+détaler,VER,,6.13,détalé,1
+effriter,VER,,6.13,effrité/effritée effrités/effritées,1
+glaner,VER,,6.13,glané/glanée glanés/glanées,1
+miroiter,VER,,6.13,miroitait,1
+différencier,VER,,6.08,"différencié, différenciés",1
+railler,VER,,6.08,raillé/raillée raillés,1
+blasphémer,VER,,6.07,blasphémé,1
+assécher,VER,,6.0600000000000005,asséché/asséchée asséchés/asséchées,1
+frustrer,VER,,6.0600000000000005,frustré/frustrée frustrés/frustrées,1
+accoster,VER,,6.050000000000001,accosté/accostée accostées,1
+rider,VER,,6.050000000000001,ridé/ridée ridés/ridées,1
+stupéfier,VER,,6.050000000000001,stupéfié/stupéfiée stupéfiés/stupéfiées,1
+rebuter,VER,,6.05,rebuté/rebutée rebutés/rebutées,1
+implanter,VER,,6.03,implanté/implantée implantés/implantées,1
+agrémenter,VER,,6.029999999999999,agrémenté/agrémentée agrémentés/agrémentées,1
+compatir,VER,,6.029999999999999,compati/compatie compatis,1
+privilégier,VER,,6.029999999999999,privilégié/privilégiée privilégiés/privilégiées,1
+marchander,VER,,6.02,marchandé/marchandée,1
+dégueuler,VER,,6.01,dégueulées,1
+entrebâiller,VER,,6.0,entrebâillé/entrebâillée entrebâillés/entrebâillées,1
+entrechoquer,VER,,6.0,"entrechoqué, entrechoqués",1
+stagner,VER,,6.0,stagné,1
+jongler,VER,,5.98,jonglé,1
+sniffer,VER,,5.98,sniffé/sniffée sniffées,1
+curer,VER,,5.970000000000001,curé/curée curés,1
+offusquer,VER,,5.97,offusqué/offusquée offusqués/offusquées,1
+serpenter,VER,,5.97,serpenté,1
+acculer,VER,,5.96,acculé/acculée acculés/acculées,1
+empêtrer,VER,,5.96,empêtré/empêtrée empêtrés/empêtrées,1
+grésiller,VER,,5.96,grésillé,1
+blinder,VER,,5.95,blindé/blindée blindés/blindées,1
+enfanter,VER,,5.95,enfanté/enfantée enfantés/enfantées,1
+équivaloir,VER,,5.95,équivalu,1
+sous-titrer,VER,,5.949999999999999,sous-titré/sous-titrée sous-titrés,1
+dévisser,VER,,5.93,dévissé/dévissée dévissés/dévissées,1
+délimiter,VER,,5.92,délimité/délimitée délimités/délimitées,1
+oppresser,VER,,5.91,oppressé/oppressée oppressées,1
+sourdre,VER,,5.89,sourdront,1
+brusquer,VER,,5.88,brusqué/brusquée,1
+voltiger,VER,,5.859999999999999,voltigé,1
+concilier,VER,,5.85,"concilié, conciliés",1
+affermir,VER,,5.840000000000001,affermi/affermie affermis,1
+désinfecter,VER,,5.84,désinfecté/désinfectée désinfectés/désinfectées,1
+sélectionner,VER,,5.84,sélectionné/sélectionnée sélectionnés/sélectionnées,1
+comparaître,VER,,5.83,comparu,1
+effaroucher,VER,,5.83,effarouché/effarouchée effarouchés,1
+jauger,VER,,5.83,jaugé/jaugée jaugés,1
+entrecroiser,VER,,5.82,"entrecroisé, entrecroisés",1
+enrôler,VER,,5.8100000000000005,enrôlé/enrôlée enrôlés/enrôlées,1
+culpabiliser,VER,,5.81,culpabilisé/culpabilisée culpabilisés,1
+malmener,VER,,5.800000000000001,malmené/malmenée malmenés/malmenées,1
+biler,VER,,5.79,bilez,1
+embuer,VER,,5.79,embué/embuée embués/embuées,1
+bougonner,VER,,5.78,bougonné,1
+rabâcher,VER,,5.78,rabâché/rabâchée rabâchées,1
+épauler,VER,,5.77,épaulé/épaulée épaulés/épaulées,1
+cantonner,VER,,5.76,cantonné/cantonnée cantonnés/cantonnées,1
+environner,VER,,5.75,environné/environnée environnés/environnées,1
+réputer,VER,,5.75,réputé/réputée réputés/réputées,1
+détremper,VER,,5.74,détrempé/détrempée détrempés/détrempées,1
+flancher,VER,,5.74,flanché,1
+abonder,VER,,5.72,abondé,1
+voûter,VER,,5.72,voûté/voûtée voûtés/voûtées,1
+vanner,VER,,5.71,vanné/vannée vannés,1
+maugréer,VER,,5.7,maugréai,1
+trembloter,VER,,5.7,trembloté,1
+décerner,VER,,5.699999999999999,décerné/décernée décernés/décernées,1
+découler,VER,,5.69,découlé,1
+éluder,VER,,5.6899999999999995,éludé/éludée éludées,1
+râper,VER,,5.68,râpé/râpée râpés/râpées,1
+regorger,VER,,5.67,regorges,1
+détromper,VER,,5.65,détrompé/détrompée détrompés,1
+ingurgiter,VER,,5.65,ingurgité/ingurgitée ingurgités/ingurgitées,1
+apparenter,VER,,5.630000000000001,apparenté/apparentée apparentés,1
+éterniser,VER,,5.630000000000001,éternisé/éternisée éternisés,1
+déclamer,VER,,5.63,déclamé/déclamée,1
+congédier,VER,,5.62,congédié/congédiée congédiés/congédiées,1
+profaner,VER,,5.62,profané/profanée profanés/profanées,1
+rapetisser,VER,,5.62,rapetissé/rapetissée rapetissés/rapetissées,1
+remiser,VER,,5.62,remisé/remisée remisés,1
+daller,VER,,5.61,dallé/dallée dallés/dallées,1
+jaffer,VER,,5.61,jaffas,1
+engluer,VER,,5.6000000000000005,englué/engluée englués/engluées,1
+escompter,VER,,5.6,escompté/escomptée escomptés/escomptées,1

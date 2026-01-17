@@ -1,0 +1,23 @@
+cgram,name,count,genre_m,genre_f,genre_na,nombre_s,nombre_p,nombre_na
+NOM,Noun,28886,17161,10211,3028,26886,222,3556
+ADJ,Adjective,10599,7027,658,5828,9713,78,1616
+VER,Verb,5289,3,1,10570,2,2,10570
+ADV,Adverb,1822,0,0,3644,0,0,3644
+ONO,Interjection,236,0,0,472,0,0,472
+ADJ:num,Numeral adjective,123,0,0,246,1,0,244
+PRE,Preposition,80,0,0,160,0,0,160
+PRO:per,Personal pronoun,53,7,6,80,33,13,14
+PRO:ind,Indefinite pronoun,44,16,16,24,24,17,6
+ADJ:ind,Indefinite adjective,36,14,13,18,15,17,8
+CON,Conjunction,35,0,0,70,0,0,70
+ADJ:pos,Possessive adjective,31,6,6,38,10,8,26
+PRO:pos,Possessive pronoun,23,6,5,24,13,10,0
+PRO:rel,Relative pronoun,17,6,4,14,5,6,12
+PRO:int,Interrogative pronoun,17,0,0,34,0,0,34
+PRO:dem,Demonstrative pronoun,17,7,6,8,10,6,2
+ART:def,Definite article,10,4,3,6,8,2,0
+ART:ind,Indefinite article,4,2,1,2,3,1,0
+ADJ:int,Interrogative adjective,4,2,2,0,2,2,0
+ADJ:dem,Demonstrative adjective,4,2,1,2,3,1,0
+AUX,Auxiliary verb,3,0,0,6,0,0,6
+LIA,Liaison,1,0,0,2,0,0,2
