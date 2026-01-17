@@ -19,7 +19,8 @@ LEXIQUE_PATH = PROJECT_ROOT / "Lexique383.tsv"
 DATA_DIR = PROJECT_ROOT / "data"
 BLACKLIST_PATH = DATA_DIR / "blacklist.csv"
 WHITELIST_NUMERALS_PATH = DATA_DIR / "whitelist_numerals.csv"
-HOMOGRAPHS_REPORT_PATH = DATA_DIR / "homographs_report.csv"
+NOM_WITHOUT_GENRE_PATH = DATA_DIR / "nom_without_genre.csv"
+GENDER_HOMOGRAPHS_PATH = DATA_DIR / "gender_homographs.csv"
 PROFESSIONS_CHECK_PATH = DATA_DIR / "professions_check.csv"
 IRREGULAR_ADJ_PATH = DATA_DIR / "irregular_adjectives.csv"
 IRREGULAR_VERBS_PATH = DATA_DIR / "irregular_verbs.csv"
@@ -52,8 +53,8 @@ FREQ_FILMS_WEIGHT = 0.6
 FREQ_BOOKS_WEIGHT = 0.4
 
 # Target ~20000 words in final selection
-# This threshold will be determined experimentally
-FREQ_MIN_THRESHOLD = None  # To be determined
+# Threshold determined: top 20000 lemmas have freqlem >= 0.67
+FREQ_MIN_THRESHOLD = 0.67
 
 # =============================================================================
 # Category Settings
