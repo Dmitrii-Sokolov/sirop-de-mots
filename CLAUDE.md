@@ -14,17 +14,22 @@ French language learning tools based on Lexique383 database. The project extract
 
 ## Scripts
 
-All Python scripts use pandas for data processing:
+All Python scripts use pandas for data processing.
+
+**Important:** Scripts contain emoji in output, run with UTF-8 encoding:
+```bash
+PYTHONIOENCODING=utf-8 python <script.py>
+```
 
 ```bash
 # Extract lemma selection (top 10k VER/NOM/ADJ/ADV + all other categories)
-python extract_lexique_selection.py
+PYTHONIOENCODING=utf-8 python extract_lexique_selection.py
 
 # Count lemmas by grammatical category → lemma_type_stats.csv
-python count_lemma_types.py
+PYTHONIOENCODING=utf-8 python count_lemma_types.py
 
 # Generate Anki deck (.apkg) with demo cards
-python create_french_deck_v3.py
+PYTHONIOENCODING=utf-8 python create_french_deck_v3.py
 ```
 
 ## Anki Card Format
@@ -77,7 +82,7 @@ Films weighted higher for oral comprehension testing.
 
 **Data extraction:**
 - `categories/` — Filtered lemmas by category (NOM.csv, VER.csv, ADJ.csv, ADV.csv, etc.)
-  - Columns: `lemme`, `cgram`, `genre`, `freqlem`, `forms`, `nbhomogr`
+  - Columns: `lemme`, `cgram`, `genre`, `freqlem`, `forms`
   - Top 10k VER/NOM/ADJ/ADV by frequency + all rare categories
 - `lemma_type_stats.csv` — Lemma count by grammatical category
 
