@@ -1,287 +1,535 @@
 lemme,form_m,form_f,freqlem,notes
-beau,beau,belle,651.14,
-premier,premier,première,495.22,
-dernier,dernier,dernière,419.89,
-long,long,longue,276.36,
-fou,fou,folle,258.51,
-blanc,blanc,blanche,243.46,
-cher,cher,chère,176.91,
-entier,entier,entière,104.77,
-léger,léger,légère,83.07,
-sec,sec,sèche,82.95,
-neuf,neuf,neuve,80.94,
-secret,secret,secrète,70.85,
-fier,fier,fière,70.75,
-public,public,publique,52.99,
-vif,vif,vive,51.8,
-étranger,étranger,étrangère,48.83,
-inquiet,inquiet,inquiète,39.6,
-bref,bref,brève,39.3,
-particulier,particulier,particulière,36.54,
-complet,complet,complète,35.16,
-juif,juif,juive,33.08,
-malin,malin,maligne,32.97,
-familier,familier,familière,25.94,
-prisonnier,prisonnier,prisonnière,23.57,
-discret,discret,discrète,22.58,
-franc,franc,franche,22.38,
-régulier,régulier,régulière,21.51,
-amer,amer,amère,19.19,
-grec,grec,grecque,19.07,
-attentif,attentif,attentive,18.29,
-définitif,définitif,définitive,17.51,
-grossier,grossier,grossière,16.01,
-aigu,aigu,aiguë,15.88,
-positif,positif,positive,13.44,
-naïf,naïf,naïve,13.39,
-massif,massif,massive,13.22,
-négatif,négatif,négative,12.94,
-agressif,agressif,agressive,12.25,
-actif,actif,active,11.55,
-maître,maître,maîtresse,11.5,
-directeur,directeur,directrice,11.25,
-favori,favori,favorite,10.87,
-financier,financier,financière,10.34,
-sauf,sauf,sauve,10.19,
-ouvrier,ouvrier,ouvrière,9.99,
-singulier,singulier,singulière,9.95,
-veuf,veuf,veuve,9.09,
-excessif,excessif,excessive,9.09,
-collectif,collectif,collective,9.03,
-décisif,décisif,décisive,8.71,
-sportif,sportif,sportive,8.39,
-policier,policier,policière,8.3,
-primitif,primitif,primitive,8.28,
-successif,successif,successive,8.01,
-meurtrier,meurtrier,meurtrière,8.01,
-inoffensif,inoffensif,inoffensive,7.88,
-guerrier,guerrier,guerrière,7.56,
-relatif,relatif,relative,7.49,
-voleur,voleur,voleuse,7.39,
-rêveur,rêveur,rêveuse,7.2,
-suisse,suisse,suissesse,7.11,
-furtif,furtif,furtive,7.11,
-porteur,porteur,porteuse,7.05,
-menteur,menteur,menteuse,7.01,
-jumeau,jumeau,jumelle,7.0,
-turc,turc,turque,6.77,
-protecteur,protecteur,protectrice,6.66,
-administratif,administratif,administrative,6.39,
-mat,mat',mate,6.3,
-indiscret,indiscret,indiscrète,6.12,
-tout-puissant,tout-puissant,toute-puissante,5.85,
-passager,passager,passagère,5.78,
-tardif,tardif,tardive,5.57,
-dû,dû,due,5.52,
-ménager,ménager,ménagère,5.37,
-rigolo,rigolo,rigolote,5.29,
-passif,passif,passive,5.29,
-immobilier,immobilier,immobilière,5.24,
-ambigu,ambigu,ambiguë,5.14,
-amateur,amateur,amatrice,5.12,
-compréhensif,compréhensif,compréhensive,5.1,
-exclusif,exclusif,exclusive,4.98,
-traître,traître,traîtresse,4.94,
-concret,concret,concrète,4.92,
-fugitif,fugitif,fugitive,4.72,
-flatteur,flatteur,flatteuse,4.7,
-irrégulier,irrégulier,irrégulière,4.68,
-instinctif,instinctif,instinctive,4.64,
-routier,routier,routière,4.48,
-forestier,forestier,forestière,4.48,
-pensif,pensif,pensive,4.4,
-joueur,joueur,joueuse,4.28,
-craintif,craintif,craintive,4.15,
-moqueur,moqueur,moqueuse,4.14,
-objectif,objectif,objective,4.07,
-travailleur,travailleur,travailleuse,4.0,
-cavalier,cavalier,cavalière,3.91,
-trompeur,trompeur,trompeuse,3.86,
-respectif,respectif,respective,3.78,
-rageur,rageur,rageuse,3.75,
-adoptif,adoptif,adoptive,3.74,
-hâtif,hâtif,hâtive,3.7,
-affirmatif,affirmatif,affirmative,3.7,
-voyageur,voyageur,voyageuse,3.69,
-créateur,créateur,créatrice,3.62,
-explosif,explosif,explosive,3.55,
-miséricordieux,miséricordieux,miséricordieuse,3.52,
-chétif,chétif,chétive,3.49,
-moteur,moteur,motrice,3.47,
-plaintif,plaintif,plaintive,3.4,
-prometteur,prometteur,prometteuse,3.4,
-conservateur,conservateur,conservatrice,3.29,
-nègre,nègre,négresse,3.15,
-subversif,subversif,subversive,3.14,
-admiratif,admiratif,admirative,3.03,
-coutumier,coutumier,coutumière,2.97,
-maladif,maladif,maladive,2.92,
-significatif,significatif,significative,2.87,
-destructeur,destructeur,destructrice,2.81,
-intensif,intensif,intensive,2.72,
-progressif,progressif,progressive,2.71,
-fautif,fautif,fautive,2.61,
-songeur,songeur,songeuse,2.59,
-captif,captif,captive,2.59,
-consultatif,consultatif,consultative,2.59,
-évasif,évasif,évasive,2.57,
-puceau,puceau,pucelle,2.54,
-vengeur,vengeur,vengeresse,2.46,
-instructif,instructif,instructive,2.41,
-affectif,affectif,affective,2.39,
-créatif,créatif,créative,2.37,
-impératif,impératif,impérative,2.34,
-fictif,fictif,fictive,2.33,
-incomplet,incomplet,incomplète,2.33,
-bénin,bénin,bénigne,2.32,
-hospitalier,hospitalier,hospitalière,2.29,
-conducteur,conducteur,conductrice,2.25,
-alternatif,alternatif,alternative,2.2,
-défensif,défensif,défensive,2.19,
-exigu,exigu,exiguë,2.18,
-enchanteur,enchanteur,enchanteresse,2.18,
-décoratif,décoratif,décorative,2.15,
-impulsif,impulsif,impulsive,2.13,
-printanier,printanier,printanière,2.12,
-approximatif,approximatif,approximative,2.1,
-émotif,émotif,émotive,2.05,
-fermier,fermier,fermière,1.97,
-méditatif,méditatif,méditative,1.96,
-exécutif,exécutif,exécutive,1.93,
-lascif,lascif,lascive,1.91,
-radioactif,radioactif,radioactive,1.86,
-rétif,rétif,rétive,1.83,
-princier,princier,princière,1.81,
-natif,natif,native,1.81,
-révélateur,révélateur,révélatrice,1.79,
-foncier,foncier,foncière,1.78,
-coopératif,coopératif,coopérative,1.78,
-persuasif,persuasif,persuasive,1.77,
-fondateur,fondateur,fondatrice,1.77,
-coi,coi,coite,1.73,
-gaucher,gaucher,gauchère,1.7,
-boudeur,boudeur,boudeuse,1.69,
-séropositif,séropositif,séropositive,1.68,
-pécheur,pécheur,pécheresse,1.67,
-éducatif,éducatif,éducative,1.66,
-dévastateur,dévastateur,dévastatrice,1.61,
-préventif,préventif,préventive,1.6,
-nocif,nocif,nocive,1.59,
-connaisseur,connaisseur,connaisseuse,1.58,
-inquisiteur,inquisiteur,inquisitrice,1.58,
-désuet,désuet,désuète,1.57,
-libérateur,libérateur,libératrice,1.57,
-mensonger,mensonger,mensongère,1.56,
-bêta,bêta,bêtasse,1.55,
-vindicatif,vindicatif,vindicative,1.55,
-rancunier,rancunier,rancunière,1.55,
-pétrolier,pétrolier,pétrolière,1.54,
-expressif,expressif,expressive,1.51,
-poussif,poussif,poussive,1.51,
-représentatif,représentatif,représentative,1.5,
-altier,altier,altière,1.5,
-journalier,journalier,journalière,1.48,
-digestif,digestif,digestive,1.46,
-convulsif,convulsif,convulsive,1.45,
-effectif,effectif,effective,1.45,
-portatif,portatif,portative,1.45,
-offensif,offensif,offensive,1.45,
-côtier,côtier,côtière,1.43,
-consécutif,consécutif,consécutive,1.42,
-dépressif,dépressif,dépressive,1.39,
-suraigu,suraigu,suraiguë,1.37,
-ordurier,ordurier,ordurière,1.37,
-nourricier,nourricier,nourricière,1.37,
-intempestif,intempestif,intempestive,1.36,
-subjectif,subjectif,subjective,1.35,
-possessif,possessif,possessive,1.33,
-oblong,oblong,oblongue,1.33,
-tapageur,tapageur,tapageuse,1.33,
-oisif,oisif,oisive,1.32,
-productif,productif,productive,1.32,
-charmeur,charmeur,charmeuse,1.31,
-lucratif,lucratif,lucrative,1.3,
-imaginatif,imaginatif,imaginative,1.29,
-constructif,constructif,constructive,1.26,
-auditif,auditif,auditive,1.26,
-inactif,inactif,inactive,1.26,
-législatif,législatif,législative,1.25,
-rétrospectif,rétrospectif,rétrospective,1.25,
-abusif,abusif,abusive,1.24,
-minier,minier,minière,1.22,
-fruitier,fruitier,fruitière,1.21,
-producteur,producteur,productrice,1.21,
-sélectif,sélectif,sélective,1.2,
-observateur,observateur,observatrice,1.2,
-communicatif,communicatif,communicative,1.18,
-dominateur,dominateur,dominatrice,1.18,
-inexpressif,inexpressif,inexpressive,1.16,
-sucrier,sucrier,sucrière,1.15,
-réceptif,réceptif,réceptive,1.14,
-chercheur,chercheur,chercheuse,1.13,
-séducteur,séducteur,séductrice,1.13,
-réparateur,réparateur,réparatrice,1.13,
-combatif,combatif,combative,1.11,
-expéditif,expéditif,expéditive,1.09,
-présomptueux,présomptueux,présomptueuse,1.09,
-annonciateur,annonciateur,annonciatrice,1.09,
-distinctif,distinctif,distinctive,1.07,
-laitier,laitier,laitière,1.05,
-avant-dernier,avant-dernier,avant-dernière,1.05,
-farceur,farceur,farceuse,1.04,
-commémoratif,commémoratif,commémorative,1.04,
-suceur,suceur,suceuse,1.02,
-hôtelier,hôtelier,hôtelière,1.02,
-andalou,andalou,andalouse,1.02,
-douanier,douanier,douanière,1.0,
-réprobateur,réprobateur,réprobatrice,0.98,
-dubitatif,dubitatif,dubitative,0.97,
-contigu,contigu,contiguë,0.97,
-adhésif,adhésif,adhésive,0.95,
-saisonnier,saisonnier,saisonnière,0.9,
-végétatif,végétatif,végétative,0.9,
-répétitif,répétitif,répétitive,0.89,
-retraité,retraité,re-traitée,0.87,
-incisif,incisif,incisive,0.86,
-aventurier,aventurier,aventurière,0.85,
-frontalier,frontalier,frontalière,0.85,
-suggestif,suggestif,suggestive,0.84,
-indicateur,indicateur,indicatrice,0.83,
-migrateur,migrateur,migratrice,0.83,
-enjôleur,enjôleur,enjôleuse,0.82,
-donneur,donneur,donneuse,0.82,
-explorateur,explorateur,exploratrice,0.8,
-enregistreur,enregistreur,enregistreuse,0.8,
-nutritif,nutritif,nutritive,0.79,
-émetteur,émetteur,émettrice,0.79,
-potager,potager,potagère,0.79,
-laineux,laineux,laineuse,0.79,
-duveteux,duveteux,duveteuse,0.78,
-railleur,railleur,railleuse,0.78,
-générateur,générateur,génératrice,0.78,
-interrogatif,interrogatif,interrogative,0.77,
-compétitif,compétitif,compétitive,0.76,
-accusateur,accusateur,accusatrice,0.76,
-inattentif,inattentif,inattentive,0.75,
-granuleux,granuleux,granuleuse,0.75,
-carnassier,carnassier,carnassière,0.75,
-routinier,routinier,routinière,0.74,
-corrosif,corrosif,corrosive,0.74,
-baladeur,baladeur,baladeuse,0.74,
-expansif,expansif,expansive,0.74,
-inventif,inventif,inventive,0.73,
-replet,replet,replète,0.73,
-improductif,improductif,improductive,0.73,
-boursier,boursier,boursière,0.73,
-intuitif,intuitif,intuitive,0.73,
-purificateur,purificateur,purificatrice,0.72,
-démonstratif,démonstratif,démonstrative,0.71,
-bêcheur,bêcheur,bêcheuse,0.69,
-évocateur,évocateur,évocatrice,0.69,
-tentateur,tentateur,tentatrice,0.69,
-pacificateur,pacificateur,pacificatrice,0.69,
-olfactif,olfactif,olfactive,0.69,
-apéritif,apéritif,apéritive,0.68,
-punitif,punitif,punitive,0.68,
-compulsif,compulsif,compulsive,0.68,
-désapprobateur,désapprobateur,désapprobatrice,0.68,
+beau,beau,belle,651.14,-eau → -elle
+premier,premier,première,495.22,-er → -ère
+dernier,dernier,dernière,419.89,-er → -ère
+vieux,vieux,vieille,374.48,unique
+long,long,longue,276.36,-ong → -ongue
+fou,fou,folle,258.51,-ou → -olle
+blanc,blanc,blanche,243.46,-c → -che
+heureux,heureux,heureuse,225.07,-eux → -euse
+nouveau,nouveau,nouvelle,199.91,-eau → -elle
+cher,cher,chère,176.91,-er → -ère
+faux,faux,fausse,117.17,unique
+doux,doux,douce,111.51,unique
+entier,entier,entière,104.77,-er → -ère
+sérieux,sérieux,sérieuse,92.69,-eux → -euse
+amoureux,amoureux,amoureuse,88.05,-eux → -euse
+léger,léger,légère,83.07,-er → -ère
+sec,sec,sèche,82.95,unique
+neuf,neuf,neuve,80.94,-f → -ve
+dangereux,dangereux,dangereuse,80.13,-eux → -euse
+frais,frais,fraîche,72.53,unique
+secret,secret,secrète,70.85,-et → -ète
+fier,fier,fière,70.75,-er → -ère
+merveilleux,merveilleux,merveilleuse,63.69,-eux → -euse
+public,public,publique,52.99,-c → -que
+vif,vif,vive,51.8,-if → -ive
+nombreux,nombreux,nombreuse,50.89,-eux → -euse
+étranger,étranger,étrangère,48.83,-er → -ère
+curieux,curieux,curieuse,47.1,-eux → -euse
+malheureux,malheureux,malheureuse,46.32,-eux → -euse
+nerveux,nerveux,nerveuse,44.56,-eux → -euse
+joyeux,joyeux,joyeuse,42.18,-eux → -euse
+inquiet,inquiet,inquiète,39.6,-et → -ète
+bref,bref,brève,39.3,unique
+silencieux,silencieux,silencieuse,36.83,-eux → -euse
+affreux,affreux,affreuse,36.76,-eux → -euse
+particulier,particulier,particulière,36.54,-er → -ère
+jaloux,jaloux,jalouse,36.48,-x → -se
+complet,complet,complète,35.16,-et → -ète
+mystérieux,mystérieux,mystérieuse,33.23,-eux → -euse
+juif,juif,juive,33.08,-if → -ive
+furieux,furieux,furieuse,33.02,-eux → -euse
+malin,malin,maligne,32.97,-in → -igne
+fameux,fameux,fameuse,32.45,-eux → -euse
+précieux,précieux,précieuse,30.47,-eux → -euse
+délicieux,délicieux,délicieuse,28.99,-eux → -euse
+familier,familier,familière,25.94,-er → -ère
+douloureux,douloureux,douloureuse,25.3,-eux → -euse
+exprès,exprès,expresse,24.92,unique
+prisonnier,prisonnier,prisonnière,23.57,-er → -ère
+généreux,généreux,généreuse,23.48,-eux → -euse
+discret,discret,discrète,22.58,-et → -ète
+franc,franc,franche,22.38,-c → -che
+courageux,courageux,courageuse,21.99,-eux → -euse
+régulier,régulier,régulière,21.51,-er → -ère
+lumineux,lumineux,lumineuse,20.2,-eux → -euse
+roux,roux,rousse,19.48,unique
+amer,amer,amère,19.19,-er → -ère
+grec,grec,grecque,19.07,unique
+religieux,religieux,religieuse,19.02,-eux → -euse
+attentif,attentif,attentive,18.29,-if → -ive
+ennuyeux,ennuyeux,ennuyeuse,17.58,-eux → -euse
+définitif,définitif,définitive,17.51,-if → -ive
+fabuleux,fabuleux,fabuleuse,16.2,-eux → -euse
+grossier,grossier,grossière,16.01,-er → -ère
+aigu,aigu,aiguë,15.88,-gu → -guë
+honteux,honteux,honteuse,14.63,-eux → -euse
+monstrueux,monstrueux,monstrueuse,13.71,-eux → -euse
+creux,creux,creuse,13.6,-eux → -euse
+positif,positif,positive,13.44,-if → -ive
+naïf,naïf,naïve,13.39,-f → -ve
+massif,massif,massive,13.22,-if → -ive
+mou,mou,molle,13.19,-ou → -olle
+négatif,négatif,négative,12.94,-if → -ive
+agressif,agressif,agressive,12.25,-if → -ive
+glorieux,glorieux,glorieuse,11.77,-eux → -euse
+actif,actif,active,11.55,-if → -ive
+maître,maître,maîtresse,11.5,unique
+directeur,directeur,directrice,11.25,-teur → -trice
+odieux,odieux,odieuse,10.88,-eux → -euse
+favori,favori,favorite,10.87,unique
+financier,financier,financière,10.34,-er → -ère
+sauf,sauf,sauve,10.19,-f → -ve
+ouvrier,ouvrier,ouvrière,9.99,-er → -ère
+singulier,singulier,singulière,9.95,-er → -ère
+veuf,veuf,veuve,9.09,-f → -ve
+excessif,excessif,excessive,9.09,-if → -ive
+gracieux,gracieux,gracieuse,9.05,-eux → -euse
+collectif,collectif,collective,9.03,-if → -ive
+affectueux,affectueux,affectueuse,8.96,-eux → -euse
+douteux,douteux,douteuse,8.84,-eux → -euse
+décisif,décisif,décisive,8.71,-if → -ive
+sportif,sportif,sportive,8.39,-if → -ive
+policier,policier,policière,8.3,-er → -ère
+primitif,primitif,primitive,8.28,-if → -ive
+chanceux,chanceux,chanceuse,8.16,-eux → -euse
+chaleureux,chaleureux,chaleureuse,8.05,-eux → -euse
+soucieux,soucieux,soucieuse,8.02,-eux → -euse
+meurtrier,meurtrier,meurtrière,8.01,-er → -ère
+successif,successif,successive,8.01,-if → -ive
+pieux,pieux,pieuse,7.97,-eux → -euse
+inoffensif,inoffensif,inoffensive,7.88,-if → -ive
+poussiéreux,poussiéreux,poussiéreuse,7.83,-eux → -euse
+guerrier,guerrier,guerrière,7.56,-er → -ère
+prodigieux,prodigieux,prodigieuse,7.49,-eux → -euse
+relatif,relatif,relative,7.49,-if → -ive
+paresseux,paresseux,paresseuse,7.41,-eux → -euse
+voleur,voleur,voleuse,7.39,-eur → -euse
+rêveur,rêveur,rêveuse,7.2,-eur → -euse
+radieux,radieux,radieuse,7.16,-eux → -euse
+suisse,suisse,suissesse,7.11,unique
+furtif,furtif,furtive,7.11,-if → -ive
+somptueux,somptueux,somptueuse,7.11,-eux → -euse
+porteur,porteur,porteuse,7.05,-eur → -euse
+menteur,menteur,menteuse,7.01,-eur → -euse
+jumeau,jumeau,jumelle,7.0,-eau → -elle
+turc,turc,turque,6.77,-c → -que
+protecteur,protecteur,protectrice,6.66,-teur → -trice
+anxieux,anxieux,anxieuse,6.44,-eux → -euse
+administratif,administratif,administrative,6.39,-if → -ive
+miraculeux,miraculeux,miraculeuse,6.36,-eux → -euse
+vicieux,vicieux,vicieuse,6.26,-eux → -euse
+scandaleux,scandaleux,scandaleuse,6.22,-eux → -euse
+indiscret,indiscret,indiscrète,6.12,-et → -ète
+respectueux,respectueux,respectueuse,6.07,-eux → -euse
+tout-puissant,tout-puissant,toute-puissante,5.85,unique
+fâcheux,fâcheux,fâcheuse,5.81,-eux → -euse
+vigoureux,vigoureux,vigoureuse,5.79,-eux → -euse
+passager,passager,passagère,5.78,-er → -ère
+hideux,hideux,hideuse,5.69,-eux → -euse
+audacieux,audacieux,audacieuse,5.67,-eux → -euse
+crasseux,crasseux,crasseuse,5.65,-eux → -euse
+soyeux,soyeux,soyeuse,5.58,-eux → -euse
+tardif,tardif,tardive,5.57,-if → -ive
+ambitieux,ambitieux,ambitieuse,5.54,-eux → -euse
+dû,dû,due,5.52,unique
+majestueux,majestueux,majestueuse,5.51,-eux → -euse
+victorieux,victorieux,victorieuse,5.5,-eux → -euse
+ménager,ménager,ménagère,5.37,-er → -ère
+boueux,boueux,boueuse,5.29,-eux → -euse
+passif,passif,passive,5.29,-if → -ive
+rigolo,rigolo,rigolote,5.29,unique
+immobilier,immobilier,immobilière,5.24,-er → -ère
+contagieux,contagieux,contagieuse,5.23,-eux → -euse
+impérieux,impérieux,impérieuse,5.16,-eux → -euse
+ambigu,ambigu,ambiguë,5.14,-gu → -guë
+amateur,amateur,amatrice,5.12,-teur → -trice
+fiévreux,fiévreux,fiévreuse,5.11,-eux → -euse
+compréhensif,compréhensif,compréhensive,5.1,-if → -ive
+prétentieux,prétentieux,prétentieuse,5.09,-eux → -euse
+exclusif,exclusif,exclusive,4.98,-if → -ive
+traître,traître,traîtresse,4.94,unique
+concret,concret,concrète,4.92,-et → -ète
+osseux,osseux,osseuse,4.77,-eux → -euse
+orgueilleux,orgueilleux,orgueilleuse,4.76,-eux → -euse
+capricieux,capricieux,capricieuse,4.73,-eux → -euse
+fugitif,fugitif,fugitive,4.72,-if → -ive
+flatteur,flatteur,flatteuse,4.7,-eur → -euse
+irrégulier,irrégulier,irrégulière,4.68,-er → -ère
+rocheux,rocheux,rocheuse,4.64,-eux → -euse
+instinctif,instinctif,instinctive,4.64,-if → -ive
+vertigineux,vertigineux,vertigineuse,4.58,-eux → -euse
+vertueux,vertueux,vertueuse,4.56,-eux → -euse
+luxueux,luxueux,luxueuse,4.53,-eux → -euse
+rigoureux,rigoureux,rigoureuse,4.49,-eux → -euse
+routier,routier,routière,4.48,-er → -ère
+forestier,forestier,forestière,4.48,-er → -ère
+hargneux,hargneux,hargneuse,4.46,-eux → -euse
+pensif,pensif,pensive,4.4,-if → -ive
+laiteux,laiteux,laiteuse,4.36,-eux → -euse
+joueur,joueur,joueuse,4.28,-eur → -euse
+rugueux,rugueux,rugueuse,4.16,-eux → -euse
+craintif,craintif,craintive,4.15,-if → -ive
+moqueur,moqueur,moqueuse,4.14,-eur → -euse
+désastreux,désastreux,désastreuse,4.07,-eux → -euse
+objectif,objectif,objective,4.07,-if → -ive
+ténébreux,ténébreux,ténébreuse,4.06,-eux → -euse
+poisseux,poisseux,poisseuse,4.03,-eux → -euse
+visqueux,visqueux,visqueuse,4.0,-eux → -euse
+travailleur,travailleur,travailleuse,4.0,-eur → -euse
+méticuleux,méticuleux,méticuleuse,3.95,-eux → -euse
+cavalier,cavalier,cavalière,3.91,-er → -ère
+minutieux,minutieux,minutieuse,3.9,-eux → -euse
+coûteux,coûteux,coûteuse,3.88,-eux → -euse
+trompeur,trompeur,trompeuse,3.86,-eur → -euse
+ingénieux,ingénieux,ingénieuse,3.86,-eux → -euse
+désireux,désireux,désireuse,3.85,-eux → -euse
+respectif,respectif,respective,3.78,-if → -ive
+prestigieux,prestigieux,prestigieuse,3.76,-eux → -euse
+rageur,rageur,rageuse,3.75,-eur → -euse
+adoptif,adoptif,adoptive,3.74,-if → -ive
+hâtif,hâtif,hâtive,3.7,-if → -ive
+affirmatif,affirmatif,affirmative,3.7,-if → -ive
+voyageur,voyageur,voyageuse,3.69,-eur → -euse
+créateur,créateur,créatrice,3.62,-teur → -trice
+laborieux,laborieux,laborieuse,3.59,-eux → -euse
+savoureux,savoureux,savoureuse,3.56,-eux → -euse
+périlleux,périlleux,périlleuse,3.56,-eux → -euse
+explosif,explosif,explosive,3.55,-if → -ive
+foireux,foireux,foireuse,3.54,-eux → -euse
+harmonieux,harmonieux,harmonieuse,3.53,-eux → -euse
+miséricordieux,miséricordieux,miséricordieuse,3.52,-eux → -euse
+chétif,chétif,chétive,3.49,-if → -ive
+moteur,moteur,motrice,3.47,-teur → -trice
+brumeux,brumeux,brumeuse,3.47,-eux → -euse
+boiteux,boiteux,boiteuse,3.45,-eux → -euse
+bienheureux,bienheureux,bienheureuse,3.43,-eux → -euse
+prometteur,prometteur,prometteuse,3.4,-eur → -euse
+plaintif,plaintif,plaintive,3.4,-if → -ive
+voluptueux,voluptueux,voluptueuse,3.32,-eux → -euse
+conservateur,conservateur,conservatrice,3.29,-teur → -trice
+soupçonneux,soupçonneux,soupçonneuse,3.24,-eux → -euse
+moelleux,moelleux,moelleuse,3.22,-eux → -euse
+astucieux,astucieux,astucieuse,3.19,-eux → -euse
+merdeux,merdeux,merdeuse,3.16,-eux → -euse
+nègre,nègre,négresse,3.15,unique
+haineux,haineux,haineuse,3.14,-eux → -euse
+subversif,subversif,subversive,3.14,-if → -ive
+miteux,miteux,miteuse,3.13,-eux → -euse
+superstitieux,superstitieux,superstitieuse,3.09,-eux → -euse
+tumultueux,tumultueux,tumultueuse,3.06,-eux → -euse
+admiratif,admiratif,admirative,3.03,-if → -ive
+talentueux,talentueux,talentueuse,3.01,-eux → -euse
+frileux,frileux,frileuse,3.0,-eux → -euse
+coutumier,coutumier,coutumière,2.97,-er → -ère
+sorcier,sorcier,sorcière,2.96,-er → -ère
+maladif,maladif,maladive,2.92,-if → -ive
+spacieux,spacieux,spacieuse,2.9,-eux → -euse
+significatif,significatif,significative,2.87,-if → -ive
+avantageux,avantageux,avantageuse,2.84,-eux → -euse
+sinueux,sinueux,sinueuse,2.83,-eux → -euse
+peureux,peureux,peureuse,2.83,-eux → -euse
+destructeur,destructeur,destructrice,2.81,-teur → -trice
+dédaigneux,dédaigneux,dédaigneuse,2.78,-eux → -euse
+juteux,juteux,juteuse,2.77,-eux → -euse
+intensif,intensif,intensive,2.72,-if → -ive
+venimeux,venimeux,venimeuse,2.71,-eux → -euse
+progressif,progressif,progressive,2.71,-if → -ive
+terreux,terreux,terreuse,2.67,-eux → -euse
+fautif,fautif,fautive,2.61,-if → -ive
+songeur,songeur,songeuse,2.59,-eur → -euse
+consultatif,consultatif,consultative,2.59,-if → -ive
+gâteux,gâteux,gâteuse,2.59,-eux → -euse
+captif,captif,captive,2.59,-if → -ive
+évasif,évasif,évasive,2.57,-if → -ive
+puceau,puceau,pucelle,2.54,-eau → -elle
+galeux,galeux,galeuse,2.53,-eux → -euse
+graisseux,graisseux,graisseuse,2.52,-eux → -euse
+fastidieux,fastidieux,fastidieuse,2.48,-eux → -euse
+vengeur,vengeur,vengeresse,2.46,unique
+baveux,baveux,baveuse,2.42,-eux → -euse
+instructif,instructif,instructive,2.41,-if → -ive
+valeureux,valeureux,valeureuse,2.41,-eux → -euse
+fougueux,fougueux,fougueuse,2.41,-eux → -euse
+volumineux,volumineux,volumineuse,2.39,-eux → -euse
+affectif,affectif,affective,2.39,-if → -ive
+créatif,créatif,créative,2.37,-if → -ive
+épineux,épineux,épineuse,2.36,-eux → -euse
+vaniteux,vaniteux,vaniteuse,2.34,-eux → -euse
+consciencieux,consciencieux,consciencieuse,2.34,-eux → -euse
+impératif,impératif,impérative,2.34,-if → -ive
+incomplet,incomplet,incomplète,2.33,-et → -ète
+fictif,fictif,fictive,2.33,-if → -ive
+bénin,bénin,bénigne,2.32,-in → -igne
+hospitalier,hospitalier,hospitalière,2.29,-er → -ère
+pompeux,pompeux,pompeuse,2.29,-eux → -euse
+défectueux,défectueux,défectueuse,2.28,-eux → -euse
+piteux,piteux,piteuse,2.28,-eux → -euse
+judicieux,judicieux,judicieuse,2.28,-eux → -euse
+pluvieux,pluvieux,pluvieuse,2.26,-eux → -euse
+conducteur,conducteur,conductrice,2.25,-teur → -trice
+rieur,rieur,rieuse,2.24,-eur → -euse
+alternatif,alternatif,alternative,2.2,-if → -ive
+noueux,noueux,noueuse,2.19,-eux → -euse
+défensif,défensif,défensive,2.19,-if → -ive
+exigu,exigu,exiguë,2.18,-gu → -guë
+enchanteur,enchanteur,enchanteresse,2.18,unique
+décoratif,décoratif,décorative,2.15,-if → -ive
+impulsif,impulsif,impulsive,2.13,-if → -ive
+printanier,printanier,printanière,2.12,-er → -ère
+gazeux,gazeux,gazeuse,2.11,-eux → -euse
+approximatif,approximatif,approximative,2.1,-if → -ive
+globuleux,globuleux,globuleuse,2.08,-eux → -euse
+pâteux,pâteux,pâteuse,2.08,-eux → -euse
+émotif,émotif,émotive,2.05,-if → -ive
+impétueux,impétueux,impétueuse,2.05,-eux → -euse
+onctueux,onctueux,onctueuse,2.04,-eux → -euse
+aventureux,aventureux,aventureuse,2.03,-eux → -euse
+vitreux,vitreux,vitreuse,2.02,-eux → -euse
+insidieux,insidieux,insidieuse,2.02,-eux → -euse
+studieux,studieux,studieuse,2.02,-eux → -euse
+orageux,orageux,orageuse,2.01,-eux → -euse
+malicieux,malicieux,malicieuse,2.0,-eux → -euse
+soigneux,soigneux,soigneuse,1.98,-eux → -euse
+fermier,fermier,fermière,1.97,-er → -ère
+scrupuleux,scrupuleux,scrupuleuse,1.97,-eux → -euse
+méditatif,méditatif,méditative,1.96,-if → -ive
+vaporeux,vaporeux,vaporeuse,1.94,-eux → -euse
+huileux,huileux,huileuse,1.93,-eux → -euse
+fructueux,fructueux,fructueuse,1.93,-eux → -euse
+exécutif,exécutif,exécutive,1.93,-if → -ive
+lascif,lascif,lascive,1.91,-if → -ive
+radioactif,radioactif,radioactive,1.86,-if → -ive
+neigeux,neigeux,neigeuse,1.83,-eux → -euse
+rétif,rétif,rétive,1.83,-if → -ive
+spongieux,spongieux,spongieuse,1.82,-eux → -euse
+natif,natif,native,1.81,-if → -ive
+princier,princier,princière,1.81,-er → -ère
+révélateur,révélateur,révélatrice,1.79,-teur → -trice
+charbonneux,charbonneux,charbonneuse,1.78,-eux → -euse
+coopératif,coopératif,coopérative,1.78,-if → -ive
+foncier,foncier,foncière,1.78,-er → -ère
+fondateur,fondateur,fondatrice,1.77,-teur → -trice
+persuasif,persuasif,persuasive,1.77,-if → -ive
+tortueux,tortueux,tortueuse,1.76,-eux → -euse
+morveux,morveux,morveuse,1.75,-eux → -euse
+infirmier,infirmier,infirmière,1.73,-er → -ère
+coi,coi,coite,1.73,unique
+râpeux,râpeux,râpeuse,1.72,-eux → -euse
+gaucher,gaucher,gauchère,1.7,-er → -ère
+boudeur,boudeur,boudeuse,1.69,-eur → -euse
+coléreux,coléreux,coléreuse,1.69,-eux → -euse
+langoureux,langoureux,langoureuse,1.68,-eux → -euse
+séropositif,séropositif,séropositive,1.68,-if → -ive
+anguleux,anguleux,anguleuse,1.67,-eux → -euse
+pécheur,pécheur,pécheresse,1.67,unique
+tiers,tiers,tierce,1.66,unique
+éducatif,éducatif,éducative,1.66,-if → -ive
+véreux,véreux,véreuse,1.65,-eux → -euse
+mousseux,mousseux,mousseuse,1.63,-eux → -euse
+dévastateur,dévastateur,dévastatrice,1.61,-teur → -trice
+sablonneux,sablonneux,sablonneuse,1.6,-eux → -euse
+préventif,préventif,préventive,1.6,-if → -ive
+nocif,nocif,nocive,1.59,-if → -ive
+connaisseur,connaisseur,connaisseuse,1.58,-eur → -euse
+inquisiteur,inquisiteur,inquisitrice,1.58,-teur → -trice
+fastueux,fastueux,fastueuse,1.58,-eux → -euse
+désuet,désuet,désuète,1.57,-et → -ète
+crémeux,crémeux,crémeuse,1.57,-eux → -euse
+libérateur,libérateur,libératrice,1.57,-teur → -trice
+poreux,poreux,poreuse,1.56,-eux → -euse
+mensonger,mensonger,mensongère,1.56,-er → -ère
+vindicatif,vindicatif,vindicative,1.55,-if → -ive
+rancunier,rancunier,rancunière,1.55,-er → -ère
+bêta,bêta,bêtasse,1.55,unique
+pétrolier,pétrolier,pétrolière,1.54,-er → -ère
+teigneux,teigneux,teigneuse,1.53,-eux → -euse
+poussif,poussif,poussive,1.51,-if → -ive
+expressif,expressif,expressive,1.51,-if → -ive
+hasardeux,hasardeux,hasardeuse,1.5,-eux → -euse
+altier,altier,altière,1.5,-er → -ère
+représentatif,représentatif,représentative,1.5,-if → -ive
+mélodieux,mélodieux,mélodieuse,1.48,-eux → -euse
+journalier,journalier,journalière,1.48,-er → -ère
+digestif,digestif,digestive,1.46,-if → -ive
+offensif,offensif,offensive,1.45,-if → -ive
+caillouteux,caillouteux,caillouteuse,1.45,-eux → -euse
+portatif,portatif,portative,1.45,-if → -ive
+caverneux,caverneux,caverneuse,1.45,-eux → -euse
+convulsif,convulsif,convulsive,1.45,-if → -ive
+effectif,effectif,effective,1.45,-if → -ive
+côtier,côtier,côtière,1.43,-er → -ère
+cotonneux,cotonneux,cotonneuse,1.42,-eux → -euse
+consécutif,consécutif,consécutive,1.42,-if → -ive
+ombrageux,ombrageux,ombrageuse,1.41,-eux → -euse
+grincheux,grincheux,grincheuse,1.41,-eux → -euse
+officieux,officieux,officieuse,1.4,-eux → -euse
+dépressif,dépressif,dépressive,1.39,-if → -ive
+suraigu,suraigu,suraiguë,1.37,-gu → -guë
+ordurier,ordurier,ordurière,1.37,-er → -ère
+rocailleux,rocailleux,rocailleuse,1.37,-eux → -euse
+nourricier,nourricier,nourricière,1.37,-er → -ère
+intempestif,intempestif,intempestive,1.36,-if → -ive
+vénéneux,vénéneux,vénéneuse,1.36,-eux → -euse
+doucereux,doucereux,doucereuse,1.36,-eux → -euse
+subjectif,subjectif,subjective,1.35,-if → -ive
+houleux,houleux,houleuse,1.34,-eux → -euse
+oblong,oblong,oblongue,1.33,-ong → -ongue
+envieux,envieux,envieuse,1.33,-eux → -euse
+précautionneux,précautionneux,précautionneuse,1.33,-eux → -euse
+possessif,possessif,possessive,1.33,-if → -ive
+cérémonieux,cérémonieux,cérémonieuse,1.33,-eux → -euse
+tapageur,tapageur,tapageuse,1.33,-eur → -euse
+oisif,oisif,oisive,1.32,-if → -ive
+productif,productif,productive,1.32,-if → -ive
+pointilleux,pointilleux,pointilleuse,1.31,-eux → -euse
+poudreux,poudreux,poudreuse,1.31,-eux → -euse
+charmeur,charmeur,charmeuse,1.31,-eur → -euse
+lucratif,lucratif,lucrative,1.3,-if → -ive
+imaginatif,imaginatif,imaginative,1.29,-if → -ive
+oublieux,oublieux,oublieuse,1.28,-eux → -euse
+lépreux,lépreux,lépreuse,1.27,-eux → -euse
+auditif,auditif,auditive,1.26,-if → -ive
+constructif,constructif,constructive,1.26,-if → -ive
+nuageux,nuageux,nuageuse,1.26,-eux → -euse
+inactif,inactif,inactive,1.26,-if → -ive
+rétrospectif,rétrospectif,rétrospective,1.25,-if → -ive
+législatif,législatif,législative,1.25,-if → -ive
+abusif,abusif,abusive,1.24,-if → -ive
+vaseux,vaseux,vaseuse,1.23,-eux → -euse
+belliqueux,belliqueux,belliqueuse,1.23,-eux → -euse
+minier,minier,minière,1.22,-er → -ère
+mielleux,mielleux,mielleuse,1.21,-eux → -euse
+fruitier,fruitier,fruitière,1.21,-er → -ère
+producteur,producteur,productrice,1.21,-teur → -trice
+sélectif,sélectif,sélective,1.2,-if → -ive
+observateur,observateur,observatrice,1.2,-teur → -trice
+dominateur,dominateur,dominatrice,1.18,-teur → -trice
+communicatif,communicatif,communicative,1.18,-if → -ive
+interrogateur,interrogateur,interrogatrice,1.18,-teur → -trice
+crapuleux,crapuleux,crapuleuse,1.16,-eux → -euse
+inexpressif,inexpressif,inexpressive,1.16,-if → -ive
+sucrier,sucrier,sucrière,1.15,-er → -ère
+réceptif,réceptif,réceptive,1.14,-if → -ive
+nauséeux,nauséeux,nauséeuse,1.14,-eux → -euse
+souffreteux,souffreteux,souffreteuse,1.14,-eux → -euse
+réparateur,réparateur,réparatrice,1.13,-teur → -trice
+tuberculeux,tuberculeux,tuberculeuse,1.13,-eux → -euse
+séducteur,séducteur,séductrice,1.13,-teur → -trice
+chercheur,chercheur,chercheuse,1.13,-eur → -euse
+malchanceux,malchanceux,malchanceuse,1.13,-eux → -euse
+pierreux,pierreux,pierreuse,1.12,-eux → -euse
+sentencieux,sentencieux,sentencieuse,1.12,-eux → -euse
+incestueux,incestueux,incestueuse,1.12,-eux → -euse
+oiseux,oiseux,oiseuse,1.11,-eux → -euse
+combatif,combatif,combative,1.11,-if → -ive
+pernicieux,pernicieux,pernicieuse,1.1,-eux → -euse
+cireux,cireux,cireuse,1.09,-eux → -euse
+annonciateur,annonciateur,annonciatrice,1.09,-teur → -trice
+expéditif,expéditif,expéditive,1.09,-if → -ive
+présomptueux,présomptueux,présomptueuse,1.09,-eux → -euse
+capiteux,capiteux,capiteuse,1.07,-eux → -euse
+savonneux,savonneux,savonneuse,1.07,-eux → -euse
+distinctif,distinctif,distinctive,1.07,-if → -ive
+boutonneux,boutonneux,boutonneuse,1.06,-eux → -euse
+calleux,calleux,calleuse,1.06,-eux → -euse
+sulfureux,sulfureux,sulfureuse,1.06,-eux → -euse
+fallacieux,fallacieux,fallacieuse,1.06,-eux → -euse
+avant-dernier,avant-dernier,avant-dernière,1.05,-er → -ère
+laitier,laitier,laitière,1.05,-er → -ère
+farceur,farceur,farceuse,1.04,-eur → -euse
+commémoratif,commémoratif,commémorative,1.04,-if → -ive
+andalou,andalou,andalouse,1.02,unique
+suceur,suceur,suceuse,1.02,-eur → -euse
+hôtelier,hôtelier,hôtelière,1.02,-er → -ère
+pulpeux,pulpeux,pulpeuse,1.02,-eux → -euse
+suspicieux,suspicieux,suspicieuse,1.01,-eux → -euse
+disgracieux,disgracieux,disgracieuse,1.0,-eux → -euse
+douanier,douanier,douanière,1.0,-er → -ère
+réprobateur,réprobateur,réprobatrice,0.98,-teur → -trice
+chatouilleux,chatouilleux,chatouilleuse,0.98,-eux → -euse
+ombreux,ombreux,ombreuse,0.97,-eux → -euse
+dubitatif,dubitatif,dubitative,0.97,-if → -ive
+contigu,contigu,contiguë,0.97,-gu → -guë
+malencontreux,malencontreux,malencontreuse,0.97,-eux → -euse
+grumeleux,grumeleux,grumeleuse,0.95,-eux → -euse
+adhésif,adhésif,adhésive,0.95,-if → -ive
+fangeux,fangeux,fangeuse,0.94,-eux → -euse
+onéreux,onéreux,onéreuse,0.94,-eux → -euse
+musculeux,musculeux,musculeuse,0.94,-eux → -euse
+marécageux,marécageux,marécageuse,0.93,-eux → -euse
+scabreux,scabreux,scabreuse,0.93,-eux → -euse
+ruineux,ruineux,ruineuse,0.91,-eux → -euse
+végétatif,végétatif,végétative,0.9,-if → -ive
+saisonnier,saisonnier,saisonnière,0.9,-er → -ère
+répétitif,répétitif,répétitive,0.89,-if → -ive
+pelucheux,pelucheux,pelucheuse,0.89,-eux → -euse
+retraité,retraité,re-traitée,0.87,unique
+incisif,incisif,incisive,0.86,-if → -ive
+aventurier,aventurier,aventurière,0.85,-er → -ère
+frontalier,frontalier,frontalière,0.85,-er → -ère
+pouilleux,pouilleux,pouilleuse,0.85,-eux → -euse
+suggestif,suggestif,suggestive,0.84,-if → -ive
+migrateur,migrateur,migratrice,0.83,-teur → -trice
+indicateur,indicateur,indicatrice,0.83,-teur → -trice
+irrespectueux,irrespectueux,irrespectueuse,0.83,-eux → -euse
+enjôleur,enjôleur,enjôleuse,0.82,-eur → -euse
+donneur,donneur,donneuse,0.82,-eur → -euse
+intraveineux,intraveineux,intraveineuse,0.81,-eux → -euse
+broussailleux,broussailleux,broussailleuse,0.81,-eux → -euse
+crayeux,crayeux,crayeuse,0.8,-eux → -euse
+explorateur,explorateur,exploratrice,0.8,-teur → -trice
+enregistreur,enregistreur,enregistreuse,0.8,-eur → -euse
+nutritif,nutritif,nutritive,0.79,-if → -ive
+laineux,laineux,laineuse,0.79,-eux → -euse
+sourcilleux,sourcilleux,sourcilleuse,0.79,-eux → -euse
+potager,potager,potagère,0.79,-er → -ère
+montagneux,montagneux,montagneuse,0.79,-eux → -euse
+mafieux,mafieux,mafieuse,0.79,-eux → -euse
+loqueteux,loqueteux,loqueteuse,0.79,-eux → -euse
+émetteur,émetteur,émettrice,0.79,-teur → -trice
+duveteux,duveteux,duveteuse,0.78,-eux → -euse
+nébuleux,nébuleux,nébuleuse,0.78,-eux → -euse
+railleur,railleur,railleuse,0.78,-eur → -euse
+bigleux,bigleux,bigleuse,0.78,-eux → -euse
+générateur,générateur,génératrice,0.78,-teur → -trice
+bourbeux,bourbeux,bourbeuse,0.77,-eux → -euse
+interrogatif,interrogatif,interrogative,0.77,-if → -ive
+accusateur,accusateur,accusatrice,0.76,-teur → -trice
+compétitif,compétitif,compétitive,0.76,-if → -ive
+comateux,comateux,comateuse,0.76,-eux → -euse
+granuleux,granuleux,granuleuse,0.75,-eux → -euse
+inattentif,inattentif,inattentive,0.75,-if → -ive
+carnassier,carnassier,carnassière,0.75,-er → -ère
+expansif,expansif,expansive,0.74,-if → -ive
+corrosif,corrosif,corrosive,0.74,-if → -ive
+routinier,routinier,routinière,0.74,-er → -ère
+besogneux,besogneux,besogneuse,0.74,-eux → -euse
+baladeur,baladeur,baladeuse,0.74,-eur → -euse
+gélatineux,gélatineux,gélatineuse,0.74,-eux → -euse
+sirupeux,sirupeux,sirupeuse,0.73,-eux → -euse
+replet,replet,replète,0.73,-et → -ète
+boursier,boursier,boursière,0.73,-er → -ère
+inventif,inventif,inventive,0.73,-if → -ive
+moyenâgeux,moyenâgeux,moyenâgeuse,0.73,-eux → -euse
+improductif,improductif,improductive,0.73,-if → -ive
+intuitif,intuitif,intuitive,0.73,-if → -ive
+purificateur,purificateur,purificatrice,0.72,-teur → -trice
+démonstratif,démonstratif,démonstrative,0.71,-if → -ive
+vineux,vineux,vineuse,0.7,-eux → -euse
+piqueur,piqueur,piqueuse,0.7,-eur → -euse
+olfactif,olfactif,olfactive,0.69,-if → -ive
+pacificateur,pacificateur,pacificatrice,0.69,-teur → -trice
+tentateur,tentateur,tentatrice,0.69,-teur → -trice
+évocateur,évocateur,évocatrice,0.69,-teur → -trice
+filandreux,filandreux,filandreuse,0.69,-eux → -euse
+infructueux,infructueux,infructueuse,0.69,-eux → -euse
+aigre-doux,aigre-doux,aigre-douce,0.69,unique
+bêcheur,bêcheur,bêcheuse,0.69,-eur → -euse
+compulsif,compulsif,compulsive,0.68,-if → -ive
+désapprobateur,désapprobateur,désapprobatrice,0.68,-teur → -trice
+fuligineux,fuligineux,fuligineuse,0.68,-eux → -euse
+apéritif,apéritif,apéritive,0.68,-if → -ive
+licencieux,licencieux,licencieuse,0.68,-eux → -euse
+punitif,punitif,punitive,0.68,-if → -ive
