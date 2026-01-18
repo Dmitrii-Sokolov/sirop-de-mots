@@ -85,7 +85,7 @@ class BlacklistReason:
 # =============================================================================
 
 # Columns for category CSV files
-CATEGORY_COLUMNS = ['lemme', 'cgram', 'genre', 'freqlem', 'forms', 'nbhomogr']
+CATEGORY_COLUMNS = ['lemme', 'cgram', 'genre', 'freqlem', 'forms']
 
 # Columns for skeleton CSV
 SKELETON_COLUMNS = ['French', 'WordType', 'cgram', 'freqlem', 'related_forms']
