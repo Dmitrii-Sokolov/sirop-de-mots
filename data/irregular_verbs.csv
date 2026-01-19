@@ -1,0 +1,339 @@
+lemme,freqlem,participe_present,ending_type,notes
+être,25376.09,étant,-re,auxiliaire
+avoir,10714.04,ayant,-ir sans -issant,auxiliaire
+faire,7419.68,faisant,-re,"très irrégulier (je fais, je ferai)"
+aller,7137.63,allant,-er exception,3e groupe (-er exception)
+dire,5500.69,disant,-re,"irrégulier (je dis, vous dites)"
+pouvoir,4378.6,pouvant,-ir sans -issant,"-oir (je peux, je pourrai)"
+vouloir,3805.64,voulant,-ir sans -issant,"-oir (je veux, je voudrai)"
+savoir,3511.46,sachant,-ir sans -issant,"-oir (je sais, je saurai)"
+voir,3432.36,voyant,-ir sans -issant,"-oir (je vois, je verrai)"
+devoir,2466.81,devant,-ir sans -issant,"-oir (je dois, je devrai)"
+venir,2264.1,venant,-ir sans -issant,"-enir (je viens, je viendrai)"
+prendre,1734.87,prenant,-re,-endre (je prends)
+suivre,1633.97,suivant,-re,-ivre (je suis)
+falloir,1492.42,,-ir sans -issant,-oir impersonnel (il faut)
+croire,1406.09,croyant,-re,-oire (je crois)
+attendre,1093.55,attendant,-re,-endre (j'attends) - régulier
+mettre,1036.39,mettant,-re,-ettre (je mets)
+partir,861.45,partant,-ir sans -issant,-tir (je pars)
+connaître,828.32,connaissant,-re,-aître (je connais)
+comprendre,782.03,comprenant,-re,-endre (je comprends)
+sortir,781.58,sortant,-ir sans -issant,-tir (je sors)
+entendre,724.85,entendant,-re,-endre (j'entends) - régulier
+mourir,706.27,mourant,-ir sans -issant,"-ourir (je meurs, je mourrai)"
+sentir,608.75,sentant,-ir sans -issant,-tir (je sens)
+tenir,599.3,tenant,-ir sans -issant,"-enir (je tiens, je tiendrai)"
+revenir,567.39,revenant,-ir sans -issant,-enir (je reviens)
+rendre,492.53,rendant,-re,
+vivre,490.25,vivant,-re,-ivre (je vis)
+perdre,478.59,perdant,-re,
+devenir,476.55,devenant,-ir sans -issant,-enir (je deviens)
+ouvrir,444.99,ouvrant,-ir sans -issant,-vrir (j'ouvre) - comme -er
+plaire,420.25,plaisant,-re,-aire (je plais)
+asseoir,351.73,asseyant,-ir sans -issant,
+dormir,338.87,dormant,-ir sans -issant,-mir (je dors)
+répondre,337.65,répondant,-re,
+apprendre,323.76,apprenant,-re,-endre (j'apprends)
+écrire,320.28,écrivant,-re,-ire (j'écris)
+boire,313.16,buvant,-re,"irrégulier (je bois, nous buvons)"
+foutre,309.32,foutant,-re,
+servir,300.37,servant,-ir sans -issant,-vir (je sers)
+lire,298.57,lisant,-re,-ire (je lis)
+souvenir,275.19,souvenant,-ir sans -issant,
+descendre,262.23,descendant,-re,
+paraître,252.53,paraissant,-re,-aître (je parais)
+rire,212.36,riant,-re,
+reprendre,212.21,reprenant,-re,
+valoir,211.94,valant,-ir sans -issant,"-oir (je vaux, je vaudrai)"
+recevoir,205.42,recevant,-ir sans -issant,-cevoir (je reçois)
+suffire,203.0,suffisant,-re,
+courir,193.25,courant,-ir sans -issant,"-ourir (je cours, je courrai)"
+battre,193.15,battant,-re,-attre (je bats)
+offrir,192.28,offrant,-ir sans -issant,-frir (j'offre) - comme -er
+permettre,177.39,permettant,-re,-ettre (je permets)
+reconnaître,176.11,reconnaissant,-re,
+disparaître,173.0,disparaissant,-re,
+remettre,167.99,remettant,-re,
+vendre,161.23,vendant,-re,
+conduire,159.65,conduisant,-re,-uire (je conduis)
+découvrir,153.79,découvrant,-ir sans -issant,
+revoir,153.49,revoyant,-ir sans -issant,
+promettre,151.72,promettant,-re,-ettre (je promets)
+taire,148.6,taisant,-re,
+sourire,137.55,souriant,-re,
+mentir,131.91,mentant,-ir sans -issant,-tir (je mens)
+naître,117.39,naissant,-re,-aître (je nais)
+souffrir,116.0,souffrant,-ir sans -issant,-frir (je souffre) - comme -er
+apercevoir,113.98,apercevant,-ir sans -issant,-cevoir (j'aperçois)
+craindre,113.79,craignant,-re,-aindre (je crains)
+maintenir,112.2,maintenant,-ir sans -issant,-enir (je maintiens)
+rejoindre,112.11,rejoignant,-re,
+prévenir,107.06,prévenant,-ir sans -issant,
+couvrir,106.38,couvrant,-ir sans -issant,-vrir (je couvre) - comme -er
+tendre,103.33,tendant,-re,
+retenir,100.52,retenant,-ir sans -issant,-enir (je retiens)
+détruire,96.59,détruisant,-re,-uire (je détruis)
+apparaître,89.97,apparaissant,-re,
+atteindre,87.8,atteignant,-re,
+appartenir,85.29,appartenant,-ir sans -issant,-enir (j'appartiens)
+obtenir,85.23,obtenant,-ir sans -issant,-enir (j'obtiens)
+défendre,83.56,défendant,-re,
+poursuivre,81.47,poursuivant,-re,
+surprendre,80.73,surprenant,-re,
+prévoir,77.77,prévoyant,-ir sans -issant,
+fuir,76.66,fuyant,-ir sans -issant,
+parvenir,76.21,parvenant,-ir sans -issant,
+ressentir,75.32,ressentant,-ir sans -issant,
+repartir,70.33,repartant,-ir sans -issant,
+éteindre,65.12,éteignant,-re,
+plaindre,63.89,plaignant,-re,
+construire,61.61,construisant,-re,-uire (je construis)
+interdire,59.99,interdisant,-re,
+pleuvoir,59.14,pleuvant,-ir sans -issant,-oir impersonnel (il pleut)
+endormir,58.19,endormant,-ir sans -issant,
+étendre,57.9,étendant,-re,
+produire,57.45,produisant,-re,-uire (je produis)
+enfuir,54.11,enfuyant,-ir sans -issant,
+admettre,53.81,admettant,-re,
+peindre,53.74,peignant,-re,-eindre (je peins)
+convenir,52.8,convenant,-ir sans -issant,
+convaincre,52.57,convainquant,-re,
+refaire,51.29,refaisant,-re,
+dépendre,50.79,dépendant,-re,
+survivre,49.28,survivant,-re,
+pendre,49.01,pendant,-re,
+prétendre,48.35,prétendant,-re,
+haïr,47.52,haïssant,unknown,
+abattre,46.33,abattant,-re,
+mordre,46.29,mordant,-re,
+rompre,45.88,rompant,-re,-ompre (je romps)
+soutenir,45.82,soutenant,-ir sans -issant,-enir (je soutiens)
+parfaire,43.98,,-re,
+faillir,43.97,,-ir sans -issant,
+commettre,43.33,commettant,-re,
+interrompre,42.21,interrompant,-re,
+contenir,41.61,contenant,-ir sans -issant,-enir (je contiens)
+accueillir,41.08,accueillant,-ir sans -issant,
+joindre,40.9,joignant,-re,-oindre (je joins)
+combattre,40.27,combattant,-re,
+résoudre,39.35,résolvant,-re,-oudre (je résous)
+conclure,37.06,concluant,-re,-clure (je conclus)
+réduire,36.97,réduisant,-re,
+détendre,36.07,détendant,-re,
+recouvrir,34.33,recouvrant,-ir sans -issant,
+parcourir,34.0,parcourant,-ir sans -issant,
+décrire,33.07,décrivant,-re,
+inscrire,32.33,inscrivant,-re,
+confondre,31.23,confondant,-re,
+satisfaire,30.3,satisfaisant,-re,
+vêtir,30.14,vêtant,-ir sans -issant,
+répandre,29.96,répandant,-re,
+décevoir,28.61,décevant,-ir sans -issant,-cevoir (je déçois)
+intervenir,27.57,intervenant,-ir sans -issant,
+vaincre,26.98,vainquant,-re,-aincre (je vaincs)
+entretenir,26.53,entretenant,-ir sans -issant,
+pourvoir,26.4,pourvoyant,-ir sans -issant,
+redevenir,25.76,redevenant,-ir sans -issant,
+fondre,25.66,,-re,
+soumettre,25.53,soumettant,-re,
+transmettre,24.81,transmettant,-re,
+luire,24.32,luisant,-re,
+suspendre,24.12,suspendant,-re,
+entreprendre,23.2,entreprenant,-re,
+traduire,22.97,traduisant,-re,-uire (je traduis)
+tordre,22.7,tordant,-re,
+concevoir,22.39,concevant,-ir sans -issant,-cevoir (je conçois)
+correspondre,21.96,correspondant,-re,
+ressortir,21.81,ressortant,-ir sans -issant,
+cuire,21.15,cuisant,-re,
+percevoir,20.85,percevant,-ir sans -issant,
+distraire,20.71,distrayant,-re,
+émouvoir,20.65,émouvant,-ir sans -issant,
+défaire,20.27,défaisant,-re,
+introduire,19.75,introduisant,-re,
+séduire,18.78,séduisant,-re,
+cueillir,18.63,cueillant,-ir sans -issant,-illir (je cueille) - comme -er
+redescendre,18.32,redescendant,-re,
+recueillir,17.69,recueillant,-ir sans -issant,
+consentir,17.4,consentant,-ir sans -issant,
+clore,17.16,,-re,
+acquérir,16.84,acquérant,-ir sans -issant,"-érir (j'acquiers, j'acquerrai)"
+reproduire,16.18,reproduisant,-re,
+fendre,16.09,fendant,-re,
+conquérir,15.99,conquérant,-ir sans -issant,
+débattre,15.75,débattant,-re,
+déplaire,15.58,déplaisant,-re,
+revivre,14.49,revivant,-re,
+provenir,14.33,provenant,-ir sans -issant,
+relire,14.11,relisant,-re,
+contraindre,13.89,contraignant,-re,
+coudre,13.62,cousant,-re,-oudre (je couds)
+nuire,13.33,nuisant,-re,
+exclure,13.28,excluant,-re,
+entrevoir,13.28,entrevoyant,-ir sans -issant,
+compromettre,12.82,compromettant,-re,
+émettre,12.56,émettant,-re,
+élire,12.14,élisant,-re,
+feindre,12.04,feignant,-re,
+revêtir,12.04,revêtant,-ir sans -issant,
+détenir,11.88,détenant,-ir sans -issant,
+rouvrir,11.44,rouvrant,-ir sans -issant,
+accourir,10.72,accourant,-ir sans -issant,
+extraire,10.43,extrayant,-re,
+prescrire,10.14,prescrivant,-re,
+rabattre,10.03,rabattant,-re,
+bouillir,10.01,,-ir sans -issant,
+renaître,9.69,renaissant,-re,
+redire,9.25,redisant,-re,
+survenir,9.13,survenant,-ir sans -issant,
+gésir,9.13,gisant,-ir sans -issant,
+maudire,8.97,maudissant,-re,
+pressentir,8.96,pressentant,-ir sans -issant,
+étreindre,8.61,étreignant,-re,
+advenir,8.52,,-ir sans -issant,
+entrouvrir,8.41,entrouvrant,-ir sans -issant,
+instruire,8.29,instruisant,-re,
+repentir,8.21,repentant,-ir sans -issant,
+prédire,8.16,prédisant,-re,
+réapparaître,7.78,réapparaissant,-re,
+reconstruire,7.48,reconstruisant,-re,
+contredire,7.33,contredisant,-re,
+dissoudre,7.28,dissolvant,-re,
+croître,7.01,croissant,-re,
+revendre,6.81,revendant,-re,
+rasseoir,6.8,rasseyant,-ir sans -issant,
+reparaître,6.75,reparaissant,-re,
+déduire,6.65,déduisant,-re,
+accroître,6.57,accroissant,-re,
+rendormir,6.54,rendormant,-ir sans -issant,
+reconduire,6.39,reconduisant,-re,
+mouvoir,6.32,mouvant,-ir sans -issant,
+rebondir,6.32,,-ir sans -issant,
+requérir,6.28,requérant,-ir sans -issant,
+inclure,6.28,incluant,-re,-clure (j'inclus)
+tressaillir,6.27,tressaillant,-ir sans -issant,
+abstenir,6.22,abstenant,-ir sans -issant,
+pondre,5.97,pondant,-re,
+assaillir,5.92,assaillant,-ir sans -issant,
+frire,5.87,,-re,
+repeindre,5.81,,-re,
+secourir,5.6,secourant,-ir sans -issant,
+poindre,5.41,,-re,
+tapir,5.28,,-ir sans -issant,
+méprendre,5.28,méprenant,-re,
+choir,5.23,,-ir sans -issant,
+recoudre,5.05,recousant,-re,
+ouïr,4.94,oyant,unknown,
+promouvoir,4.89,,-ir sans -issant,
+bonnir,4.84,,-ir sans -issant,
+enfreindre,4.79,enfreignant,-re,
+corrompre,4.65,corrompant,-re,
+découverte,4.58,,unknown,
+soustraire,4.44,soustrayant,-re,
+démentir,4.38,démentant,-ir sans -issant,
+omettre,4.21,omettant,-re,
+enquérir,4.15,enquérant,-ir sans -issant,
+éprendre,4.15,éprenant,-re,
+traire,4.05,trayant,-re,
+teindre,3.95,teignant,-re,
+enduire,3.75,enduisant,-re,
+flétrir,3.5,,-ir sans -issant,
+tondre,3.37,tondant,-re,
+déguerpir,3.22,,-ir sans -issant,
+paître,3.16,paissant,-re,
+dévêtir,3.15,dévêtant,-ir sans -issant,
+absoudre,3.08,,-re,
+recourir,3.04,recourant,-ir sans -issant,
+dépeindre,3.02,dépeignant,-re,
+défaillir,2.98,défaillant,-ir sans -issant,
+décroître,2.89,décroissant,-re,
+ensuivre,2.86,,-re,
+comparaître,2.84,comparaissant,-re,
+équivaloir,2.83,équivalant,-ir sans -issant,
+desservir,2.75,desservant,-ir sans -issant,
+geindre,2.63,geignant,-re,
+resservir,2.57,,-ir sans -issant,
+sourdre,2.44,sourdant,-re,
+revaloir,2.37,,-ir sans -issant,
+concourir,2.3,concourant,-ir sans -issant,
+complaire,2.23,complaisant,-re,
+déteindre,2.23,déteignant,-re,
+adjoindre,2.21,adjoignant,-re,
+reconquérir,2.2,,-ir sans -issant,
+méconnaître,2.13,méconnaissant,-re,
+endurcir,2.1,,-ir sans -issant,
+départir,2.08,,-ir sans -issant,
+ceindre,2.06,ceignant,-re,
+discourir,2.04,discourant,-ir sans -issant,
+ramollir,1.98,,-ir sans -issant,
+sous-entendre,1.95,sous-entendant,-re,
+reluire,1.94,reluisant,-re,
+prévaloir,1.92,prévalant,-ir sans -issant,
+réécrire,1.91,,-re,
+pâtir,1.9,,-ir sans -issant,
+moudre,1.89,,-re,-oudre (je mouds)
+transcrire,1.83,transcrivant,-re,
+souscrire,1.81,,-re,
+dépérir,1.79,,-ir sans -issant,
+déchoir,1.77,,-ir sans -issant,
+morfondre,1.76,morfondant,-re,
+transparaître,1.75,,-re,
+racornir,1.73,,-ir sans -issant,
+redécouvrir,1.69,redécouvrant,-ir sans -issant,
+induire,1.68,induisant,-re,
+éclore,1.63,,-re,
+courre,1.61,,-re,
+restreindre,1.6,restreignant,-re,
+circoncire,1.58,,-re,
+encourir,1.58,encourant,-ir sans -issant,
+enjoindre,1.57,enjoignant,-re,
+astreindre,1.57,astreignant,-re,
+distendre,1.54,distendant,-re,
+abasourdir,1.52,,-ir sans -issant,
+bruire,1.48,,-re,
+abstraire,1.43,,-re,
+saillir,1.42,,-ir sans -issant,
+brunir,1.41,,-ir sans -issant,
+échoir,1.38,,-ir sans -issant,
+découdre,1.36,,-re,
+bleuir,1.34,,-ir sans -issant,
+subvenir,1.34,subvenant,-ir sans -issant,
+ébattre,1.33,ébattant,-re,
+repaître,1.32,repaissant,-re,
+démordre,1.32,,-re,
+verdir,1.31,,-ir sans -issant,
+réapprendre,1.3,,-re,
+amoindrir,1.3,,-ir sans -issant,
+proscrire,1.23,proscrivant,-re,
+aigrir,1.23,,-ir sans -issant,
+assouplir,1.2,,-ir sans -issant,
+ravoir,1.13,,-ir sans -issant,
+éconduire,1.12,,-re,
+avachir,1.09,,-ir sans -issant,
+appauvrir,1.09,,-ir sans -issant,
+quérir,1.09,,-ir sans -issant,
+transir,1.07,,-ir sans -issant,
+ragaillardir,1.06,,-ir sans -issant,
+dégauchir,1.03,,-ir sans -issant,
+retordre,1.02,,-re,
+raire,1.02,,-re,
+démettre,1.02,,-re,
+radoucir,1.01,,-ir sans -issant,
+oindre,0.98,oignant,-re,
+rembrunir,0.95,,-ir sans -issant,
+blondir,0.95,,-ir sans -issant,
+retransmettre,0.91,retransmettant,-re,
+raffermir,0.87,,-ir sans -issant,
+nantir,0.85,,-ir sans -issant,
+forfait,0.84,,unknown,
+déprendre,0.82,,-re,
+épandre,0.79,épandant,-re,
+ressouvenir,0.76,ressouvenant,-ir sans -issant,
+tartir,0.76,,-ir sans -issant,
+contrefoutre,0.75,,-re,
+rebattre,0.75,,-re,
+assainir,0.73,,-ir sans -issant,
+intervertir,0.72,,-ir sans -issant,
+médire,0.67,médisant,-re,
+réélire,0.67,,-re,
