@@ -1,0 +1,189 @@
+lemme,freqlem,correct_f,f_exists,action,notes
+monsieur,573.42,madame,yes,separate_lemma,different lemma - not a pair
+seigneur,116.35,dame,yes,separate_lemma,different lemma - not a pair
+lieutenant,70.57,lieutenante,yes,add_f,military rank - f-form used
+commandant,53.06,commandante,yes,add_f,military rank - f-form used
+amant,48.85,amante,yes,check_has_both,should be in has_both
+tueur,43.41,tueuse,yes,check_has_both,should be in has_both
+empereur,30.71,impératrice,yes,separate_lemma,irregular - different lemma
+chevalier,24.01,chevalière,yes,check_has_both,should be in has_both
+vivant,21.68,vivante,yes,add_f,living being
+gouverneur,20.39,gouverneure,yes,add_f,Quebec: gouverneure
+adjudant,18.85,adjudante,yes,add_f,military rank
+monseigneur,17.89,,no,m_only,religious title - no f-form
+ingénieur,17.62,ingénieure,yes,add_f,Quebec: ingénieure (not ingénieuse)
+serviteur,16.97,servante,yes,separate_lemma,irregular - servante is different lemma
+führer,16.15,,no,m_only,German title - no f-form
+pasteur,15.18,pasteure,yes,add_f,Quebec: pasteure
+drifter,15.03,,no,m_only,English loanword - invariable
+tailleur,14.9,tailleuse,yes,check_has_both,should be in has_both
+guerrier,14.05,guerrière,yes,add_f,warrior
+sieur,13.38,,no,m_only,archaic title
+pompier,11.83,pompière,yes,add_f,firefighter - f-form used
+méchant,11.65,méchante,yes,add_f,villain
+barbier,11.17,barbière,yes,add_f,barber
+vainqueur,10.0,vainqueure,yes,add_f,winner - Quebec: vainqueure
+gangster,8.8,,no,m_only,English loanword - invariable
+jardinier,8.48,jardinière,yes,add_f,gardener
+leader,8.31,leadeure,maybe,m_only,English loanword - rarely feminized
+dealer,8.24,,no,m_only,English loanword - invariable
+brigadier,7.53,brigadière,yes,add_f,military rank
+manager,5.88,manageuse,maybe,m_only,English loanword - rarely feminized
+supporter,5.86,supportrice,maybe,m_only,fan - supportrice exists
+agresseur,5.63,agresseure,yes,add_f,aggressor - Quebec: agresseure
+envahisseur,5.51,envahisseuse,yes,add_f,invader
+plombier,5.11,plombière,yes,add_f,plumber
+défenseur,4.78,défenseure,yes,add_f,defender - Quebec: défenseure
+violeur,4.77,violeuse,yes,add_f,rapist
+fournisseur,4.61,fournisseuse,yes,add_f,supplier
+successeur,4.46,successeure,yes,add_f,successor - Quebec: successeure
+imposteur,4.41,imposteure,yes,add_f,impostor
+puissant,4.35,puissante,yes,add_f,powerful one
+reporter,4.29,reportrice,maybe,m_only,English origin - varies
+douanier,4.23,douanière,yes,add_f,customs officer
+sous-officier,4.2,sous-officière,yes,add_f,NCO
+ranger,4.11,,no,m_only,English loanword
+proviseur,4.1,proviseure,yes,add_f,principal - Quebec: proviseure
+huissier,4.08,huissière,yes,add_f,bailiff
+déserteur,4.06,déserteuse,yes,add_f,deserter
+milicien,4.04,milicienne,yes,add_f,militiaman
+menuisier,3.91,menuisière,yes,add_f,carpenter
+artilleur,3.85,artilleuse,yes,add_f,artilleryman
+cocher,3.61,cochère,yes,add_f,coachman - rare
+employeur,3.49,employeuse,yes,add_f,employer
+porter,3.27,,no,m_only,English loanword
+archer,3.26,archère,yes,add_f,archer
+conservateur,3.09,conservatrice,yes,add_f,curator/conservative
+traiteur,3.09,traiteuse,yes,add_f,caterer
+malfaiteur,3.05,malfaitrice,yes,add_f,criminal
+veilleur,2.89,veilleuse,yes,add_f,watchman - veilleuse also = nightlight
+loser,2.89,,no,m_only,English loanword
+inventeur,2.82,inventrice,yes,add_f,inventor
+fossoyeur,2.74,fossoyeuse,yes,add_f,gravedigger
+sous-lieutenant,2.73,sous-lieutenante,yes,add_f,military rank
+sniper,2.7,,no,m_only,English loanword
+revenant,2.69,revenante,yes,add_f,ghost
+tirailleur,2.67,tirailleuse,yes,add_f,skirmisher - rare
+chancelier,2.66,chancelière,yes,add_f,chancellor
+prédécesseur,2.63,prédécesseure,yes,add_f,predecessor
+templier,2.51,,no,m_only,historical - no f-form
+brancardier,2.42,brancardière,yes,add_f,stretcher-bearer
+carabinier,2.42,carabinière,yes,add_f,carabineer
+tout-puissant,2.4,toute-puissante,yes,add_f,almighty
+sapeur,2.39,sapeuse,yes,add_f,sapper - rare
+cuirassier,2.37,,no,m_only,historical cavalry
+gladiateur,2.35,gladiatrice,yes,add_f,gladiator
+familier,2.32,familière,yes,add_f,familiar person
+camionneur,2.25,camionneuse,yes,add_f,truck driver
+éboueur,2.24,éboueuse,yes,add_f,garbage collector
+kidnappeur,2.24,kidnappeuse,yes,add_f,kidnapper
+confesseur,2.2,,no,m_only,religious - confesseuse rare
+tenant,2.2,tenante,yes,add_f,holder
+palestinien,2.12,palestinienne,yes,add_f,Palestinian
+voltigeur,2.09,voltigeuse,yes,add_f,acrobat
+assaillant,2.01,assaillante,yes,add_f,assailant
+recteur,1.92,rectrice,yes,add_f,rector
+forestier,1.9,forestière,yes,add_f,forester
+imprimeur,1.86,imprimeuse,yes,add_f,printer
+inquisiteur,1.84,inquisitrice,yes,add_f,inquisitor
+commandeur,1.83,commandeure,yes,add_f,commander
+possesseur,1.83,possesseuse,maybe,m_only,owner - rare f-form
+docker,1.81,,no,m_only,English loanword
+constructeur,1.81,constructrice,yes,add_f,builder
+trappeur,1.8,trappeuse,yes,add_f,trapper
+instructeur,1.8,instructrice,yes,add_f,instructor
+martien,1.77,martienne,yes,add_f,Martian
+mister,1.77,,no,m_only,English title
+transporteur,1.77,transporteuse,yes,add_f,transporter
+canadien,1.72,canadienne,yes,add_f,Canadian
+grenadier,1.7,grenadière,yes,add_f,grenadier - rare
+prédateur,1.7,prédatrice,yes,add_f,predator
+ascendant,1.67,ascendante,yes,add_f,ancestor
+investisseur,1.61,investisseuse,yes,add_f,investor
+rameur,1.57,rameuse,yes,add_f,rower
+souteneur,1.57,,no,m_only,pimp - no f-form
+soupirant,1.47,soupirante,yes,add_f,suitor
+créancier,1.42,créancière,yes,add_f,creditor
+terrassier,1.4,terrassière,yes,add_f,navvy - rare
+cafetier,1.4,cafetière,yes,add_f,café owner - cafetière also = coffee pot
+mécréant,1.39,mécréante,yes,add_f,infidel
+videur,1.38,videuse,yes,add_f,bouncer
+ailier,1.38,ailière,yes,add_f,winger
+sauveteur,1.37,sauveteuse,yes,add_f,rescuer
+boomer,1.34,,no,m_only,English loanword
+cantonnier,1.33,cantonnière,yes,add_f,road worker
+assureur,1.32,assureuse,yes,add_f,insurer
+bookmaker,1.32,,no,m_only,English loanword
+censeur,1.31,censeuse,maybe,m_only,censor - rare f-form
+franc-tireur,1.3,franc-tireuse,yes,add_f,sniper
+messer,1.28,,no,m_only,archaic German title
+planteur,1.28,planteuse,yes,add_f,planter
+armateur,1.27,armatrice,yes,add_f,shipowner
+évangéliste,1.22,évangéliste,yes,invariable,-iste ending
+superviseur,1.22,superviseuse,yes,add_f,supervisor
+coroner,1.21,,no,m_only,English loanword
+mort-vivant,1.2,morte-vivante,yes,add_f,zombie
+prédicateur,1.18,prédicatrice,yes,add_f,preacher
+pharisien,1.17,pharisienne,yes,add_f,Pharisee
+veneur,1.16,,no,m_only,huntsman - archaic
+impuissant,1.16,impuissante,yes,add_f,impotent person
+armurier,1.13,armurière,yes,add_f,gunsmith
+gouvernant,1.11,gouvernante,yes,add_f,ruler
+théologien,1.11,théologienne,yes,add_f,theologian
+raider,1.11,,no,m_only,English loanword
+laboureur,1.09,laboureuse,yes,add_f,plowman - archaic
+challenger,1.07,,no,m_only,English loanword
+sonneur,1.05,sonneuse,yes,add_f,bell ringer
+oppresseur,1.05,oppresseuse,yes,add_f,oppressor
+patrouilleur,1.05,patrouilleuse,yes,add_f,patroller
+charbonnier,1.02,charbonnière,yes,add_f,charcoal burner
+limier,1.02,,no,m_only,sleuth - figurative
+débiteur,1.01,débitrice,yes,add_f,debtor
+vietnamien,1.01,vietnamienne,yes,add_f,Vietnamese
+grossier,1.01,grossière,yes,add_f,boor
+artificier,1.01,artificière,yes,add_f,pyrotechnician
+batelier,0.97,batelière,yes,add_f,boatman
+ferrailleur,0.97,ferrailleuse,yes,add_f,scrap dealer
+écoutant,0.96,écoutante,yes,add_f,listener
+assesseur,0.95,assesseure,yes,add_f,assessor
+vénitien,0.94,vénitienne,yes,add_f,Venetian
+maréchal-ferrant,0.92,maréchale-ferrante,yes,add_f,farrier - rare
+timonier,0.9,timonière,yes,add_f,helmsman
+norvégien,0.89,norvégienne,yes,add_f,Norwegian
+normalien,0.89,normalienne,yes,add_f,ENS student
+répondant,0.88,répondante,yes,add_f,guarantor
+recruteur,0.88,recruteuse,yes,add_f,recruiter
+vacher,0.87,vachère,yes,add_f,cowherd
+nestorien,0.84,nestorienne,yes,add_f,Nestorian
+exploiteur,0.83,exploiteuse,yes,add_f,exploiter
+académicien,0.83,académicienne,yes,add_f,academician
+skipper,0.82,,no,m_only,English loanword
+précurseur,0.8,précurseuse,maybe,m_only,precursor - rare f-form
+régleur,0.79,régleuse,yes,add_f,adjuster
+partant,0.79,partante,yes,add_f,starter
+gougnafier,0.78,,no,m_only,vulgar - no f-form
+poissonnier,0.78,poissonnière,yes,add_f,fishmonger
+acquéreur,0.78,acquéreuse,maybe,m_only,buyer - acquéresse archaic
+officiant,0.77,officiante,yes,add_f,officiant
+tourneur,0.77,tourneuse,yes,add_f,turner
+fusilier,0.76,fusilière,yes,add_f,fusilier - rare
+méfiant,0.76,méfiante,yes,add_f,suspicious person
+arpenteur,0.75,arpenteuse,yes,add_f,surveyor
+égoutier,0.74,égoutière,yes,add_f,sewer worker
+fourrier,0.73,fourrière,maybe,m_only,quartermaster - fourrière = pound
+métayer,0.73,métayère,yes,add_f,sharecropper
+manant,0.73,,no,m_only,archaic peasant
+accusateur,0.72,accusatrice,yes,add_f,accuser
+attrapeur,0.72,attrapeuse,yes,add_f,catcher
+législateur,0.71,législatrice,yes,add_f,legislator
+plaisant,0.71,plaisante,yes,add_f,joker
+stalinien,0.71,stalinienne,yes,add_f,Stalinist
+quaker,0.7,,no,m_only,English loanword - quakeresse exists but archaic
+voiturier,0.7,voiturière,yes,add_f,valet parker
+pisteur,0.7,pisteuse,yes,add_f,ski patroller
+réformateur,0.69,réformatrice,yes,add_f,reformer
+flâneur,0.69,flâneuse,yes,add_f,stroller
+lancier,0.68,lancière,yes,add_f,lancer - rare
+éventreur,0.68,,no,m_only,ripper - Jack the Ripper
+graveur,0.67,graveuse,yes,add_f,engraver
+prospecteur,0.67,prospectrice,yes,add_f,prospector
