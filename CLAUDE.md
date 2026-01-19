@@ -119,8 +119,30 @@ Two detailed instructions for generating CSV files with Claude:
 - `blacklist.csv` — 93 entries to exclude (composite numerals, parse errors, roman numerals)
 - `whitelist_numerals.csv` — 35 basic numerals to include (un-dix-neuf, tens, cent, mille)
 
+**Québécismes raw sources (in `data/quebecismes/`):**
+- `oqlf_termes_officialises.csv` — 1471 official OQLF terms (from Données Québec)
+- `cameleon_quebecismes.csv` — 544 québécismes with definitions (from lecameleon.eu)
+- `wiktionary_quebecismes.csv` — 2968 words from fr.wiktionary "français du Québec" category
+- `exionnaire_quebecismes.csv` — 225 words (from exionnaire.com)
+
+**Expressions & Idioms (in `data/`):**
+- `all_expressions.csv` — **469 expressions** in final Anki format (French, Russian, WordType, ExampleFrench, ExampleRussian, Notes, Emoji, Source)
+- `expressions_idiomatiques.csv` — 67 French idioms (avoir le cafard, poser un lapin, etc.)
+- `expressions_quebecoises.csv` — 40 Quebec expressions (tiguidou, attache ta tuque, etc.)
+- `vocabulaire_quebecois.csv` — 50 Quebec vocabulary (char, blonde, dépanneur, etc.)
+- `sacres_quebecois.csv` — 18 Quebec swear words (tabarnak, câlice + euphemisms)
+- `proverbes_francais.csv` — 58 French proverbs with Russian equivalents
+- `connecteurs_logiques.csv` — 67 logical connectors for TEF B2 (cependant, néanmoins, etc.)
+- `constructions_verbales.csv` — 52 verbal constructions (avoir beau, être censé, il s'agit de, etc.)
+- `expressions_opinion.csv` — 40 opinion expressions (à mon avis, je trouve que, etc.)
+- `expressions_temps.csv` — 39 time expressions (désormais, au fur et à mesure, etc.)
+- `fillers_formules.csv` — 38 fillers and formal phrases (du coup, veuillez agréer, etc.)
+
 **Additions (in `additions/`):**
 - `professions_f.csv` — 141 feminine forms missing from Lexique383 (lieutenante, ingénieure, etc.)
+- `quebecismes.csv` — 566 québécismes with Russian translations (309 HIGH + 257 MEDIUM priority)
+  - Format: word, pos, definition, translation, sources, priority
+  - Needs: examples (ExampleFrench, ExampleRussian), emoji for Anki conversion
 
 **Lexique383 structure for professions:**
 Feminine forms stored as `ortho` with same `lemme`:
@@ -138,16 +160,33 @@ Located in `scripts/`:
 - `04b_check_professions.py` — Check m/f pairs for professions
 - `04c_find_irregular_adj.py` — Find irregular adjectives
 - `04d_find_irregular_verbs.py` — Find 3rd group irregular verbs
+- `06_fetch_quebecismes.py` — Fetch québécismes from 4 sources (OQLF, Caméléon, Wiktionary, Exionnaire)
+- `07_merge_quebecismes.py` — Merge and deduplicate québécismes
+- `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
 
 **Verb group classification:**
 - 1st group: -er verbs (regular, except "aller")
 - 2nd group: -ir with -issant participle (finir → finissant)
 - 3rd group: all others (irregular) — -ir sans -issant, -re, -oir, aller
 
+## Québécismes Sources
+
+External sources for Quebec French vocabulary:
+- **Données Québec** (donneesquebec.ca) — Official OQLF terminology, CSV download
+- **Le Caméléon** (lecameleon.eu) — ~650 québécismes with definitions
+- **Wiktionary** (fr.wiktionary.org) — Category "français du Québec" via API
+- **Exionnaire** (exionnaire.com) — Curated word list
+
+Filtering strategy:
+- **HIGH priority** (309 words): confirmed by 2+ sources — core québécismes
+- **MEDIUM priority** (257 words): from Caméléon only — conversational, less essential
+
+Most have freq=0 in Lexique383 (France-centric corpus), so source count is better quality signal than frequency.
+
 ## TODO
 
 ### Pending tasks
-- [ ] `05_generate_cards.py` — Generate card skeleton from categories + additions, apply blacklist/whitelist
-- [ ] AI content fill — Translations, examples, emoji via Claude
+- [ ] `05_generate_cards.py` — Generate card skeleton from categories + additions (incl. quebecismes.csv), apply blacklist/whitelist
+- [ ] AI content fill — Examples, emoji via Claude (translations mostly ready)
 - [ ] Azure TTS audio generation (fr-CA voices)
 - [ ] Final .apkg assembly with audio
