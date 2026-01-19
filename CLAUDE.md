@@ -168,15 +168,19 @@ Located in `scripts/`:
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
 
 **Skeletons from 05_generate_cards.py (in `output/`, gitignored, regenerable):**
-- `vocabulary_skeleton.csv` — 10695 entries (words from Lexique383)
-- `quebecismes_skeleton.csv` — 566 entries (Quebec French)
-- `conjugation_skeleton.csv` — 2088 verbs
+- `vocabulary_skeleton.csv` — 10695 entries (French, WordType, Notes, Source, freqlem)
+- `quebecismes_skeleton.csv` — 566 entries (French, WordType, Notes, Source, Priority)
+- `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
 
 **AI content (in `content/`, tracked in git):**
-- `expressions/all.csv` — 469 expressions (complete with translations, examples, emoji)
-- `vocabulary/*.csv` — batches of AI-filled vocabulary (to be created)
-- `quebecismes/*.csv` — AI-filled québécismes (to be created)
-- `conjugation/*.csv` — AI-filled conjugation tables (to be created)
+- `expressions/all.csv` — 469 expressions (complete, only audio needed)
+- `vocabulary/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
+- `quebecismes/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
+- `conjugation/*.csv` — Verb, Translation, Tense, ConjSingular, ConjPlural, Notes
+
+**Merge strategy (skeleton + content → final):**
+- Key: `French` for vocabulary/quebecismes, `Verb+Tense` for conjugation
+- Rename Notes fields: skeleton `Notes` → `GrammarNotes`, content `Notes` → `LearningNotes`
 
 **Verb group classification:**
 - 1st group: -er verbs (regular, except "aller")

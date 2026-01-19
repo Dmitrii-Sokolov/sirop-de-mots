@@ -836,15 +836,18 @@ def main():
             writer.writerow(entry.to_row())
     print(f"  Saved {len(all_vocab)} entries")
 
-    # Québécismes skeleton
+    # Québécismes skeleton (no freqlem - all are 0)
     qc_path = OUTPUT_DIR / "quebecismes_skeleton.csv"
     print(f"\nSaving québécismes to {qc_path}...")
 
+    qc_fieldnames = ["French", "WordType", "Notes", "Source", "Priority"]
     with open(qc_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=qc_fieldnames)
         writer.writeheader()
         for entry in qc_vocab:
-            writer.writerow(entry.to_row())
+            row = entry.to_row()
+            del row["freqlem"]  # remove freqlem (always 0 for quebecismes)
+            writer.writerow(row)
     print(f"  Saved {len(qc_vocab)} entries")
 
     # Conjugation skeleton
