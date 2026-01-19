@@ -1,0 +1,1366 @@
+lemme,form_m,form_f,freqlem,status,pattern
+ami,ami,amie,590.44,has_both,irregular
+nouveau,nouveau,nouvelle,254.95,has_both,irregular
+chien,chien,chienne,207.95,has_both,-ien → -ienne
+petit,petit,petite,200.91,has_both,irregular
+docteur,docteur,doctoresse,175.26,has_both,irregular
+parent,parent,parente,171.57,has_both,irregular
+général,général,générale,169.65,has_both,irregular
+premier,premier,première,157.02,has_both,-ier → -ière
+patron,patron,patronne,137.89,has_both,irregular
+copain,copain,copine,136.52,has_both,irregular
+président,président,présidente,117.9,has_both,irregular
+soldat,soldat,soldate,116.32,has_both,irregular
+chat,chat,chatte,108.1,has_both,irregular
+grand,grand,grande,106.41,has_both,irregular
+con,con,conne,101.17,has_both,irregular
+ennemi,ennemi,ennemie,100.21,has_both,irregular
+client,client,cliente,99.89,has_both,irregular
+prince,prince,princesse,99.83,has_both,irregular
+noir,noir,noire,94.61,has_both,irregular
+seul,seul,seule,91.5,has_both,irregular
+français,français,française,89.53,has_both,irregular
+agent,agent,agente,86.44,has_both,irregular
+avocat,avocat,avocate,82.67,has_both,irregular
+colonel,colonel,colonelle,81.03,has_both,irregular
+dernier,dernier,dernière,80.76,has_both,-ier → -ière
+cousin,cousin,cousine,80.29,has_both,irregular
+fou,fou,folle,78.83,has_both,irregular
+gamin,gamin,gamine,70.84,has_both,irregular
+meilleur,meilleur,meilleure,70.04,has_both,irregular
+fer,fer,fère,67.92,has_both,-er → -ère
+voisin,voisin,voisine,66.33,has_both,irregular
+allemand,allemand,allemande,66.07,has_both,irregular
+officier,officier,officière,64.83,has_both,-ier → -ière
+idiot,idiot,idiote,63.15,has_both,irregular
+étranger,étranger,étrangère,62.24,has_both,-er → -ère
+acteur,acteur,actrice,60.19,has_both,-teur → -trice
+directeur,directeur,directrice,54.21,has_both,-teur → -trice
+voleur,voleur,voleuse,49.99,has_both,-eur → -euse
+inspecteur,inspecteur,inspectrice,49.73,has_both,-teur → -trice
+juif,juif,juive,49.49,has_both,irregular
+prêtre,prêtre,prêtresse,49.12,has_both,irregular
+beau,beau,belle,46.54,has_both,irregular
+américain,américain,américaine,46.36,has_both,irregular
+compagnon,compagnon,compagne,45.32,has_both,irregular
+rideau,rideau,ridelle,45.28,has_both,irregular
+démon,démon,démone,44.74,has_both,irregular
+chauffeur,chauffeur,chauffeuse,44.3,has_both,-eur → -euse
+comte,comte,comtesse,43.52,has_both,irregular
+patient,patient,patiente,41.01,has_both,irregular
+fiancé,fiancé,fiancée,40.15,has_both,irregular
+prisonnier,prisonnier,prisonnière,38.84,has_both,-ier → -ière
+rayon,rayon,rayonne,38.5,has_both,irregular
+sorcier,sorcier,sorcière,38.32,has_both,-ier → -ière
+infirmier,infirmier,infirmière,38.25,has_both,-ier → -ière
+étudiant,étudiant,étudiante,38.22,has_both,-ant → -ante
+chasseur,chasseur,chasseresse,37.57,has_both,irregular
+paysan,paysan,paysanne,36.89,has_both,irregular
+lapin,lapin,lapine,36.54,has_both,irregular
+loup,loup,louve,36.01,has_both,irregular
+invité,invité,invitée,35.58,has_both,irregular
+ouvrier,ouvrier,ouvrière,34.9,has_both,-ier → -ière
+écrivain,écrivain,écrivaine,34.34,has_both,irregular
+plume,plum,plume,33.17,has_both,irregular
+gros,gros,grosse,32.23,has_both,irregular
+gardien,gardien,gardienne,31.94,has_both,-ien → -ienne
+auteur,auteur,auteure,30.87,has_both,irregular
+inconnu,inconnu,inconnue,30.71,has_both,irregular
+policier,policier,policière,29.14,has_both,-ier → -ière
+allié,allié,alliée,29.12,has_both,irregular
+vieillard,vieillard,vieillarde,29.11,has_both,irregular
+employé,employé,employée,28.91,has_both,irregular
+marié,marié,mariée,28.7,has_both,irregular
+poète,poète,poétesse,27.97,has_both,irregular
+marchand,marchand,marchande,27.52,has_both,irregular
+cochon,cochon,cochonne,27.3,has_both,irregular
+ancien,ancien,ancienne,27.12,has_both,-ien → -ienne
+champion,champion,championne,27.04,has_both,irregular
+blond,blond,blonde,26.97,has_both,irregular
+chou,chou,choute,26.7,has_both,irregular
+canard,canard,cane,26.09,has_both,irregular
+lion,lion,lionne,25.73,has_both,irregular
+assistant,assistant,assistante,25.65,has_both,-ant → -ante
+enfoiré,enfoiré,enfoirée,25.55,has_both,irregular
+humain,humain,humaine,25.32,has_both,irregular
+italien,italien,italienne,25.32,has_both,-ien → -ienne
+blessé,blessé,blessée,25.26,has_both,irregular
+joueur,joueur,joueuse,25.01,has_both,-eur → -euse
+criminel,criminel,criminelle,24.59,has_both,irregular
+veuf,veuf,veuve,24.13,has_both,irregular
+menteur,menteur,menteuse,24.12,has_both,-eur → -euse
+danseur,danseur,danseuse,24.1,has_both,-eur → -euse
+baron,baron,baronne,23.79,has_both,irregular
+citoyen,citoyen,citoyenne,23.65,has_both,irregular
+crétin,crétin,crétine,23.56,has_both,irregular
+portier,portier,portière,22.94,has_both,-ier → -ière
+voyou,voyou,voyoute,22.71,has_both,irregular
+nègre,nègre,négresse,22.5,has_both,irregular
+prochain,prochain,prochaine,22.45,has_both,irregular
+maire,maire,mairesse,22.44,has_both,irregular
+voyageur,voyageur,voyageuse,22.22,has_both,-eur → -euse
+ours,ours,ourse,21.91,has_both,irregular
+ambassadeur,ambassadeur,ambassadrice,21.8,has_both,irregular
+habitant,habitant,habitante,21.79,has_both,-ant → -ante
+visiteur,visiteur,visiteuse,21.78,has_both,-eur → -euse
+conseiller,conseiller,conseillère,21.54,has_both,-er → -ère
+suivant,suivant,suivante,21.38,has_both,-ant → -ante
+chinois,chinois,chinoise,21.33,has_both,irregular
+espion,espion,espionne,21.05,has_both,irregular
+suspect,suspect,suspecte,20.93,has_both,irregular
+chanteur,chanteur,chanteuse,20.73,has_both,-eur → -euse
+serveur,serveur,serveuse,20.49,has_both,-eur → -euse
+cavalier,cavalier,cavalière,20.25,has_both,-ier → -ière
+procureur,procureur,procureuse,20.13,has_both,-eur → -euse
+cuisinier,cuisinier,cuisinière,20.1,has_both,-ier → -ière
+innocent,innocent,innocente,20.08,has_both,irregular
+pâte,pât,pâte,19.78,has_both,irregular
+espagnol,espagnol,espagnole,19.71,has_both,irregular
+maréchal,maréchal,maréchale,18.38,has_both,irregular
+abruti,abruti,abrutie,18.06,has_both,irregular
+fumier,fumier,fumière,17.92,has_both,-ier → -ière
+damoiseau,damoiseau,demoiselle,17.62,has_both,irregular
+vendeur,vendeur,vendeuse,17.56,has_both,-eur → -euse
+particulier,particulier,particulière,17.46,has_both,-ier → -ière
+grec,grec,grecque,17.3,has_both,irregular
+coiffeur,coiffeur,coiffeuse,17.28,has_both,-eur → -euse
+pêcheur,pêcheur,pêcheuse,17.18,has_both,-eur → -euse
+meurtrier,meurtrier,meurtrière,17.06,has_both,-ier → -ière
+berger,berger,bergère,17.02,has_both,-er → -ère
+passager,passager,passagère,16.94,has_both,-er → -ère
+malin,malin,maligne,16.87,has_both,irregular
+duc,duc,duchesse,16.84,has_both,irregular
+représentant,représentant,représentante,16.84,has_both,-ant → -ante
+pigeon,pigeon,pigeonne,16.73,has_both,irregular
+instituteur,instituteur,institutrice,16.4,has_both,-teur → -trice
+géant,géant,géante,16.17,has_both,-ant → -ante
+abbé,abbé,abbesse,16.08,has_both,irregular
+chaud,chaud,chaude,15.92,has_both,irregular
+nu,nu,nue,15.86,has_both,irregular
+beau-père,beau-père,belle-mère,15.54,has_both,irregular
+éléphant,éléphant,éléphante,15.3,has_both,-ant → -ante
+associé,associé,associée,15.15,has_both,irregular
+passant,passant,passante,14.68,has_both,-ant → -ante
+pareil,pareil,pareille,14.54,has_both,irregular
+aîné,aîné,aînée,14.49,has_both,irregular
+musicien,musicien,musicienne,14.41,has_both,-ien → -ienne
+tireur,tireur,tireuse,14.34,has_both,-eur → -euse
+aller,aller,allez,14.18,has_both,irregular
+adolescent,adolescent,adolescente,14.18,has_both,irregular
+beau-frère,beau-frère,belle-soeur,14.16,has_both,irregular
+civil,civil,civile,14.13,has_both,irregular
+lecteur,lecteur,lectrice,14.11,has_both,-teur → -trice
+as,as,ase,13.93,has_both,irregular
+chrétien,chrétien,chrétienne,13.88,has_both,-ien → -ienne
+candidat,candidat,candidate,13.84,has_both,irregular
+spectateur,spectateur,spectatrice,13.73,has_both,-teur → -trice
+caporal,caporal,caporale,13.73,has_both,irregular
+dragon,dragon,dragonne,13.28,has_both,irregular
+sénateur,sénateur,sénatrice,13.19,has_both,-teur → -trice
+facteur,facteur,factrice,13.08,has_both,-teur → -trice
+bistrot,bistrot,bistrote,13.01,has_both,irregular
+bâtard,bâtard,bâtarde,12.95,has_both,irregular
+frangin,frangin,frangine,12.93,has_both,irregular
+accusé,accusé,accusée,12.92,has_both,irregular
+chirurgien,chirurgien,chirurgienne,12.72,has_both,-ien → -ienne
+conducteur,conducteur,conductrice,12.62,has_both,-teur → -trice
+tigre,tigre,tigresse,12.57,has_both,irregular
+prostitué,prostitué,prostituée,12.31,has_both,irregular
+tsar,tsar,tsarine,12.12,has_both,irregular
+mitrailleur,mitrailleur,mitrailleuse,11.94,has_both,-eur → -euse
+nain,nain,naine,11.94,has_both,irregular
+servant,servant,servante,11.91,has_both,-ant → -ante
+héritier,héritier,héritière,11.87,has_both,-ier → -ière
+nazi,nazi,nazie,11.86,has_both,irregular
+prophète,prophète,prophétesse,11.66,has_both,irregular
+travailleur,travailleur,travailleuse,11.48,has_both,-eur → -euse
+supérieur,supérieur,supérieure,11.42,has_both,irregular
+combattant,combattant,combattante,11.09,has_both,-ant → -ante
+chameau,chameau,chamelle,10.81,has_both,irregular
+survivant,survivant,survivante,10.79,has_both,-ant → -ante
+professionnel,professionnel,professionnelle,10.71,has_both,irregular
+réalisateur,réalisateur,réalisatrice,10.67,has_both,-teur → -trice
+indien,indien,indienne,10.66,has_both,-ien → -ienne
+député,député,députée,10.59,has_both,irregular
+écolier,écolier,écolière,10.48,has_both,-ier → -ière
+fermier,fermier,fermière,10.25,has_both,-ier → -ière
+mineur,mineur,mineure,10.06,has_both,irregular
+détenu,détenu,détenue,10.03,has_both,irregular
+éditeur,éditeur,éditrice,10.02,has_both,-teur → -trice
+latin,latin,latine,10.0,has_both,irregular
+producteur,producteur,productrice,9.99,has_both,-teur → -trice
+intéressant,intéressant,intéressante,9.97,has_both,-ant → -ante
+magicien,magicien,magicienne,9.88,has_both,-ien → -ienne
+cinglé,cinglé,cinglée,9.75,has_both,irregular
+boucher,boucher,bouchère,9.58,has_both,-er → -ère
+condamné,condamné,condamnée,9.56,has_both,irregular
+intellectuel,intellectuel,intellectuelle,9.16,has_both,irregular
+commerçant,commerçant,commerçante,9.12,has_both,-ant → -ante
+porteur,porteur,porteuse,9.04,has_both,-eur → -euse
+messager,messager,messagère,9.03,has_both,-er → -ère
+banquier,banquier,banquière,8.91,has_both,-ier → -ière
+mendiant,mendiant,mendiante,8.82,has_both,-ant → -ante
+renard,renard,renarde,8.78,has_both,irregular
+disparu,disparu,disparue,8.61,has_both,irregular
+mignon,mignon,mignonne,8.58,has_both,irregular
+apprenti,apprenti,apprentie,8.57,has_both,irregular
+boxeur,boxeur,boxeuse,8.41,has_both,-eur → -euse
+orphelin,orphelin,orpheline,8.34,has_both,irregular
+lézard,lézard,lézarde,8.26,has_both,irregular
+gagnant,gagnant,gagnante,8.24,has_both,-ant → -ante
+savant,savant,savante,8.21,has_both,-ant → -ante
+comédien,comédien,comédienne,8.2,has_both,-ien → -ienne
+partisan,partisan,partisane,8.04,has_both,irregular
+gitan,gitan,gitane,7.99,has_both,irregular
+original,original,originale,7.99,has_both,irregular
+préféré,préféré,préférée,7.97,has_both,irregular
+cadet,cadet,cadette,7.97,has_both,irregular
+principal,principal,principale,7.88,has_both,irregular
+adjoint,adjoint,adjointe,7.71,has_both,irregular
+dirigeant,dirigeant,dirigeante,7.71,has_both,-ant → -ante
+réfugié,réfugié,réfugiée,7.69,has_both,irregular
+dauphin,dauphin,dauphine,7.55,has_both,irregular
+pèlerin,pèlerin,pèlerine,7.5,has_both,irregular
+contrôleur,contrôleur,contrôleuse,7.41,has_both,-eur → -euse
+gérant,gérant,gérante,7.36,has_both,-ant → -ante
+maquereau,maquereau,maquerelle,7.36,has_both,irregular
+collaborateur,collaborateur,collaboratrice,7.33,has_both,-teur → -trice
+manuel,manuel,manuelle,7.25,has_both,irregular
+délégué,délégué,déléguée,7.24,has_both,irregular
+juré,juré,jurée,7.18,has_both,irregular
+boulanger,boulanger,boulangère,7.12,has_both,-er → -ère
+explosif,explosif,explosive,7.1,has_both,irregular
+vaurien,vaurien,vaurienne,7.08,has_both,-ien → -ienne
+précédent,précédent,précédente,7.08,has_both,irregular
+raté,raté,ratée,7.04,has_both,irregular
+entraîneur,entraîneur,entraîneuse,7.0,has_both,-eur → -euse
+bien-aimé,bien-aimé,bien-aimée,6.96,has_both,irregular
+rival,rival,rivale,6.93,has_both,irregular
+minet,minet,minette,6.82,has_both,irregular
+demi,demi,demie,6.7,has_both,irregular
+clochard,clochard,clocharde,6.68,has_both,irregular
+interlocuteur,interlocuteur,interlocutrice,6.66,has_both,-teur → -trice
+pécheur,pécheur,pécheresse,6.65,has_both,irregular
+coureur,coureur,coureuse,6.64,has_both,-eur → -euse
+marrant,marrant,marrante,6.5,has_both,-ant → -ante
+mécanicien,mécanicien,mécanicienne,6.49,has_both,-ien → -ienne
+souverain,souverain,souveraine,6.47,has_both,irregular
+pionnier,pionnier,pionnière,6.42,has_both,-ier → -ière
+metteur,metteur,metteuse,6.38,has_both,-eur → -euse
+militant,militant,militante,6.37,has_both,-ant → -ante
+lycéen,lycéen,lycéenne,6.37,has_both,irregular
+défunt,défunt,défunte,6.36,has_both,irregular
+créateur,créateur,créatrice,6.28,has_both,-teur → -trice
+donneur,donneur,donneuse,6.23,has_both,-eur → -euse
+coquin,coquin,coquine,6.23,has_both,irregular
+couturier,couturier,couturière,6.22,has_both,-ier → -ière
+musulman,musulman,musulmane,6.22,has_both,irregular
+gaillard,gaillard,gaillarde,6.18,has_both,irregular
+mortel,mortel,mortelle,6.17,has_both,irregular
+artisan,artisan,artisane,6.15,has_both,irregular
+acheteur,acheteur,acheteuse,6.13,has_both,-eur → -euse
+aïeul,aïeul,aïeule,6.12,has_both,irregular
+truand,truand,truande,6.09,has_both,irregular
+voyant,voyant,voyante,6.01,has_both,-ant → -ante
+autrichien,autrichien,autrichienne,5.95,has_both,-ien → -ienne
+vagabond,vagabond,vagabonde,5.92,has_both,irregular
+distributeur,distributeur,distributrice,5.84,has_both,-teur → -trice
+lourd,lourd,lourde,5.81,has_both,irregular
+mexicain,mexicain,mexicaine,5.81,has_both,irregular
+épicier,épicier,épicière,5.79,has_both,-ier → -ière
+habitué,habitué,habituée,5.74,has_both,irregular
+rouquin,rouquin,rouquine,5.73,has_both,irregular
+envoyé,envoyé,envoyée,5.67,has_both,irregular
+protégé,protégé,protégée,5.67,has_both,irregular
+battant,battant,battante,5.61,has_both,-ant → -ante
+politicien,politicien,politicienne,5.57,has_both,-ien → -ienne
+remplaçant,remplaçant,remplaçante,5.56,has_both,-ant → -ante
+pion,pion,pionne,5.54,has_both,irregular
+générateur,générateur,génératrice,5.51,has_both,-teur → -trice
+sauveur,sauveur,salvatrice,5.48,has_both,irregular
+occupant,occupant,occupante,5.46,has_both,-ant → -ante
+admirateur,admirateur,admiratrice,5.44,has_both,-teur → -trice
+caissier,caissier,caissière,5.43,has_both,-ier → -ière
+vice-président,vice-président,vice-présidente,5.42,has_both,irregular
+aviateur,aviateur,aviatrice,5.39,has_both,-teur → -trice
+romancier,romancier,romancière,5.31,has_both,-ier → -ière
+interdit,interdit,interdite,5.31,has_both,irregular
+rédacteur,rédacteur,rédactrice,5.24,has_both,-teur → -trice
+motard,motard,motarde,5.22,has_both,irregular
+parfait,parfait,parfaite,5.18,has_both,irregular
+sculpteur,sculpteur,sculptrice,5.18,has_both,-teur → -trice
+opérateur,opérateur,opératrice,5.17,has_both,-teur → -trice
+bouffon,bouffon,bouffonne,5.15,has_both,irregular
+pharmacien,pharmacien,pharmacienne,5.15,has_both,-ien → -ienne
+sot,sot,sotte,5.1,has_both,irregular
+éternel,éternel,éternelle,5.09,has_both,irregular
+ménager,ménager,ménagère,5.03,has_both,-er → -ère
+maçon,maçon,maçonne,4.98,has_both,irregular
+parisien,parisien,parisienne,4.97,has_both,-ien → -ienne
+chercheur,chercheur,chercheuse,4.96,has_both,-eur → -euse
+européen,européen,européenne,4.95,has_both,irregular
+administrateur,administrateur,administratrice,4.86,has_both,-teur → -trice
+pâtissier,pâtissier,pâtissière,4.83,has_both,-ier → -ière
+technicien,technicien,technicienne,4.82,has_both,-ien → -ienne
+intrus,intrus,intruse,4.8,has_both,irregular
+moniteur,moniteur,monitrice,4.8,has_both,-teur → -trice
+drogué,drogué,droguée,4.78,has_both,irregular
+mouchard,mouchard,moucharde,4.71,has_both,irregular
+doyen,doyen,doyenne,4.69,has_both,irregular
+intendant,intendant,intendante,4.62,has_both,-ant → -ante
+câlin,câlin,câline,4.61,has_both,irregular
+trafiquant,trafiquant,trafiquante,4.6,has_both,-ant → -ante
+perdant,perdant,perdante,4.59,has_both,-ant → -ante
+croyant,croyant,croyante,4.58,has_both,-ant → -ante
+protecteur,protecteur,protectrice,4.54,has_both,-teur → -trice
+débutant,débutant,débutante,4.52,has_both,-ant → -ante
+aventurier,aventurier,aventurière,4.51,has_both,-ier → -ière
+auditeur,auditeur,auditrice,4.49,has_both,-teur → -trice
+chômeur,chômeur,chômeuse,4.49,has_both,-eur → -euse
+fugitif,fugitif,fugitive,4.49,has_both,irregular
+vaincu,vaincu,vaincue,4.4,has_both,irregular
+magistrat,magistrat,magistrate,4.37,has_both,irregular
+batteur,batteur,batteuse,4.36,has_both,-eur → -euse
+collant,collant,collante,4.35,has_both,-ant → -ante
+courtisan,courtisan,courtisane,4.28,has_both,irregular
+observateur,observateur,observatrice,4.28,has_both,-teur → -trice
+signor,signor,signora,4.27,has_both,irregular
+livreur,livreur,livreuse,4.27,has_both,-eur → -euse
+baigneur,baigneur,baigneuse,4.26,has_both,-eur → -euse
+veinard,veinard,veinarde,4.23,has_both,irregular
+emmerdeur,emmerdeur,emmerdeuse,4.19,has_both,-eur → -euse
+surveillant,surveillant,surveillante,4.17,has_both,-ant → -ante
+ravisseur,ravisseur,ravisseuse,4.13,has_both,-eur → -euse
+descendant,descendant,descendante,4.07,has_both,-ant → -ante
+traducteur,traducteur,traductrice,4.06,has_both,-teur → -trice
+dessinateur,dessinateur,dessinatrice,4.04,has_both,-teur → -trice
+infant,infant,infante,4.02,has_both,-ant → -ante
+forgeron,forgeron,forgeronne,4.01,has_both,irregular
+compositeur,compositeur,compositrice,3.94,has_both,-teur → -trice
+coursier,coursier,coursière,3.94,has_both,-ier → -ière
+voyeur,voyeur,voyeuse,3.93,has_both,-eur → -euse
+fondateur,fondateur,fondatrice,3.93,has_both,-teur → -trice
+promeneur,promeneur,promeneuse,3.91,has_both,-eur → -euse
+correspondant,correspondant,correspondante,3.91,has_both,-ant → -ante
+historien,historien,historienne,3.9,has_both,-ien → -ienne
+brocanteur,brocanteur,brocanteuse,3.88,has_both,-eur → -euse
+républicain,républicain,républicaine,3.87,has_both,irregular
+limousin,limousin,limousine,3.87,has_both,irregular
+industriel,industriel,industrielle,3.86,has_both,irregular
+communal,communal,communale,3.84,has_both,irregular
+noyé,noyé,noyée,3.82,has_both,irregular
+figurant,figurant,figurante,3.82,has_both,-ant → -ante
+dictateur,dictateur,dictatrice,3.81,has_both,-teur → -trice
+entrepreneur,entrepreneur,entrepreneuse,3.79,has_both,-eur → -euse
+sportif,sportif,sportive,3.79,has_both,irregular
+mourant,mourant,mourante,3.78,has_both,-ant → -ante
+cambrioleur,cambrioleur,cambrioleuse,3.76,has_both,-eur → -euse
+tué,tué,tuée,3.73,has_both,irregular
+retraité,retraité,retraitée,3.73,has_both,irregular
+déporté,déporté,déportée,3.72,has_both,irregular
+terminal,terminal,terminale,3.72,has_both,irregular
+prieur,prieur,prieure,3.71,has_both,irregular
+enquêteur,enquêteur,enquêteuse,3.71,has_both,-eur → -euse
+tuteur,tuteur,tutrice,3.7,has_both,-teur → -trice
+branleur,branleur,branleuse,3.67,has_both,-eur → -euse
+attaché,attaché,attachée,3.63,has_both,irregular
+consommateur,consommateur,consommatrice,3.63,has_both,-teur → -trice
+poulain,poulain,poulaine,3.59,has_both,irregular
+plongeur,plongeur,plongeuse,3.58,has_both,-eur → -euse
+fabricant,fabricant,fabricante,3.58,has_both,-ant → -ante
+paumé,paumé,paumée,3.55,has_both,irregular
+fumeur,fumeur,fumeuse,3.53,has_both,-eur → -euse
+poivrot,poivrot,poivrote,3.52,has_both,irregular
+absent,absent,absente,3.5,has_both,irregular
+nageur,nageur,nageuse,3.47,has_both,-eur → -euse
+affamé,affamé,affamée,3.47,has_both,irregular
+routier,routier,routière,3.47,has_both,-ier → -ière
+ignorant,ignorant,ignorante,3.43,has_both,-ant → -ante
+bienfaiteur,bienfaiteur,bienfaitrice,3.42,has_both,-teur → -trice
+dégoûtant,dégoûtant,dégoûtante,3.42,has_both,-ant → -ante
+informateur,informateur,informatrice,3.41,has_both,-teur → -trice
+handicapé,handicapé,handicapée,3.4,has_both,irregular
+lesbien,lesbien,lesbienne,3.39,has_both,-ien → -ienne
+séducteur,séducteur,séductrice,3.38,has_both,-teur → -trice
+électeur,électeur,électrice,3.37,has_both,-teur → -trice
+rêveur,rêveur,rêveuse,3.36,has_both,-eur → -euse
+vendu,vendu,vendue,3.34,has_both,irregular
+concitoyen,concitoyen,concitoyenne,3.32,has_both,irregular
+résistant,résistant,résistante,3.29,has_both,-ant → -ante
+mangeur,mangeur,mangeuse,3.29,has_both,-eur → -euse
+maton,maton,matonne,3.28,has_both,irregular
+délinquant,délinquant,délinquante,3.25,has_both,-ant → -ante
+buveur,buveur,buveuse,3.2,has_both,-eur → -euse
+éclaireur,éclaireur,éclaireuse,3.2,has_both,-eur → -euse
+intéressé,intéressé,intéressée,3.18,has_both,irregular
+meneur,meneur,meneuse,3.17,has_both,-eur → -euse
+orateur,orateur,oratrice,3.16,has_both,-teur → -trice
+israélien,israélien,israélienne,3.15,has_both,-ien → -ienne
+mutant,mutant,mutante,3.13,has_both,-ant → -ante
+protestant,protestant,protestante,3.11,has_both,-ant → -ante
+dormeur,dormeur,dormeuse,3.11,has_both,-eur → -euse
+vassal,vassal,vassale,3.1,has_both,irregular
+bavard,bavard,bavarde,3.09,has_both,irregular
+cocu,cocu,cocue,3.08,has_both,irregular
+indifférent,indifférent,indifférente,3.07,has_both,irregular
+scout,scout,scoute,3.07,has_both,irregular
+connaisseur,connaisseur,connaisseuse,3.06,has_both,-eur → -euse
+brûlé,brûlé,brûlée,3.06,has_both,irregular
+équipier,équipier,équipière,3.04,has_both,-ier → -ière
+bohémien,bohémien,bohémienne,3.04,has_both,-ien → -ienne
+écuyer,écuyer,écuyère,3.04,has_both,-er → -ère
+enseignant,enseignant,enseignante,3.04,has_both,-ant → -ante
+rital,rital,ritale,3.0,has_both,irregular
+fainéant,fainéant,fainéante,3.0,has_both,-ant → -ante
+africain,africain,africaine,2.99,has_both,irregular
+rescapé,rescapé,rescapée,2.99,has_both,irregular
+confident,confident,confidente,2.98,has_both,irregular
+exilé,exilé,exilée,2.96,has_both,irregular
+geôlier,geôlier,geôlière,2.96,has_both,-ier → -ière
+sicilien,sicilien,sicilienne,2.94,has_both,-ien → -ienne
+paon,paon,paonne,2.92,has_both,irregular
+conquérant,conquérant,conquérante,2.88,has_both,-ant → -ante
+ingrat,ingrat,ingrate,2.87,has_both,irregular
+navigateur,navigateur,navigatrice,2.85,has_both,-teur → -trice
+damné,damné,damnée,2.84,has_both,irregular
+pendu,pendu,pendue,2.83,has_both,irregular
+collectionneur,collectionneur,collectionneuse,2.82,has_both,-eur → -euse
+guérisseur,guérisseur,guérisseuse,2.81,has_both,-eur → -euse
+algérien,algérien,algérienne,2.8,has_both,-ien → -ienne
+charpentier,charpentier,charpentière,2.79,has_both,-ier → -ière
+vicomte,vicomte,vicomtesse,2.78,has_both,irregular
+décorateur,décorateur,décoratrice,2.78,has_both,-teur → -trice
+prétendant,prétendant,prétendante,2.76,has_both,-ant → -ante
+électricien,électricien,électricienne,2.73,has_both,-ien → -ienne
+taulier,taulier,taulière,2.73,has_both,-ier → -ière
+organisateur,organisateur,organisatrice,2.72,has_both,-teur → -trice
+aumônier,aumônier,aumônière,2.72,has_both,-ier → -ière
+coéquipier,coéquipier,co-équipière,2.71,has_both,irregular
+désespéré,désespéré,désespérée,2.71,has_both,irregular
+brésilien,brésilien,brésilienne,2.7,has_both,-ien → -ienne
+justicier,justicier,justicière,2.69,has_both,-ier → -ière
+cordonnier,cordonnier,cordonnière,2.68,has_both,-ier → -ière
+bambin,bambin,bambine,2.67,has_both,irregular
+trouillard,trouillard,trouillarde,2.66,has_both,irregular
+prévenu,prévenu,prévenue,2.65,has_both,irregular
+demeuré,demeuré,demeurée,2.64,has_both,irregular
+turc,turc,turque,2.62,has_both,irregular
+terrien,terrien,terrienne,2.61,has_both,-ien → -ienne
+strip-teaseur,strip-teaseur,strip-teaseuse,2.6,has_both,-eur → -euse
+dégonflé,dégonflé,dégonflée,2.58,has_both,irregular
+fuyard,fuyard,fuyarde,2.58,has_both,irregular
+conteur,conteur,conteuse,2.56,has_both,-eur → -euse
+penseur,penseur,penseuse,2.55,has_both,-eur → -euse
+privilégié,privilégié,privilégiée,2.55,has_both,irregular
+régisseur,régisseur,régisseuse,2.54,has_both,-eur → -euse
+contemporain,contemporain,contemporaine,2.53,has_both,irregular
+officiel,officiel,officielle,2.53,has_both,irregular
+élégant,élégant,élégante,2.52,has_both,-ant → -ante
+puceau,puceau,pucelle,2.52,has_both,irregular
+animateur,animateur,animatrice,2.52,has_both,-teur → -trice
+tricheur,tricheur,tricheuse,2.49,has_both,-eur → -euse
+sacristain,sacristain,sacristaine,2.48,has_both,irregular
+écouteur,écouteur,écouteuse,2.48,has_both,-eur → -euse
+courtier,courtier,courtière,2.48,has_both,-ier → -ière
+présentateur,présentateur,présentatrice,2.46,has_both,-teur → -trice
+passeur,passeur,passeuse,2.45,has_both,-eur → -euse
+guetteur,guetteur,guetteuse,2.44,has_both,-eur → -euse
+tourtereau,tourtereau,tourterelle,2.43,has_both,irregular
+pacificateur,pacificateur,pacificatrice,2.43,has_both,-teur → -trice
+faiseur,faiseur,faiseuse,2.43,has_both,-eur → -euse
+clandestin,clandestin,clandestine,2.42,has_both,irregular
+maquisard,maquisard,maquisarde,2.42,has_both,irregular
+logeur,logeur,logeuse,2.4,has_both,-eur → -euse
+collégien,collégien,collégienne,2.4,has_both,-ien → -ienne
+horloger,horloger,horlogère,2.4,has_both,-er → -ère
+greffier,greffier,greffière,2.38,has_both,-ier → -ière
+filleul,filleul,filleule,2.36,has_both,irregular
+païen,païen,païenne,2.36,has_both,irregular
+speaker,speaker,speakerine,2.35,has_both,irregular
+dompteur,dompteur,dompteuse,2.34,has_both,-eur → -euse
+prêcheur,prêcheur,prêcheuse,2.33,has_both,-eur → -euse
+faisan,faisan,faisane,2.33,has_both,irregular
+concubin,concubin,concubine,2.32,has_both,irregular
+arrivant,arrivant,arrivante,2.32,has_both,-ant → -ante
+braqueur,braqueur,braqueuse,2.28,has_both,-eur → -euse
+composant,composant,composante,2.28,has_both,-ant → -ante
+lutteur,lutteur,lutteuse,2.27,has_both,-eur → -euse
+excité,excité,excitée,2.27,has_both,irregular
+déménageur,déménageur,déménageuse,2.27,has_both,-eur → -euse
+laveur,laveur,laveuse,2.25,has_both,-eur → -euse
+roumain,roumain,roumaine,2.25,has_both,irregular
+futé,futé,futée,2.25,has_both,irregular
+loubard,loubard,loubarde,2.25,has_both,irregular
+serrurier,serrurier,serrurière,2.24,has_both,-ier → -ière
+citadin,citadin,citadine,2.24,has_both,irregular
+marocain,marocain,marocaine,2.2,has_both,irregular
+casseur,casseur,casseuse,2.18,has_both,-eur → -euse
+manifestant,manifestant,manifestante,2.16,has_both,-ant → -ante
+galopin,galopin,galopine,2.15,has_both,irregular
+breton,breton,bretonne,2.15,has_both,irregular
+feignant,feignant,feignante,2.15,has_both,-ant → -ante
+tondeur,tondeur,tondeuse,2.14,has_both,-eur → -euse
+préposé,préposé,préposée,2.14,has_both,irregular
+blanchisseur,blanchisseur,blanchisseuse,2.13,has_both,-eur → -euse
+romain,romain,romaine,2.11,has_both,irregular
+campeur,campeur,campeuse,2.11,has_both,-eur → -euse
+nabot,nabot,nabote,2.1,has_both,irregular
+captif,captif,captive,2.09,has_both,irregular
+archiduc,archiduc,archi-duchesse,2.07,has_both,irregular
+footballeur,footballeur,footballeuse,2.06,has_both,-eur → -euse
+bijoutier,bijoutier,bijoutière,2.06,has_both,-ier → -ière
+immigré,immigré,immigrée,2.06,has_both,irregular
+égyptien,égyptien,égyptienne,2.06,has_both,-ien → -ienne
+libertin,libertin,libertine,2.05,has_both,irregular
+chiffonnier,chiffonnier,chiffonnière,2.03,has_both,-ier → -ière
+scélérat,scélérat,scélérate,2.02,has_both,irregular
+laid,laid,laide,1.99,has_both,irregular
+grand-duc,grand-duc,grande-duchesse,1.98,has_both,irregular
+accordé,accordé,accordée,1.98,has_both,irregular
+preneur,preneur,preneuse,1.97,has_both,-eur → -euse
+dément,dément,démente,1.96,has_both,irregular
+suceur,suceur,suceuse,1.94,has_both,-eur → -euse
+explorateur,explorateur,exploratrice,1.94,has_both,-teur → -trice
+émigré,émigré,émigrée,1.93,has_both,irregular
+divorcé,divorcé,divorcée,1.93,has_both,irregular
+charcutier,charcutier,charcutière,1.92,has_both,-ier → -ière
+farceur,farceur,farceuse,1.91,has_both,-eur → -euse
+opprimé,opprimé,opprimée,1.9,has_both,irregular
+ringard,ringard,ringarde,1.9,has_both,irregular
+taulard,taulard,taularde,1.88,has_both,irregular
+châtelain,châtelain,châtelaine,1.88,has_both,irregular
+cubain,cubain,cubaine,1.86,has_both,irregular
+rôdeur,rôdeur,rôdeuse,1.85,has_both,-eur → -euse
+primitif,primitif,primitive,1.85,has_both,irregular
+masseur,masseur,masseuse,1.84,has_both,-eur → -euse
+trésorier,trésorier,trésorière,1.83,has_both,-ier → -ière
+fourmilier,fourmilier,fourmilière,1.82,has_both,-ier → -ière
+hussard,hussard,hussarde,1.81,has_both,irregular
+maladroit,maladroit,maladroite,1.81,has_both,irregular
+usurier,usurier,usurière,1.81,has_both,-ier → -ière
+insensé,insensé,insensée,1.81,has_both,irregular
+zonard,zonard,zonarde,1.81,has_both,irregular
+éleveur,éleveur,éleveuse,1.8,has_both,-eur → -euse
+mercier,mercier,mercière,1.8,has_both,-ier → -ière
+baiseur,baiseur,baiseuse,1.8,has_both,-eur → -euse
+initié,initié,initiée,1.8,has_both,irregular
+cascadeur,cascadeur,cascadeuse,1.79,has_both,-eur → -euse
+receveur,receveur,receveuse,1.79,has_both,-eur → -euse
+grand-papa,grand-papa,grand-maman,1.79,has_both,irregular
+maraudeur,maraudeur,maraudeuse,1.79,has_both,-eur → -euse
+agitateur,agitateur,agitatrice,1.79,has_both,-teur → -trice
+participant,participant,participante,1.79,has_both,-ant → -ante
+naufragé,naufragé,naufragée,1.79,has_both,irregular
+nettoyeur,nettoyeur,nettoyeuse,1.78,has_both,-eur → -euse
+restaurateur,restaurateur,restauratrice,1.78,has_both,-teur → -trice
+occidental,occidental,occidentale,1.77,has_both,irregular
+éducateur,éducateur,éducatrice,1.77,has_both,-teur → -trice
+ouvreur,ouvreur,ouvreuse,1.77,has_both,-eur → -euse
+laitier,laitier,laitière,1.76,has_both,-ier → -ière
+flamand,flamand,flamande,1.74,has_both,irregular
+galant,galant,galante,1.74,has_both,-ant → -ante
+bêta,bêta,bêtasse,1.74,has_both,irregular
+renégat,renégat,renégate,1.74,has_both,irregular
+chieur,chieur,chieuse,1.73,has_both,-eur → -euse
+obligé,obligé,obligée,1.72,has_both,irregular
+manchot,manchot,manchote,1.69,has_both,irregular
+pénitent,pénitent,pénitente,1.68,has_both,irregular
+balayeur,balayeur,balayeuse,1.68,has_both,-eur → -euse
+tombeur,tombeur,tombeuse,1.68,has_both,-eur → -euse
+babouin,babouin,babouine,1.66,has_both,irregular
+richard,richard,richarde,1.66,has_both,irregular
+anormal,anormal,anormale,1.66,has_both,irregular
+ambulancier,ambulancier,ambulancière,1.66,has_both,-ier → -ière
+photocopieur,photocopieur,photocopieuse,1.65,has_both,-eur → -euse
+précepteur,précepteur,préceptrice,1.64,has_both,-teur → -trice
+parleur,parleur,parleuse,1.63,has_both,-eur → -euse
+cultivateur,cultivateur,cultivatrice,1.63,has_both,-teur → -trice
+braconnier,braconnier,braconnière,1.62,has_both,-ier → -ière
+révolté,révolté,révoltée,1.62,has_both,irregular
+majeur,majeur,majeure,1.61,has_both,irregular
+aliéné,aliéné,aliénée,1.61,has_both,irregular
+savoyard,savoyard,savoyarde,1.6,has_both,irregular
+régent,régent,régente,1.6,has_both,irregular
+résident,résident,résidente,1.59,has_both,irregular
+dégénéré,dégénéré,dégénérée,1.59,has_both,irregular
+chroniqueur,chroniqueur,chroniqueuse,1.58,has_both,-eur → -euse
+déçu,déçu,déçue,1.58,has_both,irregular
+promoteur,promoteur,promotrice,1.57,has_both,-teur → -trice
+lanceur,lanceur,lanceuse,1.57,has_both,-eur → -euse
+attardé,attardé,attardée,1.57,has_both,irregular
+faucheur,faucheur,faucheuse,1.57,has_both,-eur → -euse
+chicot,chicot,chicote,1.56,has_both,irregular
+hindou,hindou,hindoue,1.56,has_both,irregular
+opposant,opposant,opposante,1.55,has_both,-ant → -ante
+aspirant,aspirant,aspirante,1.54,has_both,-ant → -ante
+gourmand,gourmand,gourmande,1.54,has_both,irregular
+libéral,libéral,libérale,1.53,has_both,irregular
+financier,financier,financière,1.53,has_both,-ier → -ière
+adorateur,adorateur,adoratrice,1.53,has_both,-teur → -trice
+érudit,érudit,érudite,1.53,has_both,irregular
+nigaud,nigaud,nigaude,1.52,has_both,irregular
+ramasseur,ramasseur,ramasseuse,1.52,has_both,-eur → -euse
+téléspectateur,téléspectateur,téléspectatrice,1.5,has_both,-teur → -trice
+vigneron,vigneron,vigneronne,1.49,has_both,irregular
+évadé,évadé,évadée,1.49,has_both,irregular
+agonisant,agonisant,agonisante,1.49,has_both,-ant → -ante
+agité,agité,agitée,1.49,has_both,irregular
+illuminé,illuminé,illuminée,1.48,has_both,irregular
+prussien,prussien,prussienne,1.47,has_both,-ien → -ienne
+ahuri,ahuri,ahurie,1.46,has_both,irregular
+flambeur,flambeur,flambeuse,1.46,has_both,-eur → -euse
+forcené,forcené,forcenée,1.46,has_both,irregular
+montagnard,montagnard,montagnarde,1.44,has_both,irregular
+résigné,résigné,résignée,1.44,has_both,irregular
+froussard,froussard,froussarde,1.44,has_both,irregular
+communiant,communiant,communiante,1.44,has_both,-ant → -ante
+possédé,possédé,possédée,1.44,has_both,irregular
+sauteur,sauteur,sauteuse,1.43,has_both,-eur → -euse
+poursuivant,poursuivant,poursuivante,1.42,has_both,-ant → -ante
+libérateur,libérateur,libératrice,1.42,has_both,-teur → -trice
+abonné,abonné,abonnée,1.41,has_both,irregular
+syrien,syrien,syrienne,1.41,has_both,-ien → -ienne
+franc-maçon,franc-maçon,franc-maçonne,1.4,has_both,irregular
+affranchi,affranchi,affranchie,1.4,has_both,irregular
+narrateur,narrateur,narratrice,1.39,has_both,-teur → -trice
+allumé,allumé,allumée,1.39,has_both,irregular
+dépanneur,dépanneur,dépanneuse,1.39,has_both,-eur → -euse
+lapon,lapon,laponne,1.38,has_both,irregular
+dominicain,dominicain,dominicaine,1.38,has_both,irregular
+paroissien,paroissien,paroissienne,1.36,has_both,-ien → -ienne
+insurgé,insurgé,insurgée,1.36,has_both,irregular
+pillard,pillard,pillarde,1.36,has_both,irregular
+rentier,rentier,rentière,1.35,has_both,-ier → -ière
+émilien,émilien,émilienne,1.35,has_both,-ien → -ienne
+dévot,dévot,dévote,1.35,has_both,irregular
+allumeur,allumeur,allumeuse,1.35,has_both,-eur → -euse
+agriculteur,agriculteur,agricultrice,1.34,has_both,-teur → -trice
+serin,serin,serine,1.34,has_both,irregular
+gredin,gredin,gredine,1.34,has_both,irregular
+physicien,physicien,physicienne,1.33,has_both,-ien → -ienne
+enchanteur,enchanteur,enchanteresse,1.33,has_both,irregular
+négociateur,négociateur,négociatrice,1.32,has_both,-teur → -trice
+exclu,exclu,exclue,1.32,has_both,irregular
+effronté,effronté,effrontée,1.31,has_both,irregular
+rusé,rusé,rusée,1.31,has_both,irregular
+géniteur,géniteur,génitrice,1.31,has_both,-teur → -trice
+étourdi,étourdi,étourdie,1.3,has_both,irregular
+souffleur,souffleur,souffleuse,1.3,has_both,-eur → -euse
+alsacien,alsacien,alsacienne,1.3,has_both,-ien → -ienne
+youpin,youpin,youpine,1.3,has_both,irregular
+assuré,assuré,assurée,1.29,has_both,irregular
+détraqué,détraqué,détraquée,1.29,has_both,irregular
+contrebandier,contrebandier,contrebandière,1.29,has_both,-ier → -ière
+arriéré,arriéré,arriérée,1.29,has_both,irregular
+conjoint,conjoint,conjointe,1.29,has_both,irregular
+ourson,ourson,oursonne,1.27,has_both,irregular
+conspirateur,conspirateur,conspiratrice,1.27,has_both,-teur → -trice
+examinateur,examinateur,examinatrice,1.26,has_both,-teur → -trice
+forain,forain,foraine,1.26,has_both,irregular
+tenancier,tenancier,tenancière,1.26,has_both,-ier → -ière
+fauteur,fauteur,fauteuse,1.26,has_both,-eur → -euse
+teinturier,teinturier,teinturière,1.26,has_both,-ier → -ière
+expéditeur,expéditeur,expéditrice,1.24,has_both,-teur → -trice
+jongleur,jongleur,jongleuse,1.24,has_both,-eur → -euse
+maraud,maraud,maraude,1.24,has_both,irregular
+plaignant,plaignant,plaignante,1.23,has_both,-ant → -ante
+exalté,exalté,exaltée,1.23,has_both,irregular
+emporté,emporté,emportée,1.23,has_both,irregular
+garant,garant,garante,1.23,has_both,-ant → -ante
+immigrant,immigrant,immigrante,1.23,has_both,-ant → -ante
+négociant,négociant,négociante,1.23,has_both,-ant → -ante
+oriental,oriental,orientale,1.22,has_both,irregular
+postier,postier,postière,1.21,has_both,-ier → -ière
+donateur,donateur,donatrice,1.21,has_both,-teur → -trice
+mondain,mondain,mondaine,1.2,has_both,irregular
+marcheur,marcheur,marcheuse,1.2,has_both,-eur → -euse
+percepteur,percepteur,perceptrice,1.19,has_both,-teur → -trice
+vengeur,vengeur,vengeresse,1.19,has_both,irregular
+diplômé,diplômé,diplômée,1.19,has_both,irregular
+skieur,skieur,skieuse,1.19,has_both,-eur → -euse
+charmeur,charmeur,charmeuse,1.19,has_both,-eur → -euse
+débauché,débauché,débauchée,1.19,has_both,irregular
+prêteur,prêteur,prêteuse,1.18,has_both,-eur → -euse
+sous-directeur,sous-directeur,sous-directrice,1.18,has_both,-teur → -trice
+coréen,coréen,coréenne,1.18,has_both,irregular
+surfeur,surfeur,surfeuse,1.18,has_both,-eur → -euse
+pilleur,pilleur,pilleuse,1.17,has_both,-eur → -euse
+moribond,moribond,moribonde,1.16,has_both,irregular
+suicidé,suicidé,suicidée,1.16,has_both,irregular
+immortel,immortel,immortelle,1.16,has_both,irregular
+enragé,enragé,enragée,1.15,has_both,irregular
+monteur,monteur,monteuse,1.15,has_both,-eur → -euse
+consultant,consultant,consultante,1.14,has_both,-ant → -ante
+perceur,perceur,perceuse,1.14,has_both,-eur → -euse
+rabatteur,rabatteur,rabatteuse,1.14,has_both,-eur → -euse
+profiteur,profiteur,profiteuse,1.14,has_both,-eur → -euse
+international,international,internationale,1.12,has_both,irregular
+commentateur,commentateur,commentatrice,1.12,has_both,-teur → -trice
+cordelier,cordelier,cordelière,1.11,has_both,-ier → -ière
+inculpé,inculpé,inculpée,1.11,has_both,irregular
+arnaqueur,arnaqueur,arnaqueuse,1.1,has_both,-eur → -euse
+régulier,régulier,régulière,1.1,has_both,-ier → -ière
+manipulateur,manipulateur,manipulatrice,1.1,has_both,-teur → -trice
+sympathisant,sympathisant,sympathisante,1.1,has_both,-ant → -ante
+renfermé,renfermé,renfermée,1.1,has_both,irregular
+maraîcher,maraîcher,maraîchère,1.09,has_both,-er → -ère
+mongol,mongol,mongole,1.09,has_both,irregular
+revendeur,revendeur,revendeuse,1.09,has_both,-eur → -euse
+sentimental,sentimental,sentimentale,1.09,has_both,irregular
+impatient,impatient,impatiente,1.08,has_both,irregular
+péquenaud,péquenaud,péquenaude,1.07,has_both,irregular
+estivant,estivant,estivante,1.07,has_both,-ant → -ante
+briseur,briseur,briseuse,1.07,has_both,-eur → -euse
+prestidigitateur,prestidigitateur,prestidigitatrice,1.06,has_both,-teur → -trice
+supplicié,supplicié,suppliciée,1.06,has_both,irregular
+parvenu,parvenu,parvenue,1.05,has_both,irregular
+frimeur,frimeur,frimeuse,1.05,has_both,-eur → -euse
+praticien,praticien,praticienne,1.05,has_both,-ien → -ienne
+converti,converti,convertie,1.05,has_both,irregular
+convoyeur,convoyeur,convoyeuse,1.04,has_both,-eur → -euse
+vacancier,vacancier,vacancière,1.04,has_both,-ier → -ière
+crieur,crieur,crieuse,1.04,has_both,-eur → -euse
+loueur,loueur,loueuse,1.04,has_both,-eur → -euse
+dîneur,dîneur,dîneuse,1.03,has_both,-eur → -euse
+toulousain,toulousain,toulousaine,1.03,has_both,irregular
+instigateur,instigateur,instigatrice,1.03,has_both,-teur → -trice
+surdoué,surdoué,surdouée,1.03,has_both,irregular
+dragueur,dragueur,dragueuse,1.02,has_both,-eur → -euse
+daron,daron,daronne,1.02,has_both,irregular
+napolitain,napolitain,napolitaine,1.02,has_both,irregular
+détenteur,détenteur,détentrice,1.02,has_both,-teur → -trice
+vantard,vantard,vantarde,1.02,has_both,irregular
+auvergnat,auvergnat,auvergnate,1.01,has_both,irregular
+patineur,patineur,patineuse,1.01,has_both,-eur → -euse
+dévergondé,dévergondé,dévergondée,1.0,has_both,irregular
+grutier,grutier,grutière,1.0,has_both,-ier → -ière
+bâtisseur,bâtisseur,bâtisseuse,1.0,has_both,-eur → -euse
+exécuteur,exécuteur,exécutrice,0.99,has_both,-teur → -trice
+postulant,postulant,postulante,0.98,has_both,-ant → -ante
+inscrit,inscrit,inscrite,0.98,has_both,irregular
+gêneur,gêneur,gêneuse,0.97,has_both,-eur → -euse
+soudeur,soudeur,soudeuse,0.96,has_both,-eur → -euse
+poseur,poseur,poseuse,0.96,has_both,-eur → -euse
+entremetteur,entremetteur,entremetteuse,0.96,has_both,-eur → -euse
+écorché,écorché,écorchée,0.96,has_both,irregular
+meunier,meunier,meunière,0.96,has_both,-ier → -ière
+empoisonneur,empoisonneur,empoisonneuse,0.95,has_both,-eur → -euse
+dégoûté,dégoûté,dégoûtée,0.95,has_both,irregular
+paralysé,paralysé,paralysée,0.94,has_both,irregular
+importun,importun,importune,0.94,has_both,irregular
+moissonneur,moissonneur,moissonneuse,0.94,has_both,-eur → -euse
+enflé,enflé,enflée,0.93,has_both,irregular
+rieur,rieur,rieuse,0.93,has_both,-eur → -euse
+inférieur,inférieur,inférieure,0.93,has_both,irregular
+crémier,crémier,crémière,0.93,has_both,-ier → -ière
+ingénu,ingénu,ingénue,0.92,has_both,irregular
+obstiné,obstiné,obstinée,0.92,has_both,irregular
+assiégé,assiégé,assiégée,0.92,has_both,irregular
+usurpateur,usurpateur,usurpatrice,0.91,has_both,-teur → -trice
+nanti,nanti,nantie,0.91,has_both,irregular
+mécontent,mécontent,mécontente,0.91,has_both,irregular
+désemparé,désemparé,désemparée,0.91,has_both,irregular
+saboteur,saboteur,saboteuse,0.91,has_both,-eur → -euse
+hébété,hébété,hébétée,0.91,has_both,irregular
+esthéticien,esthéticien,esthéticienne,0.91,has_both,-ien → -ienne
+écervelé,écervelé,écervelée,0.9,has_both,irregular
+simulateur,simulateur,simulatrice,0.9,has_both,-teur → -trice
+polisson,polisson,polissonne,0.9,has_both,irregular
+transporté,transporté,transportée,0.89,has_both,irregular
+gondolier,gondolier,gondolière,0.89,has_both,-ier → -ière
+porcher,porcher,porchère,0.89,has_both,-er → -ère
+colporteur,colporteur,colporteuse,0.89,has_both,-eur → -euse
+débraillé,débraillé,débraillée,0.88,has_both,irregular
+glouton,glouton,gloutonne,0.88,has_both,irregular
+accompagnateur,accompagnateur,accompagnatrice,0.88,has_both,-teur → -trice
+tapissier,tapissier,tapissière,0.87,has_both,-ier → -ière
+charretier,charretier,charretière,0.87,has_both,-ier → -ière
+ressortissant,ressortissant,ressortissante,0.87,has_both,-ant → -ante
+maghrébin,maghrébin,maghrébine,0.87,has_both,irregular
+carnassier,carnassier,carnassière,0.86,has_both,-ier → -ière
+croulant,croulant,croulante,0.85,has_both,-ant → -ante
+composé,composé,composée,0.85,has_both,irregular
+raseur,raseur,raseuse,0.85,has_both,-eur → -euse
+pourvoyeur,pourvoyeur,pourvoyeuse,0.85,has_both,-eur → -euse
+mathématicien,mathématicien,mathématicienne,0.85,has_both,-ien → -ienne
+intrigant,intrigant,intrigante,0.84,has_both,-ant → -ante
+destructeur,destructeur,destructrice,0.84,has_both,-teur → -trice
+pochard,pochard,pocharde,0.84,has_both,irregular
+réparateur,réparateur,réparatrice,0.84,has_both,-teur → -trice
+pressé,pressé,pressée,0.84,has_both,irregular
+modéré,modéré,modérée,0.84,has_both,irregular
+refusé,refusé,refusée,0.84,has_both,irregular
+attaquant,attaquant,attaquante,0.84,has_both,-ant → -ante
+chauvin,chauvin,chauvine,0.84,has_both,irregular
+éclopé,éclopé,éclopée,0.84,has_both,irregular
+pestiféré,pestiféré,pestiférée,0.83,has_both,irregular
+dépravé,dépravé,dépravée,0.83,has_both,irregular
+montreur,montreur,montreuse,0.83,has_both,-eur → -euse
+cordeau,cordeau,cordelle,0.82,has_both,irregular
+utilisateur,utilisateur,utilisatrice,0.82,has_both,-teur → -trice
+fugueur,fugueur,fugueuse,0.82,has_both,-eur → -euse
+mutin,mutin,mutine,0.82,has_both,irregular
+maigrichon,maigrichon,maigrichonne,0.82,has_both,irregular
+palefrenier,palefrenier,palefrenière,0.82,has_both,-ier → -ière
+sucrier,sucrier,sucrière,0.81,has_both,-ier → -ière
+texan,texan,texane,0.81,has_both,irregular
+déplacé,déplacé,déplacée,0.81,has_both,irregular
+arrogant,arrogant,arrogante,0.81,has_both,-ant → -ante
+informaticien,informaticien,informaticienne,0.81,has_both,-ien → -ienne
+benjamin,benjamin,benjamine,0.81,has_both,irregular
+indépendant,indépendant,indépendante,0.81,has_both,-ant → -ante
+boutiquier,boutiquier,boutiquière,0.81,has_both,-ier → -ière
+partiel,partiel,partielle,0.8,has_both,irregular
+hôtelier,hôtelier,hôtelière,0.8,has_both,-ier → -ière
+spéculateur,spéculateur,spéculatrice,0.8,has_both,-teur → -trice
+radin,radin,radine,0.8,has_both,irregular
+foreur,foreur,foreuse,0.8,has_both,-eur → -euse
+fripon,fripon,friponne,0.8,has_both,irregular
+frustré,frustré,frustrée,0.79,has_both,irregular
+portoricain,portoricain,portoricaine,0.79,has_both,irregular
+éolien,éolien,éolienne,0.79,has_both,-ien → -ienne
+magasinier,magasinier,magasinière,0.79,has_both,-ier → -ière
+shampouineur,shampouineur,shampouineuse,0.79,has_both,-eur → -euse
+dresseur,dresseur,dresseuse,0.79,has_both,-eur → -euse
+bourguignon,bourguignon,bourguignonne,0.79,has_both,irregular
+imitateur,imitateur,imitatrice,0.79,has_both,-teur → -trice
+andalou,andalou,andalouse,0.78,has_both,irregular
+déchaîné,déchaîné,déchaînée,0.78,has_both,irregular
+receleur,receleur,receleuse,0.78,has_both,-eur → -euse
+épagneul,épagneul,épagneule,0.78,has_both,irregular
+tragédien,tragédien,tragédienne,0.78,has_both,-ien → -ienne
+quincaillier,quincaillier,quincaillière,0.78,has_both,-ier → -ière
+gaucher,gaucher,gauchère,0.77,has_both,-er → -ère
+pleureur,pleureur,pleureuse,0.77,has_both,-eur → -euse
+soûlard,soûlard,soûlarde,0.77,has_both,irregular
+retardé,retardé,retardée,0.77,has_both,irregular
+marieur,marieur,marieuse,0.77,has_both,-eur → -euse
+luron,luron,luronne,0.77,has_both,irregular
+fêlé,fêlé,fêlée,0.76,has_both,irregular
+bachelier,bachelier,bachelière,0.76,has_both,-ier → -ière
+gagneur,gagneur,gagneuse,0.76,has_both,-eur → -euse
+cireur,cireur,cireuse,0.76,has_both,-eur → -euse
+entêté,entêté,entêtée,0.76,has_both,irregular
+régional,régional,régionale,0.76,has_both,irregular
+démuni,démuni,démunie,0.76,has_both,irregular
+colombien,colombien,colombienne,0.76,has_both,-ien → -ienne
+haïtien,haïtien,haïtienne,0.75,has_both,-ien → -ienne
+pisseur,pisseur,pisseuse,0.75,has_both,-eur → -euse
+afghan,afghan,afghane,0.75,has_both,irregular
+étrangleur,étrangleur,étrangleuse,0.75,has_both,-eur → -euse
+traînard,traînard,traînarde,0.75,has_both,irregular
+continental,continental,continentale,0.74,has_both,irregular
+traqueur,traqueur,traqueuse,0.74,has_both,-eur → -euse
+provocateur,provocateur,provocatrice,0.74,has_both,-teur → -trice
+crâneur,crâneur,crâneuse,0.74,has_both,-eur → -euse
+serpentin,serpentin,serpentine,0.73,has_both,irregular
+caravanier,caravanier,caravanière,0.73,has_both,-ier → -ière
+lâcheur,lâcheur,lâcheuse,0.73,has_both,-eur → -euse
+dévoreur,dévoreur,dévoreuse,0.73,has_both,-eur → -euse
+piqueur,piqueur,piqueuse,0.73,has_both,-eur → -euse
+bêcheur,bêcheur,bêcheuse,0.73,has_both,-eur → -euse
+fanfaron,fanfaron,fanfaronne,0.73,has_both,irregular
+indigent,indigent,indigente,0.72,has_both,irregular
+grimpeur,grimpeur,grimpeuse,0.71,has_both,-eur → -euse
+valseur,valseur,valseuse,0.7,has_both,-eur → -euse
+bigot,bigot,bigote,0.7,has_both,irregular
+parieur,parieur,parieuse,0.7,has_both,-eur → -euse
+théoricien,théoricien,théoricienne,0.7,has_both,-ien → -ienne
+polytechnicien,polytechnicien,polytechnicienne,0.69,has_both,-ien → -ienne
+salarié,salarié,salariée,0.69,has_both,irregular
+déséquilibré,déséquilibré,déséquilibrée,0.69,has_both,irregular
+creton,creton,cretonne,0.68,has_both,irregular
+enregistreur,enregistreur,enregistreuse,0.68,has_both,-eur → -euse
+prématuré,prématuré,prématurée,0.68,has_both,irregular
+miraculé,miraculé,miraculée,0.68,has_both,irregular
+maquilleur,maquilleur,maquilleuse,0.68,has_both,-eur → -euse
+monsieur,monsieur,,573.42,m_only_profession,expected f-form (-eur)
+coeur,coeur,,304.28,m_only_profession,expected f-form (-eur)
+instant,instant,,249.73,m_only_profession,expected f-form (-ant)
+papier,papier,,153.55,m_only_profession,expected f-form (-ier)
+honneur,honneur,,117.36,m_only_profession,expected f-form (-eur)
+seigneur,seigneur,,116.35,m_only_profession,expected f-form (-eur)
+bonheur,bonheur,,112.19,m_only_profession,expected f-form (-eur)
+intérieur,intérieur,,108.42,m_only_profession,expected f-form (-eur)
+courant,courant,,98.84,m_only_profession,expected f-form (-ant)
+bien,bien,,92.04,m_only_profession,expected f-form (-ien)
+quartier,quartier,,84.28,m_only_profession,expected f-form (-ier)
+dîner,dîner,,80.5,m_only_profession,expected f-form (-er)
+escalier,escalier,,78.91,m_only_profession,expected f-form (-ier)
+malheur,malheur,,71.19,m_only_profession,expected f-form (-eur)
+lieutenant,lieutenant,,70.57,m_only_profession,expected f-form (-ant)
+danger,danger,,70.47,m_only_profession,expected f-form (-er)
+enfer,enfer,,69.86,m_only_profession,expected f-form (-er)
+dossier,dossier,,66.99,m_only_profession,expected f-form (-ier)
+métier,métier,,66.83,m_only_profession,expected f-form (-ier)
+hiver,hiver,,63.19,m_only_profession,expected f-form (-er)
+déjeuner,déjeuner,,54.67,m_only_profession,expected f-form (-er)
+baiser,baiser,,53.14,m_only_profession,expected f-form (-er)
+commandant,commandant,,53.06,m_only_profession,expected f-form (-ant)
+restaurant,restaurant,,49.62,m_only_profession,expected f-form (-ant)
+amant,amant,,48.85,m_only_profession,expected f-form (-ant)
+super,super,,45.06,m_only_profession,expected f-form (-er)
+tueur,tueur,,43.41,m_only_profession,expected f-form (-eur)
+moteur,moteur,,40.61,m_only_profession,expected f-form (-teur)
+millier,millier,,39.74,m_only_profession,expected f-form (-ier)
+lien,lien,,36.89,m_only_profession,expected f-form (-ien)
+chant,chant,,32.35,m_only_profession,expected f-form (-ant)
+empereur,empereur,,30.71,m_only_profession,expected f-form (-eur)
+foyer,foyer,,29.72,m_only_profession,expected f-form (-er)
+gant,gant,,29.42,m_only_profession,expected f-form (-ant)
+revolver,revolver,,28.52,m_only_profession,expected f-form (-er)
+semblant,semblant,,28.21,m_only_profession,expected f-form (-ant)
+atelier,atelier,,28.2,m_only_profession,expected f-form (-ier)
+volant,volant,,26.71,m_only_profession,expected f-form (-ant)
+rocher,rocher,,25.99,m_only_profession,expected f-form (-er)
+ascenseur,ascenseur,,25.56,m_only_profession,expected f-form (-eur)
+extérieur,extérieur,,25.07,m_only_profession,expected f-form (-eur)
+courrier,courrier,,24.17,m_only_profession,expected f-form (-ier)
+secteur,secteur,,24.04,m_only_profession,expected f-form (-teur)
+chevalier,chevalier,,24.01,m_only_profession,expected f-form (-ier)
+ordinateur,ordinateur,,23.99,m_only_profession,expected f-form (-teur)
+panier,panier,,22.7,m_only_profession,expected f-form (-ier)
+entretien,entretien,,22.46,m_only_profession,expected f-form (-ien)
+acier,acier,,22.11,m_only_profession,expected f-form (-ier)
+vivant,vivant,,21.68,m_only_profession,expected f-form (-ant)
+diamant,diamant,,21.5,m_only_profession,expected f-form (-ant)
+gouverneur,gouverneur,,20.39,m_only_profession,expected f-form (-eur)
+soulier,soulier,,20.13,m_only_profession,expected f-form (-ier)
+collier,collier,,19.95,m_only_profession,expected f-form (-ier)
+oreiller,oreiller,,19.09,m_only_profession,expected f-form (-er)
+adjudant,adjudant,,18.85,m_only_profession,expected f-form (-ant)
+sentier,sentier,,18.08,m_only_profession,expected f-form (-ier)
+monseigneur,monseigneur,,17.89,m_only_profession,expected f-form (-eur)
+cancer,cancer,,17.67,m_only_profession,expected f-form (-er)
+ingénieur,ingénieur,,17.62,m_only_profession,expected f-form (-eur)
+serviteur,serviteur,,16.97,m_only_profession,expected f-form (-teur)
+plancher,plancher,,16.96,m_only_profession,expected f-form (-er)
+cahier,cahier,,16.81,m_only_profession,expected f-form (-ier)
+chantier,chantier,,16.78,m_only_profession,expected f-form (-ier)
+führer,führer,,16.15,m_only_profession,expected f-form (-er)
+grenier,grenier,,15.39,m_only_profession,expected f-form (-ier)
+pasteur,pasteur,,15.18,m_only_profession,expected f-form (-teur)
+soutien,soutien,,15.13,m_only_profession,expected f-form (-ien)
+tablier,tablier,,15.12,m_only_profession,expected f-form (-ier)
+drifter,drifter,,15.03,m_only_profession,expected f-form (-er)
+tailleur,tailleur,,14.9,m_only_profession,expected f-form (-eur)
+choeur,choeur,,14.88,m_only_profession,expected f-form (-eur)
+guerrier,guerrier,,14.05,m_only_profession,expected f-form (-ier)
+rien,rien,,14.03,m_only_profession,expected f-form (-ien)
+palier,palier,,14.0,m_only_profession,expected f-form (-ier)
+casier,casier,,13.93,m_only_profession,expected f-form (-ier)
+néant,néant,,13.57,m_only_profession,expected f-form (-ant)
+sieur,sieur,,13.38,m_only_profession,expected f-form (-eur)
+avant,avant,,13.37,m_only_profession,expected f-form (-ant)
+loyer,loyer,,12.9,m_only_profession,expected f-form (-er)
+pompier,pompier,,11.83,m_only_profession,expected f-form (-ier)
+méchant,méchant,,11.65,m_only_profession,expected f-form (-ant)
+bouclier,bouclier,,11.59,m_only_profession,expected f-form (-ier)
+barbier,barbier,,11.17,m_only_profession,expected f-form (-ier)
+pleur,pleur,,10.71,m_only_profession,expected f-form (-eur)
+parler,parler,,10.57,m_only_profession,expected f-form (-er)
+tournant,tournant,,10.2,m_only_profession,expected f-form (-ant)
+vainqueur,vainqueur,,10.0,m_only_profession,expected f-form (-eur)
+croissant,croissant,,9.8,m_only_profession,expected f-form (-ant)
+calendrier,calendrier,,9.52,m_only_profession,expected f-form (-ier)
+gangster,gangster,,8.8,m_only_profession,expected f-form (-er)
+pilier,pilier,,8.75,m_only_profession,expected f-form (-ier)
+montant,montant,,8.72,m_only_profession,expected f-form (-ant)
+gibier,gibier,,8.58,m_only_profession,expected f-form (-ier)
+cendrier,cendrier,,8.5,m_only_profession,expected f-form (-ier)
+toucher,toucher,,8.5,m_only_profession,expected f-form (-er)
+jardinier,jardinier,,8.48,m_only_profession,expected f-form (-ier)
+palmier,palmier,,8.45,m_only_profession,expected f-form (-ier)
+ver,ver,,8.37,m_only_profession,expected f-form (-er)
+leader,leader,,8.31,m_only_profession,expected f-form (-er)
+coucher,coucher,,8.25,m_only_profession,expected f-form (-er)
+dealer,dealer,,8.24,m_only_profession,expected f-form (-er)
+projecteur,projecteur,,8.18,m_only_profession,expected f-form (-teur)
+petit-déjeuner,petit-déjeuner,,8.13,m_only_profession,expected f-form (-er)
+poker,poker,,8.02,m_only_profession,expected f-form (-er)
+fichier,fichier,,7.82,m_only_profession,expected f-form (-ier)
+gravier,gravier,,7.56,m_only_profession,expected f-form (-ier)
+brigadier,brigadier,,7.53,m_only_profession,expected f-form (-ier)
+évier,évier,,7.19,m_only_profession,expected f-form (-ier)
+sanglier,sanglier,,7.14,m_only_profession,expected f-form (-ier)
+souper,souper,,6.97,m_only_profession,expected f-form (-er)
+devant,devant,,6.95,m_only_profession,expected f-form (-ant)
+clocher,clocher,,6.89,m_only_profession,expected f-form (-er)
+lever,lever,,6.6,m_only_profession,expected f-form (-er)
+verger,verger,,6.55,m_only_profession,expected f-form (-er)
+olivier,olivier,,6.39,m_only_profession,expected f-form (-ier)
+labeur,labeur,,6.16,m_only_profession,expected f-form (-eur)
+bûcher,bûcher,,6.13,m_only_profession,expected f-form (-er)
+manager,manager,,5.88,m_only_profession,expected f-form (-er)
+supporter,supporter,,5.86,m_only_profession,expected f-form (-er)
+restant,restant,,5.72,m_only_profession,expected f-form (-ant)
+agresseur,agresseur,,5.63,m_only_profession,expected f-form (-eur)
+chemisier,chemisier,,5.59,m_only_profession,expected f-form (-ier)
+envahisseur,envahisseur,,5.51,m_only_profession,expected f-form (-eur)
+quotidien,quotidien,,5.43,m_only_profession,expected f-form (-ien)
+répondeur,répondeur,,5.39,m_only_profession,expected f-form (-eur)
+maintien,maintien,,5.33,m_only_profession,expected f-form (-ien)
+osier,osier,,5.27,m_only_profession,expected f-form (-ier)
+compteur,compteur,,5.27,m_only_profession,expected f-form (-teur)
+scanner,scanner,,5.19,m_only_profession,expected f-form (-er)
+radiateur,radiateur,,5.16,m_only_profession,expected f-form (-teur)
+haut-parleur,haut-parleur,,5.13,m_only_profession,expected f-form (-eur)
+plombier,plombier,,5.11,m_only_profession,expected f-form (-ier)
+laser,laser,,5.1,m_only_profession,expected f-form (-er)
+laurier,laurier,,5.09,m_only_profession,expected f-form (-ier)
+calmant,calmant,,5.05,m_only_profession,expected f-form (-ant)
+tracteur,tracteur,,5.04,m_only_profession,expected f-form (-teur)
+manger,manger,,4.99,m_only_profession,expected f-form (-er)
+détecteur,détecteur,,4.94,m_only_profession,expected f-form (-teur)
+défenseur,défenseur,,4.78,m_only_profession,expected f-form (-eur)
+violeur,violeur,,4.77,m_only_profession,expected f-form (-eur)
+entier,entier,,4.77,m_only_profession,expected f-form (-ier)
+hamburger,hamburger,,4.75,m_only_profession,expected f-form (-er)
+pommier,pommier,,4.67,m_only_profession,expected f-form (-ier)
+versant,versant,,4.63,m_only_profession,expected f-form (-ant)
+peuplier,peuplier,,4.62,m_only_profession,expected f-form (-ier)
+fournisseur,fournisseur,,4.61,m_only_profession,expected f-form (-eur)
+brillant,brillant,,4.5,m_only_profession,expected f-form (-ant)
+goûter,goûter,,4.49,m_only_profession,expected f-form (-er)
+glacier,glacier,,4.49,m_only_profession,expected f-form (-ier)
+successeur,successeur,,4.46,m_only_profession,expected f-form (-eur)
+imposteur,imposteur,,4.41,m_only_profession,expected f-form (-teur)
+puissant,puissant,,4.35,m_only_profession,expected f-form (-ant)
+reporter,reporter,,4.29,m_only_profession,expected f-form (-er)
+chargeur,chargeur,,4.27,m_only_profession,expected f-form (-eur)
+douanier,douanier,,4.23,m_only_profession,expected f-form (-ier)
+sous-officier,sous-officier,,4.2,m_only_profession,expected f-form (-ier)
+coudrier,coudrier,,4.19,m_only_profession,expected f-form (-ier)
+levier,levier,,4.18,m_only_profession,expected f-form (-ier)
+marronnier,marronnier,,4.12,m_only_profession,expected f-form (-ier)
+ranger,ranger,,4.11,m_only_profession,expected f-form (-er)
+proviseur,proviseur,,4.1,m_only_profession,expected f-form (-eur)
+huissier,huissier,,4.08,m_only_profession,expected f-form (-ier)
+carburant,carburant,,4.08,m_only_profession,expected f-form (-ant)
+déserteur,déserteur,,4.06,m_only_profession,expected f-form (-teur)
+penchant,penchant,,4.06,m_only_profession,expected f-form (-ant)
+milicien,milicien,,4.04,m_only_profession,expected f-form (-ien)
+aspirateur,aspirateur,,4.04,m_only_profession,expected f-form (-teur)
+merdier,merdier,,3.99,m_only_profession,expected f-form (-ier)
+menuisier,menuisier,,3.91,m_only_profession,expected f-form (-ier)
+artilleur,artilleur,,3.85,m_only_profession,expected f-form (-eur)
+cocher,cocher,,3.61,m_only_profession,expected f-form (-er)
+employeur,employeur,,3.49,m_only_profession,expected f-form (-eur)
+mortier,mortier,,3.48,m_only_profession,expected f-form (-ier)
+réacteur,réacteur,,3.47,m_only_profession,expected f-form (-teur)
+brasier,brasier,,3.45,m_only_profession,expected f-form (-ier)
+sommier,sommier,,3.37,m_only_profession,expected f-form (-ier)
+plant,plant,,3.34,m_only_profession,expected f-form (-ant)
+mobilier,mobilier,,3.32,m_only_profession,expected f-form (-ier)
+croiseur,croiseur,,3.31,m_only_profession,expected f-form (-eur)
+scooter,scooter,,3.28,m_only_profession,expected f-form (-er)
+porter,porter,,3.27,m_only_profession,expected f-form (-er)
+réfrigérateur,réfrigérateur,,3.26,m_only_profession,expected f-form (-teur)
+archer,archer,,3.26,m_only_profession,expected f-form (-er)
+couchant,couchant,,3.24,m_only_profession,expected f-form (-ant)
+lancer,lancer,,3.24,m_only_profession,expected f-form (-er)
+détonateur,détonateur,,3.18,m_only_profession,expected f-form (-teur)
+bombardier,bombardier,,3.14,m_only_profession,expected f-form (-ier)
+implant,implant,,3.12,m_only_profession,expected f-form (-ant)
+voilier,voilier,,3.11,m_only_profession,expected f-form (-ier)
+oranger,oranger,,3.11,m_only_profession,expected f-form (-er)
+déshonneur,déshonneur,,3.1,m_only_profession,expected f-form (-eur)
+conservateur,conservateur,,3.09,m_only_profession,expected f-form (-teur)
+traiteur,traiteur,,3.09,m_only_profession,expected f-form (-teur)
+malfaiteur,malfaiteur,,3.05,m_only_profession,expected f-form (-teur)
+important,important,,3.03,m_only_profession,expected f-form (-ant)
+bunker,bunker,,3.03,m_only_profession,expected f-form (-er)
+pull-over,pull-over,,3.02,m_only_profession,expected f-form (-er)
+veilleur,veilleur,,2.89,m_only_profession,expected f-form (-eur)
+loser,loser,,2.89,m_only_profession,expected f-form (-er)
+poulailler,poulailler,,2.87,m_only_profession,expected f-form (-er)
+ventilateur,ventilateur,,2.87,m_only_profession,expected f-form (-teur)
+inventeur,inventeur,,2.82,m_only_profession,expected f-form (-teur)
+accélérateur,accélérateur,,2.74,m_only_profession,expected f-form (-teur)
+fossoyeur,fossoyeur,,2.74,m_only_profession,expected f-form (-eur)
+sous-lieutenant,sous-lieutenant,,2.73,m_only_profession,expected f-form (-ant)
+sniper,sniper,,2.7,m_only_profession,expected f-form (-er)
+revenant,revenant,,2.69,m_only_profession,expected f-form (-ant)
+gosier,gosier,,2.69,m_only_profession,expected f-form (-ier)
+interrupteur,interrupteur,,2.68,m_only_profession,expected f-form (-teur)
+rosier,rosier,,2.67,m_only_profession,expected f-form (-ier)
+chandelier,chandelier,,2.67,m_only_profession,expected f-form (-ier)
+tirailleur,tirailleur,,2.67,m_only_profession,expected f-form (-eur)
+chancelier,chancelier,,2.66,m_only_profession,expected f-form (-ier)
+rétroviseur,rétroviseur,,2.64,m_only_profession,expected f-form (-eur)
+prédécesseur,prédécesseur,,2.63,m_only_profession,expected f-form (-eur)
+potager,potager,,2.62,m_only_profession,expected f-form (-er)
+immobilier,immobilier,,2.61,m_only_profession,expected f-form (-ier)
+aimant,aimant,,2.57,m_only_profession,expected f-form (-ant)
+figuier,figuier,,2.51,m_only_profession,expected f-form (-ier)
+templier,templier,,2.51,m_only_profession,expected f-form (-ier)
+bélier,bélier,,2.5,m_only_profession,expected f-form (-ier)
+étrier,étrier,,2.5,m_only_profession,expected f-form (-ier)
+clavier,clavier,,2.49,m_only_profession,expected f-form (-ier)
+éther,éther,,2.48,m_only_profession,expected f-form (-er)
+tranchant,tranchant,,2.46,m_only_profession,expected f-form (-ant)
+bulldozer,bulldozer,,2.45,m_only_profession,expected f-form (-er)
+brancardier,brancardier,,2.42,m_only_profession,expected f-form (-ier)
+carabinier,carabinier,,2.42,m_only_profession,expected f-form (-ier)
+imper,imper,,2.41,m_only_profession,expected f-form (-er)
+tout-puissant,tout-puissant,,2.4,m_only_profession,expected f-form (-ant)
+sapeur,sapeur,,2.39,m_only_profession,expected f-form (-eur)
+cuirassier,cuirassier,,2.37,m_only_profession,expected f-form (-ier)
+levant,levant,,2.37,m_only_profession,expected f-form (-ant)
+gladiateur,gladiateur,,2.35,m_only_profession,expected f-form (-teur)
+triporteur,triporteur,,2.32,m_only_profession,expected f-form (-teur)
+familier,familier,,2.32,m_only_profession,expected f-form (-ier)
+poster,poster,,2.26,m_only_profession,expected f-form (-er)
+camionneur,camionneur,,2.25,m_only_profession,expected f-form (-eur)
+éboueur,éboueur,,2.24,m_only_profession,expected f-form (-eur)
+kidnappeur,kidnappeur,,2.24,m_only_profession,expected f-form (-eur)
+émetteur,émetteur,,2.23,m_only_profession,expected f-form (-teur)
+jeter,jeter,,2.22,m_only_profession,expected f-form (-er)
+confesseur,confesseur,,2.2,m_only_profession,expected f-form (-eur)
+tenant,tenant,,2.2,m_only_profession,expected f-form (-ant)
+container,container,,2.2,m_only_profession,expected f-form (-er)
+joker,joker,,2.18,m_only_profession,expected f-form (-er)
+dentier,dentier,,2.15,m_only_profession,expected f-form (-ier)
+spider,spider,,2.13,m_only_profession,expected f-form (-er)
+flipper,flipper,,2.13,m_only_profession,expected f-form (-er)
+cellier,cellier,,2.13,m_only_profession,expected f-form (-ier)
+palestinien,palestinien,,2.12,m_only_profession,expected f-form (-ien)
+water,water,,2.11,m_only_profession,expected f-form (-er)
+voltigeur,voltigeur,,2.09,m_only_profession,expected f-form (-eur)
+master,master,,2.09,m_only_profession,expected f-form (-er)
+indicateur,indicateur,,2.06,m_only_profession,expected f-form (-teur)
+destroyer,destroyer,,2.04,m_only_profession,expected f-form (-er)
+pendant,pendant,,2.04,m_only_profession,expected f-form (-ant)
+rongeur,rongeur,,2.02,m_only_profession,expected f-form (-eur)
+assaillant,assaillant,,2.01,m_only_profession,expected f-form (-ant)
+bananier,bananier,,2.0,m_only_profession,expected f-form (-ier)
+charnier,charnier,,1.99,m_only_profession,expected f-form (-ier)
+hamster,hamster,,1.99,m_only_profession,expected f-form (-er)
+noisetier,noisetier,,1.97,m_only_profession,expected f-form (-ier)
+stupéfiant,stupéfiant,,1.97,m_only_profession,expected f-form (-ant)
+remontant,remontant,,1.97,m_only_profession,expected f-form (-ant)
+encrier,encrier,,1.97,m_only_profession,expected f-form (-ier)
+chalutier,chalutier,,1.95,m_only_profession,expected f-form (-ier)
+sablier,sablier,,1.95,m_only_profession,expected f-form (-ier)
+récepteur,récepteur,,1.94,m_only_profession,expected f-form (-teur)
+cerisier,cerisier,,1.93,m_only_profession,expected f-form (-ier)
+recteur,recteur,,1.92,m_only_profession,expected f-form (-teur)
+forestier,forestier,,1.9,m_only_profession,expected f-form (-ier)
+imprimeur,imprimeur,,1.86,m_only_profession,expected f-form (-eur)
+téléviseur,téléviseur,,1.86,m_only_profession,expected f-form (-eur)
+terrier,terrier,,1.85,m_only_profession,expected f-form (-ier)
+inquisiteur,inquisiteur,,1.84,m_only_profession,expected f-form (-teur)
+cheeseburger,cheeseburger,,1.84,m_only_profession,expected f-form (-er)
+cerf-volant,cerf-volant,,1.84,m_only_profession,expected f-form (-ant)
+commandeur,commandeur,,1.83,m_only_profession,expected f-form (-eur)
+denier,denier,,1.83,m_only_profession,expected f-form (-ier)
+possesseur,possesseur,,1.83,m_only_profession,expected f-form (-eur)
+docker,docker,,1.81,m_only_profession,expected f-form (-er)
+constructeur,constructeur,,1.81,m_only_profession,expected f-form (-teur)
+tranquillisant,tranquillisant,,1.8,m_only_profession,expected f-form (-ant)
+trappeur,trappeur,,1.8,m_only_profession,expected f-form (-eur)
+instructeur,instructeur,,1.8,m_only_profession,expected f-form (-teur)
+poirier,poirier,,1.8,m_only_profession,expected f-form (-ier)
+balancier,balancier,,1.78,m_only_profession,expected f-form (-ier)
+conteneur,conteneur,,1.78,m_only_profession,expected f-form (-eur)
+contrecoeur,contrecoeur,,1.77,m_only_profession,expected f-form (-eur)
+classeur,classeur,,1.77,m_only_profession,expected f-form (-eur)
+martien,martien,,1.77,m_only_profession,expected f-form (-ien)
+mister,mister,,1.77,m_only_profession,expected f-form (-er)
+transporteur,transporteur,,1.77,m_only_profession,expected f-form (-teur)
+portant,portant,,1.72,m_only_profession,expected f-form (-ant)
+canadien,canadien,,1.72,m_only_profession,expected f-form (-ien)
+pénitencier,pénitencier,,1.71,m_only_profession,expected f-form (-ier)
+grenadier,grenadier,,1.7,m_only_profession,expected f-form (-ier)
+prédateur,prédateur,,1.7,m_only_profession,expected f-form (-teur)
+capteur,capteur,,1.67,m_only_profession,expected f-form (-teur)
+ascendant,ascendant,,1.67,m_only_profession,expected f-form (-ant)
+viseur,viseur,,1.65,m_only_profession,expected f-form (-eur)
+démarreur,démarreur,,1.64,m_only_profession,expected f-form (-eur)
+investisseur,investisseur,,1.61,m_only_profession,expected f-form (-eur)
+prunier,prunier,,1.6,m_only_profession,expected f-form (-ier)
+échiquier,échiquier,,1.59,m_only_profession,expected f-form (-ier)
+rameur,rameur,,1.57,m_only_profession,expected f-form (-eur)
+souteneur,souteneur,,1.57,m_only_profession,expected f-form (-eur)
+mauser,mauser,,1.56,m_only_profession,expected f-form (-er)
+pigeonnier,pigeonnier,,1.54,m_only_profession,expected f-form (-ier)
+extincteur,extincteur,,1.54,m_only_profession,expected f-form (-teur)
+blazer,blazer,,1.51,m_only_profession,expected f-form (-er)
+baudrier,baudrier,,1.49,m_only_profession,expected f-form (-ier)
+lévrier,lévrier,,1.48,m_only_profession,expected f-form (-ier)
+cutter,cutter,,1.47,m_only_profession,expected f-form (-er)
+soupirant,soupirant,,1.47,m_only_profession,expected f-form (-ant)
+allant,allant,,1.46,m_only_profession,expected f-form (-ant)
+cracker,cracker,,1.44,m_only_profession,expected f-form (-er)
+chéquier,chéquier,,1.44,m_only_profession,expected f-form (-ier)
+châtaignier,châtaignier,,1.44,m_only_profession,expected f-form (-ier)
+saladier,saladier,,1.43,m_only_profession,expected f-form (-ier)
+échassier,échassier,,1.42,m_only_profession,expected f-form (-ier)
+créancier,créancier,,1.42,m_only_profession,expected f-form (-ier)
+piquant,piquant,,1.41,m_only_profession,expected f-form (-ant)
+burger,burger,,1.41,m_only_profession,expected f-form (-er)
+cocotier,cocotier,,1.41,m_only_profession,expected f-form (-ier)
+terrassier,terrassier,,1.4,m_only_profession,expected f-form (-ier)
+marqueur,marqueur,,1.4,m_only_profession,expected f-form (-eur)
+cafetier,cafetier,,1.4,m_only_profession,expected f-form (-ier)
+commutateur,commutateur,,1.4,m_only_profession,expected f-form (-teur)
+mécréant,mécréant,,1.39,m_only_profession,expected f-form (-ant)
+videur,videur,,1.38,m_only_profession,expected f-form (-eur)
+madrier,madrier,,1.38,m_only_profession,expected f-form (-ier)
+ailier,ailier,,1.38,m_only_profession,expected f-form (-ier)
+sauveteur,sauveteur,,1.37,m_only_profession,expected f-form (-teur)
+jumper,jumper,,1.36,m_only_profession,expected f-form (-er)
+boomer,boomer,,1.34,m_only_profession,expected f-form (-er)
+râtelier,râtelier,,1.34,m_only_profession,expected f-form (-ier)
+congélateur,congélateur,,1.34,m_only_profession,expected f-form (-teur)
+pétrolier,pétrolier,,1.33,m_only_profession,expected f-form (-ier)
+noyer,noyer,,1.33,m_only_profession,expected f-form (-er)
+cantonnier,cantonnier,,1.33,m_only_profession,expected f-form (-ier)
+assureur,assureur,,1.32,m_only_profession,expected f-form (-eur)
+bookmaker,bookmaker,,1.32,m_only_profession,expected f-form (-er)
+clapier,clapier,,1.32,m_only_profession,expected f-form (-ier)
+censeur,censeur,,1.31,m_only_profession,expected f-form (-eur)
+damier,damier,,1.31,m_only_profession,expected f-form (-ier)
+canotier,canotier,,1.31,m_only_profession,expected f-form (-ier)
+franc-tireur,franc-tireur,,1.3,m_only_profession,expected f-form (-eur)
+messer,messer,,1.28,m_only_profession,expected f-form (-er)
+planteur,planteur,,1.28,m_only_profession,expected f-form (-teur)
+armateur,armateur,,1.27,m_only_profession,expected f-form (-teur)
+stimulant,stimulant,,1.27,m_only_profession,expected f-form (-ant)
+bénitier,bénitier,,1.26,m_only_profession,expected f-form (-ier)
+autocollant,autocollant,,1.24,m_only_profession,expected f-form (-ant)
+flamant,flamant,,1.23,m_only_profession,expected f-form (-ant)
+évangéliste,évangéliste,,1.22,m_only_profession,expected f-form (-iste)
+superviseur,superviseur,,1.22,m_only_profession,expected f-form (-eur)
+bourbier,bourbier,,1.21,m_only_profession,expected f-form (-ier)
+coroner,coroner,,1.21,m_only_profession,expected f-form (-er)
+mort-vivant,mort-vivant,,1.2,m_only_profession,expected f-form (-ant)
+prédicateur,prédicateur,,1.18,m_only_profession,expected f-form (-teur)
+pharisien,pharisien,,1.17,m_only_profession,expected f-form (-ien)
+veneur,veneur,,1.16,m_only_profession,expected f-form (-eur)
+propulseur,propulseur,,1.16,m_only_profession,expected f-form (-eur)
+impuissant,impuissant,,1.16,m_only_profession,expected f-form (-ant)
+carburateur,carburateur,,1.15,m_only_profession,expected f-form (-teur)
+clignotant,clignotant,,1.14,m_only_profession,expected f-form (-ant)
+désinfectant,désinfectant,,1.14,m_only_profession,expected f-form (-ant)
+respirateur,respirateur,,1.14,m_only_profession,expected f-form (-teur)
+contre-courant,contre-courant,,1.14,m_only_profession,expected f-form (-ant)
+amandier,amandier,,1.13,m_only_profession,expected f-form (-ier)
+armurier,armurier,,1.13,m_only_profession,expected f-form (-ier)
+gouvernant,gouvernant,,1.11,m_only_profession,expected f-form (-ant)
+théologien,théologien,,1.11,m_only_profession,expected f-form (-ien)
+raider,raider,,1.11,m_only_profession,expected f-form (-er)
+transmetteur,transmetteur,,1.1,m_only_profession,expected f-form (-teur)
+laboureur,laboureur,,1.09,m_only_profession,expected f-form (-eur)
+singulier,singulier,,1.09,m_only_profession,expected f-form (-ier)
+postérieur,postérieur,,1.08,m_only_profession,expected f-form (-eur)
+luisant,luisant,,1.07,m_only_profession,expected f-form (-ant)
+flotteur,flotteur,,1.07,m_only_profession,expected f-form (-teur)
+challenger,challenger,,1.07,m_only_profession,expected f-form (-er)
+roncier,roncier,,1.06,m_only_profession,expected f-form (-ier)
+sonneur,sonneur,,1.05,m_only_profession,expected f-form (-eur)
+oppresseur,oppresseur,,1.05,m_only_profession,expected f-form (-eur)
+patrouilleur,patrouilleur,,1.05,m_only_profession,expected f-form (-eur)
+gisant,gisant,,1.04,m_only_profession,expected f-form (-ant)
+broyeur,broyeur,,1.04,m_only_profession,expected f-form (-eur)
+débardeur,débardeur,,1.03,m_only_profession,expected f-form (-eur)
+collecteur,collecteur,,1.03,m_only_profession,expected f-form (-teur)
+mâchefer,mâchefer,,1.03,m_only_profession,expected f-form (-er)
+planeur,planeur,,1.03,m_only_profession,expected f-form (-eur)
+charbonnier,charbonnier,,1.02,m_only_profession,expected f-form (-ier)
+limier,limier,,1.02,m_only_profession,expected f-form (-ier)
+débiteur,débiteur,,1.01,m_only_profession,expected f-form (-teur)
+vietnamien,vietnamien,,1.01,m_only_profession,expected f-form (-ien)
+grossier,grossier,,1.01,m_only_profession,expected f-form (-ier)
+artificier,artificier,,1.01,m_only_profession,expected f-form (-ier)
+tisonnier,tisonnier,,0.99,m_only_profession,expected f-form (-ier)
+excitant,excitant,,0.99,m_only_profession,expected f-form (-ant)
+panzer,panzer,,0.99,m_only_profession,expected f-form (-er)
+boîtier,boîtier,,0.98,m_only_profession,expected f-form (-ier)
+best-seller,best-seller,,0.98,m_only_profession,expected f-form (-er)
+pliant,pliant,,0.98,m_only_profession,expected f-form (-ant)
+batelier,batelier,,0.97,m_only_profession,expected f-form (-ier)
+pêcher,pêcher,,0.97,m_only_profession,expected f-form (-er)
+ferrailleur,ferrailleur,,0.97,m_only_profession,expected f-form (-eur)
+mordant,mordant,,0.96,m_only_profession,expected f-form (-ant)
+écoutant,écoutant,,0.96,m_only_profession,expected f-form (-ant)
+dépliant,dépliant,,0.96,m_only_profession,expected f-form (-ant)
+assesseur,assesseur,,0.95,m_only_profession,expected f-form (-eur)
+tirant,tirant,,0.95,m_only_profession,expected f-form (-ant)
+disjoncteur,disjoncteur,,0.95,m_only_profession,expected f-form (-teur)
+vénitien,vénitien,,0.94,m_only_profession,expected f-form (-ien)
+maréchal-ferrant,maréchal-ferrant,,0.92,m_only_profession,expected f-form (-ant)
+lâcher,lâcher,,0.92,m_only_profession,expected f-form (-er)
+timonier,timonier,,0.9,m_only_profession,expected f-form (-ier)
+plaidoyer,plaidoyer,,0.9,m_only_profession,expected f-form (-er)
+sorbier,sorbier,,0.9,m_only_profession,expected f-form (-ier)
+norvégien,norvégien,,0.89,m_only_profession,expected f-form (-ien)
+normalien,normalien,,0.89,m_only_profession,expected f-form (-ien)
+comptant,comptant,,0.89,m_only_profession,expected f-form (-ant)
+charter,charter,,0.89,m_only_profession,expected f-form (-er)
+répondant,répondant,,0.88,m_only_profession,expected f-form (-ant)
+inter,inter,,0.88,m_only_profession,expected f-form (-er)
+torpilleur,torpilleur,,0.88,m_only_profession,expected f-form (-eur)
+recruteur,recruteur,,0.88,m_only_profession,expected f-form (-teur)
+boulier,boulier,,0.88,m_only_profession,expected f-form (-ier)
+vacher,vacher,,0.87,m_only_profession,expected f-form (-er)
+faux-semblant,faux-semblant,,0.87,m_only_profession,expected f-form (-ant)
+catalyseur,catalyseur,,0.87,m_only_profession,expected f-form (-eur)
+avertisseur,avertisseur,,0.85,m_only_profession,expected f-form (-eur)
+roller,roller,,0.85,m_only_profession,expected f-form (-er)
+équateur,équateur,,0.85,m_only_profession,expected f-form (-teur)
+remorqueur,remorqueur,,0.84,m_only_profession,expected f-form (-eur)
+nestorien,nestorien,,0.84,m_only_profession,expected f-form (-ien)
+exploiteur,exploiteur,,0.83,m_only_profession,expected f-form (-teur)
+académicien,académicien,,0.83,m_only_profession,expected f-form (-ien)
+skipper,skipper,,0.82,m_only_profession,expected f-form (-er)
+déodorant,déodorant,,0.82,m_only_profession,expected f-form (-ant)
+carter,carter,,0.82,m_only_profession,expected f-form (-er)
+précurseur,précurseur,,0.8,m_only_profession,expected f-form (-eur)
+régleur,régleur,,0.79,m_only_profession,expected f-form (-eur)
+partant,partant,,0.79,m_only_profession,expected f-form (-ant)
+gougnafier,gougnafier,,0.78,m_only_profession,expected f-form (-ier)
+mixeur,mixeur,,0.78,m_only_profession,expected f-form (-eur)
+poissonnier,poissonnier,,0.78,m_only_profession,expected f-form (-ier)
+acquéreur,acquéreur,,0.78,m_only_profession,expected f-form (-eur)
+officiant,officiant,,0.77,m_only_profession,expected f-form (-ant)
+tourneur,tourneur,,0.77,m_only_profession,expected f-form (-eur)
+fusilier,fusilier,,0.76,m_only_profession,expected f-form (-ier)
+méfiant,méfiant,,0.76,m_only_profession,expected f-form (-ant)
+épervier,épervier,,0.76,m_only_profession,expected f-form (-ier)
+arpenteur,arpenteur,,0.75,m_only_profession,expected f-form (-teur)
+starter,starter,,0.74,m_only_profession,expected f-form (-er)
+régulateur,régulateur,,0.74,m_only_profession,expected f-form (-teur)
+égoutier,égoutier,,0.74,m_only_profession,expected f-form (-ier)
+collimateur,collimateur,,0.74,m_only_profession,expected f-form (-teur)
+fourrier,fourrier,,0.73,m_only_profession,expected f-form (-ier)
+vélomoteur,vélomoteur,,0.73,m_only_profession,expected f-form (-teur)
+chou-fleur,chou-fleur,,0.73,m_only_profession,expected f-form (-eur)
+métayer,métayer,,0.73,m_only_profession,expected f-form (-er)
+minuteur,minuteur,,0.73,m_only_profession,expected f-form (-teur)
+manant,manant,,0.73,m_only_profession,expected f-form (-ant)
+citronnier,citronnier,,0.72,m_only_profession,expected f-form (-ier)
+accusateur,accusateur,,0.72,m_only_profession,expected f-form (-teur)
+hallier,hallier,,0.72,m_only_profession,expected f-form (-ier)
+poudrier,poudrier,,0.72,m_only_profession,expected f-form (-ier)
+attrapeur,attrapeur,,0.72,m_only_profession,expected f-form (-eur)
+législateur,législateur,,0.71,m_only_profession,expected f-form (-teur)
+jusant,jusant,,0.71,m_only_profession,expected f-form (-ant)
+croquant,croquant,,0.71,m_only_profession,expected f-form (-ant)
+plaisant,plaisant,,0.71,m_only_profession,expected f-form (-ant)
+stalinien,stalinien,,0.71,m_only_profession,expected f-form (-ien)
+cocker,cocker,,0.71,m_only_profession,expected f-form (-er)
+sécateur,sécateur,,0.7,m_only_profession,expected f-form (-teur)
+quaker,quaker,,0.7,m_only_profession,expected f-form (-er)
+voiturier,voiturier,,0.7,m_only_profession,expected f-form (-ier)
+amortisseur,amortisseur,,0.7,m_only_profession,expected f-form (-eur)
+antidépresseur,antidépresseur,,0.7,m_only_profession,expected f-form (-eur)
+pisteur,pisteur,,0.7,m_only_profession,expected f-form (-teur)
+réformateur,réformateur,,0.69,m_only_profession,expected f-form (-teur)
+flâneur,flâneur,,0.69,m_only_profession,expected f-form (-eur)
+amer,amer,,0.69,m_only_profession,expected f-form (-er)
+lancier,lancier,,0.68,m_only_profession,expected f-form (-ier)
+éventreur,éventreur,,0.68,m_only_profession,expected f-form (-eur)
+parlant,parlant,,0.67,m_only_profession,expected f-form (-ant)
+graveur,graveur,,0.67,m_only_profession,expected f-form (-eur)
+prospecteur,prospecteur,,0.67,m_only_profession,expected f-form (-teur)
