@@ -166,6 +166,7 @@ Located in `scripts/`:
 - `06_fetch_quebecismes.py` — Fetch québécismes from 4 sources (OQLF, Caméléon, Wiktionary, Exionnaire)
 - `07_merge_quebecismes.py` — Merge and deduplicate québécismes
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
+- `09_generate_audio.py` — **Generate TTS audio** via Azure Speech (fr-CA voices)
 
 **Skeletons from 05_generate_cards.py (in `output/`, gitignored, regenerable):**
 - `vocabulary_skeleton.csv` — 10695 entries (French, WordType, Notes, Source, freqlem)
@@ -173,9 +174,9 @@ Located in `scripts/`:
 - `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
 
 **AI content (in `content/`, tracked in git):**
-- `expressions/all.csv` — 469 expressions (complete, only audio needed)
+- `expressions/all.csv` — 469 expressions (complete, audio needed)
+- `quebecismes/all.csv` — 566 québécismes (complete, audio needed)
 - `vocabulary/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
-- `quebecismes/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
 - `conjugation/*.csv` — Verb, Translation, Tense, ConjSingular, ConjPlural, Notes
 
 **Merge strategy (skeleton + content → final):**
@@ -229,10 +230,11 @@ AudioExample: [sound:un_homme_ex.mp3]
 ### Completed
 - [x] `05_generate_cards.py` — Generate card skeletons (10695 vocab + 566 qc + 2088 conj)
 - [x] Expressions — 469 entries complete in `content/expressions/all.csv`
+- [x] Québécismes — 566 entries complete in `content/quebecismes/all.csv`
+- [x] `09_generate_audio.py` — TTS script created
 
 ### Pending tasks
 - [ ] AI fill: vocabulary batches (by freqlem, top first)
-- [ ] AI fill: québécismes (high priority first)
 - [ ] AI fill: conjugation tables
-- [ ] Azure TTS audio generation (fr-CA voices)
+- [ ] Azure TTS: get subscription key, generate audio
 - [ ] Final .apkg assembly with audio
