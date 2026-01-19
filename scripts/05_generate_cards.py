@@ -517,19 +517,25 @@ def process_other(entries: list[dict], blacklist: set[str]) -> list[VocabEntry]:
 
     Includes: ART (articles), PRO (pronouns), CON (conjunctions),
     PRE (prepositions), ART:def/ind, PRO:per/dem/rel/int, etc.
+    Excludes: AUX (auxiliaries) - they come from VER with better notes.
     """
     vocab = []
     seen = set()
 
     for row in entries:
         lemme = row["lemme"].strip()
+        cgram = row.get("cgram", "")
+
+        # Skip auxiliaries - they come from VER category
+        if cgram == "AUX":
+            continue
+
         if lemme.lower() in blacklist:
             continue
         if lemme.lower() in seen:
             continue
         seen.add(lemme.lower())
 
-        cgram = row.get("cgram", "")
         genre = row.get("genre", "")
         freqlem = float(row.get("freqlem", 0) or 0)
 
@@ -602,6 +608,46 @@ def process_verbs(
         ))
 
     return conj
+
+
+def process_verbs_for_vocab(
+    entries: list[dict],
+    blacklist: set[str],
+    irregular_verbs: dict,
+) -> list[VocabEntry]:
+    """Process VER category for vocabulary cards (infinitive form)."""
+    vocab = []
+    seen = set()
+
+    for row in entries:
+        lemme = row["lemme"].strip()
+        if lemme.lower() in blacklist:
+            continue
+        if lemme.lower() in seen:
+            continue
+        seen.add(lemme.lower())
+
+        freqlem = float(row.get("freqlem", 0) or 0)
+
+        irregular_info = irregular_verbs.get(lemme.lower())
+        group, notes = classify_verb_group(lemme, irregular_info)
+
+        # Add group info to notes
+        if notes:
+            notes = f"{group}, {notes}"
+        else:
+            notes = group
+
+        vocab.append(VocabEntry(
+            french=lemme,
+            wordtype="v",
+            notes=notes,
+            freqlem=freqlem,
+            source="lexique",
+            cgram="VER",
+        ))
+
+    return vocab
 
 
 def process_quebecismes(entries: list[dict], blacklist: set[str]) -> list[VocabEntry]:
@@ -742,6 +788,13 @@ def main():
     print(f"  ONO: {len(ono_vocab)} entries")
     all_vocab.extend(ono_vocab)
 
+    # Verbs (infinitive for vocabulary)
+    print("\nProcessing VER (for vocabulary)...")
+    ver_entries = load_category(CATEGORIES_DIR / "VER.csv")
+    ver_vocab = process_verbs_for_vocab(ver_entries, blacklist, irregular_verbs)
+    print(f"  VER: {len(ver_vocab)} entries")
+    all_vocab.extend(ver_vocab)
+
     # Québécismes
     print("\nProcessing québécismes...")
     qc_vocab = process_quebecismes(quebecismes, blacklist)
@@ -760,8 +813,8 @@ def main():
     print("PROCESSING CONJUGATION")
     print("=" * 60)
 
-    print("\nProcessing VER...")
-    ver_entries = load_category(CATEGORIES_DIR / "VER.csv")
+    print("\nProcessing VER (for conjugation)...")
+    # ver_entries already loaded above
     all_conj = process_verbs(ver_entries, blacklist, irregular_verbs)
     print(f"  VER: {len(all_conj)} entries")
 
