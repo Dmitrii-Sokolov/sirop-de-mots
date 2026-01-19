@@ -112,9 +112,15 @@ Two detailed instructions for generating CSV files with Claude:
 - `nom_without_genre.csv` — 547 NOM with genre=NaN, fully classified (homograph/common_gender/f_only/m_only)
 - `gender_homographs.csv` — 98 true gender homographs (livre m=book, f=pound)
 - `irregular_adjectives.csv` — 534 irregular adjectives with m/f forms and patterns
+- `irregular_verbs.csv` — 338 irregular verbs (3rd group) with conjugation patterns
 - `professions_check.csv` — 875 NOM with both m/f forms + 490 m-only with profession suffixes
 - `m_only_profession_reviewed.csv` — Manual review of 490 m-only nouns (267 objects, 188 persons)
 - `missing_f_forms.csv` — 188 persons requiring f-form consideration (141 add_f, 38 m_only, etc.)
+- `blacklist.csv` — 93 entries to exclude (composite numerals, parse errors, roman numerals)
+- `whitelist_numerals.csv` — 35 basic numerals to include (un-dix-neuf, tens, cent, mille)
+
+**Additions (in `additions/`):**
+- `professions_f.csv` — 141 feminine forms missing from Lexique383 (lieutenante, ingénieure, etc.)
 
 **Lexique383 structure for professions:**
 Feminine forms stored as `ortho` with same `lemme`:
@@ -131,15 +137,18 @@ Located in `scripts/`:
 - `04a_find_nom_without_genre.py` — Find NOM without genre
 - `04b_check_professions.py` — Check m/f pairs for professions
 - `04c_find_irregular_adj.py` — Find irregular adjectives
+- `04d_find_irregular_verbs.py` — Find 3rd group irregular verbs
+
+**Verb group classification:**
+- 1st group: -er verbs (regular, except "aller")
+- 2nd group: -ir with -issant participle (finir → finissant)
+- 3rd group: all others (irregular) — -ir sans -issant, -re, -oir, aller
 
 ## TODO
 
 See `.claude/plan-anki-pipeline.md` for full pipeline plan.
 
 ### Pending tasks
-- [ ] `04d_find_irregular_verbs.py` — Extract 3rd group irregular verbs
-- [ ] `blacklist.csv` — Create list of words to exclude (archaic, composite numerals)
-- [ ] `whitelist_numerals.csv` — Basic numerals to include (un, deux, trois... cent, mille)
 - [ ] Pipeline automation scripts (00, 02, 03, 05, 06, 07, run_pipeline.py)
 - [ ] Azure TTS audio generation
 - [ ] Final .apkg assembly with audio
