@@ -146,9 +146,8 @@ Located in `scripts/`:
 
 ## TODO
 
-See `.claude/plan-anki-pipeline.md` for full pipeline plan.
-
 ### Pending tasks
-- [ ] Pipeline automation scripts (00, 02, 03, 05, 06, 07, run_pipeline.py)
-- [ ] Azure TTS audio generation
+- [ ] `05_generate_cards.py` — Generate card skeleton from categories + additions, apply blacklist/whitelist
+- [ ] AI content fill — Translations, examples, emoji via Claude
+- [ ] Azure TTS audio generation (fr-CA voices)
 - [ ] Final .apkg assembly with audio

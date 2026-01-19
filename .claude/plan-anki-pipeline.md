@@ -23,9 +23,7 @@
    - **Проблема**: Для изучения языка логичнее начинать с высокочастотных слов
    - **Решение**: Генерация по убыванию частотности внутри каждой категории, но порядок экспорта — от простого к сложному
 
-4. **Отсутствует этап валидации**
-   - Нет проверки данных перед генерацией карточек
-   - **Решение**: Добавить `00_validate_input.py` и `06_validate_output.py`
+4. ~~**Отсутствует этап валидации**~~ (решено встроить в основные скрипты)
 
 5. **Редкие категории требуют детализации**
    - `other.csv` содержит формы одного слова как отдельные леммы (ce/cette/ces/cet)
@@ -52,62 +50,46 @@
 
 ## Этапы пайплайна
 
-### 0. Валидация входных данных (NEW)
-- Проверка наличия `Lexique383.tsv`
-- Проверка структуры колонок
-- Базовая статистика для логов
-
 ### 1. Парсинг базы данных Lexique
 - Входные данные: `Lexique383.tsv`
 - Фильтрация: `islem=1` (только леммы)
 - Расчёт комбинированной частотности: `0.6 * freqlemfilms2 + 0.4 * freqlemlivres`
 - Выходные данные: `categories/*.csv` (NOM, VER, ADJ, ADV и редкие категории)
 
-### 2. Ревью редких категорий
+### 2. Ревью редких категорий ✅
 - Ручной просмотр: PRE, CON, ONO, AUX, PRO, DET, ART, ADV и др.
-- Выявление:
-  - Устаревших слов (архаизмы)
-  - Неиспользуемых слов
-  - Ошибок в данных
-- Выход: `blacklist.csv` — список слов для исключения
+- Выявление устаревших слов, ошибок в данных
+- Результат: `data/blacklist.csv` (93 записи)
 
-### 3. Фильтрация числительных (ADJ:num)
-- Оставить только базовые: un, deux, trois... vingt, trente... cent, mille
-- Исключить составные: vingt-et-un, quatre-vingt-dix-sept и т.д.
-- Выход: обновлённый `categories/ADJ_num.csv`
-- **Примечание**: В Lexique это категория `ADJ:num`, не `NUM`
+### 3. Фильтрация числительных (ADJ:num) ✅
+- Базовые числительные в `data/whitelist_numerals.csv` (35 записей)
+- Составные исключены в `data/blacklist.csv` (70 composite_numeral)
 
-### 4. Повторный парсинг с фильтрацией
-- Применить `blacklist.csv` ко всем категориям
-- Скрипт должен быть идемпотентным (можно запускать многократно)
+### 4.1 Обработка существительных без указания рода ✅
+- Скрипт: `scripts/04a_find_nom_without_genre.py`
+- Результат: 547 NOM классифицированы (100% done)
+- Файлы: `data/nom_without_genre.csv`, `data/gender_homographs.csv`
 
-### 4.1 Обработка существительных без указания рода
-- Скрипт: `04a_find_nom_without_genre.py`
-- Вход: Lexique383.tsv (NOM с genre=NaN, freqlem >= FREQ_MIN_THRESHOLD)
-- Выход: `data/nom_without_genre.csv` — список для ручной классификации
-- Подробности: см. раздел **"Омографы разных родов"** ниже
+### 4.2 Проверка профессий m/f ✅
+- Скрипт: `scripts/04b_check_professions.py`
+- Результат: 875 NOM с обеими формами, 188 профессий без f-формы
+- Файлы: `data/professions_check.csv`, `data/m_only_profession_reviewed.csv`
+- Дополнение: `additions/professions_f.csv` (141 f-форма для импорта)
 
-### 4.2 Проверка профессий m/f (NEW)
-- Скрипт проверки наличия обеих форм для профессий
-- Вход: список профессий (NOM с признаком "человек")
-- Вывод: отчёт о недостающих формах
-- Результат: `data/professions_check.csv`
-
-### 4.3 Сбор нерегулярных прилагательных (NEW)
-- Скрипт извлечения ~200 нерегулярных прилагательных
+### 4.3 Сбор нерегулярных прилагательных ✅
+- Скрипт: `scripts/04c_find_irregular_adj.py`
 - Критерий: m-форма ≠ f-форма + e (beau/belle, vieux/vieille)
-- Результат: `data/irregular_adjectives.csv`
+- Результат: `categories/ADJ.csv` содержит колонку `morph_pattern`
 
-### 4.4 Сбор нерегулярных глаголов (NEW)
-- Скрипт извлечения нерегулярных глаголов (3e groupe)
-- Критерии: нестандартные основы, особые формы спряжения
-- Примеры: aller, être, avoir, faire, pouvoir, vouloir, savoir, venir, etc.
-- Результат: `data/irregular_verbs.csv`
+### 4.4 Сбор нерегулярных глаголов ✅
+- Скрипт: `scripts/04d_find_irregular_verbs.py`
+- Критерий: 3e groupe (нестандартные основы)
+- Результат: `data/irregular_verbs.csv` (338 глаголов выше порога)
 
-### 5. Ручные дополнения
-- `additions/canadian_french.csv` — канадские слова и выражения
-- `additions/expressions.csv` — устойчивые выражения (loc, expr)
-- Формат: такой же как основные категории + поле `source`
+### 5. Ручные дополнения (частично)
+- `additions/professions_f.csv` — 141 f-форма профессий ✅
+- `additions/canadian_french.csv` — канадские слова (TODO: требует исследования)
+- `additions/expressions.csv` — устойчивые выражения (TODO: требует исследования)
 
 ### 6. Генерация карточек
 
@@ -229,21 +211,16 @@ sirop-de-mots/
 │       ├── words/              # {lemme}.mp3
 │       └── examples/           # {lemme}_example.mp3
 └── scripts/
-    ├── 00_validate_input.py
-    ├── 01_extract_categories.py
-    ├── 02_apply_blacklist.py
-    ├── 03_filter_numerals.py
-    ├── 04a_find_nom_without_genre.py  # NOM без рода
-    ├── 04b_check_professions.py    # NEW
-    ├── 04c_find_irregular_adj.py   # NEW
-    ├── 04d_find_irregular_verbs.py # NEW
-    ├── 05_merge_additions.py
-    ├── 06_generate_skeleton.py     # Только структура
-    ├── 07_validate_output.py
-    ├── 08_generate_audio.py
-    ├── 09_build_apkg.py            # NEW
-    ├── config.py
-    └── run_pipeline.py
+    ├── 01_extract_categories.py       # ✅ Парсинг Lexique → categories/
+    ├── 04a_find_nom_without_genre.py  # ✅ NOM без рода
+    ├── 04b_check_professions.py       # ✅ Профессии m/f
+    ├── 04c_find_irregular_adj.py      # ✅ Нерегулярные прилагательные
+    ├── 04d_find_irregular_verbs.py    # ✅ Нерегулярные глаголы (3e groupe)
+    ├── 05_generate_cards.py           # TODO: blacklist/whitelist + additions + skeleton
+    ├── 08_generate_audio.py           # TODO: Azure TTS
+    ├── 09_build_apkg.py               # TODO: Сборка .apkg
+    ├── config.py                      # ✅ Настройки (FREQ_MIN_THRESHOLD и др.)
+    └── run_pipeline.py                # TODO: Запуск всего пайплайна
 ```
 
 ---
@@ -260,8 +237,8 @@ sirop-de-mots/
 
 - [ ] Пайплайн запускается одной командой (`python scripts/run_pipeline.py`)
 - [ ] Результаты воспроизводимы (одинаковый вход → одинаковый выход)
-- [ ] Blacklist легко редактировать (CSV с причиной исключения)
-- [ ] Дополнения легко добавлять (единый формат CSV)
+- [x] Blacklist легко редактировать (CSV с причиной исключения) ✅
+- [x] Дополнения легко добавлять (единый формат CSV) ✅
 - [ ] Логи показывают статистику на каждом этапе
 - [ ] Карточки проходят валидацию перед экспортом
 - [ ] Аудио кэшируется (не перегенерируется повторно)
@@ -271,10 +248,10 @@ sirop-de-mots/
 ## Рекомендации по реализации
 
 ### Приоритет этапов
-1. **Фаза 1** (Инфраструктура): Структура директорий, config.py, валидация
-2. **Фаза 2** (Анализ данных): Скрипты 04a/04b/04c/04d → отчёты для ревью
-3. **Фаза 3** (Blacklist): Ручной ревью редких категорий → blacklist.csv
-4. **Фаза 4** (Skeleton): Генерация структуры карточек → cards_skeleton.csv
+1. ~~**Фаза 1** (Инфраструктура): Структура директорий, config.py~~ ✅
+2. ~~**Фаза 2** (Анализ данных): Скрипты 04a/04b/04c/04d → отчёты для ревью~~ ✅
+3. ~~**Фаза 3** (Blacklist): Ручной ревью редких категорий → blacklist.csv~~ ✅
+4. **Фаза 4** (Skeleton): `05_generate_cards.py` → cards_skeleton.csv ← **ТЕКУЩАЯ**
 5. **Фаза 5** (ИИ): Заполнение переводов, примеров, эмоджи через Claude
 6. **Фаза 6** (Озвучка): Azure TTS → audio/
 7. **Фаза 7** (Финал): Сборка .apkg
@@ -331,8 +308,13 @@ petit,adj,,,,,,
 2. ~~Написать `scripts/config.py` с настройками~~ ✅
 3. ~~Написать `scripts/04a_find_nom_without_genre.py`~~ ✅
 4. ~~Определить порог частотности для ~20000 слов~~ ✅ (FREQ_MIN_THRESHOLD = 0.67)
-5. Провести ручную классификацию `nom_without_genre.csv`
-6. Написать остальные скрипты анализа (04b, 04c, 04d)
+5. ~~Провести ручную классификацию `nom_without_genre.csv`~~ ✅ (547 слов)
+6. ~~Написать остальные скрипты анализа (04b, 04c, 04d)~~ ✅
+7. ~~Создать blacklist.csv и whitelist_numerals.csv~~ ✅
+8. **Следующий**: Написать `05_generate_cards.py` (объединяет фильтрацию + additions + skeleton)
+9. Заполнить карточки через ИИ (переводы, примеры, эмоджи)
+10. Написать `08_generate_audio.py` (Azure TTS)
+11. Написать `09_build_apkg.py` (сборка .apkg)
 
 ---
 
@@ -407,9 +389,11 @@ gender_homographs.csv (только type=homograph, с деталями m/f)
 
 ### Статистика (текущая)
 
-- NOM без рода выше порога: **547**
-- Предзаполнено как `homograph`: **30** (из gender_homographs.csv)
-- Требует ручной классификации: **517**
+- NOM без рода выше порога: **547** ✅ (100% классифицировано)
+- Омографы (homograph): **30** → `data/gender_homographs.csv`
+- Профессии с m/f парами: **875**
+- Профессии с недостающими f-формами: **141** → `additions/professions_f.csv`
+- Нерегулярные глаголы (3e groupe): **338** → `data/irregular_verbs.csv`
 
 ### Известные омографы разных родов
 
