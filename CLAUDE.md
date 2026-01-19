@@ -160,9 +160,15 @@ Located in `scripts/`:
 - `04b_check_professions.py` — Check m/f pairs for professions
 - `04c_find_irregular_adj.py` — Find irregular adjectives
 - `04d_find_irregular_verbs.py` — Find 3rd group irregular verbs
+- `05_generate_cards.py` — **Generate card skeletons** from categories + additions
 - `06_fetch_quebecismes.py` — Fetch québécismes from 4 sources (OQLF, Caméléon, Wiktionary, Exionnaire)
 - `07_merge_quebecismes.py` — Merge and deduplicate québécismes
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
+
+**Output from 05_generate_cards.py (in `output/`):**
+- `vocabulary_skeleton.csv` — 9175 entries (French, WordType, Notes, Source, freqlem, Priority)
+- `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
+- `expressions.csv` — 469 expressions (copy of all_expressions, already complete)
 
 **Verb group classification:**
 - 1st group: -er verbs (regular, except "aller")
@@ -185,8 +191,10 @@ Most have freq=0 in Lexique383 (France-centric corpus), so source count is bette
 
 ## TODO
 
+### Completed
+- [x] `05_generate_cards.py` — Generate card skeletons (9175 vocab + 2088 verbs + 469 expressions)
+
 ### Pending tasks
-- [ ] `05_generate_cards.py` — Generate card skeleton from categories + additions (incl. quebecismes.csv), apply blacklist/whitelist
 - [ ] AI content fill — Examples, emoji via Claude (translations mostly ready)
 - [ ] Azure TTS audio generation (fr-CA voices)
 - [ ] Final .apkg assembly with audio
