@@ -1,0 +1,491 @@
+lemme,freqlem,category,notes
+monsieur,573.42,person,madame exists separately
+coeur,304.28,object,heart
+instant,249.73,abstract,moment
+papier,153.55,object,paper
+honneur,117.36,abstract,honor
+seigneur,116.35,person,lord - dame exists
+bonheur,112.19,abstract,happiness
+intérieur,108.42,object,interior
+courant,98.84,object,current/stream
+bien,92.04,abstract,good/property
+quartier,84.28,object,neighborhood
+dîner,80.5,food,dinner
+escalier,78.91,object,stairs
+malheur,71.19,abstract,misfortune
+lieutenant,70.57,person,military rank
+danger,70.47,abstract,danger
+enfer,69.86,object,hell
+dossier,66.99,object,file/folder
+métier,66.83,object,profession/trade
+hiver,63.19,object,winter
+déjeuner,54.67,food,lunch
+baiser,53.14,object,kiss
+commandant,53.06,person,military rank
+restaurant,49.62,object,restaurant
+amant,48.85,person,lover - amante exists in has_both
+super,45.06,object,supermarket/adjective
+tueur,43.41,person,killer
+moteur,40.61,object,motor/engine
+millier,39.74,object,thousand
+lien,36.89,object,link/bond
+chant,32.35,object,song
+empereur,30.71,person,emperor - impératrice exists
+foyer,29.72,object,home/hearth
+gant,29.42,object,glove
+revolver,28.52,object,revolver
+semblant,28.21,abstract,semblance
+atelier,28.2,object,workshop
+volant,26.71,object,steering wheel
+rocher,25.99,object,rock
+ascenseur,25.56,object,elevator
+extérieur,25.07,object,exterior
+courrier,24.17,object,mail
+secteur,24.04,object,sector
+chevalier,24.01,person,knight - chevalière exists in has_both
+ordinateur,23.99,object,computer
+panier,22.7,object,basket
+entretien,22.46,object,interview/maintenance
+acier,22.11,object,steel
+vivant,21.68,person,living being
+diamant,21.5,object,diamond
+gouverneur,20.39,person,governor
+soulier,20.13,object,shoe
+collier,19.95,object,necklace
+oreiller,19.09,object,pillow
+adjudant,18.85,person,military rank
+sentier,18.08,object,path
+monseigneur,17.89,person,title - religious
+cancer,17.67,object,cancer
+ingénieur,17.62,person,engineer
+serviteur,16.97,person,servant
+plancher,16.96,object,floor
+cahier,16.81,object,notebook
+chantier,16.78,object,construction site
+führer,16.15,person,leader - German
+grenier,15.39,object,attic
+pasteur,15.18,person,pastor
+soutien,15.13,object,support
+tablier,15.12,object,apron
+drifter,15.03,person,drifter - English
+tailleur,14.9,person,tailor - tailleuse exists in has_both
+choeur,14.88,object,choir
+guerrier,14.05,person,warrior
+rien,14.03,abstract,nothing
+palier,14.0,object,landing/level
+casier,13.93,object,locker
+néant,13.57,abstract,nothingness
+sieur,13.38,person,archaic title
+avant,13.37,object,front
+loyer,12.9,object,rent
+pompier,11.83,person,firefighter
+méchant,11.65,person,villain
+bouclier,11.59,object,shield
+barbier,11.17,person,barber
+pleur,10.71,abstract,crying
+parler,10.57,object,speech/dialect
+tournant,10.2,object,turn/bend
+vainqueur,10.0,person,winner
+croissant,9.8,food,croissant
+calendrier,9.52,object,calendar
+gangster,8.8,person,gangster
+pilier,8.75,object,pillar
+montant,8.72,object,amount/upright
+gibier,8.58,object,game (hunting)
+cendrier,8.5,object,ashtray
+toucher,8.5,object,touch/sense
+jardinier,8.48,person,gardener
+palmier,8.45,object,palm tree
+ver,8.37,animal,worm
+leader,8.31,person,leader
+coucher,8.25,object,sunset/bedtime
+dealer,8.24,person,dealer
+projecteur,8.18,object,projector
+petit-déjeuner,8.13,food,breakfast
+poker,8.02,object,poker game
+fichier,7.82,object,file
+gravier,7.56,object,gravel
+brigadier,7.53,person,brigadier
+évier,7.19,object,sink
+sanglier,7.14,animal,wild boar
+souper,6.97,food,supper
+devant,6.95,object,front
+clocher,6.89,object,bell tower
+lever,6.6,object,rising
+verger,6.55,object,orchard
+olivier,6.39,object,olive tree
+labeur,6.16,abstract,labor
+bûcher,6.13,object,stake/woodpile
+manager,5.88,person,manager
+supporter,5.86,person,supporter/fan
+restant,5.72,object,remainder
+agresseur,5.63,person,aggressor
+chemisier,5.59,object,blouse
+envahisseur,5.51,person,invader
+quotidien,5.43,object,daily newspaper
+répondeur,5.39,object,answering machine
+maintien,5.33,abstract,maintenance
+osier,5.27,object,wicker
+compteur,5.27,object,counter/meter
+scanner,5.19,object,scanner
+radiateur,5.16,object,radiator
+haut-parleur,5.13,object,loudspeaker
+plombier,5.11,person,plumber
+laser,5.1,object,laser
+laurier,5.09,object,laurel
+calmant,5.05,object,sedative
+tracteur,5.04,object,tractor
+manger,4.99,object,manger/eating
+détecteur,4.94,object,detector
+défenseur,4.78,person,defender
+violeur,4.77,person,rapist
+entier,4.77,object,whole number
+hamburger,4.75,food,hamburger
+pommier,4.67,object,apple tree
+versant,4.63,object,slope
+peuplier,4.62,object,poplar tree
+fournisseur,4.61,person,supplier
+brillant,4.5,object,diamond/brilliant
+goûter,4.49,food,snack
+glacier,4.49,object,glacier/ice cream shop
+successeur,4.46,person,successor
+imposteur,4.41,person,impostor
+puissant,4.35,person,powerful one
+reporter,4.29,person,reporter
+chargeur,4.27,object,charger
+douanier,4.23,person,customs officer
+sous-officier,4.2,person,non-commissioned officer
+coudrier,4.19,object,hazel tree
+levier,4.18,object,lever
+marronnier,4.12,object,chestnut tree
+ranger,4.11,person,ranger
+proviseur,4.1,person,principal
+huissier,4.08,person,bailiff
+carburant,4.08,object,fuel
+déserteur,4.06,person,deserter
+penchant,4.06,abstract,inclination
+milicien,4.04,person,militiaman
+aspirateur,4.04,object,vacuum cleaner
+merdier,3.99,object,mess - vulgar
+menuisier,3.91,person,carpenter
+artilleur,3.85,person,artilleryman
+cocher,3.61,person,coachman
+employeur,3.49,person,employer
+mortier,3.48,object,mortar
+réacteur,3.47,object,reactor
+brasier,3.45,object,inferno
+sommier,3.37,object,bed base
+plant,3.34,object,seedling
+mobilier,3.32,object,furniture
+croiseur,3.31,object,cruiser ship
+scooter,3.28,object,scooter
+porter,3.27,person,porter
+réfrigérateur,3.26,object,refrigerator
+archer,3.26,person,archer
+couchant,3.24,object,sunset/west
+lancer,3.24,object,throw
+détonateur,3.18,object,detonator
+bombardier,3.14,object,bomber plane
+implant,3.12,object,implant
+voilier,3.11,object,sailboat
+oranger,3.11,object,orange tree
+déshonneur,3.1,abstract,dishonor
+conservateur,3.09,person,curator/conservative
+traiteur,3.09,person,caterer
+malfaiteur,3.05,person,criminal
+important,3.03,object,important thing
+bunker,3.03,object,bunker
+pull-over,3.02,object,pullover
+veilleur,2.89,person,watchman
+loser,2.89,person,loser
+poulailler,2.87,object,chicken coop
+ventilateur,2.87,object,fan/ventilator
+inventeur,2.82,person,inventor
+accélérateur,2.74,object,accelerator
+fossoyeur,2.74,person,gravedigger
+sous-lieutenant,2.73,person,second lieutenant
+sniper,2.7,person,sniper
+revenant,2.69,person,ghost/returnee
+gosier,2.69,object,throat
+interrupteur,2.68,object,switch
+rosier,2.67,object,rose bush
+chandelier,2.67,object,chandelier
+tirailleur,2.67,person,skirmisher
+chancelier,2.66,person,chancellor
+rétroviseur,2.64,object,rearview mirror
+prédécesseur,2.63,person,predecessor
+potager,2.62,object,vegetable garden
+immobilier,2.61,object,real estate
+aimant,2.57,object,magnet
+figuier,2.51,object,fig tree
+templier,2.51,person,templar
+bélier,2.5,object,battering ram
+étrier,2.5,object,stirrup
+clavier,2.49,object,keyboard
+éther,2.48,object,ether
+tranchant,2.46,object,edge/blade
+bulldozer,2.45,object,bulldozer
+brancardier,2.42,person,stretcher-bearer
+carabinier,2.42,person,carabineer
+imper,2.41,object,raincoat
+tout-puissant,2.4,person,almighty
+sapeur,2.39,person,sapper
+cuirassier,2.37,person,cuirassier
+levant,2.37,object,east/rising
+gladiateur,2.35,person,gladiator
+triporteur,2.32,object,delivery tricycle
+familier,2.32,person,familiar/intimate
+poster,2.26,object,poster
+camionneur,2.25,person,truck driver
+éboueur,2.24,person,garbage collector
+kidnappeur,2.24,person,kidnapper
+émetteur,2.23,object,transmitter
+jeter,2.22,object,throw
+confesseur,2.2,person,confessor
+tenant,2.2,person,holder/defender
+container,2.2,object,container
+joker,2.18,object,joker card
+dentier,2.15,object,dentures
+spider,2.13,object,spider car
+flipper,2.13,object,pinball
+cellier,2.13,object,cellar
+palestinien,2.12,person,Palestinian
+water,2.11,object,toilet - WC
+voltigeur,2.09,person,acrobat
+master,2.09,object,master degree
+indicateur,2.06,object,indicator
+destroyer,2.04,object,destroyer ship
+pendant,2.04,object,pendant
+rongeur,2.02,animal,rodent
+assaillant,2.01,person,assailant
+bananier,2.0,object,banana tree
+charnier,1.99,object,mass grave
+hamster,1.99,animal,hamster
+noisetier,1.97,object,hazel tree
+stupéfiant,1.97,object,narcotic
+remontant,1.97,object,tonic
+encrier,1.97,object,inkwell
+chalutier,1.95,object,trawler
+sablier,1.95,object,hourglass
+récepteur,1.94,object,receiver
+cerisier,1.93,object,cherry tree
+recteur,1.92,person,rector
+forestier,1.9,person,forester
+imprimeur,1.86,person,printer
+téléviseur,1.86,object,television set
+terrier,1.85,object,burrow
+inquisiteur,1.84,person,inquisitor
+cheeseburger,1.84,food,cheeseburger
+cerf-volant,1.84,object,kite
+commandeur,1.83,person,commander
+denier,1.83,object,coin/penny
+possesseur,1.83,person,owner
+docker,1.81,person,docker
+constructeur,1.81,person,builder
+tranquillisant,1.8,object,tranquilizer
+trappeur,1.8,person,trapper
+instructeur,1.8,person,instructor
+poirier,1.8,object,pear tree
+balancier,1.78,object,pendulum
+conteneur,1.78,object,container
+contrecoeur,1.77,abstract,reluctance
+classeur,1.77,object,binder
+martien,1.77,person,Martian
+mister,1.77,person,mister - English
+transporteur,1.77,person,transporter
+portant,1.72,object,clothing rack
+canadien,1.72,person,Canadian
+pénitencier,1.71,object,penitentiary
+grenadier,1.7,person,grenadier
+prédateur,1.7,person,predator
+capteur,1.67,object,sensor
+ascendant,1.67,person,ancestor
+viseur,1.65,object,viewfinder
+démarreur,1.64,object,starter
+investisseur,1.61,person,investor
+prunier,1.6,object,plum tree
+échiquier,1.59,object,chessboard
+rameur,1.57,person,rower
+souteneur,1.57,person,pimp
+mauser,1.56,object,Mauser gun
+pigeonnier,1.54,object,dovecote
+extincteur,1.54,object,fire extinguisher
+blazer,1.51,object,blazer
+baudrier,1.49,object,baldric
+lévrier,1.48,animal,greyhound
+cutter,1.47,object,box cutter
+soupirant,1.47,person,suitor
+allant,1.46,abstract,drive/energy
+cracker,1.44,object,cracker
+chéquier,1.44,object,checkbook
+châtaignier,1.44,object,chestnut tree
+saladier,1.43,object,salad bowl
+échassier,1.42,animal,wading bird
+créancier,1.42,person,creditor
+piquant,1.41,object,thorn/spicy
+burger,1.41,food,burger
+cocotier,1.41,object,coconut palm
+terrassier,1.4,person,navvy
+marqueur,1.4,object,marker
+cafetier,1.4,person,café owner
+commutateur,1.4,object,switch
+mécréant,1.39,person,infidel
+videur,1.38,person,bouncer
+madrier,1.38,object,beam
+ailier,1.38,person,winger (sports)
+sauveteur,1.37,person,rescuer
+jumper,1.36,object,jumper cable
+boomer,1.34,person,boomer
+râtelier,1.34,object,rack
+congélateur,1.34,object,freezer
+pétrolier,1.33,object,oil tanker
+noyer,1.33,object,walnut tree
+cantonnier,1.33,person,road worker
+assureur,1.32,person,insurer
+bookmaker,1.32,person,bookmaker
+clapier,1.32,object,rabbit hutch
+censeur,1.31,person,censor
+damier,1.31,object,checkerboard
+canotier,1.31,object,boater hat
+franc-tireur,1.3,person,sniper/maverick
+messer,1.28,person,Messier - title
+planteur,1.28,person,planter
+armateur,1.27,person,shipowner
+stimulant,1.27,object,stimulant
+bénitier,1.26,object,holy water font
+autocollant,1.24,object,sticker
+flamant,1.23,animal,flamingo
+évangéliste,1.22,person,evangelist
+superviseur,1.22,person,supervisor
+bourbier,1.21,object,quagmire
+coroner,1.21,person,coroner
+mort-vivant,1.2,person,zombie
+prédicateur,1.18,person,preacher
+pharisien,1.17,person,Pharisee
+veneur,1.16,person,huntsman
+propulseur,1.16,object,propeller
+impuissant,1.16,person,impotent person
+carburateur,1.15,object,carburetor
+clignotant,1.14,object,turn signal
+désinfectant,1.14,object,disinfectant
+respirateur,1.14,object,respirator
+contre-courant,1.14,object,countercurrent
+amandier,1.13,object,almond tree
+armurier,1.13,person,gunsmith
+gouvernant,1.11,person,ruler
+théologien,1.11,person,theologian
+raider,1.11,person,raider
+transmetteur,1.1,object,transmitter
+laboureur,1.09,person,plowman
+singulier,1.09,object,singular
+postérieur,1.08,object,posterior
+luisant,1.07,object,glow-worm
+flotteur,1.07,object,float
+challenger,1.07,person,challenger
+roncier,1.06,object,bramble bush
+sonneur,1.05,person,bell ringer
+oppresseur,1.05,person,oppressor
+patrouilleur,1.05,person,patroller
+gisant,1.04,object,recumbent effigy
+broyeur,1.04,object,grinder
+débardeur,1.03,object,tank top
+collecteur,1.03,object,collector
+mâchefer,1.03,object,clinite
+planeur,1.03,object,glider
+charbonnier,1.02,person,charcoal burner
+limier,1.02,person,sleuth
+débiteur,1.01,person,debtor
+vietnamien,1.01,person,Vietnamese
+grossier,1.01,person,boor
+artificier,1.01,person,pyrotechnician
+tisonnier,0.99,object,poker (fire)
+excitant,0.99,object,stimulant
+panzer,0.99,object,tank
+boîtier,0.98,object,case/housing
+best-seller,0.98,object,best-seller
+pliant,0.98,object,folding chair
+batelier,0.97,person,boatman
+pêcher,0.97,object,peach tree
+ferrailleur,0.97,person,scrap dealer
+mordant,0.96,object,mordant/bite
+écoutant,0.96,person,listener
+dépliant,0.96,object,brochure
+assesseur,0.95,person,assessor
+tirant,0.95,object,strap
+disjoncteur,0.95,object,circuit breaker
+vénitien,0.94,person,Venetian
+maréchal-ferrant,0.92,person,farrier
+lâcher,0.92,object,release
+timonier,0.9,person,helmsman
+plaidoyer,0.9,object,plea
+sorbier,0.9,object,rowan tree
+norvégien,0.89,person,Norwegian
+normalien,0.89,person,normalien - ENS student
+comptant,0.89,object,cash
+charter,0.89,object,charter flight
+répondant,0.88,person,guarantor
+inter,0.88,object,intercom
+torpilleur,0.88,object,torpedo boat
+recruteur,0.88,person,recruiter
+boulier,0.88,object,abacus
+vacher,0.87,person,cowherd
+faux-semblant,0.87,object,pretense
+catalyseur,0.87,object,catalyst
+avertisseur,0.85,object,horn/warning device
+roller,0.85,object,rollerblade
+équateur,0.85,object,equator
+remorqueur,0.84,object,tugboat
+nestorien,0.84,person,Nestorian
+exploiteur,0.83,person,exploiter
+académicien,0.83,person,academician
+skipper,0.82,person,skipper
+déodorant,0.82,object,deodorant
+carter,0.82,object,crankcase
+précurseur,0.8,person,precursor
+régleur,0.79,person,adjuster
+partant,0.79,person,starter/participant
+gougnafier,0.78,person,slob - vulgar
+mixeur,0.78,object,blender
+poissonnier,0.78,person,fishmonger
+acquéreur,0.78,person,buyer
+officiant,0.77,person,officiant
+tourneur,0.77,person,turner
+fusilier,0.76,person,fusilier
+méfiant,0.76,person,suspicious person
+épervier,0.76,animal,sparrowhawk
+arpenteur,0.75,person,surveyor
+starter,0.74,object,starter/choke
+régulateur,0.74,object,regulator
+égoutier,0.74,person,sewer worker
+collimateur,0.74,object,collimator
+fourrier,0.73,person,quartermaster
+vélomoteur,0.73,object,moped
+chou-fleur,0.73,food,cauliflower
+métayer,0.73,person,sharecropper
+minuteur,0.73,object,timer
+manant,0.73,person,peasant - archaic
+citronnier,0.72,object,lemon tree
+accusateur,0.72,person,accuser
+hallier,0.72,object,thicket
+poudrier,0.72,object,powder compact
+attrapeur,0.72,person,catcher
+législateur,0.71,person,legislator
+jusant,0.71,object,ebb tide
+croquant,0.71,object,crunchy thing
+plaisant,0.71,person,joker
+stalinien,0.71,person,Stalinist
+cocker,0.71,animal,cocker spaniel
+sécateur,0.7,object,pruning shears
+quaker,0.7,person,Quaker
+voiturier,0.7,person,valet parker
+amortisseur,0.7,object,shock absorber
+antidépresseur,0.7,object,antidepressant
+pisteur,0.7,person,ski patroller
+réformateur,0.69,person,reformer
+flâneur,0.69,person,stroller
+amer,0.69,object,bitter/landmark
+lancier,0.68,person,lancer
+éventreur,0.68,person,ripper
+parlant,0.67,object,talkie
+graveur,0.67,person,engraver
+prospecteur,0.67,person,prospector
