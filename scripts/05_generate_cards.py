@@ -31,13 +31,6 @@ from config import (
 
 
 # =============================================================================
-# Constants
-# =============================================================================
-
-FRENCH_VOWELS = "aeiouhéèêëàâäùûüîïôœæ"
-
-
-# =============================================================================
 # Data Classes
 # =============================================================================
 
@@ -198,37 +191,24 @@ def load_professions_f(path: Path) -> list[dict]:
 # Formatters
 # =============================================================================
 
-def starts_with_vowel(word: str) -> bool:
-    """Check if word starts with a vowel or h (requires elision in French)."""
-    if not word:
-        return False
-    return word[0].lower() in FRENCH_VOWELS
-
-
 def format_noun(lemme: str, genre: str) -> str:
-    """Format noun with article.
+    """Format noun with indefinite article.
 
     Args:
         lemme: The noun lemma.
         genre: Gender - 'm', 'f', or 'm/f' for common gender.
 
     Returns:
-        Formatted noun with appropriate article.
+        Formatted noun with appropriate indefinite article.
     """
     lemme = lemme.strip()
 
     if genre == "m":
-        if starts_with_vowel(lemme):
-            return f"l'{lemme} (m)"
-        return f"le {lemme}"
+        return f"un {lemme}"
     elif genre == "f":
-        if starts_with_vowel(lemme):
-            return f"l'{lemme} (f)"
-        return f"la {lemme}"
+        return f"une {lemme}"
     elif genre == "m/f":
-        if starts_with_vowel(lemme):
-            return f"l'{lemme} (m/f)"
-        return f"le/la {lemme}"
+        return f"un/une {lemme}"
     else:
         # Unknown gender
         return lemme
