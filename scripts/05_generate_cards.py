@@ -639,11 +639,15 @@ def process_quebecismes(entries: list[dict], blacklist: set[str]) -> list[VocabE
         word = row.get("word", "").strip()
         if not word:
             continue
-        if word.lower() in blacklist:
+
+        # Lowercase (source data has Title Case)
+        word = word.lower()
+
+        if word in blacklist:
             continue
-        if word.lower() in seen:
+        if word in seen:
             continue
-        seen.add(word.lower())
+        seen.add(word)
 
         pos = row.get("pos", "")
         definition = row.get("definition", "")
