@@ -125,8 +125,10 @@ Two detailed instructions for generating CSV files with Claude:
 - `wiktionary_quebecismes.csv` — 2968 words from fr.wiktionary "français du Québec" category
 - `exionnaire_quebecismes.csv` — 225 words (from exionnaire.com)
 
-**Expressions & Idioms (in `data/`):**
-- `all_expressions.csv` — **469 expressions** in final Anki format (French, Russian, WordType, ExampleFrench, ExampleRussian, Notes, Emoji, Source)
+**Expressions & Idioms:**
+- `content/expressions/all.csv` — **469 expressions** in final Anki format (complete)
+
+**Expression sources (in `data/`):**
 - `expressions_idiomatiques.csv` — 67 French idioms (avoir le cafard, poser un lapin, etc.)
 - `expressions_quebecoises.csv` — 40 Quebec expressions (tiguidou, attache ta tuque, etc.)
 - `vocabulaire_quebecois.csv` — 50 Quebec vocabulary (char, blonde, dépanneur, etc.)
@@ -165,12 +167,16 @@ Located in `scripts/`:
 - `07_merge_quebecismes.py` — Merge and deduplicate québécismes
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
 
-**Output from 05_generate_cards.py (in `output/`):**
-- `vocabulary_skeleton.csv` — 11261 entries (French, WordType, Notes, Source, freqlem, Priority)
-  - Includes verbs (infinitive form) for translation cards
-- `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
-  - For conjugation table generation
-- `expressions.csv` — 469 expressions (copy of all_expressions, already complete)
+**Skeletons from 05_generate_cards.py (in `output/`, gitignored, regenerable):**
+- `vocabulary_skeleton.csv` — 10695 entries (words from Lexique383)
+- `quebecismes_skeleton.csv` — 566 entries (Quebec French)
+- `conjugation_skeleton.csv` — 2088 verbs
+
+**AI content (in `content/`, tracked in git):**
+- `expressions/all.csv` — 469 expressions (complete with translations, examples, emoji)
+- `vocabulary/*.csv` — batches of AI-filled vocabulary (to be created)
+- `quebecismes/*.csv` — AI-filled québécismes (to be created)
+- `conjugation/*.csv` — AI-filled conjugation tables (to be created)
 
 **Verb group classification:**
 - 1st group: -er verbs (regular, except "aller")
@@ -194,9 +200,12 @@ Most have freq=0 in Lexique383 (France-centric corpus), so source count is bette
 ## TODO
 
 ### Completed
-- [x] `05_generate_cards.py` — Generate card skeletons (11261 vocab + 2088 conj + 469 expressions)
+- [x] `05_generate_cards.py` — Generate card skeletons (10695 vocab + 566 qc + 2088 conj)
+- [x] Expressions — 469 entries complete in `content/expressions/all.csv`
 
 ### Pending tasks
-- [ ] AI content fill — Examples, emoji via Claude (translations mostly ready)
+- [ ] AI fill: vocabulary batches (by freqlem, top first)
+- [ ] AI fill: québécismes (high priority first)
+- [ ] AI fill: conjugation tables
 - [ ] Azure TTS audio generation (fr-CA voices)
 - [ ] Final .apkg assembly with audio

@@ -5,19 +5,19 @@ Inputs:
     - categories/*.csv (NOM, VER, ADJ, ADV, etc.)
     - additions/professions_f.csv
     - additions/quebecismes.csv
-    - data/all_expressions.csv (already in final Anki format)
     - data/blacklist.csv, whitelist_numerals.csv
     - data/irregular_adjectives.csv, irregular_verbs.csv
 
-Outputs:
-    - output/vocabulary_skeleton.csv (French, WordType, Notes, Source, freqlem)
-    - output/conjugation_skeleton.csv (Verb, Notes, freqlem)
-    - output/expressions.csv (copy of all_expressions, already complete)
+Outputs (in output/, regenerable):
+    - vocabulary_skeleton.csv — words from Lexique383
+    - quebecismes_skeleton.csv — Quebec French vocabulary
+    - conjugation_skeleton.csv — verbs for conjugation tables
+
+AI content stored in content/ (tracked in git).
 """
 
 import csv
 import re
-import shutil
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
@@ -779,16 +779,20 @@ def main():
     print(f"  VER: {len(ver_vocab)} entries")
     all_vocab.extend(ver_vocab)
 
-    # Québécismes
+    # Québécismes (kept separate for different processing)
     print("\nProcessing québécismes...")
     qc_vocab = process_quebecismes(quebecismes, blacklist)
-    print(f"  québécismes: {len(qc_vocab)} entries")
-    all_vocab.extend(qc_vocab)
+    print(f"  québécismes: {len(qc_vocab)} entries (separate file)")
+    # NOT extending all_vocab - québécismes are saved separately
 
-    # Sort by frequency (descending)
+    # Sort vocabulary by frequency (descending)
     all_vocab.sort(key=lambda x: (-x.freqlem, x.french.lower()))
 
+    # Sort québécismes by priority (high first), then alphabetically
+    qc_vocab.sort(key=lambda x: (0 if x.priority == "high" else 1, x.french.lower()))
+
     print(f"\n  TOTAL vocabulary: {len(all_vocab)} entries")
+    print(f"  TOTAL québécismes: {len(qc_vocab)} entries")
 
     # ==========================================================================
     # Process Conjugation
@@ -814,12 +818,13 @@ def main():
         print(f"    {g}: {count}")
 
     # ==========================================================================
-    # Save Vocabulary Skeleton
+    # Save Skeletons to output/ (regenerable, gitignored)
     # ==========================================================================
     print("\n" + "=" * 60)
-    print("SAVING OUTPUT")
+    print("SAVING SKELETONS TO output/")
     print("=" * 60)
 
+    # Vocabulary skeleton
     vocab_path = OUTPUT_DIR / "vocabulary_skeleton.csv"
     print(f"\nSaving vocabulary to {vocab_path}...")
 
@@ -829,12 +834,20 @@ def main():
         writer.writeheader()
         for entry in all_vocab:
             writer.writerow(entry.to_row())
-
     print(f"  Saved {len(all_vocab)} entries")
 
-    # ==========================================================================
-    # Save Conjugation Skeleton
-    # ==========================================================================
+    # Québécismes skeleton
+    qc_path = OUTPUT_DIR / "quebecismes_skeleton.csv"
+    print(f"\nSaving québécismes to {qc_path}...")
+
+    with open(qc_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for entry in qc_vocab:
+            writer.writerow(entry.to_row())
+    print(f"  Saved {len(qc_vocab)} entries")
+
+    # Conjugation skeleton
     conj_path = OUTPUT_DIR / "conjugation_skeleton.csv"
     print(f"\nSaving conjugation to {conj_path}...")
 
@@ -844,26 +857,16 @@ def main():
         writer.writeheader()
         for entry in all_conj:
             writer.writerow(entry.to_row())
-
     print(f"  Saved {len(all_conj)} entries")
 
     # ==========================================================================
-    # Copy Expressions (already complete)
+    # Count expressions (already in content/)
     # ==========================================================================
-    expressions_src = DATA_DIR / "all_expressions.csv"
-    expressions_dst = OUTPUT_DIR / "expressions.csv"
+    expressions_path = PROJECT_ROOT / "content" / "expressions" / "all.csv"
     expr_count = 0
-
-    if expressions_src.exists():
-        print(f"\nCopying expressions to {expressions_dst}...")
-        shutil.copy(expressions_src, expressions_dst)
-
-        # Count
-        with open(expressions_dst, "r", encoding="utf-8") as f:
-            expr_count = sum(1 for _ in f) - 1  # minus header
-        print(f"  Copied {expr_count} expressions")
-    else:
-        print(f"\n  Warning: {expressions_src} not found")
+    if expressions_path.exists():
+        with open(expressions_path, "r", encoding="utf-8") as f:
+            expr_count = sum(1 for _ in f) - 1
 
     # ==========================================================================
     # Summary
@@ -873,16 +876,23 @@ def main():
     print("=" * 60)
 
     print(f"""
-Output files in {OUTPUT_DIR}/:
+Skeletons in output/ (regenerable):
   - vocabulary_skeleton.csv: {len(all_vocab)} entries
+  - quebecismes_skeleton.csv: {len(qc_vocab)} entries
   - conjugation_skeleton.csv: {len(all_conj)} entries
-  - expressions.csv: {expr_count if expressions_src.exists() else 0} entries (already complete)
+
+AI content in content/ (tracked):
+  - expressions/all.csv: {expr_count} entries (complete)
+  - vocabulary/*.csv: (to be filled)
+  - quebecismes/*.csv: (to be filled)
+  - conjugation/*.csv: (to be filled)
 
 Next steps:
-  1. AI fill: add Russian, ExampleFrench, ExampleRussian, Emoji to vocabulary
-  2. AI fill: generate conjugation tables for verbs
-  3. Azure TTS: generate audio files
-  4. Assembly: combine into final .apkg
+  1. AI fill vocabulary batches (by freqlem, top first)
+  2. AI fill québécismes (high priority first)
+  3. AI fill conjugation tables
+  4. Azure TTS audio generation
+  5. Final .apkg assembly
 """)
 
 
