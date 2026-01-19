@@ -105,3 +105,41 @@ Two detailed instructions for generating CSV files with Claude:
   - Fields: Verb, Translation, Tense, ConjSingular, ConjPlural, Notes
   - Cloze syntax (`{{c1::...}}`, `{{c2::...}}`)
   - Examples for all tenses, priority verbs, TEF/TCF study order
+
+## Data Analysis Files
+
+**Completed analysis (in `data/`):**
+- `nom_without_genre.csv` — 547 NOM with genre=NaN, fully classified (homograph/common_gender/f_only/m_only)
+- `gender_homographs.csv` — 98 true gender homographs (livre m=book, f=pound)
+- `irregular_adjectives.csv` — 534 irregular adjectives with m/f forms and patterns
+- `professions_check.csv` — 875 NOM with both m/f forms + 490 m-only with profession suffixes
+- `m_only_profession_reviewed.csv` — Manual review of 490 m-only nouns (267 objects, 188 persons)
+- `missing_f_forms.csv` — 188 persons requiring f-form consideration (141 add_f, 38 m_only, etc.)
+
+**Lexique383 structure for professions:**
+Feminine forms stored as `ortho` with same `lemme`:
+```
+lemme=acteur → ortho: acteur(m.s), actrice(f.s), acteurs(m.p), actrices(f.p)
+```
+To find m/f pairs, query by genre+nombre within same lemme, not by separate lemmas.
+
+## Pipeline Scripts
+
+Located in `scripts/`:
+- `config.py` — Central configuration (paths, thresholds, patterns)
+- `01_extract_categories.py` — Extract categories from Lexique383
+- `04a_find_nom_without_genre.py` — Find NOM without genre
+- `04b_check_professions.py` — Check m/f pairs for professions
+- `04c_find_irregular_adj.py` — Find irregular adjectives
+
+## TODO
+
+See `.claude/plan-anki-pipeline.md` for full pipeline plan.
+
+### Pending tasks
+- [ ] `04d_find_irregular_verbs.py` — Extract 3rd group irregular verbs
+- [ ] `blacklist.csv` — Create list of words to exclude (archaic, composite numerals)
+- [ ] `whitelist_numerals.csv` — Basic numerals to include (un, deux, trois... cent, mille)
+- [ ] Pipeline automation scripts (00, 02, 03, 05, 06, 07, run_pipeline.py)
+- [ ] Azure TTS audio generation
+- [ ] Final .apkg assembly with audio
