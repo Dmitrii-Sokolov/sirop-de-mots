@@ -197,6 +197,29 @@ Filtering strategy:
 
 Most have freq=0 in Lexique383 (France-centric corpus), so source count is better quality signal than frequency.
 
+## Audio Files
+
+**Storage (in `content/audio/`, tracked in git):**
+```
+content/audio/
+├── words/          # word pronunciation: un_homme.mp3
+└── examples/       # example sentences: un_homme_ex.mp3
+```
+
+**Filename convention:**
+- Slug from French field: `un homme` → `un_homme.mp3`
+- Example suffix: `un_homme_ex.mp3`
+
+**Anki field format:**
+```
+Audio: [sound:un_homme.mp3]
+AudioExample: [sound:un_homme_ex.mp3]
+```
+
+**Azure TTS settings (from config.py):**
+- Voices: fr-CA-SylvieNeural, fr-CA-JeanNeural, fr-CA-AntoineNeural, fr-CA-ThierryNeural
+- Format: audio-16khz-128kbitrate-mono-mp3
+
 ## TODO
 
 ### Completed
