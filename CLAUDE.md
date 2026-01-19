@@ -166,8 +166,10 @@ Located in `scripts/`:
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
 
 **Output from 05_generate_cards.py (in `output/`):**
-- `vocabulary_skeleton.csv` — 9175 entries (French, WordType, Notes, Source, freqlem, Priority)
+- `vocabulary_skeleton.csv` — 11261 entries (French, WordType, Notes, Source, freqlem, Priority)
+  - Includes verbs (infinitive form) for translation cards
 - `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
+  - For conjugation table generation
 - `expressions.csv` — 469 expressions (copy of all_expressions, already complete)
 
 **Verb group classification:**
@@ -192,7 +194,7 @@ Most have freq=0 in Lexique383 (France-centric corpus), so source count is bette
 ## TODO
 
 ### Completed
-- [x] `05_generate_cards.py` — Generate card skeletons (9175 vocab + 2088 verbs + 469 expressions)
+- [x] `05_generate_cards.py` — Generate card skeletons (11261 vocab + 2088 conj + 469 expressions)
 
 ### Pending tasks
 - [ ] AI content fill — Examples, emoji via Claude (translations mostly ready)
