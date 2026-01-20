@@ -62,13 +62,17 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 AUDIO_WORDS_DIR = CONTENT_DIR / "audio" / "words"
 AUDIO_EXAMPLES_DIR = CONTENT_DIR / "audio" / "examples"
 
-# Content files to process
+# Content files to process (order matters for incremental generation)
 CONTENT_FILES = [
     CONTENT_DIR / "expressions" / "all.csv",
     CONTENT_DIR / "quebecismes" / "all.csv",
-    # Add vocabulary files as they are created:
-    # CONTENT_DIR / "vocabulary" / "all.csv",
 ]
+
+# Add vocabulary batches (batch_001 to batch_122)
+CONTENT_FILES.extend(
+    CONTENT_DIR / "vocabulary" / f"batch_{i:03d}.csv"
+    for i in range(1, 123)
+)
 
 # =============================================================================
 # Helpers
@@ -297,7 +301,11 @@ def process_file(
     Returns (total, success, failed) counts.
     """
     print(f"\n{'='*60}")
-    print(f"Processing: {file_path.relative_to(PROJECT_ROOT)}")
+    try:
+        display_path = file_path.relative_to(PROJECT_ROOT)
+    except ValueError:
+        display_path = file_path.name
+    print(f"Processing: {display_path}")
     print('='*60)
 
     total = 0
@@ -375,7 +383,8 @@ def main():
 
     # Determine files to process
     if args.input:
-        files = [args.input]
+        # Resolve relative path to absolute
+        files = [Path(args.input).resolve()]
     else:
         files = [f for f in CONTENT_FILES if f.exists()]
 
