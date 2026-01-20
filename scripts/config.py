@@ -171,3 +171,176 @@ REQUIRED_LEXIQUE_COLUMNS = [
     'ortho', 'lemme', 'cgram', 'genre', 'nombre',
     'freqlemfilms2', 'freqlemlivres', 'islem', 'nbhomogr'
 ]
+
+# =============================================================================
+# Conjugation Data (for restructured conjugation cards)
+# =============================================================================
+
+# Sample verbs for 1er groupe (-er, regular)
+SAMPLE_1ER_GROUPE = ['parler', 'manger', 'commencer']
+
+# Sample verbs for 2e groupe (-ir with -issant)
+SAMPLE_2E_GROUPE = ['finir', 'choisir']
+
+# DR MRS VANDERTRAMP - verbs using être as auxiliary
+ETRE_VERBS = [
+    'devenir', 'revenir', 'monter', 'rester', 'sortir',
+    'venir', 'aller', 'naître', 'descendre', 'entrer',
+    'rentrer', 'tomber', 'retourner', 'arriver', 'mourir', 'partir',
+    'passer',  # with être when intransitive
+]
+
+# Irregular subjonctif présent verbs (stem changes)
+SUBJONCTIF_IRREGULIERS = [
+    'être', 'avoir', 'aller', 'faire', 'pouvoir',
+    'savoir', 'vouloir', 'valoir', 'falloir', 'pleuvoir',
+]
+
+# Irregular futur/conditionnel stems (verb → stem)
+FUTUR_STEMS = {
+    'être': 'ser-',
+    'avoir': 'aur-',
+    'aller': 'ir-',
+    'faire': 'fer-',
+    'savoir': 'saur-',
+    'pouvoir': 'pourr-',
+    'vouloir': 'voudr-',
+    'devoir': 'devr-',
+    'voir': 'verr-',
+    'envoyer': 'enverr-',
+    'venir': 'viendr-',
+    'tenir': 'tiendr-',
+    'courir': 'courr-',
+    'mourir': 'mourr-',
+    'acquérir': 'acquerr-',
+    'valoir': 'vaudr-',
+    'falloir': 'faudr-',
+    'pleuvoir': 'pleuvr-',
+    'recevoir': 'recevr-',
+    'apercevoir': 'apercevr-',
+    'asseoir': 'assiér-',
+    'cueillir': 'cueiller-',
+}
+
+# Irregular participes passés (verb → (participe, pattern, related verbs))
+PARTICIPES_IRREGULIERS = {
+    # -endre → -is
+    'prendre': ('pris', '-endre→-is', 'comprendre, apprendre, reprendre, surprendre'),
+    'comprendre': ('compris', '-endre→-is', ''),
+    'apprendre': ('appris', '-endre→-is', ''),
+    'reprendre': ('repris', '-endre→-is', ''),
+    'surprendre': ('surpris', '-endre→-is', ''),
+    # -ettre → -is
+    'mettre': ('mis', '-ettre→-is', 'permettre, promettre, admettre, remettre, soumettre'),
+    'permettre': ('permis', '-ettre→-is', ''),
+    'promettre': ('promis', '-ettre→-is', ''),
+    'admettre': ('admis', '-ettre→-is', ''),
+    'remettre': ('remis', '-ettre→-is', ''),
+    'soumettre': ('soumis', '-ettre→-is', ''),
+    # -aire/-ire → -it/-ait
+    'faire': ('fait', '-aire→-ait', 'défaire, refaire, satisfaire'),
+    'défaire': ('défait', '-aire→-ait', ''),
+    'refaire': ('refait', '-aire→-ait', ''),
+    'satisfaire': ('satisfait', '-aire→-ait', ''),
+    'dire': ('dit', '-ire→-it', 'redire, contredire, interdire, prédire'),
+    'redire': ('redit', '-ire→-it', ''),
+    'contredire': ('contredit', '-ire→-it', ''),
+    'interdire': ('interdit', '-ire→-it', ''),
+    'prédire': ('prédit', '-ire→-it', ''),
+    'écrire': ('écrit', '-ire→-it', 'décrire, inscrire, prescrire, transcrire'),
+    'décrire': ('décrit', '-ire→-it', ''),
+    'inscrire': ('inscrit', '-ire→-it', ''),
+    'prescrire': ('prescrit', '-ire→-it', ''),
+    'transcrire': ('transcrit', '-ire→-it', ''),
+    # -uire → -uit
+    'conduire': ('conduit', '-uire→-uit', 'produire, construire, détruire, traduire, réduire'),
+    'produire': ('produit', '-uire→-uit', ''),
+    'construire': ('construit', '-uire→-uit', ''),
+    'détruire': ('détruit', '-uire→-uit', ''),
+    'traduire': ('traduit', '-uire→-uit', ''),
+    'réduire': ('réduit', '-uire→-uit', ''),
+    'cuire': ('cuit', '-uire→-uit', ''),
+    # -vrir/-ffrir → -vert/-ffert
+    'ouvrir': ('ouvert', '-vrir→-vert', 'couvrir, découvrir, offrir, souffrir'),
+    'couvrir': ('couvert', '-vrir→-vert', ''),
+    'découvrir': ('découvert', '-vrir→-vert', ''),
+    'offrir': ('offert', '-ffrir→-ffert', ''),
+    'souffrir': ('souffert', '-ffrir→-ffert', ''),
+    # Unique forms
+    'mourir': ('mort', 'unique', ''),
+    'naître': ('né', 'unique', 'renaître'),
+    'renaître': ('rené', 'unique', ''),
+    'vivre': ('vécu', '-ivre→-écu', 'survivre, revivre'),
+    'survivre': ('survécu', '-ivre→-écu', ''),
+    'revivre': ('revécu', '-ivre→-écu', ''),
+    'boire': ('bu', '-oire→-u', ''),
+    'lire': ('lu', '-ire→-u', 'relire, élire'),
+    'relire': ('relu', '-ire→-u', ''),
+    'élire': ('élu', '-ire→-u', ''),
+    'voir': ('vu', '-oir→-u', 'revoir, prévoir'),
+    'revoir': ('revu', '-oir→-u', ''),
+    'prévoir': ('prévu', '-oir→-u', ''),
+    'croire': ('cru', '-oire→-u', ''),
+    'connaître': ('connu', '-aître→-u', 'reconnaître, paraître, apparaître, disparaître'),
+    'reconnaître': ('reconnu', '-aître→-u', ''),
+    'paraître': ('paru', '-aître→-u', ''),
+    'apparaître': ('apparu', '-aître→-u', ''),
+    'disparaître': ('disparu', '-aître→-u', ''),
+    'pouvoir': ('pu', '-ouvoir→-u', ''),
+    'vouloir': ('voulu', '-ouloir→-oulu', ''),
+    'devoir': ('dû', '-evoir→-û', ''),
+    'savoir': ('su', '-avoir→-u', ''),
+    'recevoir': ('reçu', '-cevoir→-çu', 'apercevoir, concevoir, décevoir, percevoir'),
+    'apercevoir': ('aperçu', '-cevoir→-çu', ''),
+    'concevoir': ('conçu', '-cevoir→-çu', ''),
+    'décevoir': ('déçu', '-cevoir→-çu', ''),
+    'percevoir': ('perçu', '-cevoir→-çu', ''),
+    'tenir': ('tenu', '-enir→-enu', 'obtenir, retenir, maintenir, soutenir, contenir'),
+    'obtenir': ('obtenu', '-enir→-enu', ''),
+    'retenir': ('retenu', '-enir→-enu', ''),
+    'maintenir': ('maintenu', '-enir→-enu', ''),
+    'soutenir': ('soutenu', '-enir→-enu', ''),
+    'contenir': ('contenu', '-enir→-enu', ''),
+    'venir': ('venu', '-enir→-enu', 'devenir, revenir, parvenir, intervenir, prévenir'),
+    'devenir': ('devenu', '-enir→-enu', ''),
+    'revenir': ('revenu', '-enir→-enu', ''),
+    'parvenir': ('parvenu', '-enir→-enu', ''),
+    'intervenir': ('intervenu', '-enir→-enu', ''),
+    'prévenir': ('prévenu', '-enir→-enu', ''),
+    'courir': ('couru', '-ourir→-ouru', 'parcourir, secourir, accourir'),
+    'parcourir': ('parcouru', '-ourir→-ouru', ''),
+    'secourir': ('secouru', '-ourir→-ouru', ''),
+    'accourir': ('accouru', '-ourir→-ouru', ''),
+    # Auxiliaries and common
+    'être': ('été', 'unique', ''),
+    'avoir': ('eu', 'unique', ''),
+    'plaire': ('plu', '-aire→-u', 'déplaire'),
+    'déplaire': ('déplu', '-aire→-u', ''),
+    'pleuvoir': ('plu', 'impersonnel', ''),
+    'falloir': ('fallu', 'impersonnel', ''),
+    'valoir': ('valu', '-aloir→-alu', ''),
+    'asseoir': ('assis', 'unique', ''),
+    'suivre': ('suivi', '-ivre→-ivi', 'poursuivre'),
+    'poursuivre': ('poursuivi', '-ivre→-ivi', ''),
+    'rire': ('ri', '-ire→-i', 'sourire'),
+    'sourire': ('souri', '-ire→-i', ''),
+    'suffire': ('suffi', '-ire→-i', ''),
+    # -eindre/-aindre/-oindre → -eint/-aint/-oint
+    'peindre': ('peint', '-eindre→-eint', 'repeindre'),
+    'repeindre': ('repeint', '-eindre→-eint', ''),
+    'craindre': ('craint', '-aindre→-aint', ''),
+    'plaindre': ('plaint', '-aindre→-aint', ''),
+    'joindre': ('joint', '-oindre→-oint', 'rejoindre, adjoindre'),
+    'rejoindre': ('rejoint', '-oindre→-oint', ''),
+    'adjoindre': ('adjoint', '-oindre→-oint', ''),
+    'atteindre': ('atteint', '-eindre→-eint', ''),
+    'éteindre': ('éteint', '-eindre→-eint', ''),
+    # Others
+    'résoudre': ('résolu', '-oudre→-olu', ''),
+    'coudre': ('cousu', '-oudre→-ousu', ''),
+    'moudre': ('moulu', '-oudre→-oulu', ''),
+    'vaincre': ('vaincu', '-aincre→-aincu', 'convaincre'),
+    'convaincre': ('convaincu', '-aincre→-aincu', ''),
+    'acquérir': ('acquis', '-érir→-is', 'conquérir'),
+    'conquérir': ('conquis', '-érir→-is', ''),
+}
