@@ -39,10 +39,11 @@ Hierarchical deck organization by CEFR level:
 ```
 French TEF-TCF/
 ├── Vocabulaire/
-│   ├── A1-A2 (Top 1000)     ← batch_001-010, most frequent
-│   ├── B1 (Top 3000)        ← batch_011-030
-│   ├── B2 (Top 5000)        ← batch_031-050
-│   └── C1+ (Top 10000)      ← batch_051-122
+│   ├── A1-A2 (769)      ← NOM/VER/ADJ, top 1000 by frequency
+│   ├── B1 (1821)        ← NOM/VER/ADJ, 1001-3000
+│   ├── B2 (1829)        ← NOM/VER/ADJ, 3001-5000
+│   ├── C1+ (5120)       ← NOM/VER/ADJ, 5001+
+│   └── Autres (990)     ← adv, pron, prep, conj, interj, num
 ├── Expressions (469)
 ├── Québécismes (566)
 └── Conjugaison/
@@ -53,7 +54,10 @@ French TEF-TCF/
     └── Verbes être (17)
 ```
 
-Configuration in `scripts/deck_config.py`.
+**Total: 12064 cards** (10529 vocab + 1035 expr/qc + 500 conj)
+
+Vocabulary files: `content/vocabulary/{a1_a2,b1,b2,c1,autres}.csv`
+Configuration: `scripts/deck_config.py`
 
 ## Anki Card Format
 
