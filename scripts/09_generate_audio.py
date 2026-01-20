@@ -62,17 +62,16 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 AUDIO_WORDS_DIR = CONTENT_DIR / "audio" / "words"
 AUDIO_EXAMPLES_DIR = CONTENT_DIR / "audio" / "examples"
 
-# Content files to process (order matters for incremental generation)
+# Content files to process (order: expressions, quebecismes, then vocabulary by level)
 CONTENT_FILES = [
     CONTENT_DIR / "expressions" / "all.csv",
     CONTENT_DIR / "quebecismes" / "all.csv",
+    CONTENT_DIR / "vocabulary" / "a1_a2.csv",
+    CONTENT_DIR / "vocabulary" / "b1.csv",
+    CONTENT_DIR / "vocabulary" / "b2.csv",
+    CONTENT_DIR / "vocabulary" / "c1.csv",
+    CONTENT_DIR / "vocabulary" / "autres.csv",
 ]
-
-# Add vocabulary batches (batch_001 to batch_122)
-CONTENT_FILES.extend(
-    CONTENT_DIR / "vocabulary" / f"batch_{i:03d}.csv"
-    for i in range(1, 123)
-)
 
 # =============================================================================
 # Helpers
