@@ -133,8 +133,7 @@ Two detailed instructions for generating CSV files with Claude:
 - `professions_check.csv` — 875 NOM with both m/f forms + 490 m-only with profession suffixes
 - `m_only_profession_reviewed.csv` — Manual review of 490 m-only nouns (267 objects, 188 persons)
 - `missing_f_forms.csv` — 188 persons requiring f-form consideration (141 add_f, 38 m_only, etc.)
-- `blacklist.csv` — 93 entries to exclude (composite numerals, parse errors, roman numerals)
-- `whitelist_numerals.csv` — 35 basic numerals to include (un-dix-neuf, tens, cent, mille)
+- `blacklist.csv` — 183 entries to exclude (composite numerals, parse errors, roman numerals, archaic)
 
 **Québécismes raw sources (in `data/quebecismes/`):**
 - `oqlf_termes_officialises.csv` — 1471 official OQLF terms (from Données Québec)

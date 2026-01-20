@@ -18,7 +18,6 @@ LEXIQUE_PATH = PROJECT_ROOT / "Lexique383.tsv"
 # Data files (manual + generated)
 DATA_DIR = PROJECT_ROOT / "data"
 BLACKLIST_PATH = DATA_DIR / "blacklist.csv"
-WHITELIST_NUMERALS_PATH = DATA_DIR / "whitelist_numerals.csv"
 NOM_WITHOUT_GENRE_PATH = DATA_DIR / "nom_without_genre.csv"
 GENDER_HOMOGRAPHS_PATH = DATA_DIR / "gender_homographs.csv"
 PROFESSIONS_CHECK_PATH = DATA_DIR / "professions_check.csv"

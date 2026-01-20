@@ -62,8 +62,8 @@
 - Результат: `data/blacklist.csv` (93 записи)
 
 ### 3. Фильтрация числительных (ADJ:num) ✅
-- Базовые числительные в `data/whitelist_numerals.csv` (35 записей)
-- Составные исключены в `data/blacklist.csv` (70 composite_numeral)
+- Составные, римские и ошибочные исключены в `data/blacklist.csv` (88 записей ADJ:num)
+- Базовые числительные = ADJ_num.csv минус blacklist (35 записей)
 
 ### 4.1 Обработка существительных без указания рода ✅
 - Скрипт: `scripts/04a_find_nom_without_genre.py`
@@ -184,7 +184,6 @@ sirop-de-mots/
 ├── Lexique383.tsv              # Исходная база (gitignore)
 ├── data/
 │   ├── blacklist.csv           # Слова для исключения (lemme, cgram, reason)
-│   ├── whitelist_numerals.csv  # Базовые числительные для включения
 │   ├── nom_without_genre.csv   # NOM без рода для классификации (генерируется)
 │   ├── gender_homographs.csv   # Омографы разных родов (вручную)
 │   ├── professions_check.csv   # Проверка m/f профессий (генерируется)
@@ -216,7 +215,7 @@ sirop-de-mots/
     ├── 04b_check_professions.py       # ✅ Профессии m/f
     ├── 04c_find_irregular_adj.py      # ✅ Нерегулярные прилагательные
     ├── 04d_find_irregular_verbs.py    # ✅ Нерегулярные глаголы (3e groupe)
-    ├── 05_generate_cards.py           # TODO: blacklist/whitelist + additions + skeleton
+    ├── 05_generate_cards.py           # TODO: blacklist + additions + skeleton
     ├── 08_generate_audio.py           # TODO: Azure TTS
     ├── 09_build_apkg.py               # TODO: Сборка .apkg
     ├── config.py                      # ✅ Настройки (FREQ_MIN_THRESHOLD и др.)
@@ -310,7 +309,7 @@ petit,adj,,,,,,
 4. ~~Определить порог частотности для ~20000 слов~~ ✅ (FREQ_MIN_THRESHOLD = 0.67)
 5. ~~Провести ручную классификацию `nom_without_genre.csv`~~ ✅ (547 слов)
 6. ~~Написать остальные скрипты анализа (04b, 04c, 04d)~~ ✅
-7. ~~Создать blacklist.csv и whitelist_numerals.csv~~ ✅
+7. ~~Создать blacklist.csv~~ ✅
 8. **Следующий**: Написать `05_generate_cards.py` (объединяет фильтрацию + additions + skeleton)
 9. Заполнить карточки через ИИ (переводы, примеры, эмоджи)
 10. Написать `08_generate_audio.py` (Azure TTS)
