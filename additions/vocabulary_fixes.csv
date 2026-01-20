@@ -1,0 +1,21 @@
+lemme,genre,wordtype,notes,freqlem
+bijou,m,m,correct singular form,20.79
+ciel,m,m,correct singular form,49.24
+entrailles,f pl,f pl,pluralia tantum,8.36
+funérailles,f pl,f pl,pluralia tantum,10.59
+maths,f pl,f pl,pluralia tantum (colloquial),9.36
+moeurs,f pl,f pl,pluralia tantum,10.70
+ténèbres,f pl,f pl,pluralia tantum,11.41
+vacances,f pl,f pl,pluralia tantum,73.77
+confins,m pl,m pl,pluralia tantum,5.40
+grands-parents,m pl,m pl,pluralia tantum,8.79
+gens,m pl,m pl,pluralia tantum,173.58
+groupe,m,m,correct French spelling,110.53
+événement,m,m,preferred spelling,50.98
+média,m,m,correct spelling with accent,13.57
+rancœur,f,f,correct spelling with ligature,3.25
+au fur et à mesure,loc adv,loc adv,expression,8.11
+à l'instar,prep,prep,correct spelling with accent,2.72
+litre,m,m,missing genre in Lexique,8.86
+livre,m,m,missing genre in Lexique (book),167.20
+locataire,m,m,missing genre in Lexique (common gender but m for flashcards),11.86
