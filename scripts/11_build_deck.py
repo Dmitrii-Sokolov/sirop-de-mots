@@ -10,6 +10,8 @@ Usage:
 import argparse
 import csv
 import hashlib
+import shutil
+import tempfile
 from pathlib import Path
 
 import genanki
@@ -22,6 +24,14 @@ from deck_config import (
     CONTENT_DECKS,
     CONJUGATION_DECKS,
 )
+from utils import slugify
+
+# =============================================================================
+# Paths
+# =============================================================================
+
+CONTENT_DIR = PROJECT_ROOT / "content"
+AUDIO_BASE_DIR = CONTENT_DIR / "audio"
 
 # =============================================================================
 # IDs (must be stable for Anki updates)
@@ -255,6 +265,144 @@ cloze_model = genanki.Model(
 )
 
 # =============================================================================
+# Audio helpers
+# =============================================================================
+
+def get_audio_dirs(source_file: Path) -> tuple[Path, Path]:
+    """
+    Get audio directories for a source CSV file.
+
+    Examples:
+        expressions/all.csv -> audio/expressions/words/, audio/expressions/examples/
+        vocabulary/a1_a2.csv -> audio/vocabulary/a1_a2/words/, audio/vocabulary/a1_a2/examples/
+    """
+    rel_path = source_file.relative_to(CONTENT_DIR)
+    parent = rel_path.parent.name
+
+    if parent == "vocabulary":
+        audio_subdir = Path(parent) / rel_path.stem
+    else:
+        audio_subdir = Path(parent)
+
+    return (
+        AUDIO_BASE_DIR / audio_subdir / "words",
+        AUDIO_BASE_DIR / audio_subdir / "examples",
+    )
+
+
+def get_audio_prefix(source_file: Path) -> str:
+    """
+    Get unique prefix for audio files based on source category.
+
+    This ensures unique filenames in Anki's flat media storage.
+
+    Examples:
+        vocabulary/a1_a2.csv -> "v_a1a2_"
+        vocabulary/b1.csv -> "v_b1_"
+        expressions/all.csv -> "expr_"
+        quebecismes/all.csv -> "qc_"
+    """
+    rel_path = source_file.relative_to(CONTENT_DIR)
+    parent = rel_path.parent.name
+
+    if parent == "vocabulary":
+        level = rel_path.stem.replace("_", "")
+        return f"v_{level}_"
+    elif parent == "expressions":
+        return "expr_"
+    elif parent == "quebecismes":
+        return "qc_"
+    else:
+        return f"{parent[:4]}_"
+
+
+class MediaCollector:
+    """
+    Collects audio files and handles filename uniqueness for Anki.
+
+    Anki stores all media in a flat folder, so filenames must be unique.
+    This class adds category prefixes to ensure uniqueness.
+    """
+
+    def __init__(self, temp_dir: Path):
+        self.temp_dir = temp_dir
+        self.files: dict[str, Path] = {}  # anki_name -> source_path
+        self.conflicts: list[str] = []
+
+    def add_file(self, source_path: Path, anki_name: str) -> bool:
+        """
+        Register a file for inclusion in the Anki package.
+
+        Returns True if added successfully, False if conflict detected.
+        """
+        if anki_name in self.files:
+            existing = self.files[anki_name]
+            if existing != source_path:
+                self.conflicts.append(
+                    f"  {anki_name}: {source_path} vs {existing}"
+                )
+                return False
+        self.files[anki_name] = source_path
+        return True
+
+    def get_media_paths(self) -> list[str]:
+        """
+        Copy files to temp directory with Anki-safe names and return paths.
+        """
+        result = []
+        for anki_name, source_path in self.files.items():
+            if source_path.exists():
+                dest = self.temp_dir / anki_name
+                shutil.copy2(source_path, dest)
+                result.append(str(dest))
+        return result
+
+    def report_conflicts(self):
+        """Print any filename conflicts detected."""
+        if self.conflicts:
+            print(f"\n⚠️  Audio filename conflicts detected ({len(self.conflicts)}):")
+            for conflict in self.conflicts[:10]:
+                print(conflict)
+            if len(self.conflicts) > 10:
+                print(f"  ... and {len(self.conflicts) - 10} more")
+
+
+def get_audio_field(
+    french: str,
+    audio_dir: Path,
+    prefix: str,
+    suffix: str,
+    collector: MediaCollector | None,
+) -> str:
+    """
+    Get Anki audio field value for a French word.
+
+    Args:
+        french: French text to find audio for
+        audio_dir: Directory where audio file is stored
+        prefix: Category prefix for unique Anki filename
+        suffix: File suffix ("" for word, "_ex" for example)
+        collector: MediaCollector to register file with
+
+    Returns [sound:prefixed_filename.mp3] if file exists, empty string otherwise.
+    """
+    slug = slugify(french)
+    source_filename = f"{slug}{suffix}.mp3"
+    source_path = audio_dir / source_filename
+
+    if not source_path.exists():
+        return ""
+
+    # Create unique Anki filename with prefix
+    anki_filename = f"{prefix}{slug}{suffix}.mp3"
+
+    if collector:
+        collector.add_file(source_path, anki_filename)
+
+    return f"[sound:{anki_filename}]"
+
+
+# =============================================================================
 # Helpers
 # =============================================================================
 
@@ -267,18 +415,35 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def create_vocab_note(row: dict, tag: str, include_audio: bool = True) -> genanki.Note:
+def create_vocab_note(
+    row: dict,
+    tag: str,
+    words_dir: Path | None = None,
+    examples_dir: Path | None = None,
+    audio_prefix: str = "",
+    collector: MediaCollector | None = None,
+) -> genanki.Note:
     """Create vocabulary note from CSV row."""
+    french = row.get('French', '')
+
+    # Get audio fields if directories provided
+    audio = ""
+    audio_example = ""
+    if words_dir:
+        audio = get_audio_field(french, words_dir, audio_prefix, "", collector)
+    if examples_dir:
+        audio_example = get_audio_field(french, examples_dir, audio_prefix, "_ex", collector)
+
     fields = [
-        row.get('French', ''),
+        french,
         row.get('Russian', ''),
         row.get('WordType', ''),
         row.get('ExampleFrench', ''),
         row.get('ExampleRussian', ''),
         row.get('Notes', ''),
         row.get('Emoji', ''),
-        row.get('Audio', '') if include_audio else '',
-        row.get('AudioExample', '') if include_audio else '',
+        audio,
+        audio_example,
     ]
     return genanki.Note(model=vocab_model, fields=fields, tags=[tag])
 
@@ -309,85 +474,125 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
     decks = {}
     stats = {}
 
-    # Helper to get or create deck
-    def get_deck(name: str) -> genanki.Deck:
-        if name not in decks:
-            decks[name] = genanki.Deck(stable_id(name), name)
-        return decks[name]
+    # Use context manager for automatic cleanup of temp directory
+    with tempfile.TemporaryDirectory(prefix="anki_audio_") as temp_dir_str:
+        temp_dir = Path(temp_dir_str)
+        collector = MediaCollector(temp_dir) if include_audio else None
 
-    # Process vocabulary decks
-    print("\n--- Vocabulary ---")
-    for deck_name, info in VOCABULARY_DECKS.items():
-        source = PROJECT_ROOT / info['source']
-        rows = read_csv(source)
-        deck = get_deck(deck_name)
-        tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
+        # Helper to get or create deck
+        def get_deck(name: str) -> genanki.Deck:
+            if name not in decks:
+                decks[name] = genanki.Deck(stable_id(name), name)
+            return decks[name]
 
-        for row in rows:
-            deck.add_note(create_vocab_note(row, tag, include_audio))
+        # Process vocabulary decks
+        print("\n--- Vocabulary ---")
+        for deck_name, info in VOCABULARY_DECKS.items():
+            source = PROJECT_ROOT / info['source']
+            rows = read_csv(source)
+            deck = get_deck(deck_name)
+            tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
 
-        stats[deck_name] = len(rows)
-        print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+            # Get audio directories and prefix if audio enabled
+            words_dir, examples_dir, audio_prefix = None, None, ""
+            if include_audio:
+                words_dir, examples_dir = get_audio_dirs(source)
+                audio_prefix = get_audio_prefix(source)
 
-    # Process Autres deck
-    for deck_name, info in AUTRES_DECK.items():
-        source = PROJECT_ROOT / info['source']
-        rows = read_csv(source)
-        deck = get_deck(deck_name)
+            for row in rows:
+                deck.add_note(create_vocab_note(
+                    row, tag, words_dir, examples_dir, audio_prefix, collector
+                ))
 
-        for row in rows:
-            deck.add_note(create_vocab_note(row, 'autres', include_audio))
+            stats[deck_name] = len(rows)
+            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
 
-        stats[deck_name] = len(rows)
-        print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+        # Process Autres deck
+        for deck_name, info in AUTRES_DECK.items():
+            source = PROJECT_ROOT / info['source']
+            rows = read_csv(source)
+            deck = get_deck(deck_name)
 
-    # Process content decks (expressions, quebecismes)
-    print("\n--- Content ---")
-    for deck_name, info in CONTENT_DECKS.items():
-        source = PROJECT_ROOT / info['source']
-        rows = read_csv(source)
-        deck = get_deck(deck_name)
-        tag = deck_name.split("::")[-1].lower()
+            words_dir, examples_dir, audio_prefix = None, None, ""
+            if include_audio:
+                words_dir, examples_dir = get_audio_dirs(source)
+                audio_prefix = get_audio_prefix(source)
 
-        for row in rows:
-            # Expressions/Quebecismes use 'expr' as WordType if not set
-            if not row.get('WordType'):
-                row['WordType'] = 'expr'
-            deck.add_note(create_vocab_note(row, tag, include_audio))
+            for row in rows:
+                deck.add_note(create_vocab_note(
+                    row, 'autres', words_dir, examples_dir, audio_prefix, collector
+                ))
 
-        stats[deck_name] = len(rows)
-        print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+            stats[deck_name] = len(rows)
+            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
 
-    # Process conjugation decks
-    print("\n--- Conjugation ---")
-    for deck_name, info in CONJUGATION_DECKS.items():
-        source = PROJECT_ROOT / info['source']
-        rows = read_csv(source)
-        deck = get_deck(deck_name)
-        tag = deck_name.split("::")[-1].lower().replace(" ", "_")
+        # Process content decks (expressions, quebecismes)
+        print("\n--- Content ---")
+        for deck_name, info in CONTENT_DECKS.items():
+            source = PROJECT_ROOT / info['source']
+            rows = read_csv(source)
+            deck = get_deck(deck_name)
+            tag = deck_name.split("::")[-1].lower()
 
-        for row in rows:
-            deck.add_note(create_conj_note(row, tag))
+            words_dir, examples_dir, audio_prefix = None, None, ""
+            if include_audio:
+                words_dir, examples_dir = get_audio_dirs(source)
+                audio_prefix = get_audio_prefix(source)
 
-        stats[deck_name] = len(rows)
-        print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+            for row in rows:
+                if not row.get('WordType'):
+                    row['WordType'] = 'expr'
+                deck.add_note(create_vocab_note(
+                    row, tag, words_dir, examples_dir, audio_prefix, collector
+                ))
 
-    # Create package
-    print("\n--- Exporting ---")
-    all_decks = list(decks.values())
-    package = genanki.Package(all_decks)
-    package.write_to_file(output_path)
+            stats[deck_name] = len(rows)
+            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
 
-    # Summary
-    total_entries = sum(stats.values())
-    total_cards = sum(v * 2 for v in stats.values())  # vocab: 2 templates, conj: 2 clozes
+        # Process conjugation decks
+        print("\n--- Conjugation ---")
+        for deck_name, info in CONJUGATION_DECKS.items():
+            source = PROJECT_ROOT / info['source']
+            rows = read_csv(source)
+            deck = get_deck(deck_name)
+            tag = deck_name.split("::")[-1].lower().replace(" ", "_")
 
-    print(f"\nSaved: {output_path}")
-    print(f"Decks: {len(decks)}")
-    print(f"Entries: {total_entries}")
-    print(f"Cards: ~{total_cards}")
+            for row in rows:
+                deck.add_note(create_conj_note(row, tag))
 
-    return stats
+            stats[deck_name] = len(rows)
+            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+
+        # Collect media files with unique names
+        media_files: list[str] = []
+        if collector:
+            print(f"\n--- Audio ---")
+            media_files = collector.get_media_paths()
+            print(f"  Collected {len(media_files)} audio files")
+            collector.report_conflicts()
+
+        # Create package
+        print("\n--- Exporting ---")
+        all_decks = list(decks.values())
+        package = genanki.Package(all_decks)
+
+        if media_files:
+            package.media_files = media_files
+
+        package.write_to_file(output_path)
+
+        # Summary
+        total_entries = sum(stats.values())
+        total_cards = sum(v * 2 for v in stats.values())
+
+        print(f"\nSaved: {output_path}")
+        print(f"Decks: {len(decks)}")
+        print(f"Entries: {total_entries}")
+        print(f"Cards: ~{total_cards}")
+        if media_files:
+            print(f"Audio files: {len(media_files)}")
+
+        return stats
 
 
 def main():
