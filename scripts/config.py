@@ -39,8 +39,32 @@ CARDS_FOR_AI_PATH = OUTPUT_DIR / "cards_for_ai.csv"
 CARDS_COMPLETE_PATH = OUTPUT_DIR / "cards_complete.csv"
 VOCABULARY_IMPORT_PATH = OUTPUT_DIR / "French_Vocabulary_Import.csv"
 CONJUGATION_IMPORT_PATH = OUTPUT_DIR / "French_Conjugation_Import.csv"
-AUDIO_WORDS_DIR = OUTPUT_DIR / "audio" / "words"
-AUDIO_EXAMPLES_DIR = OUTPUT_DIR / "audio" / "examples"
+
+# Content and Audio
+CONTENT_DIR = PROJECT_ROOT / "content"
+AUDIO_BASE_DIR = CONTENT_DIR / "audio"
+
+
+def get_audio_dir(source_file: Path) -> Path:
+    """
+    Get audio directory for a source CSV file.
+
+    Examples:
+        content/expressions/all.csv -> content/audio/expressions/
+        content/vocabulary/a1_a2.csv -> content/audio/vocabulary_a1a2/
+        content/quebecismes/all.csv -> content/audio/quebecismes/
+    """
+    rel_path = source_file.relative_to(CONTENT_DIR)
+    parent = rel_path.parent.name
+
+    if parent == "vocabulary":
+        # vocabulary/a1_a2.csv -> vocabulary_a1a2
+        level = rel_path.stem.replace("_", "")
+        audio_subdir = f"vocabulary_{level}"
+    else:
+        audio_subdir = parent
+
+    return AUDIO_BASE_DIR / audio_subdir
 
 # =============================================================================
 # Frequency Settings

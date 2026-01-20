@@ -48,19 +48,15 @@ except ImportError:
 
 from config import (
     PROJECT_ROOT,
+    CONTENT_DIR,
+    AUDIO_BASE_DIR,
+    get_audio_dir,
     AZURE_TTS_VOICES,
     AZURE_TTS_FORMAT,
     AZURE_TTS_REQUESTS_PER_SECOND,
     AZURE_TTS_RETRY_ATTEMPTS,
 )
 from utils import slugify, strip_html
-
-# =============================================================================
-# Paths
-# =============================================================================
-
-CONTENT_DIR = PROJECT_ROOT / "content"
-AUDIO_BASE_DIR = CONTENT_DIR / "audio"
 
 # Content files to process (order: expressions, quebecismes, then vocabulary by level)
 CONTENT_FILES = [
@@ -72,28 +68,6 @@ CONTENT_FILES = [
     CONTENT_DIR / "vocabulary" / "c1.csv",
     CONTENT_DIR / "vocabulary" / "autres.csv",
 ]
-
-
-def get_audio_dirs(source_file: Path) -> tuple[Path, Path]:
-    """
-    Get audio directories for a source CSV file.
-
-    Examples:
-        expressions/all.csv -> audio/expressions/words/, audio/expressions/examples/
-        vocabulary/a1_a2.csv -> audio/vocabulary/a1_a2/words/, audio/vocabulary/a1_a2/examples/
-    """
-    rel_path = source_file.relative_to(CONTENT_DIR)
-    parent = rel_path.parent.name  # "expressions" or "vocabulary"
-
-    if parent == "vocabulary":
-        audio_subdir = Path(parent) / rel_path.stem  # vocabulary/a1_a2
-    else:
-        audio_subdir = Path(parent)  # expressions
-
-    return (
-        AUDIO_BASE_DIR / audio_subdir / "words",
-        AUDIO_BASE_DIR / audio_subdir / "examples",
-    )
 
 
 def get_voice(index: int) -> str:
@@ -210,8 +184,7 @@ class AudioGenerator:
         self,
         french: str,
         example_french: str | None,
-        words_dir: Path,
-        examples_dir: Path,
+        audio_dir: Path,
         skip_existing: bool = True
     ) -> tuple[bool, bool]:
         """
@@ -223,8 +196,8 @@ class AudioGenerator:
         voice = get_voice(self.voice_index)
         self.voice_index += 1
 
-        word_path = words_dir / f"{slug}.mp3"
-        example_path = examples_dir / f"{slug}_ex.mp3"
+        word_path = audio_dir / f"{slug}.mp3"
+        example_path = audio_dir / f"{slug}_ex.mp3"
 
         word_success = False
         example_success = False
@@ -283,11 +256,10 @@ def process_file(
         display_path = file_path.name
     print(f"Processing: {display_path}")
 
-    # Get audio directories for this source file
-    words_dir, examples_dir = get_audio_dirs(file_path)
-    words_dir.mkdir(parents=True, exist_ok=True)
-    examples_dir.mkdir(parents=True, exist_ok=True)
-    print(f"Audio: {words_dir.relative_to(PROJECT_ROOT)}")
+    # Get audio directory for this source file
+    audio_dir = get_audio_dir(file_path)
+    audio_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Audio: {audio_dir.relative_to(PROJECT_ROOT)}")
     print('='*60)
 
     total = 0
@@ -309,7 +281,7 @@ def process_file(
         print(f"\n[{total}] {french}")
 
         word_ok, example_ok = generator.generate_for_entry(
-            french, example, words_dir, examples_dir, skip_existing
+            french, example, audio_dir, skip_existing
         )
 
         if word_ok and example_ok:
