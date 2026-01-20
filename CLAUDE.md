@@ -267,10 +267,10 @@ AudioExample: [sound:un_homme_ex.mp3]
 - [x] Expressions — 469 entries complete in `content/expressions/all.csv`
 - [x] Québécismes — 566 entries complete in `content/quebecismes/all.csv`
 - [x] `09_generate_audio.py` — TTS script created
+- [x] Vocabulary batches — 122 batches (~10591 words)
+- [x] Conjugation — all 5 types (present, subjonctif, participes, futur_stems, être verbs)
+- [x] `.env` support in `09_generate_audio.py`
 
 ### Pending tasks
-- [ ] AI fill: vocabulary batches (by freqlem, top first)
-- [ ] AI fill: conjugation (5 types, ~500 cards total)
 - [ ] Azure TTS: get subscription key, generate audio
-- [ ] Add `.env` support to `09_generate_audio.py` (python-dotenv)
 - [ ] Final .apkg assembly with audio
