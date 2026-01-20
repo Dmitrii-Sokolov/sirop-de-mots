@@ -173,6 +173,21 @@ def load_professions_f(path: Path) -> list[dict]:
     return entries
 
 
+def load_vocabulary_fixes(path: Path) -> list[dict]:
+    """Load vocabulary fixes (correct forms for blacklisted entries)."""
+    if not path.exists():
+        print(f"  Warning: vocabulary_fixes.csv not found")
+        return []
+
+    entries = []
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            entries.append(row)
+
+    return entries
+
+
 # =============================================================================
 # Formatters
 # =============================================================================
@@ -593,6 +608,40 @@ def process_verbs_for_vocab(
     return vocab
 
 
+def process_vocabulary_fixes(entries: list[dict]) -> list[VocabEntry]:
+    """Process vocabulary fixes (correct forms for blacklisted/wrong entries)."""
+    vocab = []
+
+    for row in entries:
+        lemme = row["lemme"].strip()
+        wordtype = row.get("wordtype", "").strip()
+        notes = row.get("notes", "")
+        freqlem = float(row.get("freqlem", 0) or 0)
+
+        # Format based on wordtype
+        if wordtype in ("m", "f", "m/f"):
+            french = format_noun(lemme, wordtype)
+        elif wordtype in ("m pl", "f pl"):
+            # Pluralia tantum - use "les" or "des"
+            if lemme in ("vacances",):
+                french = f"des {lemme}"
+            else:
+                french = f"les {lemme}"
+        else:
+            french = lemme
+
+        vocab.append(VocabEntry(
+            french=french,
+            wordtype=wordtype,
+            notes=notes,
+            freqlem=freqlem,
+            source="additions",
+            cgram="FIX",
+        ))
+
+    return vocab
+
+
 def process_quebecismes(entries: list[dict], blacklist: set[str]) -> list[VocabEntry]:
     """Process quebecismes from additions."""
     vocab = []
@@ -665,6 +714,7 @@ def main():
     blacklist = load_blacklist(BLACKLIST_PATH)
     print(f"  Blacklist: {len(blacklist)} entries")
 
+
     # Load reference data
     print("\nLoading reference data...")
     irregular_adj = load_irregular_adjectives(IRREGULAR_ADJ_PATH)
@@ -677,6 +727,9 @@ def main():
     print("\nLoading additions...")
     professions_f = load_professions_f(ADDITIONS_DIR / "professions_f.csv")
     print(f"  Professions (f): {len(professions_f)} entries")
+
+    vocabulary_fixes = load_vocabulary_fixes(ADDITIONS_DIR / "vocabulary_fixes.csv")
+    print(f"  Vocabulary fixes: {len(vocabulary_fixes)} entries")
 
     quebecismes = load_quebecismes(ADDITIONS_DIR / "quebecismes.csv")
     print(f"  Québécismes: {len(quebecismes)} entries")
@@ -744,6 +797,12 @@ def main():
     qc_vocab = process_quebecismes(quebecismes, blacklist)
     print(f"  québécismes: {len(qc_vocab)} entries (separate file)")
     # NOT extending all_vocab - québécismes are saved separately
+
+    # Vocabulary fixes (correct forms for blacklisted entries)
+    print("\nProcessing vocabulary fixes...")
+    fix_vocab = process_vocabulary_fixes(vocabulary_fixes)
+    print(f"  Fixes: {len(fix_vocab)} entries")
+    all_vocab.extend(fix_vocab)
 
     # Sort vocabulary by frequency (descending)
     all_vocab.sort(key=lambda x: (-x.freqlem, x.french.lower()))

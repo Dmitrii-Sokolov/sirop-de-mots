@@ -182,3 +182,23 @@ sus,ADV,archaic
 çà,ADV,archaic
 ici-bas,ADV,literary
 quoi,ADJ,parse_error
+bijoux,NOM,wrong_number_plural_as_lemma
+cieux,NOM,wrong_number_plural_as_lemma
+entrailles,NOM,pluralia_tantum
+funérailles,NOM,pluralia_tantum
+maths,NOM,pluralia_tantum
+moeurs,NOM,pluralia_tantum
+ténèbres,NOM,pluralia_tantum
+vacance,NOM,pluralia_tantum
+confins,NOM,pluralia_tantum
+grands-parents,NOM,pluralia_tantum
+gens,NOM,pluralia_tantum
+group,NOM,typo_english_spelling
+évènement,NOM,spelling_variant
+media,NOM,spelling_variant
+rancoeur,NOM,spelling_variant_missing_ligature
+fur et à mesure,NOM,expression_wrong_format
+a l'instar,PRE,typo_missing_accent
+litre,NOM,missing_genre
+livre,NOM,missing_genre
+locataire,NOM,missing_genre
