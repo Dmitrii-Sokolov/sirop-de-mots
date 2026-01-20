@@ -39,6 +39,7 @@ nul
 # Project specific
 *.log
 output/
+.env
 
 # Claude Code local settings
 .claude/settings.local.json

@@ -2,9 +2,11 @@
 Generate audio files for Anki cards using Azure TTS.
 
 Usage:
-    # Set environment variables first:
+    # Create .env file in project root with:
     # AZURE_SPEECH_KEY=your_key
     # AZURE_SPEECH_REGION=your_region (e.g., canadacentral)
+    #
+    # Or set environment variables directly.
 
     # Generate audio for all content:
     python scripts/09_generate_audio.py
@@ -27,6 +29,13 @@ import sys
 import time
 from pathlib import Path
 from typing import Iterator
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not installed, use environment variables directly
 
 # Azure Speech SDK - install with: pip install azure-cognitiveservices-speech
 try:
