@@ -5,7 +5,7 @@ Inputs:
     - categories/*.csv (NOM, VER, ADJ, ADV, etc.)
     - additions/professions_f.csv
     - additions/quebecismes.csv
-    - data/blacklist.csv, whitelist_numerals.csv
+    - data/blacklist.csv
     - data/irregular_adjectives.csv, irregular_verbs.csv
 
 Outputs (in output/, regenerable):
@@ -24,7 +24,7 @@ from typing import Optional
 
 from config import (
     PROJECT_ROOT, DATA_DIR, CATEGORIES_DIR, ADDITIONS_DIR, OUTPUT_DIR,
-    BLACKLIST_PATH, WHITELIST_NUMERALS_PATH,
+    BLACKLIST_PATH,
     IRREGULAR_ADJ_PATH, IRREGULAR_VERBS_PATH,
     get_wordtype,
 )
@@ -86,25 +86,11 @@ def load_blacklist(path: Path) -> set[str]:
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            blacklist.add(row["lemme"].lower())
+            lemme = row["lemme"].strip().lower()
+            if lemme:
+                blacklist.add(lemme)
 
     return blacklist
-
-
-def load_whitelist_numerals(path: Path) -> dict[str, str]:
-    """Load whitelisted numerals with notes."""
-    whitelist = {}
-    if not path.exists():
-        return whitelist
-
-    with open(path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            lemme = row["lemme"].lower()
-            notes = row.get("notes", "")
-            whitelist[lemme] = notes
-
-    return whitelist
 
 
 def load_irregular_adjectives(path: Path) -> dict[str, tuple[str, str, str]]:
@@ -441,9 +427,8 @@ def process_adverbs(entries: list[dict], blacklist: set[str]) -> list[VocabEntry
 def process_numerals(
     entries: list[dict],
     blacklist: set[str],
-    whitelist: dict[str, str],
 ) -> list[VocabEntry]:
-    """Process ADJ:num category with whitelist filtering."""
+    """Process ADJ:num category (blacklist filtering only)."""
     vocab = []
     seen = set()
 
@@ -451,9 +436,6 @@ def process_numerals(
         lemme = row["lemme"].strip()
         lemme_lower = lemme.lower()
 
-        # Only include whitelisted numerals
-        if lemme_lower not in whitelist:
-            continue
         if lemme_lower in blacklist:
             continue
         if lemme_lower in seen:
@@ -461,31 +443,12 @@ def process_numerals(
         seen.add(lemme_lower)
 
         freqlem = float(row.get("freqlem", 0) or 0)
-        notes = whitelist.get(lemme_lower, "")
 
         vocab.append(VocabEntry(
             french=lemme,
             wordtype="num",
-            notes=notes,
             freqlem=freqlem,
             source="lexique",
-            cgram="ADJ:num",
-        ))
-
-    # Add whitelisted numerals not in Lexique (like dix-sept, etc.)
-    for lemme, notes in whitelist.items():
-        if lemme in seen:
-            continue
-        if lemme in blacklist:
-            continue
-        seen.add(lemme)
-
-        vocab.append(VocabEntry(
-            french=lemme,
-            wordtype="num",
-            notes=notes,
-            freqlem=0,
-            source="whitelist",
             cgram="ADJ:num",
         ))
 
@@ -702,9 +665,6 @@ def main():
     blacklist = load_blacklist(BLACKLIST_PATH)
     print(f"  Blacklist: {len(blacklist)} entries")
 
-    whitelist_num = load_whitelist_numerals(WHITELIST_NUMERALS_PATH)
-    print(f"  Whitelist numerals: {len(whitelist_num)} entries")
-
     # Load reference data
     print("\nLoading reference data...")
     irregular_adj = load_irregular_adjectives(IRREGULAR_ADJ_PATH)
@@ -754,7 +714,7 @@ def main():
     # Numerals
     print("\nProcessing ADJ:num...")
     num_entries = load_category(CATEGORIES_DIR / "ADJ_num.csv")
-    num_vocab = process_numerals(num_entries, blacklist, whitelist_num)
+    num_vocab = process_numerals(num_entries, blacklist)
     print(f"  ADJ:num: {len(num_vocab)} entries")
     all_vocab.extend(num_vocab)
 
