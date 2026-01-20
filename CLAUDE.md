@@ -66,9 +66,26 @@ Common patterns:
 - **-ien → -ienne**: musicien/musicienne, pharmacien/pharmacienne
 - **-er → -ère**: boulanger/boulangère, infirmier/infirmière
 
-**Conjugation (French Conjugation v3 Cloze):**
-- Fields: Verb, Translation, Tense, ConjSingular, ConjPlural, Notes
-- Uses cloze deletions: `{{c1::vais}}` for singular, `{{c2::allons}}` for plural
+**Conjugation (restructured, pattern-based):**
+Five card types instead of all tenses × all verbs:
+
+1. **Présent** (343 cards) — 3e groupe + samples 1er/2e groupe
+   - Fields: Verb, Translation, ConjSingular, ConjPlural, Pattern, Notes
+   - Cloze: `{{c1::vais}}` singular, `{{c2::allons}}` plural
+
+2. **Subjonctif** (10 cards) — irregular only (être, avoir, aller, faire, etc.)
+   - Same cloze format with `que je/tu/il`, `que nous/vous/ils`
+
+3. **Participes passés** (110 cards) — irregular only
+   - Fields: Verb, Translation, Participe (cloze), Auxiliaire, Pattern, Related
+
+4. **Futur stems** (22 cards) — irregular only
+   - Fields: Verb, Translation, FuturStem (cloze), Example
+
+5. **Être verbs** (17 cards) — DR MRS VANDERTRAMP
+   - Fields: Verb, Translation, Participe, Notes
+
+**Total: ~500 cards** (vs ~16700 with old 8-tense approach)
 
 ## Frequency Recommendation
 
@@ -163,30 +180,48 @@ Located in `scripts/`:
 - `04c_find_irregular_adj.py` — Find irregular adjectives
 - `04d_find_irregular_verbs.py` — Find 3rd group irregular verbs
 - `05_generate_cards.py` — **Generate card skeletons** from categories + additions
+- `05b_generate_conjugation.py` — **Generate conjugation skeletons** (restructured, 5 types)
 - `06_fetch_quebecismes.py` — Fetch québécismes from 4 sources (OQLF, Caméléon, Wiktionary, Exionnaire)
 - `07_merge_quebecismes.py` — Merge and deduplicate québécismes
 - `08_filter_quebecismes.py` — Filter by definition presence, add Lexique383 frequency
 - `09_generate_audio.py` — **Generate TTS audio** via Azure Speech (fr-CA voices)
 
-**Skeletons from 05_generate_cards.py (in `output/`, gitignored, regenerable):**
+**Skeletons (in `output/`, gitignored, regenerable):**
+
+From `05_generate_cards.py`:
 - `vocabulary_skeleton.csv` — 10695 entries (French, WordType, Notes, Source, freqlem)
 - `quebecismes_skeleton.csv` — 566 entries (French, WordType, Notes, Source, Priority)
-- `conjugation_skeleton.csv` — 2088 verbs (Verb, Notes, freqlem, Group)
+
+From `05b_generate_conjugation.py` (restructured):
+- `conj_present_skeleton.csv` — 343 entries (Verb, Group, Pattern, freqlem)
+- `conj_subjonctif_skeleton.csv` — 10 entries (Verb, freqlem)
+- `conj_participes_skeleton.csv` — 110 entries (Verb, Participe, Auxiliaire, Pattern, Related, freqlem)
+- `conj_futur_stems_skeleton.csv` — 22 entries (Verb, FuturStem, freqlem)
+- `conj_etre_verbs_skeleton.csv` — 17 entries (Verb, Participe, freqlem)
 
 **AI content (in `content/`, tracked in git):**
 - `expressions/all.csv` — 469 expressions (complete, audio needed)
 - `quebecismes/all.csv` — 566 québécismes (complete, audio needed)
 - `vocabulary/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
-- `conjugation/*.csv` — Verb, Translation, Tense, ConjSingular, ConjPlural, Notes
+- `conjugation/present.csv` — Verb, Translation, ConjSingular, ConjPlural, Notes
+- `conjugation/subjonctif.csv` — Verb, Translation, ConjSingular, ConjPlural, Notes
+- `conjugation/participes.csv` — Verb, Translation, Notes
+- `conjugation/futur_stems.csv` — Verb, Translation, Example, Notes
+- `conjugation/etre_verbs.csv` — Verb, Translation, Notes
 
 **Merge strategy (skeleton + content → final):**
-- Key: `French` for vocabulary/quebecismes, `Verb+Tense` for conjugation
+- Key: `French` for vocabulary/quebecismes, `Verb` for conjugation
 - Rename Notes fields: skeleton `Notes` → `GrammarNotes`, content `Notes` → `LearningNotes`
 
 **Verb group classification:**
 - 1st group: -er verbs (regular, except "aller")
 - 2nd group: -ir with -issant participle (finir → finissant)
 - 3rd group: all others (irregular) — -ir sans -issant, -re, -oir, aller
+
+**Pattern-based learning rationale:**
+- Imparfait, Futur simple, Conditionnel — derivable from Présent + rules
+- Only irregular forms need explicit memorization
+- ~500 cards cover what ~16700 would have (95% reduction)
 
 ## Québécismes Sources
 
@@ -228,13 +263,15 @@ AudioExample: [sound:un_homme_ex.mp3]
 ## TODO
 
 ### Completed
-- [x] `05_generate_cards.py` — Generate card skeletons (10695 vocab + 566 qc + 2088 conj)
+- [x] `05_generate_cards.py` — Generate card skeletons (10695 vocab + 566 qc)
+- [x] `05b_generate_conjugation.py` — Restructured conjugation (502 cards vs 16700)
 - [x] Expressions — 469 entries complete in `content/expressions/all.csv`
 - [x] Québécismes — 566 entries complete in `content/quebecismes/all.csv`
 - [x] `09_generate_audio.py` — TTS script created
 
 ### Pending tasks
 - [ ] AI fill: vocabulary batches (by freqlem, top first)
-- [ ] AI fill: conjugation tables
+- [ ] AI fill: conjugation (5 types, ~500 cards total)
 - [ ] Azure TTS: get subscription key, generate audio
+- [ ] Add `.env` support to `09_generate_audio.py` (python-dotenv)
 - [ ] Final .apkg assembly with audio
