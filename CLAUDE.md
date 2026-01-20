@@ -268,18 +268,24 @@ Most have freq=0 in Lexique383 (France-centric corpus), so source count is bette
 **Storage (in `content/audio/`, tracked in git):**
 ```
 content/audio/
-├── words/          # word pronunciation: un_homme.mp3
-└── examples/       # example sentences: un_homme_ex.mp3
+├── vocabulary_a1a2/    # une_maison.mp3, une_maison_ex.mp3
+├── vocabulary_b1/
+├── vocabulary_b2/
+├── vocabulary_c1/
+├── vocabulary_autres/
+├── expressions/
+└── quebecismes/
 ```
 
 **Filename convention:**
 - Slug from French field: `un homme` → `un_homme.mp3`
 - Example suffix: `un_homme_ex.mp3`
+- Word and example in same directory, distinguished by `_ex` suffix
 
-**Anki field format:**
+**Anki field format (with category prefix for uniqueness):**
 ```
-Audio: [sound:un_homme.mp3]
-AudioExample: [sound:un_homme_ex.mp3]
+Audio: [sound:v_a1a2_un_homme.mp3]
+AudioExample: [sound:v_a1a2_un_homme_ex.mp3]
 ```
 
 **Azure TTS settings (from config.py):**

@@ -16,7 +16,7 @@ from pathlib import Path
 
 import genanki
 
-from config import PROJECT_ROOT
+from config import PROJECT_ROOT, CONTENT_DIR, AUDIO_BASE_DIR, get_audio_dir
 from deck_config import (
     ROOT_DECK,
     VOCABULARY_DECKS,
@@ -25,13 +25,6 @@ from deck_config import (
     CONJUGATION_DECKS,
 )
 from utils import slugify
-
-# =============================================================================
-# Paths
-# =============================================================================
-
-CONTENT_DIR = PROJECT_ROOT / "content"
-AUDIO_BASE_DIR = CONTENT_DIR / "audio"
 
 # =============================================================================
 # IDs (must be stable for Anki updates)
@@ -123,6 +116,7 @@ VOCAB_CSS = """
 .notes { font-size: 15px; color: #555; margin-top: 20px; padding: 12px; background-color: #fff8e1; border-radius: 8px; text-align: left; border-left: 4px solid #ffc107; }
 hr { border: none; border-top: 2px solid #e0e0e0; margin: 25px 0; }
 .direction { font-size: 12px; color: #999; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+.audio-inline { margin-left: 10px; }
 """
 
 CLOZE_CSS = """
@@ -152,8 +146,7 @@ CLOZE_CSS = """
 
 RECOG_FRONT = """
 <div class="direction">FR → RU</div>
-<div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span></div>
-{{#ExampleFrench}}<div class="example">{{ExampleFrench}}</div>{{/ExampleFrench}}
+<div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
 <script>
 (function() {
     var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_');
@@ -168,8 +161,8 @@ RECOG_FRONT = """
 
 RECOG_BACK = """
 <div class="direction">FR → RU</div>
-<div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span></div>
-{{#ExampleFrench}}<div class="example">{{ExampleFrench}}</div>{{/ExampleFrench}}
+<div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
+{{#ExampleFrench}}<div class="example">{{ExampleFrench}}{{#AudioExample}}<span class="audio-inline">{{AudioExample}}</span>{{/AudioExample}}</div>{{/ExampleFrench}}
 <hr>
 <div class="main-word answer-word">{{#Emoji}}<span class="emoji">{{Emoji}}</span>{{/Emoji}}{{Russian}}</div>
 {{#ExampleRussian}}<div class="example"><div class="example-translation">{{ExampleRussian}}</div></div>{{/ExampleRussian}}
@@ -197,8 +190,8 @@ PROD_BACK = """
 <div class="main-word">{{Russian}}</div>
 {{#ExampleRussian}}<div class="example">{{ExampleRussian}}</div>{{/ExampleRussian}}
 <hr>
-<div class="main-word" id="main-word">{{#Emoji}}<span class="emoji">{{Emoji}}</span>{{/Emoji}}{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span></div>
-{{#ExampleFrench}}<div class="example">{{ExampleFrench}}</div>{{/ExampleFrench}}
+<div class="main-word" id="main-word">{{#Emoji}}<span class="emoji">{{Emoji}}</span>{{/Emoji}}{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
+{{#ExampleFrench}}<div class="example">{{ExampleFrench}}{{#AudioExample}}<span class="audio-inline">{{AudioExample}}</span>{{/AudioExample}}</div>{{/ExampleFrench}}
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 <script>
 (function() {
@@ -267,28 +260,6 @@ cloze_model = genanki.Model(
 # =============================================================================
 # Audio helpers
 # =============================================================================
-
-def get_audio_dirs(source_file: Path) -> tuple[Path, Path]:
-    """
-    Get audio directories for a source CSV file.
-
-    Examples:
-        expressions/all.csv -> audio/expressions/words/, audio/expressions/examples/
-        vocabulary/a1_a2.csv -> audio/vocabulary/a1_a2/words/, audio/vocabulary/a1_a2/examples/
-    """
-    rel_path = source_file.relative_to(CONTENT_DIR)
-    parent = rel_path.parent.name
-
-    if parent == "vocabulary":
-        audio_subdir = Path(parent) / rel_path.stem
-    else:
-        audio_subdir = Path(parent)
-
-    return (
-        AUDIO_BASE_DIR / audio_subdir / "words",
-        AUDIO_BASE_DIR / audio_subdir / "examples",
-    )
-
 
 def get_audio_prefix(source_file: Path) -> str:
     """
@@ -418,21 +389,19 @@ def read_csv(path: Path) -> list[dict]:
 def create_vocab_note(
     row: dict,
     tag: str,
-    words_dir: Path | None = None,
-    examples_dir: Path | None = None,
+    audio_dir: Path | None = None,
     audio_prefix: str = "",
     collector: MediaCollector | None = None,
 ) -> genanki.Note:
     """Create vocabulary note from CSV row."""
     french = row.get('French', '')
 
-    # Get audio fields if directories provided
+    # Get audio fields if directory provided
     audio = ""
     audio_example = ""
-    if words_dir:
-        audio = get_audio_field(french, words_dir, audio_prefix, "", collector)
-    if examples_dir:
-        audio_example = get_audio_field(french, examples_dir, audio_prefix, "_ex", collector)
+    if audio_dir:
+        audio = get_audio_field(french, audio_dir, audio_prefix, "", collector)
+        audio_example = get_audio_field(french, audio_dir, audio_prefix, "_ex", collector)
 
     fields = [
         french,
@@ -493,15 +462,15 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             deck = get_deck(deck_name)
             tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
 
-            # Get audio directories and prefix if audio enabled
-            words_dir, examples_dir, audio_prefix = None, None, ""
+            # Get audio directory and prefix if audio enabled
+            audio_dir, audio_prefix = None, ""
             if include_audio:
-                words_dir, examples_dir = get_audio_dirs(source)
+                audio_dir = get_audio_dir(source)
                 audio_prefix = get_audio_prefix(source)
 
             for row in rows:
                 deck.add_note(create_vocab_note(
-                    row, tag, words_dir, examples_dir, audio_prefix, collector
+                    row, tag, audio_dir, audio_prefix, collector
                 ))
 
             stats[deck_name] = len(rows)
@@ -513,14 +482,14 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             rows = read_csv(source)
             deck = get_deck(deck_name)
 
-            words_dir, examples_dir, audio_prefix = None, None, ""
+            audio_dir, audio_prefix = None, ""
             if include_audio:
-                words_dir, examples_dir = get_audio_dirs(source)
+                audio_dir = get_audio_dir(source)
                 audio_prefix = get_audio_prefix(source)
 
             for row in rows:
                 deck.add_note(create_vocab_note(
-                    row, 'autres', words_dir, examples_dir, audio_prefix, collector
+                    row, 'autres', audio_dir, audio_prefix, collector
                 ))
 
             stats[deck_name] = len(rows)
@@ -534,16 +503,16 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             deck = get_deck(deck_name)
             tag = deck_name.split("::")[-1].lower()
 
-            words_dir, examples_dir, audio_prefix = None, None, ""
+            audio_dir, audio_prefix = None, ""
             if include_audio:
-                words_dir, examples_dir = get_audio_dirs(source)
+                audio_dir = get_audio_dir(source)
                 audio_prefix = get_audio_prefix(source)
 
             for row in rows:
                 if not row.get('WordType'):
                     row['WordType'] = 'expr'
                 deck.add_note(create_vocab_note(
-                    row, tag, words_dir, examples_dir, audio_prefix, collector
+                    row, tag, audio_dir, audio_prefix, collector
                 ))
 
             stats[deck_name] = len(rows)
