@@ -32,6 +32,29 @@ PYTHONIOENCODING=utf-8 python count_lemma_types.py
 PYTHONIOENCODING=utf-8 python create_french_deck_v3.py
 ```
 
+## Anki Deck Structure
+
+Hierarchical deck organization by CEFR level:
+
+```
+French TEF-TCF/
+├── Vocabulaire/
+│   ├── A1-A2 (Top 1000)     ← batch_001-010, most frequent
+│   ├── B1 (Top 3000)        ← batch_011-030
+│   ├── B2 (Top 5000)        ← batch_031-050
+│   └── C1+ (Top 10000)      ← batch_051-122
+├── Expressions (469)
+├── Québécismes (566)
+└── Conjugaison/
+    ├── Présent (341)
+    ├── Subjonctif (10)
+    ├── Participes (110)
+    ├── Futur (22)
+    └── Verbes être (17)
+```
+
+Configuration in `scripts/deck_config.py`.
+
 ## Anki Card Format
 
 Two note types in `French_Learning_Deck_v3.apkg`:
