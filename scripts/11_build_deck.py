@@ -24,7 +24,7 @@ from deck_config import (
     CONTENT_DECKS,
     CONJUGATION_DECKS,
 )
-from utils import slugify
+from utils import slugify, get_audio_prefix
 
 # =============================================================================
 # IDs (must be stable for Anki updates)
@@ -261,32 +261,6 @@ cloze_model = genanki.Model(
 # Audio helpers
 # =============================================================================
 
-def get_audio_prefix(source_file: Path) -> str:
-    """
-    Get unique prefix for audio files based on source category.
-
-    This ensures unique filenames in Anki's flat media storage.
-
-    Examples:
-        vocabulary/a1_a2.csv -> "v_a1a2_"
-        vocabulary/b1.csv -> "v_b1_"
-        expressions/all.csv -> "expr_"
-        quebecismes/all.csv -> "qc_"
-    """
-    rel_path = source_file.relative_to(CONTENT_DIR)
-    parent = rel_path.parent.name
-
-    if parent == "vocabulary":
-        level = rel_path.stem.replace("_", "")
-        return f"v_{level}_"
-    elif parent == "expressions":
-        return "expr_"
-    elif parent == "quebecismes":
-        return "qc_"
-    else:
-        return f"{parent[:4]}_"
-
-
 class MediaCollector:
     """
     Collects audio files and handles filename uniqueness for Anki.
@@ -299,6 +273,7 @@ class MediaCollector:
         self.temp_dir = temp_dir
         self.files: dict[str, Path] = {}  # anki_name -> source_path
         self.conflicts: list[str] = []
+        self.missing_count = 0
 
     def add_file(self, source_path: Path, anki_name: str) -> bool:
         """
@@ -319,23 +294,30 @@ class MediaCollector:
     def get_media_paths(self) -> list[str]:
         """
         Copy files to temp directory with Anki-safe names and return paths.
+
+        Tracks missing files for diagnostics.
         """
         result = []
+        self.missing_count = 0
         for anki_name, source_path in self.files.items():
             if source_path.exists():
                 dest = self.temp_dir / anki_name
                 shutil.copy2(source_path, dest)
                 result.append(str(dest))
+            else:
+                self.missing_count += 1
         return result
 
-    def report_conflicts(self):
-        """Print any filename conflicts detected."""
+    def report_issues(self):
+        """Print any conflicts or missing files detected."""
         if self.conflicts:
-            print(f"\n⚠️  Audio filename conflicts detected ({len(self.conflicts)}):")
-            for conflict in self.conflicts[:10]:
+            print(f"  ⚠️  Filename conflicts: {len(self.conflicts)}")
+            for conflict in self.conflicts[:5]:
                 print(conflict)
-            if len(self.conflicts) > 10:
-                print(f"  ... and {len(self.conflicts) - 10} more")
+            if len(self.conflicts) > 5:
+                print(f"  ... and {len(self.conflicts) - 5} more")
+        if self.missing_count > 0:
+            print(f"  ⚠️  Missing files: {self.missing_count}")
 
 
 def get_audio_field(
@@ -384,6 +366,21 @@ def read_csv(path: Path) -> list[dict]:
         return []
     with open(path, 'r', encoding='utf-8') as f:
         return list(csv.DictReader(f))
+
+
+def get_audio_context(
+    source: Path,
+    include_audio: bool,
+) -> tuple[Path | None, str]:
+    """
+    Get audio directory and prefix for a source file.
+
+    Returns (audio_dir, audio_prefix) tuple.
+    If include_audio is False, returns (None, "").
+    """
+    if not include_audio:
+        return None, ""
+    return get_audio_dir(source), get_audio_prefix(source, CONTENT_DIR)
 
 
 def create_vocab_note(
@@ -462,11 +459,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             deck = get_deck(deck_name)
             tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
 
-            # Get audio directory and prefix if audio enabled
-            audio_dir, audio_prefix = None, ""
-            if include_audio:
-                audio_dir = get_audio_dir(source)
-                audio_prefix = get_audio_prefix(source)
+            audio_dir, audio_prefix = get_audio_context(source, include_audio)
 
             for row in rows:
                 deck.add_note(create_vocab_note(
@@ -481,11 +474,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             source = PROJECT_ROOT / info['source']
             rows = read_csv(source)
             deck = get_deck(deck_name)
-
-            audio_dir, audio_prefix = None, ""
-            if include_audio:
-                audio_dir = get_audio_dir(source)
-                audio_prefix = get_audio_prefix(source)
+            audio_dir, audio_prefix = get_audio_context(source, include_audio)
 
             for row in rows:
                 deck.add_note(create_vocab_note(
@@ -502,11 +491,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             rows = read_csv(source)
             deck = get_deck(deck_name)
             tag = deck_name.split("::")[-1].lower()
-
-            audio_dir, audio_prefix = None, ""
-            if include_audio:
-                audio_dir = get_audio_dir(source)
-                audio_prefix = get_audio_prefix(source)
+            audio_dir, audio_prefix = get_audio_context(source, include_audio)
 
             for row in rows:
                 if not row.get('WordType'):
@@ -538,7 +523,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             print(f"\n--- Audio ---")
             media_files = collector.get_media_paths()
             print(f"  Collected {len(media_files)} audio files")
-            collector.report_conflicts()
+            collector.report_issues()
 
         # Create package
         print("\n--- Exporting ---")
