@@ -54,10 +54,12 @@ French TEF-TCF/
     └── Verbes être (17)
 ```
 
-**Total: 12064 cards** (10529 vocab + 1035 expr/qc + 500 conj)
+**Total: 12083 cards** (10529 vocab + 1035 expr/qc + 519 conj)
+**Audio: 23104 mp3 files** (793 MB, fr-CA voices via Azure TTS)
 
 Vocabulary files: `content/vocabulary/{a1_a2,b1,b2,c1,autres}.csv`
 Configuration: `scripts/deck_config.py`
+Final deck: `French_TEF_TCF.apkg` (750 MB)
 
 ## Anki Card Format
 
@@ -292,18 +294,9 @@ AudioExample: [sound:v_a1a2_un_homme_ex.mp3]
 - Voices: fr-CA-SylvieNeural, fr-CA-JeanNeural, fr-CA-AntoineNeural, fr-CA-ThierryNeural
 - Format: audio-16khz-128kbitrate-mono-mp3
 
-## TODO
+## Project Status: COMPLETE ✓
 
-### Completed
-- [x] `05_generate_cards.py` — Generate card skeletons (10695 vocab + 566 qc)
-- [x] `05b_generate_conjugation.py` — Restructured conjugation (502 cards vs 16700)
-- [x] Expressions — 469 entries complete in `content/expressions/all.csv`
-- [x] Québécismes — 566 entries complete in `content/quebecismes/all.csv`
-- [x] `09_generate_audio.py` — TTS script created
-- [x] Vocabulary batches — 122 batches (~10591 words)
-- [x] Conjugation — all 5 types (present, subjonctif, participes, futur_stems, être verbs)
-- [x] `.env` support in `09_generate_audio.py`
-
-### Pending tasks
-- [ ] Azure TTS: get subscription key, generate audio
-- [ ] Final .apkg assembly with audio
+All tasks finished on 2025-01-21:
+- Content generation (12083 cards)
+- Audio generation (23104 files via Azure TTS)
+- Final deck assembly (`French_TEF_TCF.apkg`, 750 MB)
