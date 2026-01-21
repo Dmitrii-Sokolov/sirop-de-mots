@@ -26,7 +26,109 @@
 └── lemma_type_stats.csv        # Статистика по категориям
 ```
 
-## Использование
+## Быстрый старт
+
+**Репозиторий содержит всё необходимое:** контент, переводы и 23000+ аудиофайлов.
+
+```bash
+git clone https://github.com/your-username/sirop-de-mots.git
+cd sirop-de-mots
+pip install pandas genanki
+python scripts/11_build_deck.py
+```
+
+Результат: `French_TEF_TCF.apkg` (750 MB, 12000+ карточек с аудио)
+
+Импортируйте в [Anki](https://apps.ankiweb.net/) и начинайте учить!
+
+## Сборка колоды (подробно)
+
+### Требования
+
+- Python 3.9+
+- Git (для клонирования с аудиофайлами)
+
+### Шаги
+
+1. **Клонирование репозитория**
+   ```bash
+   git clone https://github.com/your-username/sirop-de-mots.git
+   cd sirop-de-mots
+   ```
+
+2. **Установка зависимостей**
+   ```bash
+   pip install pandas genanki
+   ```
+
+3. **Сборка колоды**
+   ```bash
+   python scripts/11_build_deck.py
+   ```
+
+Готово! Файл `French_TEF_TCF.apkg` появится в корне проекта.
+
+### Сборка без аудио (лёгкая версия)
+
+Если не нужно аудио или хотите быстро проверить:
+
+```bash
+python scripts/11_build_deck.py --no-audio
+```
+
+Результат: ~5 MB вместо 750 MB.
+
+## Перегенерация аудио (для разработчиков)
+
+Аудиофайлы уже включены в репозиторий. Этот раздел нужен только если вы хотите изменить голоса или добавить новые слова.
+
+### Настройка Azure Speech
+
+```bash
+pip install azure-cognitiveservices-speech python-dotenv
+```
+
+Создайте файл `.env`:
+```
+AZURE_SPEECH_KEY=ваш_ключ
+AZURE_SPEECH_REGION=canadacentral
+```
+
+Получить ключ: [Azure Portal](https://portal.azure.com) → Cognitive Services → Speech
+
+### Генерация
+
+```bash
+# Все файлы (~23000 mp3, ~3 часа)
+python scripts/09_generate_audio.py
+
+# Конкретный уровень
+python scripts/09_generate_audio.py --input content/vocabulary/b1.csv
+```
+
+Скрипт пропускает существующие файлы. Для перезаписи: `--no-skip`.
+
+## Структура колоды
+
+```
+French TEF-TCF/
+├── Vocabulaire/
+│   ├── A1-A2 (769)     ← базовая лексика
+│   ├── B1 (1821)       ← средний уровень
+│   ├── B2 (1829)       ← продвинутый
+│   ├── C1+ (5120)      ← углублённый
+│   └── Autres (990)    ← наречия, местоимения, предлоги
+├── Expressions (469)   ← идиомы и устойчивые выражения
+├── Québécismes (566)   ← канадский французский
+└── Conjugaison/        ← спряжение неправильных глаголов
+    ├── Présent (360)
+    ├── Subjonctif (10)
+    ├── Participes (110)
+    ├── Futur (22)
+    └── Verbes être (17)
+```
+
+## Скрипты
 
 ```bash
 # Статистика лемм по грамматическим категориям
@@ -87,29 +189,39 @@ This project contains Python scripts for extracting, analyzing, and formatting F
 - Noun gender analysis
 - Ready-to-use Anki decks with bidirectional cards
 
-## Project Structure
+## Quick Start
 
-```
-├── Lexique383.tsv              # Lexique383 database (~140k words)
-├── French_Learning_Deck_v3.apkg # Ready-to-use Anki deck
-├── count_lemma_types.py        # Lemma statistics by category
-├── create_french_deck_v3.py    # Anki deck generator
-├── extract_lexique_selection.py # Extract lemma selection
-├── categories/                 # Lemmas by category (NOM, VER, ADJ...)
-└── lemma_type_stats.csv        # Category statistics
-```
-
-## Usage
+**The repository includes everything:** content, translations, and 23,000+ audio files.
 
 ```bash
-# Count lemmas by grammatical category
-python count_lemma_types.py
+git clone https://github.com/your-username/sirop-de-mots.git
+cd sirop-de-mots
+pip install pandas genanki
+python scripts/11_build_deck.py
+```
 
-# Extract lemma selection (top 10k VER/NOM/ADJ/ADV + rare categories)
-python extract_lexique_selection.py
+Result: `French_TEF_TCF.apkg` (750 MB, 12,000+ cards with audio)
 
-# Generate Anki deck with demo cards
-python create_french_deck_v3.py
+Import into [Anki](https://apps.ankiweb.net/) and start learning!
+
+## Build Options
+
+### Without audio (lightweight)
+
+```bash
+python scripts/11_build_deck.py --no-audio
+```
+
+Result: ~5 MB instead of 750 MB.
+
+### Regenerate audio (developers only)
+
+Audio files are already in the repo. Only needed if changing voices or adding words.
+
+```bash
+pip install azure-cognitiveservices-speech python-dotenv
+# Create .env with AZURE_SPEECH_KEY and AZURE_SPEECH_REGION
+python scripts/09_generate_audio.py
 ```
 
 ## Data Source
