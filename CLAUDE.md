@@ -39,11 +39,11 @@ Hierarchical deck organization by CEFR level:
 ```
 French TEF-TCF/
 ├── Vocabulaire/
-│   ├── A1-A2 (769)      ← NOM/VER/ADJ, top 1000 by frequency
-│   ├── B1 (1821)        ← NOM/VER/ADJ, 1001-3000
-│   ├── B2 (1829)        ← NOM/VER/ADJ, 3001-5000
-│   ├── C1+ (5120)       ← NOM/VER/ADJ, 5001+
-│   └── Autres (990)     ← adv, pron, prep, conj, interj, num
+│   ├── A1-A2 (786)      ← NOM/VER/ADJ, top 1000 by frequency
+│   ├── B1 (1854)        ← NOM/VER/ADJ, 1001-3000
+│   ├── B2 (1814)        ← NOM/VER/ADJ, 3001-5000
+│   ├── C1+ (5285)       ← NOM/VER/ADJ, 5001+
+│   └── Autres (781)     ← adv, pron, prep, conj, interj, num
 ├── Expressions (469)
 ├── Québécismes (566)
 └── Conjugaison/
@@ -54,7 +54,7 @@ French TEF-TCF/
     └── Verbes être (17)
 ```
 
-**Total: 12083 cards** (10529 vocab + 1035 expr/qc + 519 conj)
+**Total: 12074 cards** (10520 vocab + 1035 expr/qc + 519 conj)
 **Audio: 23104 mp3 files** (793 MB, fr-CA voices via Azure TTS)
 
 Vocabulary files: `content/vocabulary/{a1_a2,b1,b2,c1,autres}.csv`

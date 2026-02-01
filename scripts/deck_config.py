@@ -11,22 +11,22 @@ ROOT_DECK = "French TEF-TCF"
 VOCABULARY_DECKS = {
     f"{ROOT_DECK}::Vocabulaire::A1-A2": {
         "source": "content/vocabulary/a1_a2.csv",
-        "count": 769,
+        "count": 786,
         "description": "Top 1000 nouns, verbs, adjectives",
     },
     f"{ROOT_DECK}::Vocabulaire::B1": {
         "source": "content/vocabulary/b1.csv",
-        "count": 1821,
+        "count": 1854,
         "description": "Words 1001-3000 by frequency",
     },
     f"{ROOT_DECK}::Vocabulaire::B2": {
         "source": "content/vocabulary/b2.csv",
-        "count": 1829,
+        "count": 1814,
         "description": "Words 3001-5000 by frequency",
     },
     f"{ROOT_DECK}::Vocabulaire::C1+": {
         "source": "content/vocabulary/c1.csv",
-        "count": 5120,
+        "count": 5285,
         "description": "Words 5001+ by frequency",
     },
 }
@@ -35,7 +35,7 @@ VOCABULARY_DECKS = {
 AUTRES_DECK = {
     f"{ROOT_DECK}::Vocabulaire::Autres": {
         "source": "content/vocabulary/autres.csv",
-        "count": 990,
+        "count": 781,
         "description": "Adverbs, pronouns, prepositions, conjunctions, etc.",
     },
 }
