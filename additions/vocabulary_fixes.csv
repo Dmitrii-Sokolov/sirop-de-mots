@@ -19,3 +19,130 @@ au fur et à mesure,loc adv,loc adv,expression,8.11
 litre,m,m,missing genre in Lexique,8.86
 livre,m,m,missing genre in Lexique (book),167.20
 locataire,m,m,missing genre in Lexique (common gender but m for flashcards),11.86
+non,m,adv,adverbe de négation,0.05
+ou,nan,conj,conjonction de coordination,1583.95
+dame,f,f,femme noble ou respectable,111.20
+autrefois,nan,adv,dans le passé,26.89
+con,m,adj,vulgaire - stupide,55.33
+actrice,f,f,fém. de acteur,50.00
+las,m,adj,fatigué (las lasse),16.46
+cousine,f,f,fém. de cousin,10.00
+belle-mère,f,f,mère du conjoint,5.00
+belle-soeur,f,f,soeur du conjoint,3.00
+bru,f,f,femme du fils,1.45
+arrière-grand-père,m,m,père du grand-parent,1.48
+arrière-grand-mère,f,f,mère du grand-parent,0.85
+veuve,f,f,fém. de veuf,15.00
+fiancée,f,f,fém. de fiancé,8.00
+conjoint,m,m,époux ou partenaire,0.48
+conjointe,f,f,fém. de conjoint,0.40
+filleul,m,m,garçon dont on est parrain/marraine,2.72
+filleule,f,f,fém. de filleul,1.50
+orpheline,f,f,fém. de orphelin,3.00
+héritière,f,f,fém. de héritier,5.00
+peste,f,f,maladie ou personne détestable,16.95
+bougre,m,m,type gars (familier),4.75
+complémentaire,nan,adj,qui complète,0.81
+bévue,f,f,erreur maladresse,0.36
+exécrable,nan,adj,très mauvais,1.13
+râper,nan,v,réduire en petits morceaux,1.22
+allocation,f,f,aide financière,3.16
+hardi,m,adj,courageux audacieux (hardi hardie),2.22
+navrant,m,adj,désolant attristant (navrant navrante),0.63
+tripler,nan,v,multiplier par trois,2.08
+giron,m,m,partie du corps entre taille et genoux,0.39
+prêteur,m,m,personne qui prête,0.27
+émancipation,f,f,libération affranchissement,1.12
+mélo,m,m,mélodrame (familier),0.89
+bêlement,m,m,cri du mouton,0.12
+chaloupe,f,f,petit bateau,0.82
+bramer,nan,v,crier (cerf),0.12
+chaumière,f,f,petite maison rurale,1.47
+retardataire,nan,adj,en retard,0.33
+hérisson,m,m,petit mammifère à piquants,0.75
+procuration,f,f,pouvoir donné à quelqu'un,1.69
+échafaud,m,m,plateforme pour exécutions,0.85
+pépiement,m,m,cri des oiseaux,1.16
+pardi,nan,interj,exclamation (parbleu),2.66
+ici-bas,nan,adv,sur terre (vs au ciel),3.58
+parbleu,nan,interj,exclamation (par Dieu),1.54
+sapristi,nan,interj,exclamation de surprise,1.69
+fichtre,nan,interj,exclamation (euphémisme),1.23
+cieux,m,m pl,pluriel poétique de ciel,20.05
+main,f,f,missing genre in Lexique,791.52
+enfant,m/f,m/f,common gender (un/une enfant),731.63
+maison,f,f,missing genre in Lexique,593.59
+mort,f,f,la mort (death) - un mort = dead person is separate,457.11
+voiture,f,f,missing genre in Lexique,370.88
+part,f,f,missing genre in Lexique (une part),311.70
+chance,f,f,missing genre in Lexique,270.90
+fin,f,f,missing genre in Lexique (une fin),253.83
+merci,m,m,missing genre in Lexique (un merci),249.03
+tour,m,m,un tour (turn/trip) - une tour (tower) is separate,239.78
+pas,m,m,missing genre in Lexique (un pas),209.91
+chef,m,m,missing genre in Lexique,205.54
+cours,m,m,missing genre in Lexique (un cours),156.53
+geste,m,m,missing genre in Lexique,132.90
+aide,f,f,une aide (help) - un aide (helper) is separate,127.57
+ombre,f,f,missing genre in Lexique,120.78
+chéri,m,m,un chéri - une chérie is separate,117.70
+garde,f,f,une garde (guard duty) - un garde (guard person) is separate,107.52
+gauche,f,f,missing genre in Lexique (la gauche),96.90
+gosse,m/f,m/f,common gender (un/une gosse),90.68
+poche,f,f,missing genre in Lexique,88.30
+camarade,m/f,m/f,common gender (un/une camarade),86.28
+poste,m,m,un poste (position) - une poste (mail) is separate,85.99
+professeur,m,m,traditionally masculine (une professeure is modern),84.70
+mémoire,f,f,une mémoire (memory) - un mémoire (thesis) is separate,80.87
+page,f,f,une page (book page) - un page (pageboy) is separate,69.86
+radio,f,f,missing genre in Lexique (la radio),68.94
+pauvre,m,m,un pauvre (poor person) - substantivized adjective,62.42
+oeuvre,f,f,missing genre in Lexique (une oeuvre),62.07
+espace,m,m,un espace (space) - f in typography only,61.73
+ministre,m/f,m/f,common gender (un/une ministre),57.31
+couple,m,m,un couple (pair of people),55.37
+gorge,f,f,missing genre in Lexique,53.25
+somme,f,f,une somme (sum) - un somme (nap) is separate,52.85
+jeune,m/f,m/f,un/une jeune (young person),51.97
+politique,f,f,la politique (policy) - un politique (politician) is separate,51.16
+rouge,m,m,le rouge (color/lipstick),49.64
+saint,m,m,un saint - une sainte is separate,49.23
+justice,f,f,missing genre in Lexique,49.09
+élève,m/f,m/f,common gender (un/une élève),45.21
+artiste,m/f,m/f,common gender (un/une artiste),42.82
+plat,m,m,un plat (dish),42.68
+vague,f,f,une vague (wave) - vague (adj) is separate,42.39
+malade,m/f,m/f,un/une malade (sick person) - substantivized adj,42.02
+gloire,f,f,missing genre in Lexique,41.51
+môme,m/f,m/f,common gender (un/une môme),41.32
+commissaire,m/f,m/f,common gender,40.71
+mode,f,f,une mode (fashion) - un mode (method) is separate,39.04
+imbécile,m/f,m/f,common gender (un/une imbécile),38.81
+carrière,f,f,missing genre in Lexique,36.69
+barbe,f,f,missing genre in Lexique,35.30
+manche,f,f,une manche (sleeve) - un manche (handle) is separate,32.26
+voile,f,f,une voile (sail) - un voile (veil) is separate,28.47
+auto,f,f,missing genre in Lexique (une auto),26.15
+souris,f,f,missing genre in Lexique (une souris),23.41
+crème,f,f,missing genre in Lexique,20.53
+vase,f,f,une vase (mud) - un vase (vase) is separate,18.87
+cher,m,m,un cher (dear one) - substantivized adj,17.89
+clair,m,m,le clair (light/clarity) - substantivized adj,15.32
+proche,m,m,un proche (close relative) - substantivized adj,14.21
+dingue,m/f,m/f,un/une dingue (crazy person) - substantivized adj,8.45
+faux,m,m,le faux (fake/forgery) - substantivized adj,6.73
+tour,f,f,une tour (tower) - homonym of un tour,239.78
+poste,f,f,une poste (mail service) - homonym of un poste,85.99
+livre,f,f,une livre (pound weight) - homonym of un livre (book),233.46
+mémoire,m,m,un mémoire (thesis/memoir) - homonym of une mémoire,80.87
+voile,m,m,un voile (veil) - homonym of une voile (sail),28.47
+vase,m,m,un vase (vase) - homonym of une vase (mud),18.87
+aide,m,m,un aide (helper person) - homonym of une aide (help),127.57
+garde,m,m,un garde (guard person) - homonym of une garde (guarding),107.52
+page,m,m,un page (pageboy) - homonym of une page (book page),69.86
+mode,m,m,un mode (method/mode) - homonym of une mode (fashion),39.04
+manche,m,m,un manche (handle) - homonym of une manche (sleeve),32.26
+somme,m,m,un somme (nap) - homonym of une somme (sum),52.85
+politique,m,m,un politique (politician) - homonym of une politique (policy),51.16
+retardataire,m,m,un retardataire (latecomer) - substantivized adj,0.33
+chips,nan,f pl,des chips (crisps) - pluralia tantum,2.50

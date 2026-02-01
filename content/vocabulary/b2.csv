@@ -1,9 +1,146 @@
 French,Russian,ExampleFrench,ExampleRussian,Emoji,WordType
+une dette,долг,J'ai une <b>dette</b>.,У меня <b>долг</b>.,💸,f
+une crème,крем,La <b>crème</b> glacée.,<b>Мороженое</b>.,🍦,f
+un serveur,официант; сервер,Le <b>serveur</b> arrive.,<b>Официант</b> идёт.,🍽️,m
+une tente,палатка,On dort sous la <b>tente</b>.,Мы спим в <b>палатке</b>.,⛺,f
+un bouquet,букет,Un <b>bouquet</b> de fleurs.,<b>Букет</b> цветов.,💐,m
+une collection,коллекция,J'ai une <b>collection</b> de timbres.,У меня <b>коллекция</b> марок.,🎨,f
+un vert,зелёный (субст.),Le <b>vert</b> est ma couleur préférée.,<b>Зелёный</b> — мой любимый цвет.,💚,m
+un gouverneur,губернатор,Le <b>gouverneur</b> du Québec.,<b>Губернатор</b> Квебека.,🏛️,m
+une gouverneure,губернатор (ж.р.),La <b>gouverneure</b> a pris la parole.,<b>Губернатор</b> выступила.,👩‍💼,f
+un puits,колодец,Le <b>puits</b> est profond.,<b>Колодец</b> глубокий.,💧,m
+rembourser,возмещать,Je vais te <b>rembourser</b>.,Я тебе <b>верну</b> деньги.,💰,v
+une affection,привязанность,J'ai de l'<b>affection</b> pour lui.,Я к нему <b>привязан</b>.,❤️,f
+un orgueil,гордость,C'est son <b>orgueil</b> qui parle.,Это говорит его <b>гордыня</b>.,😤,m
+un profil,профиль,"De <b>profil</b>, elle est belle.",В <b>профиль</b> она красива.,👤,m
+une racine,корень,Les <b>racines</b> de l'arbre.,<b>Корни</b> дерева.,🌳,f
+fantastique,фантастический,C'est <b>fantastique</b> !,Это <b>фантастика</b>!,🤩,adj
+une canne,трость,Il marche avec une <b>canne</b>.,Он ходит с <b>тростью</b>.,🦯,f
+défaire,развязывать; разрушать,<b>Défais</b> le nœud.,<b>Развяжи</b> узел.,🔗,v
+un beurre,масло (сливочное),Mets du <b>beurre</b> sur le pain.,Намажь <b>масло</b> на хлеб.,🧈,m
+gémir,стонать,Il <b>gémit</b> de douleur.,Он <b>стонет</b> от боли.,😣,v
+un cigare,сигара,Il fume un <b>cigare</b>.,Он курит <b>сигару</b>.,🚬,m
+tels,такие (м.р.),De <b>tels</b> actes sont inacceptables.,<b>Такие</b> поступки неприемлемы.,👆,adj
+un cavalier,всадник,Le <b>cavalier</b> galope.,<b>Всадник</b> скачет.,🏇,m
+tiède,тёплый (не горячий),L'eau est <b>tiède</b>.,Вода <b>тёплая</b>.,🌡️,adj
+"lumineux, lumineuse",светящийся; яркий,Une idée <b>lumineuse</b>.,<b>Блестящая</b> идея.,💡,adj
+une poésie,поэзия,J'aime la <b>poésie</b>.,Я люблю <b>поэзию</b>.,📜,f
+un juste,праведник,Les <b>justes</b> seront récompensés.,<b>Праведники</b> будут вознаграждены.,😇,m
+un volet,ставня; раздел,Ferme les <b>volets</b>.,Закрой <b>ставни</b>.,🪟,m
+encourager,поощрять; воодушевлять,Je t'<b>encourage</b> à continuer.,Я тебя <b>подбадриваю</b> продолжать.,👏,v
+un pli,складка; письмо,Le <b>pli</b> du pantalon.,<b>Складка</b> на брюках.,👖,m
+précéder,предшествовать,Le jour qui <b>précède</b>.,<b>Предшествующий</b> день.,⏮️,v
+une grève,забастовка,Les ouvriers font <b>grève</b>.,Рабочие <b>бастуют</b>.,✊,f
+un assaut,штурм; атака,L'<b>assaut</b> a commencé.,<b>Штурм</b> начался.,⚔️,m
+"vilain, vilaine",скверный; некрасивый,C'est <b>vilain</b> de mentir.,<b>Нехорошо</b> врать.,😬,adj
+un procureur,прокурор,Le <b>procureur</b> accuse.,<b>Прокурор</b> обвиняет.,⚖️,m
+un soulier,туфля,J'ai acheté des <b>souliers</b>.,Я купил <b>туфли</b>.,👞,m
+une fierté,гордость,C'est ma <b>fierté</b>.,Это моя <b>гордость</b>.,🏆,f
+un cuisinier,повар,Le <b>cuisinier</b> prépare le repas.,<b>Повар</b> готовит еду.,👨‍🍳,m
+un innocent,невинный,C'est un <b>innocent</b>.,Он <b>невиновен</b>.,😇,m
+une brume,дымка; туман,Il y a de la <b>brume</b>.,Есть <b>туман</b>.,🌫️,f
+un bonbon,конфета,Tu veux un <b>bonbon</b> ?,Хочешь <b>конфетку</b>?,🍬,m
+mépriser,презирать,Je <b>méprise</b> les menteurs.,Я <b>презираю</b> лжецов.,😤,v
+"brutal, brutale",жестокий; резкий,C'est un homme <b>brutal</b>.,Это <b>жестокий</b> человек.,😠,adj
+écrier,вскрикивать,Elle s'est <b>écriée</b> de joie.,Она <b>вскрикнула</b> от радости.,😲,v
+connard,мудак (груб.),Quel <b>connard</b> ! (vulgaire),Какой <b>мудак</b>! (груб.),🤬,adj
+"local, locale",местный,C'est un journal <b>local</b>.,Это <b>местная</b> газета.,📰,adj
+"pourri, pourrie",гнилой,La pomme est <b>pourrie</b>.,Яблоко <b>гнилое</b>.,🍎,adj
+balader,гулять (разг.),Je me <b>balade</b> dans le parc.,Я <b>гуляю</b> в парке.,🚶,v
+une panique,паника,Pas de <b>panique</b> !,Без <b>паники</b>!,😱,f
+planquer,прятать (разг.),<b>Planque</b> ça !,<b>Спрячь</b> это!,🙈,v
+un anneau,кольцо; обруч,Un <b>anneau</b> d'or.,<b>Золотое</b> кольцо.,💍,m
+étrangler,душить,Il a essayé de l'<b>étrangler</b>.,Он пытался её <b>задушить</b>.,😰,v
+un amoureux,влюблённый,C'est mon <b>amoureux</b>.,Это мой <b>возлюбленный</b>.,❤️,m
+un collier,ожерелье; ошейник,Elle porte un <b>collier</b>.,На ней <b>ожерелье</b>.,📿,m
+une terreur,террор; ужас,C'est la <b>terreur</b>.,Это <b>террор</b>.,😱,f
+telles,такие (ж.р.),De <b>telles</b> histoires sont rares.,<b>Такие</b> истории редки.,👆,adj
+"international, internationale",международный,C'est un vol <b>international</b>.,Это <b>международный</b> рейс.,🌍,adj
+une exécution,казнь; исполнение,L'<b>exécution</b> du plan.,<b>Исполнение</b> плана.,📋,f
+"intact, intacte",нетронутый,C'est <b>intact</b>.,Это <b>нетронуто</b>.,✅,adj
+timide,робкий,Elle est <b>timide</b>.,Она <b>робкая</b>.,😳,adj
+une littérature,литература,La <b>littérature</b> française.,Французская <b>литература</b>.,📚,f
+un large,ширина; открытое море,Prendre le <b>large</b>.,Выйти в <b>открытое море</b>.,🌊,m
+"gratuit, gratuite",бесплатный,C'est <b>gratuit</b>.,Это <b>бесплатно</b>.,🆓,adj
+"feu, feue",покойный,<b>Feu</b> mon père.,<b>Покойный</b> мой отец.,🕯️,adj
+affecter,влиять; назначать,Ça m'a beaucoup <b>affecté</b>.,Это меня сильно <b>задело</b>.,😢,v
+atterrir,приземляться,L'avion va <b>atterrir</b>.,Самолёт <b>приземляется</b>.,✈️,v
+un opéra,опера,On va à l'<b>opéra</b>.,Идём в <b>оперу</b>.,🎭,m
+une pâte,тесто; паста,La <b>pâte</b> à pizza.,<b>Тесто</b> для пиццы.,🍕,f
+introduire,вводить; представлять,<b>Introduis</b> la clé.,<b>Вставь</b> ключ.,🔑,v
+divorcer,разводиться,Ils ont <b>divorcé</b>.,Они <b>развелись</b>.,💔,v
+un hôte,хозяин; гость,L'<b>hôte</b> nous accueille.,<b>Хозяин</b> нас принимает.,🏠,m
+un phare,маяк; фара,Le <b>phare</b> brille.,<b>Маяк</b> светит.,🗼,m
+une plainte,жалоба,J'ai déposé une <b>plainte</b>.,Я подал <b>жалобу</b>.,📝,f
+un espagnol,испанец,Il est <b>espagnol</b>.,Он <b>испанец</b>.,🇪🇸,m
+une économie,экономика; экономия,L'<b>économie</b> canadienne.,Канадская <b>экономика</b>.,📈,f
+"idéal, idéale",идеальный,C'est <b>idéal</b>.,Это <b>идеально</b>.,✨,adj
+grouiller,кишеть,La place <b>grouille</b> de monde.,Площадь <b>кишит</b> людьми.,👥,v
+un guide,гид,Le <b>guide</b> nous montre le chemin.,<b>Гид</b> показывает нам путь.,🗺️,m
+une revue,журнал; обзор,Je lis une <b>revue</b>.,Я читаю <b>журнал</b>.,📖,f
+un règlement,правила; урегулирование,C'est le <b>règlement</b>.,Таковы <b>правила</b>.,📋,m
+avril,апрель,"En <b>avril</b>, ne te découvre pas d'un fil.",В <b>апреле</b> не снимай одежду.,🌷,m
+une baraque,лачуга; хибара,C'est une vieille <b>baraque</b>.,Это старая <b>хибара</b>.,🏚️,f
+défiler,проходить строем; прокручивать,Les soldats <b>défilent</b>.,Солдаты <b>маршируют</b>.,🪖,v
+bavarder,болтать,On a <b>bavardé</b> longtemps.,Мы долго <b>болтали</b>.,💬,v
+une exception,исключение,C'est une <b>exception</b>.,Это <b>исключение</b>.,⚠️,f
+une province,провинция,Le Québec est une <b>province</b>.,Квебек — это <b>провинция</b>.,🗺️,f
+une dalle,плита; плитка,La <b>dalle</b> de béton.,<b>Бетонная</b> плита.,🧱,f
+"roux, rousse",рыжий,Elle a les cheveux <b>roux</b>.,У неё <b>рыжие</b> волосы.,👩‍🦰,adj
+un fiston,сынок (разг.),"Écoute, <b>fiston</b>.","Слушай, <b>сынок</b>.",👦,m
+circuler,циркулировать; двигаться,Le sang <b>circule</b>.,Кровь <b>циркулирует</b>.,🔄,v
+une panne,поломка,Ma voiture est en <b>panne</b>.,Моя машина <b>сломалась</b>.,🚗,f
+redouter,опасаться,Je <b>redoute</b> le pire.,Я <b>опасаюсь</b> худшего.,😰,v
+un comportement,поведение,Ton <b>comportement</b> est bizarre.,Твоё <b>поведение</b> странное.,🤔,m
+une proie,жертва; добыча,Le lion guette sa <b>proie</b>.,Лев подстерегает <b>добычу</b>.,🦁,f
+un passeport,паспорт,Montre ton <b>passeport</b>.,Покажи <b>паспорт</b>.,🛂,m
+un magazine,журнал,Je feuillette un <b>magazine</b>.,Я листаю <b>журнал</b>.,📰,m
+un neveu,племянник,C'est mon <b>neveu</b>.,Это мой <b>племянник</b>.,👦,m
+un clou,гвоздь,Plante le <b>clou</b>.,Забей <b>гвоздь</b>.,🔨,m
+féliciter,поздравлять,Je te <b>félicite</b> !,<b>Поздравляю</b> тебя!,🎉,v
+une réflexion,размышление,Après <b>réflexion</b>...,После <b>размышления</b>...,🤔,f
+une découverte,открытие,C'est une grande <b>découverte</b>.,Это великое <b>открытие</b>.,🔭,f
+une cité,город; жилой массив,La <b>cité</b> universitaire.,Студенческий <b>городок</b>.,🏙️,f
+un canapé,диван,Assieds-toi sur le <b>canapé</b>.,Садись на <b>диван</b>.,🛋️,m
+un wagon,вагон,Le <b>wagon</b> est plein.,<b>Вагон</b> полон.,🚃,m
+une demeure,жилище; резиденция,Une belle <b>demeure</b>.,Красивое <b>жилище</b>.,🏰,f
+une tentative,попытка,C'est ma dernière <b>tentative</b>.,Это моя последняя <b>попытка</b>.,💪,f
+pénible,тяжёлый; мучительный,C'est <b>pénible</b>.,Это <b>тяжело</b>.,😓,adj
+un portefeuille,бумажник,J'ai perdu mon <b>portefeuille</b>.,Я потерял <b>бумажник</b>.,👛,m
+"amer, amère",горький,Le café est <b>amer</b>.,Кофе <b>горький</b>.,☕,adj
+un dur,крутой; жёсткий (субст.),Il joue les <b>durs</b>.,Он строит из себя <b>крутого</b>.,💪,m
+"dit, dite",называемый; так называемый,La <b>dite</b> personne.,<b>Упомянутое</b> лицо.,📝,adj
+un bouquin,книга (разг.),J'ai lu un bon <b>bouquin</b>.,Я прочитал хорошую <b>книжку</b>.,📚,m
+un second,второй (субст.),Le <b>second</b> est arrivé.,<b>Второй</b> прибыл.,2️⃣,m
+une disparition,исчезновение,La <b>disparition</b> d'un enfant.,<b>Исчезновение</b> ребёнка.,❓,f
+apaiser,успокаивать,<b>Apaise</b>-toi.,<b>Успокойся</b>.,😌,v
+une perspective,перспектива,C'est une belle <b>perspective</b>.,Это хорошая <b>перспектива</b>.,📈,f
+paisible,мирный; спокойный,Un village <b>paisible</b>.,<b>Тихая</b> деревня.,🏡,adj
+un oreiller,подушка,Pose ta tête sur l'<b>oreiller</b>.,Положи голову на <b>подушку</b>.,🛏️,m
+un soupir,вздох,Il a poussé un <b>soupir</b>.,Он <b>вздохнул</b>.,😔,m
+bouleverser,потрясать; опрокидывать,Ça m'a <b>bouleversé</b>.,Это меня <b>потрясло</b>.,😢,v
+une médecine,медицина,Il étudie la <b>médecine</b>.,Он изучает <b>медицину</b>.,🏥,f
+une communauté,община; сообщество,La <b>communauté</b> francophone.,<b>Франкоязычное</b> сообщество.,👥,f
+"musical, musicale",музыкальный,Une comédie <b>musicale</b>.,<b>Мюзикл</b>.,🎵,adj
+"grec, grecque",греческий,La cuisine <b>grecque</b>.,<b>Греческая</b> кухня.,🇬🇷,adj
+une mémé,бабушка (разг.),Ma <b>mémé</b> fait de bons gâteaux.,Моя <b>бабуля</b> печёт вкусные пироги.,👵,f
+modeste,скромный,C'est un homme <b>modeste</b>.,Это <b>скромный</b> человек.,😌,adj
+une rigueur,строгость,Avec <b>rigueur</b> et discipline.,Со <b>строгостью</b> и дисциплиной.,📏,f
+un mépris,презрение,Il montre du <b>mépris</b>.,Он выказывает <b>презрение</b>.,😤,m
+"religieux, religieuse",религиозный,Une cérémonie <b>religieuse</b>.,<b>Религиозная</b> церемония.,⛪,adj
+une tension,напряжение,La <b>tension</b> monte.,<b>Напряжение</b> растёт.,😬,f
+une chaussette,носок,Mets tes <b>chaussettes</b>.,Надень <b>носки</b>.,🧦,f
+une issue,выход; исход,Je cherche une <b>issue</b>.,Я ищу <b>выход</b>.,🚪,f
+un permis,разрешение; права,J'ai mon <b>permis</b> de conduire.,У меня есть <b>права</b>.,🪪,m
+contrer,противодействовать,<b>Contre</b> son attaque.,<b>Противодействуй</b> его атаке.,🛡️,v
+bousculer,толкать,Ne <b>bouscule</b> personne.,Не <b>толкай</b> никого.,👐,v
 projeter,проецировать; планировать,On <b>projette</b> un voyage.,Мы <b>планируем</b> поездку.,🗺️,v
 une analyse,анализ,L'<b>analyse</b> des données.,<b>Анализ</b> данных.,📊,f
 une étape,этап,C'est la première <b>étape</b>.,Это первый <b>этап</b>.,📍,f
 dégueulasse,отвратительный (разг.),C'est <b>dégueulasse</b> !,Это <b>отвратительно</b>!,🤢,adj
 honorer,почитать,J'<b>honore</b> ma promesse.,Я <b>чту</b> своё обещание.,🏅,v
+un vase,ваза,Mets les fleurs dans le <b>vase</b>.,Поставь цветы в <b>вазу</b>.,🏺,m
+une vase,ил; тина,Les pieds dans la <b>vase</b>.,Ноги в <b>иле</b>.,🌿,f
 une écoute,прослушивание,Je suis à l'<b>écoute</b>.,Я <b>слушаю</b>.,👂,f
 un adjudant,адъютант; прапорщик,L'<b>adjudant</b> donne les ordres.,<b>Прапорщик</b> отдаёт приказы.,🎖️,m
 procurer,доставать; обеспечивать,Je vais te <b>procurer</b> ça.,Я тебе это <b>достану</b>.,📦,v
@@ -48,13 +185,16 @@ réciter,декламировать,<b>Récite</b> le poème.,<b>Продекл�
 un labo,лаборатория (разг.),Je travaille au <b>labo</b>.,Я работаю в <b>лабе</b>.,🔬,m
 célébrer,праздновать,On va <b>célébrer</b> ton anniversaire.,Мы будем <b>праздновать</b> твой день рождения.,🎉,v
 un enthousiasme,энтузиазм,Avec beaucoup d'<b>enthousiasme</b>.,С большим <b>энтузиазмом</b>.,🔥,m
+novembre,ноябрь,"En <b>novembre</b>, il fait froid.",В <b>ноябре</b> холодно.,🍂,m
 un hippo,бегемот (разг.),L'<b>hippo</b> est dans l'eau.,<b>Бегемот</b> в воде.,🦛,m
 un légume,овощ,Mange tes <b>légumes</b>.,Ешь <b>овощи</b>.,🥦,m
 une respiration,дыхание,Contrôle ta <b>respiration</b>.,Контролируй <b>дыхание</b>.,🌬️,f
 une assemblée,собрание,L'<b>assemblée</b> générale.,<b>Общее собрание</b>.,👥,f
+mars,март,"En <b>mars</b>, c'est le printemps.",В <b>марте</b> — весна.,🌸,m
 un divorce,развод,Ils demandent le <b>divorce</b>.,Они требуют <b>развод</b>.,💔,m
 un maréchal,маршал,Le <b>maréchal</b> commande l'armée.,<b>Маршал</b> командует армией.,⭐,m
 ronger,грызть,Le chien <b>ronge</b> l'os.,Собака <b>грызёт</b> кость.,🦴,v
+imbécile,идиотский; идиот,Quel <b>imbécile</b> !,Какой <b>идиот</b>!,🙄,adj
 suprême,высший,Le pouvoir <b>suprême</b>.,<b>Высшая</b> власть.,👑,adj
 un mélange,смесь,C'est un <b>mélange</b> de tout.,Это <b>смесь</b> всего.,🎨,m
 une mèche,прядь; фитиль,Une <b>mèche</b> de cheveux.,<b>Прядь</b> волос.,💇,f
@@ -62,11 +202,11 @@ une pension,пансион; пенсия,Il touche sa <b>pension</b>.,Он по�
 redescendre,спускаться обратно,Je vais <b>redescendre</b>.,Я <b>спущусь</b> обратно.,⬇️,v
 enchanter,очаровывать,<b>Enchanté</b> de vous connaître.,<b>Рад</b> познакомиться.,🤝,v
 un cap,мыс; курс,Maintiens le <b>cap</b>.,Держи <b>курс</b>.,🧭,m
-concierge,консьерж,Le <b>concierge</b> de l'immeuble.,<b>Консьерж</b> здания.,🔑,m/f
 doubler,удваивать; обгонять,<b>Double</b> pas ici.,Не <b>обгоняй</b> здесь.,🚗,v
+concierge,консьерж,Le <b>concierge</b> de l'immeuble.,<b>Консьерж</b> здания.,🔑,m
 une reprise,возобновление,La <b>reprise</b> du travail.,<b>Возобновление</b> работы.,🔄,f
 "attentif, attentive",внимательный,Sois <b>attentif</b> en classe.,Будь <b>внимательным</b> на уроке.,👀,adj
-touriste,турист,Les <b>touristes</b> visitent la ville.,<b>Туристы</b> осматривают город.,📸,m/f
+touriste,турист,Les <b>touristes</b> visitent la ville.,<b>Туристы</b> осматривают город.,📸,m
 "blessé, blessée",раненый,Il est <b>blessé</b>.,Он <b>ранен</b>.,🩹,adj
 nocturne,ночной,La vie <b>nocturne</b>.,<b>Ночная</b> жизнь.,🌙,adj
 une fureur,ярость,Il est en <b>fureur</b>.,Он в <b>ярости</b>.,😤,f
@@ -105,8 +245,11 @@ un gré,воля,De bon <b>gré</b>.,По доброй <b>воле</b>.,👍,m
 préoccuper,беспокоить,Ça me <b>préoccupe</b>.,Это меня <b>беспокоит</b>.,😟,v
 un demi-tour,разворот,Fais <b>demi-tour</b>.,Сделай <b>разворот</b>.,↩️,m
 un trouble,расстройство,Un <b>trouble</b> mental.,Психическое <b>расстройство</b>.,🧠,m
+mercredi,среда,On se voit <b>mercredi</b>.,Увидимся в <b>среду</b>.,📅,m
 interminable,бесконечный,Une attente <b>interminable</b>.,<b>Бесконечное</b> ожидание.,♾️,adj
 un fumier,навоз; подонок (разг.),Quel <b>fumier</b> !,Какой <b>подонок</b>!,😠,m
+monseigneur,монсеньор; ваше высочество,<b>Monseigneur</b> est servi.,"<b>Ваше высочество</b>, подано.",👑,m
+un cher,дорогой,<b>Cher</b> ami !,<b>Дорогой</b> друг!,💕,m
 une apparition,появление,L'<b>apparition</b> d'un fantôme.,<b>Появление</b> призрака.,👻,f
 fourrer,засовывать,<b>Fourre</b> ça dans ton sac.,<b>Засунь</b> это в сумку.,🎒,v
 tâcher,стараться,<b>Tâche</b> de réussir.,<b>Постарайся</b> справиться.,💪,v
@@ -128,6 +271,7 @@ un dialogue,диалог,Un <b>dialogue</b> ouvert.,Открытый <b>диал
 une vitrine,витрина,Regarde la <b>vitrine</b>.,Посмотри на <b>витрину</b>.,🏬,f
 lécher,лизать,Le chien <b>lèche</b> sa main.,Собака <b>лижет</b> его руку.,🐕,v
 recueillir,собирать; приютить,Je l'ai <b>recueilli</b>.,Я его <b>приютил</b>.,🏠,v
+quant,касательно (+ à),"<b>Quant</b> à moi, je refuse.","<b>Что касается</b> меня, я отказываюсь.",📌,f
 un collège,колледж; средняя школа,Il est au <b>collège</b>.,Он учится в <b>колледже</b>.,🏫,m
 un cancer,рак (болезнь),Le <b>cancer</b> du poumon.,<b>Рак</b> лёгких.,🩺,m
 un vampire,вампир,Un film de <b>vampires</b>.,Фильм про <b>вампиров</b>.,🧛,m
@@ -139,8 +283,8 @@ un carrefour,перекрёсток,Au <b>carrefour</b>.,На <b>перекрё�
 une ingénieure,инженер (ж.),Elle est <b>ingénieure</b>.,Она <b>инженер</b>.,👷‍♀️,f
 un damoiseau,юноша (устар.),Le <b>damoiseau</b> courtise la dame.,<b>Юноша</b> ухаживает за дамой.,🤴,m
 "élégant, élégante",элегантный,Une robe <b>élégante</b>.,<b>Элегантное</b> платье.,👗,adj
+décembre,декабрь,"En <b>décembre</b>, c'est Noël.",В <b>декабре</b> — Рождество.,🎄,m
 un ingénieur,инженер,Il est <b>ingénieur</b>.,Он <b>инженер</b>.,👷,m
-orange,оранжевый,Une couleur <b>orange</b>.,<b>Оранжевый</b> цвет.,🟠,m/f
 un appui,опора,Prends <b>appui</b> sur le mur.,<b>Обопрись</b> о стену.,🤝,m
 un serment,клятва,Je fais le <b>serment</b>.,Даю <b>клятву</b>.,🤚,m
 romantique,романтический,Une soirée <b>romantique</b>.,<b>Романтический</b> вечер.,💕,adj
@@ -157,7 +301,6 @@ un commun,общее,Nous avons beaucoup en <b>commun</b>.,У нас много 
 une indifférence,безразличие,Avec <b>indifférence</b>.,С <b>безразличием</b>.,😐,f
 un temple,храм,Le <b>temple</b> ancien.,Древний <b>храм</b>.,🛕,m
 un ministère,министерство,Le <b>ministère</b> de la Justice.,<b>Министерство</b> юстиции.,🏛️,m
-chic,шикарный,C'est très <b>chic</b>.,Это очень <b>шикарно</b>.,✨,adj
 un particulier,частное лицо,Un <b>particulier</b> vend sa maison.,<b>Частное лицо</b> продаёт дом.,🏠,m
 un remords,угрызение совести,Sans aucun <b>remords</b>.,Без угрызений <b>совести</b>.,😔,m
 douer,одарять,Il est <b>doué</b> en musique.,Он <b>одарён</b> в музыке.,🎵,v
@@ -173,6 +316,7 @@ un grec,грек,Il est <b>grec</b>.,Он <b>грек</b>.,🇬🇷,m
 un coiffeur,парикмахер,Va chez le <b>coiffeur</b>.,Сходи к <b>парикмахеру</b>.,💇,m
 animer,оживлять,<b>Anime</b> la fête.,<b>Оживи</b> праздник.,🎉,v
 apprêter,готовить; подготавливать,Je m'<b>apprête</b> à partir.,Я <b>собираюсь</b> уходить.,🚶,v
+janvier,январь,"En <b>janvier</b>, il neige.",В <b>январе</b> идёт снег.,❄️,m
 une version,версия,C'est la dernière <b>version</b>.,Это последняя <b>версия</b>.,📱,f
 préserver,сохранять,<b>Préserve</b> l'environnement.,<b>Сохраняй</b> окружающую среду.,🌍,v
 bondir,прыгать,Le chat <b>bondit</b>.,Кот <b>прыгает</b>.,🐱,v
@@ -180,6 +324,7 @@ un savon,мыло,Lave-toi avec du <b>savon</b>.,Мойся с <b>мылом</b>
 une tranchée,траншея,Creuse une <b>tranchée</b>.,Выкопай <b>траншею</b>.,⛏️,f
 une réception,приём,La <b>réception</b> de l'hôtel.,<b>Ресепшн</b> отеля.,🏨,f
 errer,блуждать,Il <b>erre</b> dans la ville.,Он <b>бродит</b> по городу.,🚶,v
+une pub,реклама (разг.),Je déteste la <b>pub</b>.,Я ненавижу <b>рекламу</b>.,📺,f
 "actuel, actuelle",текущий; актуальный,La situation <b>actuelle</b>.,<b>Текущая</b> ситуация.,📌,adj
 un désastre,катастрофа,C'est un <b>désastre</b>.,Это <b>катастрофа</b>.,💥,m
 un pêcheur,рыбак,Le <b>pêcheur</b> lance sa ligne.,<b>Рыбак</b> забрасывает удочку.,🎣,m
@@ -211,6 +356,7 @@ un berger,пастух,Le <b>berger</b> garde le troupeau.,<b>Пастух</b> �
 un serviteur,слуга,Votre humble <b>serviteur</b>.,Ваш скромный <b>слуга</b>.,🙇,m
 un plancher,пол (деревянный),Le <b>plancher</b> grince.,<b>Пол</b> скрипит.,🪵,m
 un virus,вирус,Le <b>virus</b> se propage.,<b>Вирус</b> распространяется.,🦠,m
+une peste,чума; зараза,La <b>peste</b> noire.,Чёрная <b>чума</b>.,☠️,f
 "occupé, occupée",занятый,Je suis <b>occupé</b>.,Я <b>занят</b>.,🏃,adj
 un passager,пассажир,Les <b>passagers</b> du train.,<b>Пассажиры</b> поезда.,🚂,m
 un velours,бархат,Un fauteuil en <b>velours</b>.,Кресло из <b>бархата</b>.,🪑,m
@@ -230,7 +376,7 @@ surmonter,преодолевать,<b>Surmonte</b> tes peurs.,<b>Преодол�
 un envers,изнанка,L'<b>envers</b> du décor.,<b>Изнанка</b> декораций.,🎭,m
 un cahier,тетрадь,Ouvre ton <b>cahier</b>.,Открой <b>тетрадь</b>.,📓,m
 gueuler,орать (разг.),Ne <b>gueule</b> pas !,Не <b>ори</b>!,📢,v
-spécialiste,специалист,C'est un <b>spécialiste</b>.,Он <b>специалист</b>.,🎯,m/f
+spécialiste,специалист,C'est un <b>spécialiste</b>.,Он <b>специалист</b>.,🎯,m
 un obstacle,препятствие,Un <b>obstacle</b> sur la route.,<b>Препятствие</b> на дороге.,🚧,m
 une richesse,богатство,La <b>richesse</b> du pays.,<b>Богатство</b> страны.,💎,f
 un oubli,забывание,C'est un <b>oubli</b>.,Это <b>упущение</b>.,🤦,m
@@ -253,16 +399,15 @@ injuste,несправедливый,C'est <b>injuste</b>.,Это <b>неспр�
 accélérer,ускорять,<b>Accélère</b> un peu.,<b>Ускорься</b> немного.,🚀,v
 un hall,холл,Le <b>hall</b> de l'hôtel.,<b>Холл</b> отеля.,🏨,m
 calculer,вычислять,<b>Calcule</b> le prix.,<b>Вычисли</b> цену.,🔢,v
-adversaire,противник,Mon <b>adversaire</b> est fort.,Мой <b>противник</b> силён.,🥊,m/f
+adversaire,противник,Mon <b>adversaire</b> est fort.,Мой <b>противник</b> силён.,🥊,m
 un miel,мёд,Du <b>miel</b> d'érable.,Кленовый <b>мёд</b>.,🍯,m
 une conclusion,заключение,En <b>conclusion</b>...,В <b>заключение</b>...,📝,f
 une grandeur,величие,La <b>grandeur</b> du pays.,<b>Величие</b> страны.,🏛️,f
 une démarche,походка; шаг,Une <b>démarche</b> administrative.,<b>Административные</b> процедуры.,📋,f
-critique,критик,Le <b>critique</b> de cinéma.,Кино<b>критик</b>.,🎬,m/f
 "patient, patiente",терпеливый,Sois <b>patient</b>.,Будь <b>терпеливым</b>.,⏳,adj
-photographe,фотограф,Le <b>photographe</b> prend une photo.,<b>Фотограф</b> делает снимок.,📷,m/f
+photographe,фотограф,Le <b>photographe</b> prend une photo.,<b>Фотограф</b> делает снимок.,📷,m
 un hommage,почтение,Rendre <b>hommage</b>.,Отдать <b>дань уважения</b>.,🙏,m
-ancêtre,предок,Mes <b>ancêtres</b> venaient du Québec.,Мои <b>предки</b> были из Квебека.,👴,m/f
+ancêtre,предок,Mes <b>ancêtres</b> venaient du Québec.,Мои <b>предки</b> были из Квебека.,👴,m
 un coton,хлопок,Une chemise en <b>coton</b>.,Рубашка из <b>хлопка</b>.,👕,m
 un symbole,символ,C'est un <b>symbole</b> de paix.,Это <b>символ</b> мира.,☮️,m
 une garce,стерва (груб.),Quelle <b>garce</b> !,Какая <b>стерва</b>!,😤,f
@@ -273,6 +418,7 @@ imprimer,печатать,<b>Imprime</b> le document.,<b>Распечатай</b
 une vedette,звезда; катер,C'est une <b>vedette</b> du cinéma.,Это кино<b>звезда</b>.,⭐,f
 une morale,мораль,La <b>morale</b> de l'histoire.,<b>Мораль</b> истории.,📖,f
 une blouse,блузка; халат,Mets ta <b>blouse</b> blanche.,Надень белый <b>халат</b>.,🥼,f
+"las, lasse",усталый; утомлённый,Je suis <b>las</b>.,Я <b>устал</b>.,😴,adj
 une boisson,напиток,Une <b>boisson</b> fraîche.,Прохладный <b>напиток</b>.,🥤,f
 chérir,лелеять,Je <b>chéris</b> ce souvenir.,Я <b>лелею</b> это воспоминание.,❤️,v
 une caresse,ласка,Une douce <b>caresse</b>.,Нежная <b>ласка</b>.,🤗,f
@@ -285,8 +431,8 @@ déployer,развёртывать,<b>Déploie</b> les troupes.,<b>Развер�
 "ennemi, ennemie",вражеский,Le camp <b>ennemi</b>.,<b>Вражеский</b> лагерь.,⚔️,adj
 "infini, infinie",бесконечный,L'univers est <b>infini</b>.,Вселенная <b>бесконечна</b>.,♾️,adj
 arroser,поливать,<b>Arrose</b> les plantes.,<b>Полей</b> растения.,🌱,v
-détective,детектив,Le <b>détective</b> enquête.,<b>Детектив</b> расследует.,🔍,m/f
 mater,подчинять; глазеть (разг.),Arrête de <b>mater</b> !,Хватит <b>пялиться</b>!,👀,v
+détective,детектив,Le <b>détective</b> enquête.,<b>Детектив</b> расследует.,🔍,m
 une coutume,обычай,C'est une vieille <b>coutume</b>.,Это старый <b>обычай</b>.,🎎,f
 un objectif,цель; объектив,Quel est ton <b>objectif</b> ?,Какова твоя <b>цель</b>?,🎯,m
 un compliment,комплимент,Merci pour le <b>compliment</b>.,Спасибо за <b>комплимент</b>.,😊,m
@@ -305,6 +451,7 @@ un for,совесть (for intérieur),Dans mon <b>for</b> intérieur.,В глу
 reproduire,воспроизводить,<b>Reproduis</b> ce dessin.,<b>Воспроизведи</b> этот рисунок.,🎨,v
 une dose,доза,Une <b>dose</b> de médicament.,<b>Доза</b> лекарства.,💊,f
 un géant,великан,C'est un <b>géant</b>.,Это <b>великан</b>.,🗿,m
+une donne,расклад; раздача,La <b>donne</b> a changé.,<b>Расклад</b> изменился.,🃏,f
 un führer,фюрер,Le <b>Führer</b> était un dictateur.,<b>Фюрер</b> был диктатором.,🚫,m
 une tendance,тенденция,La nouvelle <b>tendance</b>.,Новая <b>тенденция</b>.,📈,f
 une fraîcheur,свежесть,La <b>fraîcheur</b> du matin.,Утренняя <b>свежесть</b>.,🌅,f
@@ -318,7 +465,7 @@ un vertige,головокружение,J'ai le <b>vertige</b>.,У меня <b>�
 une philosophie,философия,La <b>philosophie</b> de vie.,<b>Философия</b> жизни.,🤔,f
 agacer,раздражать,Ça m'<b>agace</b>.,Это меня <b>раздражает</b>.,😤,v
 un abbé,аббат,L'<b>abbé</b> Pierre.,<b>Аббат</b> Пьер.,⛪,m
-manoeuvre,манёвр; разнорабочий,Une <b>manœuvre</b> militaire.,Военный <b>манёвр</b>.,🪖,m/f
+manoeuvre,манёвр; разнорабочий,Une <b>manœuvre</b> militaire.,Военный <b>манёвр</b>.,🪖,m
 succéder,следовать; наследовать,Il <b>succède</b> à son père.,Он <b>наследует</b> отцу.,👑,v
 un comble,верх; предел,C'est le <b>comble</b> !,Это <b>предел</b>!,😤,m
 écouler,сбывать; протекать,Le temps s'<b>écoule</b>.,Время <b>течёт</b>.,⏳,v
@@ -340,6 +487,7 @@ un âne,осёл,L'<b>âne</b> brait.,<b>Осёл</b> кричит.,🫏,m
 une ruelle,переулок,Une petite <b>ruelle</b>.,Маленький <b>переулок</b>.,🏘️,f
 un chaud,жара; тепло (субст.),Rester au <b>chaud</b>.,Оставаться в <b>тепле</b>.,🔥,m
 déboucher,откупоривать; выходить,<b>Débouche</b> la bouteille.,<b>Открой</b> бутылку.,🍾,v
+arabe,арабский,La langue <b>arabe</b>.,<b>Арабский</b> язык.,🇸🇦,adj
 un barrage,плотина,Le <b>barrage</b> retient l'eau.,<b>Плотина</b> сдерживает воду.,🌊,m
 piéger,ставить ловушку,On l'a <b>piégé</b>.,Его <b>поймали в ловушку</b>.,🪤,v
 une encre,чернила,L'<b>encre</b> est bleue.,<b>Чернила</b> синие.,🖋️,f
@@ -372,7 +520,7 @@ une bienvenue,добро пожаловать,<b>Bienvenue</b> au Québec !,<b>�
 "banal, banale",банальный,C'est <b>banal</b>.,Это <b>банально</b>.,😐,adj
 un saut,прыжок,Un <b>saut</b> en parachute.,<b>Прыжок</b> с парашютом.,🪂,m
 un dégoût,отвращение,Avec <b>dégoût</b>.,С <b>отвращением</b>.,🤢,m
-fonctionnaire,госслужащий,Elle est <b>fonctionnaire</b>.,Она <b>госслужащая</b>.,🏛️,m/f
+fonctionnaire,госслужащий,Elle est <b>fonctionnaire</b>.,Она <b>госслужащая</b>.,🏛️,m
 braquer,наводить; грабить,<b>Braque</b> pas le phare sur moi.,Не <b>направляй</b> фонарь на меня.,🔦,v
 une tronche,физиономия (разг.),Quelle <b>tronche</b> !,Вот так <b>рожа</b>!,😬,f
 négocier,вести переговоры,<b>Négocie</b> le prix.,<b>Поторгуйся</b> за цену.,🤝,v
@@ -384,6 +532,7 @@ racheter,выкупать,Je vais <b>racheter</b> l'entreprise.,Я <b>выкуп
 un beau-père,тесть; свёкор; отчим,C'est mon <b>beau-père</b>.,Это мой <b>тесть</b>.,👨,m
 lisse,гладкий,La surface est <b>lisse</b>.,Поверхность <b>гладкая</b>.,✨,adj
 longer,идти вдоль,<b>Longe</b> la rivière.,Иди <b>вдоль</b> реки.,🚶,v
+une vapeur,пар,La <b>vapeur</b> s'élève.,<b>Пар</b> поднимается.,💨,f
 "pris, prise",взятый; занятый,La place est <b>prise</b>.,Место <b>занято</b>.,🪑,adj
 une info,инфо (разг.),J'ai une <b>info</b> pour toi.,У меня есть <b>инфа</b> для тебя.,📰,f
 un buisson,куст,Derrière le <b>buisson</b>.,За <b>кустом</b>.,🌿,m
@@ -411,7 +560,10 @@ une donnée,данные,Les <b>données</b> personnelles.,Личные <b>да�
 un éléphant,слон,L'<b>éléphant</b> barrit.,<b>Слон</b> трубит.,🐘,m
 une grimace,гримаса,Il fait une <b>grimace</b>.,Он строит <b>гримасу</b>.,😬,f
 une allusion,намёк,Faire <b>allusion</b> à quelque chose.,<b>Намекать</b> на что-то.,🤫,f
+une ordonnance,рецепт; указ,L'<b>ordonnance</b> du médecin.,<b>Рецепт</b> врача.,📋,f
+une remarque,замечание,Une <b>remarque</b> pertinente.,Уместное <b>замечание</b>.,💡,f
 abriter,укрывать,Le toit <b>abrite</b> de la pluie.,Крыша <b>укрывает</b> от дождя.,🏠,v
+un boche,немец (пренебр.),Les <b>Boches</b> pendant la guerre. (péjoratif),<b>Боши</b> во время войны. (пренебр.),🇩🇪,m
 "romain, romaine",римский,L'Empire <b>romain</b>.,<b>Римская</b> империя.,🏛️,adj
 un centimètre,сантиметр,Deux <b>centimètres</b>.,Два <b>сантиметра</b>.,📏,m
 un bec,клюв,Le <b>bec</b> de l'oiseau.,<b>Клюв</b> птицы.,🐦,m
@@ -450,6 +602,7 @@ une dimension,размер,Les <b>dimensions</b> de la pièce.,<b>Размеры
 un robot,робот,Le <b>robot</b> fonctionne bien.,<b>Робот</b> работает хорошо.,🤖,m
 un stade,стадион; стадия,Le <b>stade</b> olympique.,Олимпийский <b>стадион</b>.,🏟️,m
 un salopard,подонок (груб.),Quel <b>salopard</b> !,Какой <b>подонок</b>!,🤬,m
+une veuve,вдова,Elle est <b>veuve</b>.,Она <b>вдова</b>.,🖤,f
 un possible,возможное,Fais le <b>possible</b>.,Сделай всё <b>возможное</b>.,💯,m
 une brigade,бригада,La <b>brigade</b> de police.,Полицейская <b>бригада</b>.,🚔,f
 un crépuscule,сумерки,Au <b>crépuscule</b>.,В <b>сумерках</b>.,🌅,m
@@ -467,7 +620,6 @@ un choeur,хор,Le <b>chœur</b> chante.,<b>Хор</b> поёт.,🎤,m
 un pneu,шина,Le <b>pneu</b> est crevé.,<b>Шина</b> спущена.,🚗,m
 un accueil,приём; встреча,Un chaleureux <b>accueil</b>.,Тёплый <b>приём</b>.,🤗,m
 une autoroute,автострада,Prends l'<b>autoroute</b>.,Выезжай на <b>автостраду</b>.,🛣️,f
-plastique,пластиковый; пластик,Un sac en <b>plastique</b>.,<b>Пластиковый</b> пакет.,🛍️,m/f
 "réfléchi, réfléchie",обдуманный,Une décision <b>réfléchie</b>.,<b>Обдуманное</b> решение.,🤔,adj
 un couvert,прибор (столовый),Mets les <b>couverts</b>.,Накрой на стол.,🍴,m
 tousser,кашлять,Je <b>tousse</b> beaucoup.,Я много <b>кашляю</b>.,😷,v
@@ -487,6 +639,7 @@ un valet,лакей; валет,Le <b>valet</b> de chambre.,<b>Лакей</b>.,�
 une batterie,батарея; барабаны,La <b>batterie</b> est vide.,<b>Батарея</b> разряжена.,🔋,f
 un vice,порок,C'est son <b>vice</b>.,Это его <b>порок</b>.,😈,m
 un cerf,олень,Le <b>cerf</b> court.,<b>Олень</b> бежит.,🦌,m
+une mousse,пена; мох,La <b>mousse</b> de bière.,Пивная <b>пена</b>.,🍺,f
 assommer,оглушать,Il l'a <b>assommé</b>.,Он его <b>оглушил</b>.,💫,v
 "indifférent, indifférente",безразличный,Il reste <b>indifférent</b>.,Он остаётся <b>безразличным</b>.,😐,adj
 expédier,отправлять,<b>Expédie</b> le colis.,<b>Отправь</b> посылку.,📮,v
@@ -512,7 +665,6 @@ une marge,поле (страницы); маржа,Écris dans la <b>marge</b>.,�
 une torture,пытка,C'est une <b>torture</b>.,Это <b>пытка</b>.,😣,f
 une ardeur,пыл,Avec <b>ardeur</b>.,С <b>пылом</b>.,🔥,f
 une marée,прилив,La <b>marée</b> monte.,<b>Прилив</b> наступает.,🌊,f
-complice,сообщник,Il est son <b>complice</b>.,Он его <b>сообщник</b>.,🤝,m/f
 un pareil,подобный; такой же,C'est du <b>pareil</b> au même.,<b>Одно и то же</b>.,🟰,m
 débile,дебильный (разг.),C'est <b>débile</b>.,Это <b>тупо</b>.,🙄,adj
 une mairie,мэрия,La <b>mairie</b> de la ville.,<b>Мэрия</b> города.,🏛️,f
@@ -545,7 +697,7 @@ orner,украшать,<b>Orne</b> le sapin.,<b>Укрась</b> ёлку.,🎄,
 gronder,ругать; грохотать,Papa me <b>gronde</b>.,Папа меня <b>ругает</b>.,😠,v
 émerger,всплывать,La vérité <b>émerge</b>.,Правда <b>всплывает</b>.,💡,v
 paniquer,паниковать,Ne <b>panique</b> pas !,Не <b>паникуй</b>!,😱,v
-man,чувак (англ.),"Salut, <b>man</b> !","Привет, <b>чувак</b>!",🤙,m/f
+man,чувак (англ.),"Salut, <b>man</b> !","Привет, <b>чувак</b>!",🤙,m
 désespérer,отчаиваться,Ne <b>désespère</b> pas.,Не <b>отчаивайся</b>.,😔,v
 désagréable,неприятный,Une odeur <b>désagréable</b>.,<b>Неприятный</b> запах.,😒,adj
 choquer,шокировать,Ça m'a <b>choqué</b>.,Это меня <b>шокировало</b>.,😲,v
@@ -605,10 +757,12 @@ un détour,обход; крюк,Fais un <b>détour</b>.,Сделай <b>крюк
 un rien,пустяк; ничто,Un <b>rien</b> l'énerve.,Его раздражает <b>любая мелочь</b>.,🤏,m
 ressusciter,воскрешать,<b>Ressusciter</b> les morts.,<b>Воскрешать</b> мёртвых.,⚡,v
 une révolte,восстание,La <b>révolte</b> des esclaves.,<b>Восстание</b> рабов.,✊,f
+un fan,фанат,Je suis <b>fan</b> de toi.,Я твой <b>фанат</b>.,🎉,m
 une haleine,дыхание,Une mauvaise <b>haleine</b>.,Плохой запах <b>изо рта</b>.,💨,f
 un conte,сказка,Un <b>conte</b> de fées.,Волшебная <b>сказка</b>.,🧚,m
 un palier,лестничная площадка,Sur le <b>palier</b>.,На <b>лестничной площадке</b>.,🚪,m
 irriter,раздражать,Ça m'<b>irrite</b>.,Это меня <b>раздражает</b>.,😤,v
+un malaise,недомогание,J'ai un <b>malaise</b>.,Мне <b>нехорошо</b>.,😵,m
 une réussite,успех,Quelle <b>réussite</b> !,Какой <b>успех</b>!,🏆,f
 minable,жалкий (разг.),Un salaire <b>minable</b>.,<b>Жалкая</b> зарплата.,😒,adj
 entasser,нагромождать,<b>Entasse</b> les boîtes.,<b>Сложи</b> коробки.,📦,v
@@ -635,8 +789,10 @@ une publicité,реклама,La <b>publicité</b> télévisée.,Телевиз�
 un candidat,кандидат,Le <b>candidat</b> aux élections.,<b>Кандидат</b> на выборах.,🗳️,m
 "mûr, mûre",зрелый,Un fruit <b>mûr</b>.,<b>Зрелый</b> плод.,🍎,adj
 un marteau,молоток,Prends le <b>marteau</b>.,Возьми <b>молоток</b>.,🔨,m
+un office,служба; ведомство,L'<b>office</b> du tourisme.,Туристическое <b>бюро</b>.,🏢,m
 une précision,точность,Avec <b>précision</b>.,С <b>точностью</b>.,🎯,f
 cardiaque,сердечный,Une crise <b>cardiaque</b>.,<b>Сердечный</b> приступ.,❤️,adj
+février,февраль,"En <b>février</b>, il fait froid.",В <b>феврале</b> холодно.,❄️,m
 "ardent, ardente",пылкий,Un amour <b>ardent</b>.,<b>Пылкая</b> любовь.,🔥,adj
 un pavillon,павильон; дом,Un <b>pavillon</b> de banlieue.,<b>Дом</b> в пригороде.,🏠,m
 une tempe,висок,J'ai mal aux <b>tempes</b>.,У меня болят <b>виски</b>.,😣,f
@@ -675,17 +831,18 @@ griller,жарить на гриле,<b>Grille</b> la viande.,<b>Поджарь<
 hostile,враждебный,Un environnement <b>hostile</b>.,<b>Враждебная</b> среда.,😠,adj
 négliger,пренебрегать,Ne <b>néglige</b> pas ta santé.,Не <b>пренебрегай</b> здоровьем.,⚠️,v
 tricher,жульничать,Ne <b>triche</b> pas !,Не <b>жульничай</b>!,🃏,v
-un média,медиа,Les <b>médias</b> sociaux.,Социальные <b>сети</b>.,📱,m
 un néant,небытие,Le <b>néant</b> absolu.,Абсолютное <b>небытие</b>.,🕳️,m
 une vodka,водка,Un verre de <b>vodka</b>.,Стакан <b>водки</b>.,🍸,f
 graver,гравировать,<b>Grave</b> ton nom.,<b>Выгравируй</b> своё имя.,✍️,v
 un étonnement,удивление,Avec <b>étonnement</b>.,С <b>удивлением</b>.,😮,m
 engueuler,ругать (разг.),Papa m'a <b>engueulé</b>.,Папа меня <b>отругал</b>.,😤,v
+une foudre,молния,Frappé par la <b>foudre</b>.,Поражённый <b>молнией</b>.,⚡,f
 une baignoire,ванна,La <b>baignoire</b> est pleine.,<b>Ванна</b> полна.,🛁,f
 un cristal,кристалл,Un vase en <b>cristal</b>.,Ваза из <b>хрусталя</b>.,💎,m
 atroce,ужасный,Une douleur <b>atroce</b>.,<b>Ужасная</b> боль.,😱,adj
 aboutir,приводить к,<b>Aboutir</b> à un résultat.,<b>Прийти</b> к результату.,🎯,v
 un maillot,майка; купальник,Un <b>maillot</b> de bain.,<b>Купальник</b>.,👙,m
+un major,майор,Le <b>major</b> dirige le bataillon.,<b>Майор</b> командует батальоном.,🎖️,m
 "reçu, reçue",полученный,Bien <b>reçu</b>.,<b>Получено</b>.,✅,adj
 un violon,скрипка,Jouer du <b>violon</b>.,Играть на <b>скрипке</b>.,🎻,m
 une formation,обучение; формирование,Une <b>formation</b> professionnelle.,Профессиональное <b>обучение</b>.,📚,f
@@ -696,8 +853,7 @@ déterminer,определять,<b>Déterminer</b> la cause.,<b>Определ�
 une fidélité,верность,La <b>fidélité</b> conjugale.,Супружеская <b>верность</b>.,❤️,f
 une foire,ярмарка,La <b>foire</b> de Montréal.,Монреальская <b>ярмарка</b>.,🎡,f
 ricaner,хихикать,Il <b>ricane</b> bêtement.,Он глупо <b>хихикает</b>.,😏,v
-domestique,домашний; слуга,Un animal <b>domestique</b>.,<b>Домашнее</b> животное.,🐶,m/f
-amateur,любитель,Un <b>amateur</b> de vin.,<b>Любитель</b> вина.,🍷,m/f
+amateur,любитель,Un <b>amateur</b> de vin.,<b>Любитель</b> вина.,🍷,m
 logique,логичный,C'est <b>logique</b>.,Это <b>логично</b>.,🧠,adj
 un établissement,учреждение,Un <b>établissement</b> scolaire.,Учебное <b>заведение</b>.,🏫,m
 "positif, positive",положительный,Un résultat <b>positif</b>.,<b>Положительный</b> результат.,➕,adj
@@ -718,6 +874,7 @@ une confusion,путаница,Il y a <b>confusion</b>.,Тут <b>путаниц
 renforcer,усиливать,<b>Renforce</b> la sécurité.,<b>Усиль</b> безопасность.,💪,v
 nuire,вредить,Ça peut <b>nuire</b> à ta santé.,Это может <b>навредить</b> здоровью.,⚠️,v
 un privilège,привилегия,C'est un <b>privilège</b>.,Это <b>привилегия</b>.,⭐,m
+un clair,ясность; свет,Tirer au <b>clair</b>.,<b>Прояснить</b>.,💡,m
 brouiller,путать; ссорить,Ne <b>brouille</b> pas les cartes.,Не <b>путай</b> карты.,🃏,v
 un autobus,автобус,Prends l'<b>autobus</b>.,Садись на <b>автобус</b>.,🚌,m
 une alerte,тревога,Une <b>alerte</b> rouge.,Красная <b>тревога</b>.,🚨,f
@@ -791,6 +948,7 @@ un congrès,конгресс,Le <b>congrès</b> annuel.,Ежегодный <b>к
 une vidéo,видео,Regarde cette <b>vidéo</b>.,Посмотри это <b>видео</b>.,📹,f
 enquêter,расследовать,La police <b>enquête</b>.,Полиция <b>расследует</b>.,🔍,v
 un bâtard,ублюдок; внебрачный,<b>Bâtard</b> ! (insulte),<b>Ублюдок</b>! (оскорбление),🤬,m
+un proche,близкий человек,Mes <b>proches</b>.,Мои <b>близкие</b>.,👨‍👩‍👧,m
 retarder,откладывать; опаздывать,Ne <b>retarde</b> pas.,Не <b>опаздывай</b>.,⏰,v
 "négatif, négative",отрицательный,Un résultat <b>négatif</b>.,<b>Отрицательный</b> результат.,➖,adj
 un frangin,братишка (разг.),C'est mon <b>frangin</b>.,Это мой <b>братишка</b>.,👦,m
@@ -861,6 +1019,7 @@ une fringue,одежда (разг.),J'achète des <b>fringues</b>.,Я поку�
 mis,поставленный; одетый,Bien <b>mis</b>.,Хорошо <b>одетый</b>.,👔,adj
 un change,обмен; подгузник,Le <b>change</b> du bébé.,<b>Подгузник</b> малыша.,👶,m
 une noix,орех,Une <b>noix</b> de coco.,<b>Кокосовый</b> орех.,🥥,f
+Virginie,Вирджиния,La <b>Virginie</b> est un état américain.,<b>Вирджиния</b> — американский штат.,🇺🇸,m
 un tigre,тигр,Le <b>tigre</b> rugit.,<b>Тигр</b> рычит.,🐅,m
 une charrette,телега,La <b>charrette</b> à foin.,<b>Телега</b> с сеном.,🛒,f
 émettre,издавать; выпускать,<b>Émettre</b> un son.,<b>Издавать</b> звук.,🔊,v
@@ -878,10 +1037,12 @@ marine,морской; тёмно-синий,Bleu <b>marine</b>.,<b>Тёмно-�
 accumuler,накапливать,<b>Accumule</b> des points.,<b>Накапливай</b> очки.,📊,v
 un refuge,убежище,Un <b>refuge</b> pour animaux.,<b>Приют</b> для животных.,🏠,m
 "menu, menue",мелкий,Des <b>menus</b> détails.,<b>Мелкие</b> детали.,🔍,adj
+un pro,профи (разг.),C'est un vrai <b>pro</b>.,Он настоящий <b>профи</b>.,💼,m
 baptiser,крестить; называть,<b>Baptiser</b> un enfant.,<b>Крестить</b> ребёнка.,⛪,v
 un fouet,кнут,Le <b>fouet</b> claque.,<b>Кнут</b> щёлкает.,🪢,m
 une corne,рог,Les <b>cornes</b> du taureau.,<b>Рога</b> быка.,🐂,f
 "saoul, saoule",пьяный,Il est <b>saoul</b>.,Он <b>пьян</b>.,🍺,adj
+une technique,техника,C'est une bonne <b>technique</b>.,Это хорошая <b>техника</b>.,🔧,f
 un bonnet,шапка,Mets ton <b>bonnet</b>.,Надень <b>шапку</b>.,🧢,m
 "commandant, commandante",командующий,L'officier <b>commandant</b>.,<b>Командующий</b> офицер.,🎖️,adj
 un pavé,булыжник,Les <b>pavés</b> de la rue.,<b>Булыжники</b> на улице.,🧱,m
@@ -899,6 +1060,7 @@ un barreau,прут; адвокатура,Les <b>barreaux</b> de la prison.,<b>�
 une narine,ноздря,L'air entre par les <b>narines</b>.,Воздух входит через <b>ноздри</b>.,👃,f
 boiter,хромать,Il <b>boite</b> depuis l'accident.,Он <b>хромает</b> после аварии.,🦵,v
 classer,классифицировать,<b>Classe</b> les documents.,<b>Рассортируй</b> документы.,📁,v
+un micro,микрофон,Parle dans le <b>micro</b>.,Говори в <b>микрофон</b>.,🎤,m
 gay,гей,Le mariage <b>gay</b>.,<b>Однополый</b> брак.,🏳️‍🌈,adj
 "brûlé, brûlée",сгоревший,Le pain est <b>brûlé</b>.,Хлеб <b>подгорел</b>.,🔥,adj
 "interdit, interdite",запрещённый,C'est <b>interdit</b>.,Это <b>запрещено</b>.,🚫,adj
@@ -1001,6 +1163,7 @@ un mitrailleur,пулемётчик,Le <b>mitrailleur</b> tire.,<b>Пулемё�
 une promotion,повышение,Obtenir une <b>promotion</b>.,Получить <b>повышение</b>.,📈,f
 un nain,карлик,Blanche-Neige et les sept <b>nains</b>.,Белоснежка и семь <b>гномов</b>.,🧙,m
 un syndicat,профсоюз,Le <b>syndicat</b> des travailleurs.,<b>Профсоюз</b> рабочих.,👷,m
+un ivrogne,пьяница,C'est un <b>ivrogne</b>.,Он <b>пьяница</b>.,🍺,m
 un climat,климат,Le <b>climat</b> tropical.,Тропический <b>климат</b>.,🌴,m
 stopper,останавливать,<b>Stoppe</b> la machine.,<b>Останови</b> машину.,🛑,v
 un slip,трусы,Mets ton <b>slip</b>.,Надень <b>трусы</b>.,🩲,m
@@ -1013,6 +1176,7 @@ une majorité,большинство,La <b>majorité</b> des gens.,<b>Больш
 détenir,удерживать; владеть,<b>Détenir</b> un record.,<b>Держать</b> рекорд.,🏆,v
 un bracelet,браслет,Un <b>bracelet</b> en or.,Золотой <b>браслет</b>.,📿,m
 un héritier,наследник,C'est l'<b>héritier</b> du trône.,Это <b>наследник</b> престола.,👑,m
+un psy,психолог (разг.),Je vois un <b>psy</b>.,Я хожу к <b>психологу</b>.,🧠,m
 une durée,длительность,La <b>durée</b> du film.,<b>Продолжительность</b> фильма.,⏱️,f
 "allié, alliée",союзный,Un pays <b>allié</b>.,<b>Союзная</b> страна.,🤝,adj
 un clan,клан,Le <b>clan</b> familial.,Семейный <b>клан</b>.,👨‍👩‍👧‍👦,m
@@ -1062,6 +1226,7 @@ susciter,вызывать,<b>Susciter</b> l'intérêt.,<b>Вызывать</b> �
 "aimé, aimée",любимый,Mon fils <b>aimé</b>.,Мой <b>любимый</b> сын.,❤️,adj
 une punition,наказание,Une <b>punition</b> sévère.,Суровое <b>наказание</b>.,😔,f
 photographier,фотографировать,J'aime <b>photographier</b>.,Я люблю <b>фотографировать</b>.,📷,v
+un mannequin,манекен; модель,Un <b>mannequin</b> de vitrine.,Витринный <b>манекен</b>.,👤,m
 engloutir,поглощать,Le tsunami a <b>englouti</b> la ville.,Цунами <b>поглотило</b> город.,🌊,v
 un prophète,пророк,Les paroles du <b>prophète</b>.,Слова <b>пророка</b>.,📜,m
 une phase,фаза,La première <b>phase</b>.,Первая <b>фаза</b>.,📊,f
@@ -1105,6 +1270,7 @@ une considération,уважение,Avec toute ma <b>considération</b>.,С мо
 quatrième,четвёртый,Le <b>quatrième</b> étage.,<b>Четвёртый</b> этаж.,4️⃣,adj
 une bulle,пузырь,Une <b>bulle</b> de savon.,Мыльный <b>пузырь</b>.,🫧,f
 rôder,бродить,Un chien qui <b>rôde</b>.,"Собака, которая <b>бродит</b>.",🐕,v
+un dentiste,стоматолог,J'ai rendez-vous chez le <b>dentiste</b>.,У меня приём у <b>стоматолога</b>.,🦷,m
 un travailleur,работник,Un <b>travailleur</b> acharné.,Усердный <b>работник</b>.,👷,m
 un maquillage,макияж,Le <b>maquillage</b> est parfait.,<b>Макияж</b> идеален.,💄,m
 un bisou,поцелуй (разг.),Un petit <b>bisou</b>.,Маленький <b>поцелуйчик</b>.,😘,m
@@ -1124,8 +1290,10 @@ une perfection,совершенство,La <b>perfection</b> n'existe pas.,<b>С
 funèbre,траурный,Une marche <b>funèbre</b>.,<b>Траурный</b> марш.,⚰️,adj
 un loisir,досуг,Les <b>loisirs</b> du week-end.,<b>Досуг</b> на выходных.,🎮,m
 une agitation,волнение,Une grande <b>agitation</b>.,Сильное <b>волнение</b>.,😰,f
+un philosophe,философ,Un grand <b>philosophe</b>.,Великий <b>философ</b>.,🤔,m
 "flou, floue",размытый,Une image <b>floue</b>.,<b>Размытое</b> изображение.,📷,adj
 enculer,трахать в зад (груб.),<b>Enculé</b> ! (insulte vulgaire),<b>Пошёл ты</b>! (груб.),🤬,v
+un psychiatre,психиатр,Consulter un <b>psychiatre</b>.,Обратиться к <b>психиатру</b>.,🧠,m
 un certificat,сертификат,Un <b>certificat</b> médical.,Медицинская <b>справка</b>.,📜,m
 "étonné, étonnée",удивлённый,Je suis <b>étonné</b>.,Я <b>удивлён</b>.,😮,adj
 planer,парить,L'oiseau <b>plane</b>.,Птица <b>парит</b>.,🦅,v
@@ -1141,6 +1309,7 @@ une pince,щипцы; клешня,Une <b>pince</b> à linge.,<b>Прищепк�
 "pointu, pointue",острый,Un nez <b>pointu</b>.,<b>Острый</b> нос.,📍,adj
 diminuer,уменьшать,<b>Diminue</b> le volume.,<b>Убавь</b> громкость.,🔉,v
 fusiller,расстреливать,<b>Fusiller</b> quelqu'un.,<b>Расстрелять</b> кого-то.,🔫,v
+un basket,баскетбол; кроссовок,Jouer au <b>basket</b>.,Играть в <b>баскетбол</b>.,🏀,m
 ronfler,храпеть,Il <b>ronfle</b> fort.,Он громко <b>храпит</b>.,😴,v
 "vital, vitale",жизненно важный,C'est <b>vital</b>.,Это <b>жизненно важно</b>.,❤️,adj
 "ras, rase",коротко подстриженный,Les cheveux <b>ras</b>.,Коротко <b>стриженные</b> волосы.,💇,adj
@@ -1189,6 +1358,8 @@ un interrogatoire,допрос,Un <b>interrogatoire</b> de police.,Полице�
 une prudence,осторожность,Avec <b>prudence</b>.,С <b>осторожностью</b>.,⚠️,f
 intimider,запугивать,Ne te laisse pas <b>intimider</b>.,Не позволяй себя <b>запугать</b>.,😤,v
 un exploit,подвиг,Un <b>exploit</b> héroïque.,Героический <b>подвиг</b>.,🏆,m
+un poêle,печь; сковорода,Le <b>poêle</b> à bois.,Дровяная <b>печь</b>.,🔥,m
+une poêle,сковородка,La <b>poêle</b> est chaude.,<b>Сковородка</b> горячая.,🍳,f
 évoluer,развиваться,La situation <b>évolue</b>.,Ситуация <b>развивается</b>.,📈,v
 sombrer,тонуть; погружаться,<b>Sombrer</b> dans la dépression.,<b>Погрузиться</b> в депрессию.,😔,v
 un tournage,съёмки,Le <b>tournage</b> du film.,<b>Съёмки</b> фильма.,🎬,m
@@ -1199,7 +1370,7 @@ une république,республика,La <b>République</b> française.,Фран�
 tâter,ощупывать,<b>Tâte</b> le terrain.,<b>Прощупай</b> почву.,🤚,v
 un ciment,цемент,Un mur en <b>ciment</b>.,Стена из <b>цемента</b>.,🧱,m
 un sabre,сабля,Un <b>sabre</b> laser.,Световой <b>меч</b>.,⚔️,m
-terroriste,террористический,Un attentat <b>terroriste</b>.,<b>Террористический</b> теракт.,⚠️,m/f
+un terroriste,террорист,Arrêter un <b>terroriste</b>.,Арестовать <b>террориста</b>.,🚔,m
 un jambon,ветчина,Un sandwich au <b>jambon</b>.,Сэндвич с <b>ветчиной</b>.,🥪,m
 une observation,наблюдение,Une <b>observation</b> pertinente.,Уместное <b>наблюдение</b>.,👀,f
 une fantaisie,фантазия,Une <b>fantaisie</b> musicale.,Музыкальная <b>фантазия</b>.,🎵,f
@@ -1234,6 +1405,7 @@ décharger,разгружать,<b>Décharge</b> le camion.,<b>Разгрузи<
 "isolé, isolée",изолированный,Un village <b>isolé</b>.,<b>Изолированная</b> деревня.,🏔️,adj
 baver,пускать слюни,Le bébé <b>bave</b>.,Малыш <b>пускает слюни</b>.,👶,v
 agrandir,увеличивать,<b>Agrandis</b> la photo.,<b>Увеличь</b> фото.,🔍,v
+complice,сообщник,Il est son <b>complice</b>.,Он его <b>сообщник</b>.,🤝,adj
 explorer,исследовать,<b>Explorer</b> la jungle.,<b>Исследовать</b> джунгли.,🌴,v
 un chameau,верблюд,Le <b>chameau</b> traverse le désert.,<b>Верблюд</b> пересекает пустыню.,🐫,m
 interne,внутренний,Un conflit <b>interne</b>.,<b>Внутренний</b> конфликт.,🔄,adj
@@ -1273,6 +1445,7 @@ une vanité,тщеславие,La <b>vanité</b> humaine.,Человеческо
 une épingle,булавка,Une <b>épingle</b> à cheveux.,<b>Шпилька</b> для волос.,📌,f
 élargir,расширять,<b>Élargir</b> la route.,<b>Расширить</b> дорогу.,🛣️,v
 une pelouse,газон,Tondre la <b>pelouse</b>.,Стричь <b>газон</b>.,🌱,f
+adulte,взрослый,Un <b>adulte</b> responsable.,Ответственный <b>взрослый</b>.,👨,adj
 contribuer,способствовать,<b>Contribuer</b> au projet.,<b>Способствовать</b> проекту.,🤝,v
 peupler,населять,<b>Peupler</b> une région.,<b>Населить</b> регион.,👥,v
 "solennel, solennelle",торжественный,Une cérémonie <b>solennelle</b>.,<b>Торжественная</b> церемония.,🎖️,adj
@@ -1302,6 +1475,7 @@ tacher,пачкать,Ne <b>tache</b> pas ta chemise.,Не <b>испачкай</
 un ras,уровень; вровень,Au <b>ras</b> du sol.,<b>Вровень</b> с землёй.,📏,m
 une corvée,повинность; нудная работа,Quelle <b>corvée</b> !,Какая <b>морока</b>!,😩,f
 un feuillage,листва,Le <b>feuillage</b> des arbres.,<b>Листва</b> деревьев.,🌿,m
+une casse,слом; разбитое,Il y a de la <b>casse</b>.,Есть <b>поломки</b>.,💔,f
 un écolier,школьник,Un jeune <b>écolier</b>.,Юный <b>школьник</b>.,📚,m
 proclamer,провозглашать,<b>Proclamer</b> la victoire.,<b>Провозгласить</b> победу.,📢,v
 un commencement,начало,Le <b>commencement</b> du monde.,<b>Начало</b> мира.,🌅,m
@@ -1349,6 +1523,7 @@ ruer,брыкаться,Le cheval se <b>rue</b>.,Лошадь <b>брыкает�
 faciliter,облегчать,<b>Faciliter</b> le travail.,<b>Облегчить</b> работу.,👍,v
 incompréhensible,непонятный,C'est <b>incompréhensible</b>.,Это <b>непонятно</b>.,🤷,adj
 diffuser,распространять,<b>Diffuser</b> une émission.,<b>Транслировать</b> передачу.,📺,v
+go,старт; поехали,C'est <b>go</b> !,<b>Поехали</b>!,🚦,m
 un jeton,жетон,Un <b>jeton</b> de casino.,Казино <b>жетон</b>.,🎰,m
 un business,бизнес,Faire du <b>business</b>.,Делать <b>бизнес</b>.,💼,m
 une farine,мука,De la <b>farine</b> de blé.,Пшеничная <b>мука</b>.,🌾,f
@@ -1356,6 +1531,7 @@ une farine,мука,De la <b>farine</b> de blé.,Пшеничная <b>мука<
 redonner,возвращать,<b>Redonne</b>-moi mon livre.,<b>Верни</b> мне мою книгу.,📚,v
 un fermier,фермер,Le <b>fermier</b> cultive ses terres.,<b>Фермер</b> обрабатывает землю.,🧑‍🌾,m
 embaucher,нанимать,<b>Embaucher</b> un employé.,<b>Нанять</b> сотрудника.,💼,v
+un dingue,сумасшедший (разг.),C'est un <b>dingue</b>.,Он <b>чокнутый</b>.,🤪,m
 souiller,осквернять,<b>Souiller</b> une réputation.,<b>Запятнать</b> репутацию.,😔,v
 un manuscrit,рукопись,Un vieux <b>manuscrit</b>.,Старая <b>рукопись</b>.,📜,m
 "éclatant, éclatante",яркий,Une couleur <b>éclatante</b>.,<b>Яркий</b> цвет.,✨,adj
@@ -1418,6 +1594,7 @@ un recours,прибежище; апелляция,Sans <b>recours</b>.,Без <b
 artistique,художественный,Une œuvre <b>artistique</b>.,<b>Художественное</b> произведение.,🎨,adj
 un latin,латынь,Apprendre le <b>latin</b>.,Изучать <b>латынь</b>.,📜,m
 un vainqueur,победитель,Le <b>vainqueur</b> du match.,<b>Победитель</b> матча.,🏆,m
+une cousine,кузина; двоюродная сестра,C'est ma <b>cousine</b>.,Это моя <b>двоюродная сестра</b>.,👧,f
 une vainqueure,победительница,La <b>vainqueure</b> du tournoi.,<b>Победительница</b> турнира.,🏆,f
 un cocktail,коктейль,Un <b>cocktail</b> tropical.,Тропический <b>коктейль</b>.,🍹,m
 "ouvrier, ouvrière",рабочий,La classe <b>ouvrière</b>.,<b>Рабочий</b> класс.,👷,adj
@@ -1471,17 +1648,21 @@ commode,удобный,C'est très <b>commode</b>.,Это очень <b>удоб
 une clientèle,клиентура,Fidéliser la <b>clientèle</b>.,Удержать <b>клиентуру</b>.,👥,f
 un testament,завещание,Rédiger un <b>testament</b>.,Составить <b>завещание</b>.,📜,m
 insinuer,намекать,Qu'<b>insinues</b>-tu ?,На что ты <b>намекаешь</b>?,🤔,v
+une claque,пощёчина,Recevoir une <b>claque</b>.,Получить <b>пощёчину</b>.,👋,f
 une cruauté,жестокость,Une <b>cruauté</b> inouïe.,Неслыханная <b>жестокость</b>.,😠,f
 un crabe,краб,Pêcher des <b>crabes</b>.,Ловить <b>крабов</b>.,🦀,m
 un règne,царствование,Le <b>règne</b> du roi.,<b>Царствование</b> короля.,👑,m
 manipuler,манипулировать,<b>Manipuler</b> quelqu'un.,<b>Манипулировать</b> кем-то.,🎭,v
+un bijou,украшение,Elle porte de beaux <b>bijoux</b>.,На ней красивые <b>украшения</b>.,💎,m
 remporter,выигрывать,<b>Remporter</b> la victoire.,<b>Одержать</b> победу.,🏆,v
 une académie,академия,L'<b>Académie</b> française.,Французская <b>академия</b>.,🎓,f
 un gémissement,стон,Un <b>gémissement</b> de douleur.,<b>Стон</b> боли.,😩,m
 un croissant,круассан,Un <b>croissant</b> au beurre.,<b>Круассан</b> с маслом.,🥐,m
 naviguer,плавать; навигировать,<b>Naviguer</b> sur Internet.,<b>Сёрфить</b> в Интернете.,🧭,v
+critique,критик,Le <b>critique</b> de cinéma.,Кино<b>критик</b>.,🎬,adj
 ignoble,подлый,Un acte <b>ignoble</b>.,<b>Подлый</b> поступок.,😤,adj
 refroidir,охлаждать,<b>Refroidis</b> le moteur.,<b>Охлади</b> мотор.,❄️,v
+un coca,кока-кола,Je voudrais un <b>coca</b>.,Я хочу <b>колу</b>.,🥤,m
 un fracas,грохот,Un <b>fracas</b> de tonnerre.,<b>Грохот</b> грома.,💥,m
 capter,улавливать,<b>Capter</b> le signal.,<b>Поймать</b> сигнал.,📡,v
 un rempart,крепостная стена,Les <b>remparts</b> de la ville.,<b>Крепостные стены</b> города.,🏰,m
@@ -1581,6 +1762,7 @@ une culpabilité,вина,Un sentiment de <b>culpabilité</b>.,Чувство <b
 une injure,оскорбление,Lancer des <b>injures</b>.,Бросать <b>оскорбления</b>.,🗣️,f
 une survie,выживание,Un instinct de <b>survie</b>.,Инстинкт <b>выживания</b>.,💪,f
 une abeille,пчела,Une <b>abeille</b> butine.,<b>Пчела</b> собирает нектар.,🐝,f
+une trompette,труба,Jouer de la <b>trompette</b>.,Играть на <b>трубе</b>.,🎺,f
 "cru, crue",сырой,Un légume <b>cru</b>.,<b>Сырой</b> овощ.,🥕,adj
 un alibi,алиби,Avoir un <b>alibi</b>.,Иметь <b>алиби</b>.,🔍,m
 dérisoire,ничтожный,Une somme <b>dérisoire</b>.,<b>Ничтожная</b> сумма.,💸,adj
@@ -1590,13 +1772,13 @@ une lady,леди,Une vraie <b>lady</b>.,Настоящая <b>леди</b>.,�
 une ivresse,опьянение,L'<b>ivresse</b> du pouvoir.,<b>Опьянение</b> властью.,🍷,f
 une altesse,высочество,Son <b>Altesse</b> royale.,Его королевское <b>высочество</b>.,👑,f
 un budget,бюджет,Respecter le <b>budget</b>.,Соблюдать <b>бюджет</b>.,💰,m
+une bosse,шишка; горб,J'ai une <b>bosse</b> sur la tête.,У меня <b>шишка</b> на голове.,🤕,f
 une mule,мул,Têtu comme une <b>mule</b>.,Упрямый как <b>осёл</b>.,🫏,f
 une composition,сочинение,Une <b>composition</b> musicale.,Музыкальное <b>сочинение</b>.,🎵,f
 "écrit, écrite",письменный,Un examen <b>écrit</b>.,<b>Письменный</b> экзамен.,📝,adj
 un infini,бесконечность,À l'<b>infini</b>.,До <b>бесконечности</b>.,♾️,m
 une injustice,несправедливость,Une <b>injustice</b> flagrante.,Вопиющая <b>несправедливость</b>.,⚖️,f
 une logique,логика,C'est <b>logique</b>.,Это <b>логично</b>.,🧠,f
-hérétique,еретический,Une idée <b>hérétique</b>.,<b>Еретическая</b> идея.,⚠️,m/f
 "infernal, infernale",адский,Un bruit <b>infernal</b>.,<b>Адский</b> шум.,🔥,adj
 enrichir,обогащать,<b>Enrichir</b> son vocabulaire.,<b>Обогатить</b> словарный запас.,📚,v
 "fâché, fâchée",рассерженный,Je suis <b>fâché</b>.,Я <b>рассержен</b>.,😠,adj
@@ -1624,207 +1806,3 @@ couronner,короновать,<b>Couronner</b> le roi.,<b>Короновать<
 un parrain,крёстный отец,C'est mon <b>parrain</b>.,Это мой <b>крёстный</b>.,🙏,m
 une description,описание,Donne-moi une <b>description</b>.,Дай мне <b>описание</b>.,📝,f
 une corbeille,корзина,Une <b>corbeille</b> de fruits.,<b>Корзина</b> фруктов.,🧺,f
-un tabouret,табурет,Assieds-toi sur le <b>tabouret</b>.,Сядь на <b>табурет</b>.,🪑,m
-un requin,акула,Un <b>requin</b> blanc.,Белая <b>акула</b>.,🦈,m
-une écurie,конюшня,Nettoyer l'<b>écurie</b>.,Чистить <b>конюшню</b>.,🐴,f
-invoquer,взывать,<b>Invoquer</b> les dieux.,<b>Взывать</b> к богам.,🙏,v
-déchiffrer,расшифровывать,<b>Déchiffrer</b> un code.,<b>Расшифровать</b> код.,🔐,v
-un sous-marin,подводная лодка,Un <b>sous-marin</b> nucléaire.,Ядерная <b>подводная лодка</b>.,🚢,m
-exaspérer,выводить из себя,Tu m'<b>exaspères</b>.,Ты меня <b>выводишь из себя</b>.,😤,v
-redire,повторять,Je n'ai rien à <b>redire</b>.,Мне <b>нечего возразить</b>.,💬,v
-méditer,медитировать,<b>Méditer</b> en silence.,<b>Медитировать</b> в тишине.,🧘,v
-camper,ставить лагерь,<b>Camper</b> dans la forêt.,<b>Разбить лагерь</b> в лесу.,⛺,v
-une jumelle,близняшка,C'est ma sœur <b>jumelle</b>.,Это моя сестра-<b>близняшка</b>.,👭,f
-"enfoiré, enfoirée",мудацкий (груб.),Quel geste <b>enfoiré</b> !,Какой <b>мудацкий</b> поступок!,🤬,adj
-régaler,угощать,Je vous <b>régale</b>.,Я вас <b>угощаю</b>.,🍽️,v
-"chargé, chargée",заряженный,Une arme <b>chargée</b>.,<b>Заряженное</b> оружие.,🔫,adj
-agresser,нападать,<b>Agresser</b> quelqu'un.,<b>Напасть</b> на кого-то.,👊,v
-cligner,моргать,<b>Cligner</b> des yeux.,<b>Моргать</b> глазами.,👁️,v
-un emplacement,местоположение,L'<b>emplacement</b> du parking.,<b>Расположение</b> парковки.,📍,m
-un exil,ссылка,Partir en <b>exil</b>.,Уйти в <b>ссылку</b>.,🏃,m
-une oie,гусь,Une <b>oie</b> blanche.,Белый <b>гусь</b>.,🦢,f
-révolutionnaire,революционный,Une idée <b>révolutionnaire</b>.,<b>Революционная</b> идея.,✊,adj
-un virage,поворот,Un <b>virage</b> dangereux.,Опасный <b>поворот</b>.,🛣️,m
-une orbite,орбита,L'<b>orbite</b> de la Terre.,<b>Орбита</b> Земли.,🌍,f
-une priorité,приоритет,La <b>priorité</b> absolue.,Абсолютный <b>приоритет</b>.,🥇,f
-terrestre,земной,La vie <b>terrestre</b>.,<b>Земная</b> жизнь.,🌍,adj
-"crétin, crétine",кретин,Quel <b>crétin</b> !,Какой <b>кретин</b>!,😤,adj
-une résidence,резиденция,Une <b>résidence</b> secondaire.,Загородная <b>резиденция</b>.,🏠,f
-critiquer,критиковать,<b>Critiquer</b> le gouvernement.,<b>Критиковать</b> правительство.,🗣️,v
-"fascinant, fascinante",захватывающий,Une histoire <b>fascinante</b>.,<b>Захватывающая</b> история.,✨,adj
-un culte,культ,Le <b>culte</b> de la personnalité.,<b>Культ</b> личности.,🙏,m
-aboyer,лаять,Le chien <b>aboie</b>.,Собака <b>лает</b>.,🐕,v
-une fourchette,вилка,Manger avec une <b>fourchette</b>.,Есть <b>вилкой</b>.,🍴,f
-une immobilité,неподвижность,Une <b>immobilité</b> totale.,Полная <b>неподвижность</b>.,🧘,f
-"impuissant, impuissante",бессильный,Je suis <b>impuissant</b>.,Я <b>бессилен</b>.,😔,adj
-émerveiller,восхищать,Le spectacle m'<b>émerveille</b>.,Зрелище меня <b>восхищает</b>.,🤩,v
-emménager,въезжать,<b>Emménager</b> dans un appartement.,<b>Въехать</b> в квартиру.,🏠,v
-un intellectuel,интеллектуал,Un grand <b>intellectuel</b>.,Большой <b>интеллектуал</b>.,🎓,m
-une référence,ссылка; эталон,Une <b>référence</b> bibliographique.,Библиографическая <b>ссылка</b>.,📚,f
-un pacha,паша,Vivre comme un <b>pacha</b>.,Жить как <b>паша</b>.,👑,m
-une longue,долгая (нота/гласная),Une <b>longue</b> en phonétique.,<b>Долгий звук</b> в фонетике.,🔊,f
-un barman,бармен,Le <b>barman</b> prépare un cocktail.,<b>Бармен</b> готовит коктейль.,🍸,m
-"artificiel, artificielle",искусственный,Un lac <b>artificiel</b>.,<b>Искусственное</b> озеро.,🏞️,adj
-une cuillère,ложка,Une <b>cuillère</b> à soupe.,Столовая <b>ложка</b>.,🥄,f
-gésir,лежать (мёртвым),Il <b>gît</b> sur le sol.,Он <b>лежит</b> на полу.,🪦,v
-"terrifiant, terrifiante",ужасающий,Un monstre <b>terrifiant</b>.,<b>Ужасающий</b> монстр.,😱,adj
-survenir,случаться,Un accident peut <b>survenir</b>.,Авария может <b>случиться</b>.,⚠️,v
-"volant, volante",летающий,Un objet <b>volant</b>.,<b>Летающий</b> объект.,🛸,adj
-une steppe,степь,La <b>steppe</b> russe.,Русская <b>степь</b>.,🌾,f
-un bouc,козёл,Un <b>bouc</b> émissaire.,<b>Козёл</b> отпущения.,🐐,m
-un commerçant,торговец,Le <b>commerçant</b> du quartier.,<b>Торговец</b> из квартала.,🏪,m
-une méfiance,недоверие,Avec <b>méfiance</b>.,С <b>недоверием</b>.,🤨,f
-"universel, universelle",универсальный,Une vérité <b>universelle</b>.,<b>Универсальная</b> истина.,🌐,adj
-démontrer,доказывать,<b>Démontrer</b> un théorème.,<b>Доказать</b> теорему.,📐,v
-"rendu, rendue",дошедший; утомлённый,On est <b>rendus</b>.,Мы <b>дошли</b>.,🏁,adj
-"perpétuel, perpétuelle",вечный,Un mouvement <b>perpétuel</b>.,<b>Вечное</b> движение.,♾️,adj
-déchaîner,разнуздывать,<b>Déchaîner</b> les passions.,<b>Разжечь</b> страсти.,🔥,v
-un fragment,фрагмент,Un <b>fragment</b> de texte.,<b>Фрагмент</b> текста.,📄,m
-une notion,понятие,Une <b>notion</b> de base.,Базовое <b>понятие</b>.,💡,f
-décourager,обескураживать,Ne te <b>décourage</b> pas.,Не <b>отчаивайся</b>.,💪,v
-"excessif, excessive",чрезмерный,Une chaleur <b>excessive</b>.,<b>Чрезмерная</b> жара.,🌡️,adj
-"veuf, veuve",вдовый,Il est <b>veuf</b>.,Он <b>вдовец</b>.,💔,adj
-une gifle,пощёчина,Donner une <b>gifle</b>.,Дать <b>пощёчину</b>.,✋,f
-"gardien, gardienne",охранный; сторожевой,Le chien <b>gardien</b>.,<b>Сторожевой</b> пёс.,🐕,adj
-une installation,установка,Une <b>installation</b> artistique.,Художественная <b>инсталляция</b>.,🎨,f
-un rebord,край,Le <b>rebord</b> de la fenêtre.,<b>Подоконник</b>.,🪟,m
-un boss,босс,Le <b>boss</b> arrive.,<b>Босс</b> приходит.,👔,m
-consommer,потреблять,<b>Consommer</b> de l'énergie.,<b>Потреблять</b> энергию.,⚡,v
-une catégorie,категория,Une <b>catégorie</b> professionnelle.,Профессиональная <b>категория</b>.,📊,f
-"éclairé, éclairée",освещённый,Une rue bien <b>éclairée</b>.,Хорошо <b>освещённая</b> улица.,💡,adj
-escalader,карабкаться,<b>Escalader</b> une montagne.,<b>Взбираться</b> на гору.,🧗,v
-"fédéral, fédérale",федеральный,Le gouvernement <b>fédéral</b>.,<b>Федеральное</b> правительство.,🏛️,adj
-une archive,архив,Consulter les <b>archives</b>.,Обратиться к <b>архивам</b>.,🗄️,f
-un baby,малыш (англ.),C'est mon <b>baby</b>.,Это мой <b>малыш</b>.,👶,m
-une balance,весы,Peser sur la <b>balance</b>.,Взвесить на <b>весах</b>.,⚖️,f
-"gracieux, gracieuse",грациозный,Une danseuse <b>gracieuse</b>.,<b>Грациозная</b> танцовщица.,🩰,adj
-une biche,лань,Une <b>biche</b> dans la forêt.,<b>Лань</b> в лесу.,🦌,f
-un porteur,носильщик,Le <b>porteur</b> de bagages.,<b>Носильщик</b> багажа.,🧳,m
-une courbe,кривая,Une <b>courbe</b> ascendante.,Восходящая <b>кривая</b>.,📈,f
-bousiller,ломать (разг.),<b>Bousiller</b> la voiture.,<b>Угробить</b> машину.,🚗,v
-une cavalerie,кавалерия,La <b>cavalerie</b> charge.,<b>Кавалерия</b> атакует.,🐎,f
-un reçu,квитанция,Demander un <b>reçu</b>.,Попросить <b>квитанцию</b>.,🧾,m
-un messager,посыльный,Le <b>messager</b> arrive.,<b>Посыльный</b> прибыл.,📨,m
-"collectif, collective",коллективный,Un travail <b>collectif</b>.,<b>Коллективная</b> работа.,👥,adj
-une boxe,бокс,Un match de <b>boxe</b>.,Матч по <b>боксу</b>.,🥊,f
-une frappe,удар,Une <b>frappe</b> chirurgicale.,Точечный <b>удар</b>.,💥,f
-"déçu, déçue",разочарованный,Je suis <b>déçu</b>.,Я <b>разочарован</b>.,😞,adj
-une compassion,сострадание,Avoir de la <b>compassion</b>.,Испытывать <b>сострадание</b>.,❤️,f
-enrouler,наматывать,<b>Enrouler</b> le câble.,<b>Намотать</b> кабель.,🔄,v
-"parent, parente",родственный,Les langues <b>parentes</b>.,<b>Родственные</b> языки.,👨‍👩‍👧,adj
-une paye,зарплата,Jour de <b>paye</b>.,День <b>зарплаты</b>.,💰,f
-une préférence,предпочтение,Ma <b>préférence</b> personnelle.,Моё личное <b>предпочтение</b>.,⭐,f
-alerter,тревожить,<b>Alerter</b> les secours.,<b>Вызвать</b> спасателей.,🚨,v
-une conserve,консервы,Une boîte de <b>conserve</b>.,Банка <b>консервов</b>.,🥫,f
-enlacer,обнимать,<b>Enlacer</b> quelqu'un.,<b>Обнять</b> кого-то.,🤗,v
-un amiral,адмирал,L'<b>amiral</b> commande la flotte.,<b>Адмирал</b> командует флотом.,⚓,m
-"inhabituel, inhabituelle",необычный,Un événement <b>inhabituel</b>.,<b>Необычное</b> событие.,🤔,adj
-tasser,утрамбовывать,<b>Tasser</b> la terre.,<b>Утрамбовать</b> землю.,🏗️,v
-un minimum,минимум,Le <b>minimum</b> requis.,Требуемый <b>минимум</b>.,📉,m
-"natal, natale",родной,Ma ville <b>natale</b>.,Мой <b>родной</b> город.,🏠,adj
-une cloison,перегородка,Une <b>cloison</b> fine.,Тонкая <b>перегородка</b>.,🧱,f
-une addition,счёт; сложение,Demander l'<b>addition</b>.,Попросить <b>счёт</b>.,🧾,f
-trouble,мутный,Une eau <b>trouble</b>.,<b>Мутная</b> вода.,💧,adj
-un sursaut,вздрагивание,Un <b>sursaut</b> de surprise.,<b>Вздрогнуть</b> от неожиданности.,😲,m
-maudire,проклинать,<b>Maudire</b> son ennemi.,<b>Проклинать</b> врага.,😠,v
-une étincelle,искра,Une <b>étincelle</b> de génie.,<b>Искра</b> гениальности.,✨,f
-fleurir,цвести,Les roses <b>fleurissent</b>.,Розы <b>цветут</b>.,🌹,v
-une excitation,возбуждение,Une grande <b>excitation</b>.,Сильное <b>возбуждение</b>.,🎉,f
-pressentir,предчувствовать,Je le <b>pressentais</b>.,Я это <b>предчувствовал</b>.,🔮,v
-"affectueux, affectueuse",ласковый,Un chat <b>affectueux</b>.,<b>Ласковый</b> кот.,🐱,adj
-un abord,подход,Au premier <b>abord</b>.,На первый <b>взгляд</b>.,👁️,m
-transpirer,потеть,<b>Transpirer</b> sous la chaleur.,<b>Потеть</b> от жары.,🥵,v
-reconstituer,восстанавливать,<b>Reconstituer</b> les faits.,<b>Восстановить</b> факты.,🔍,v
-"masculin, masculine",мужской,Le genre <b>masculin</b>.,<b>Мужской</b> род.,👨,adj
-rayer,вычёркивать,<b>Rayer</b> de la liste.,<b>Вычеркнуть</b> из списка.,✏️,v
-irrésistible,неотразимый,Un charme <b>irrésistible</b>.,<b>Неотразимое</b> обаяние.,😍,adj
-"tombé, tombée",упавший; павший,Un soldat <b>tombé</b>.,<b>Павший</b> солдат.,🪖,adj
-un religieux,монах,Un <b>religieux</b> bénédictin.,Бенедиктинский <b>монах</b>.,🙏,m
-empirer,ухудшаться,La situation <b>empire</b>.,Ситуация <b>ухудшается</b>.,📉,v
-une case,клетка,Cocher la <b>case</b>.,Поставить галочку в <b>клетке</b>.,☑️,f
-stérile,бесплодный,Un débat <b>stérile</b>.,<b>Бесплодная</b> дискуссия.,❌,adj
-débuter,начинать,<b>Débuter</b> une carrière.,<b>Начать</b> карьеру.,🚀,v
-une sottise,глупость,Dire des <b>sottises</b>.,Говорить <b>глупости</b>.,🤦,f
-un banquier,банкир,Le <b>banquier</b> accorde un prêt.,<b>Банкир</b> даёт кредит.,🏦,m
-une fondation,фонд,Une <b>fondation</b> caritative.,Благотворительный <b>фонд</b>.,🏛️,f
-"soûl, soûle",пьяный,Il est complètement <b>soûl</b>.,Он совершенно <b>пьян</b>.,🍺,adj
-une morgue,морг,Le corps est à la <b>morgue</b>.,Тело в <b>морге</b>.,🏥,f
-une brûlure,ожог,Une <b>brûlure</b> au doigt.,<b>Ожог</b> на пальце.,🔥,f
-un complot,заговор,Un <b>complot</b> politique.,Политический <b>заговор</b>.,🤫,m
-expulser,высылать,<b>Expulser</b> un immigrant.,<b>Выслать</b> иммигранта.,🚪,v
-un litre,литр,Un <b>litre</b> d'eau.,<b>Литр</b> воды.,💧,m
-obstiner,упрямиться,Il s'<b>obstine</b> à refuser.,Он <b>упорствует</b> в отказе.,🐴,v
-localiser,определять местонахождение,<b>Localiser</b> le signal.,<b>Определить</b> местонахождение сигнала.,📍,v
-un rhum,ром,Un verre de <b>rhum</b>.,Стакан <b>рома</b>.,🥃,m
-une baisse,падение,Une <b>baisse</b> des prix.,<b>Падение</b> цен.,📉,f
-une splendeur,великолепие,La <b>splendeur</b> du palais.,<b>Великолепие</b> дворца.,✨,f
-"conséquent, conséquente",значительный,Une somme <b>conséquente</b>.,<b>Значительная</b> сумма.,💰,adj
-une trousse,пенал,Une <b>trousse</b> d'école.,Школьный <b>пенал</b>.,✏️,f
-"douteux, douteuse",сомнительный,Une affaire <b>douteuse</b>.,<b>Сомнительное</b> дело.,🤔,adj
-"éteint, éteinte",погасший,Un feu <b>éteint</b>.,<b>Погасший</b> огонь.,🔥,adj
-un tourbillon,вихрь,Un <b>tourbillon</b> de vent.,<b>Вихрь</b> ветра.,🌪️,m
-une concession,уступка,Faire une <b>concession</b>.,Сделать <b>уступку</b>.,🤝,f
-endurer,выносить,<b>Endurer</b> la douleur.,<b>Выносить</b> боль.,💪,v
-un satellite,спутник,Un <b>satellite</b> artificiel.,Искусственный <b>спутник</b>.,🛰️,m
-une correspondance,корреспонденция,Une <b>correspondance</b> secrète.,Тайная <b>переписка</b>.,✉️,f
-un mendiant,нищий,Un <b>mendiant</b> dans la rue.,<b>Нищий</b> на улице.,🧑,m
-"menaçant, menaçante",угрожающий,Un ton <b>menaçant</b>.,<b>Угрожающий</b> тон.,😠,adj
-"puant, puante",вонючий,Un fromage <b>puant</b>.,<b>Вонючий</b> сыр.,🧀,adj
-un gangster,гангстер,Un film de <b>gangsters</b>.,Фильм о <b>гангстерах</b>.,🎬,m
-une garantie,гарантия,Une <b>garantie</b> de deux ans.,<b>Гарантия</b> два года.,📜,f
-un lavabo,раковина,Se laver au <b>lavabo</b>.,Мыться у <b>раковины</b>.,🚿,m
-aggraver,усугублять,<b>Aggraver</b> la situation.,<b>Усугубить</b> ситуацию.,😓,v
-un renard,лиса,Le <b>renard</b> est rusé.,<b>Лиса</b> хитрая.,🦊,m
-une invasion,вторжение,Une <b>invasion</b> de fourmis.,<b>Нашествие</b> муравьёв.,🐜,f
-"promis, promise",обещанный,La terre <b>promise</b>.,<b>Обетованная</b> земля.,🌍,adj
-une stratégie,стратегия,Une <b>stratégie</b> marketing.,Маркетинговая <b>стратегия</b>.,📊,f
-un pilier,столб,Un <b>pilier</b> de pierre.,Каменный <b>столб</b>.,🏛️,m
-ironique,ироничный,Un sourire <b>ironique</b>.,<b>Ироничная</b> улыбка.,😏,adj
-"séduisant, séduisante",соблазнительный,Une offre <b>séduisante</b>.,<b>Соблазнительное</b> предложение.,😍,adj
-"émouvant, émouvante",трогательный,Un discours <b>émouvant</b>.,<b>Трогательная</b> речь.,🥲,adj
-un symptôme,симптом,Les <b>symptômes</b> de la grippe.,<b>Симптомы</b> гриппа.,🤒,m
-une vieillesse,старость,Une <b>vieillesse</b> heureuse.,Счастливая <b>старость</b>.,👴,f
-une rafale,порыв; очередь,Une <b>rafale</b> de vent.,<b>Порыв</b> ветра.,💨,f
-"insignifiant, insignifiante",незначительный,Un détail <b>insignifiant</b>.,<b>Незначительная</b> деталь.,🔍,adj
-un culot,наглость,Quel <b>culot</b> !,Какая <b>наглость</b>!,😤,m
-un squelette,скелет,Le <b>squelette</b> humain.,Человеческий <b>скелет</b>.,💀,m
-une énigme,загадка,Résoudre une <b>énigme</b>.,Разгадать <b>загадку</b>.,🧩,f
-judiciaire,судебный,Une enquête <b>judiciaire</b>.,<b>Судебное</b> расследование.,⚖️,adj
-"écarté, écartée",отстранённый; раздвинутый,Les bras <b>écartés</b>.,<b>Раздвинутые</b> руки.,🤷,adj
-littéraire,литературный,Un prix <b>littéraire</b>.,<b>Литературная</b> премия.,📚,adj
-un montant,сумма,Le <b>montant</b> total.,Общая <b>сумма</b>.,💵,m
-un colis,посылка,Recevoir un <b>colis</b>.,Получить <b>посылку</b>.,📦,m
-agripper,хватать,<b>Agripper</b> la rampe.,<b>Схватиться</b> за перила.,✊,v
-"décisif, décisive",решающий,Un moment <b>décisif</b>.,<b>Решающий</b> момент.,⚡,adj
-un développement,развитие,Le <b>développement</b> économique.,Экономическое <b>развитие</b>.,📈,m
-une noblesse,благородство,La <b>noblesse</b> du geste.,<b>Благородство</b> жеста.,👑,f
-"déchiré, déchirée",разорванный,Un jean <b>déchiré</b>.,<b>Рваные</b> джинсы.,👖,adj
-engendrer,порождать,<b>Engendrer</b> des problèmes.,<b>Порождать</b> проблемы.,🔄,v
-un processus,процесс,Un <b>processus</b> complexe.,Сложный <b>процесс</b>.,⚙️,m
-canon,офигенный (разг.),Elle est <b>canon</b> !,Она <b>бомба</b>!,🔥,adj
-un nécessaire,необходимое,Le strict <b>nécessaire</b>.,Самое <b>необходимое</b>.,📋,m
-compléter,дополнять,<b>Complète</b> le formulaire.,<b>Заполни</b> анкету.,✍️,v
-marron,коричневый,Des yeux <b>marron</b>.,<b>Карие</b> глаза.,🟤,adj
-un polonais,поляк,Il est <b>polonais</b>.,Он <b>поляк</b>.,🇵🇱,m
-embrouiller,запутывать,<b>Embrouiller</b> les idées.,<b>Запутать</b> мысли.,🤯,v
-un ail,чеснок,Une gousse d'<b>ail</b>.,Зубчик <b>чеснока</b>.,🧄,m
-un porche,крыльцо,S'asseoir sur le <b>porche</b>.,Сидеть на <b>крыльце</b>.,🚪,m
-une vingtaine,около двадцати,Une <b>vingtaine</b> de personnes.,Около <b>двадцати</b> человек.,👥,f
-une écharpe,шарф,Mettre une <b>écharpe</b>.,Надеть <b>шарф</b>.,🧣,f
-quitte,квитый,<b>Quitte</b> ou double.,Пан или <b>пропал</b>.,🎲,adj
-un mark,марка (валюта),Le <b>mark</b> allemand.,Немецкая <b>марка</b>.,💰,m
-brosser,чистить щёткой,<b>Brosse</b> tes dents.,<b>Почисти</b> зубы.,🪥,v
-un rabbin,раввин,Le <b>rabbin</b> de la synagogue.,<b>Раввин</b> синагоги.,✡️,m
-une agonie,агония,Une longue <b>agonie</b>.,Долгая <b>агония</b>.,😵,f
-une marine,флот,La <b>marine</b> nationale.,Военно-морской <b>флот</b>.,⚓,f
-une comparaison,сравнение,Une <b>comparaison</b> flatteuse.,Лестное <b>сравнение</b>.,📊,f
-un détachement,отряд; отстранённость,Un <b>détachement</b> militaire.,Военный <b>отряд</b>.,🪖,m
-"pesant, pesante",тяжёлый,Un silence <b>pesant</b>.,<b>Тяжёлое</b> молчание.,😶,adj
-enflammer,воспламенять,<b>Enflammer</b> les passions.,<b>Разжечь</b> страсти.,🔥,v
-une lessive,стирка,Faire la <b>lessive</b>.,Сделать <b>стирку</b>.,🧺,f
-un loulou,милашка (разг.),Mon petit <b>loulou</b>.,Мой <b>малыш</b>.,🧸,m
-étreindre,обнимать крепко,<b>Étreindre</b> quelqu'un.,Крепко <b>обнять</b> кого-то.,🤗,v
-un disparu,пропавший,Un <b>disparu</b> sans trace.,<b>Пропавший</b> без следа.,❓,m
-une fente,щель,Une <b>fente</b> dans le mur.,<b>Щель</b> в стене.,🧱,f
-avide,жадный,<b>Avide</b> de pouvoir.,<b>Жаждущий</b> власти.,😈,adj
-une quarantaine,около сорока,Une <b>quarantaine</b> d'années.,Около <b>сорока</b> лет.,4️⃣0️⃣,f

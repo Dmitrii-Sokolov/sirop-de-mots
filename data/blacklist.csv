@@ -183,6 +183,8 @@ sus,ADV,archaic
 ici-bas,ADV,literary
 quoi,ADJ,parse_error
 bijoux,NOM,wrong_number_plural_as_lemma
+Ève,NOM,proper_noun
+dame,INJ,archaic_interjection
 cieux,NOM,wrong_number_plural_as_lemma
 entrailles,NOM,pluralia_tantum
 funérailles,NOM,pluralia_tantum

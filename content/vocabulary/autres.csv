@@ -6,16 +6,13 @@ et,и,Mon mari <b>et</b> moi cherchons un appartement à Montréal.,Мой му�
 le,определённый артикль (м.р.),<b>Le</b> livre est sur la table.,Книга на столе.,📎,art
 à,в; к; на,J'habite <b>à</b> Québec depuis deux ans.,Я живу <b>в</b> Квебеке два года.,📍,prep
 pas,не (с ne),Ce n'est <b>pas</b> difficile d'apprendre le français.,<b>Не</b> сложно учить французский.,🙅,adv
-un,неопределённый артикль (м.р.),J'ai <b>un</b> ami québécois.,У меня есть друг из Квебека.,📎,art
 les,определённый артикль (мн.ч.),<b>Les</b> enfants jouent dehors.,Дети играют на улице.,📎,art
 l',определённый артикль (перед гласной),<b>L'</b>hiver au Québec est long.,Зима в Квебеке долгая.,📎,art
 tu,ты,<b>Tu</b> viens avec moi ?,<b>Ты</b> идёшь со мной?,👤,pron
 vous,вы; Вы (вежл.),<b>Vous</b> êtes d'où ?,<b>Вы</b> откуда?,👥,pron
 d',предлог de (перед гласной),Je viens <b>d'</b>arriver.,Я только что приехал.,📎,prep
-une,неопределённый артикль (ж.р.),J'ai <b>une</b> question.,У меня есть вопрос.,📎,art
 des,неопределённый артикль (мн.ч.),Il y a <b>des</b> pommes sur la table.,На столе есть яблоки.,📎,art
 on,мы (разг.),<b>On</b> va manger de la poutine ce soir.,<b>Мы</b> будем есть путин сегодня вечером.,👥,pron
-en,в; на (без артикля),Je vis <b>en</b> France depuis cinq ans.,Я живу <b>во</b> Франции пять лет.,🗺️,prep
 pour,для; чтобы,J'étudie le français <b>pour</b> immigrer au Canada.,"Я учу французский, <b>чтобы</b> эмигрировать в Канаду.",🎯,prep
 qui,который; кто,La fille <b>qui</b> parle est ma soeur.,"Девушка, <b>которая</b> говорит — моя сестра.",❓,pron
 ça,это (разг.),<b>Ça</b> ne me dérange pas du tout.,<b>Это</b> меня совсем не беспокоит.,👆,pron
@@ -32,32 +29,29 @@ y,туда; там,J'<b>y</b> vais demain.,Я иду <b>туда</b> завтр�
 avec,с; вместе с,Je travaille <b>avec</b> des collègues du monde entier.,Я работаю <b>с</b> коллегами со всего мира.,🤝,prep
 que,что; который,Je sais <b>que</b> tu as raison.,"Я знаю, <b>что</b> ты прав.",📎,pron
 sur,на (поверхность),Pose ton sac <b>sur</b> la table.,Положи сумку <b>на</b> стол.,⬆️,prep
-bien,хорошо,Tu parles <b>bien</b> français pour un débutant !,Ты <b>хорошо</b> говоришь по-французски для начинающего!,👍,adv
 lui,ему; ей; он (ударн.),Je <b>lui</b> ai parlé hier.,Я говорил с <b>ним</b> вчера.,👤,pron
 ils,они (м.р.),<b>Ils</b> arrivent demain.,<b>Они</b> приезжают завтра.,👥,pron
 moi,я (ударн.),C'est pour <b>moi</b> ?,Это для <b>меня</b>?,👤,pron
 t',тебя; тебе (перед гласной),Je <b>t'</b>aime.,Я <b>тебя</b> люблю.,💕,pron
-comme,как; поскольку,<b>Comme</b> tu veux — c'est toi qui décides.,<b>Как</b> хочешь — ты решаешь.,🔄,conj
 te,тебя; тебе,Je <b>te</b> vois demain.,Увидимся завтра.,👤,pron
 par,через; по,"Passe <b>par</b> le parc, c'est plus court.","Пройди <b>через</b> парк, так короче.",➡️,prep
 oui,да,"<b>Oui</b>, je suis disponible demain matin.","<b>Да</b>, я свободен завтра утром.",✅,adv
 où,где; куда,<b>Où</b> est la station de métro la plus proche ?,<b>Где</b> ближайшая станция метро?,📍,pron
 rien,ничего,Je n'ai <b>rien</b> compris à cette émission en québécois.,Я <b>ничего</b> не понял в этой передаче на квебекском.,0️⃣,pron
-là,там; тут,"Le supermarché est juste <b>là</b>, au coin.","Супермаркет прямо <b>там</b>, на углу.",👉,adv
 toi,ты (ударн.),C'est <b>toi</b> qui décides.,<b>Ты</b> решаешь.,👤,pron
 quand,когда,<b>Quand</b> est-ce que tu arrives à Montréal ?,<b>Когда</b> ты приезжаешь в Монреаль?,⏰,conj
-si,если; так,"<b>Si</b> tu veux, on peut pratiquer le français ensemble.","<b>Если</b> хочешь, мы можем практиковать французский вместе.",❓,adv
+ou,или,Tu préfères le café <b>ou</b> le thé ?,Ты предпочитаешь кофе <b>или</b> чай?,🔀,conj
 sans,без,Je ne peux pas vivre <b>sans</b> café le matin.,Я не могу жить <b>без</b> кофе по утрам.,🚫,prep
 alors,тогда; итак,"<b>Alors</b>, qu'est-ce qu'on fait ce soir ?","<b>Итак</b>, что мы делаем сегодня вечером?",🤔,adv
 très,очень,Il fait <b>très</b> frette aujourd'hui — moins vingt !,Сегодня <b>очень</b> холодно — минус двадцать!,💯,adv
 aussi,тоже; также,"Moi <b>aussi</b>, je veux apprendre le français.",Я <b>тоже</b> хочу учить французский.,➕,adv
 encore,ещё; снова,"Tu peux répéter <b>encore</b> une fois, s'il te plaît ?","Можешь повторить <b>ещё</b> раз, пожалуйста?",🔁,adv
+tout,"весь, всё",<b>Tout</b> le monde est là.,<b>Все</b> здесь.,🌍,adv
 jamais,никогда,Je n'ai <b>jamais</b> vu autant de neige !,Я <b>никогда</b> не видел столько снега!,🚫,adv
 aux,слитный артикль (à + les),Je parle <b>aux</b> enfants.,Я говорю с детьми.,📎,art
 deux,два,J'ai <b>deux</b> frères.,У меня <b>два</b> брата.,2️⃣,num
-même,даже; тот же,"<b>Même</b> en été, il peut faire frais au Québec.",<b>Даже</b> летом в Квебеке может быть прохладно.,🔄,adv
+si,если; так,"<b>Si</b> tu veux, on peut pratiquer le français ensemble.","<b>Если</b> хочешь, мы можем практиковать французский вместе.",❓,conj
 toujours,всегда,Il fait <b>toujours</b> froid en janvier au Québec.,В январе в Квебеке <b>всегда</b> холодно.,♾️,adv
-pourquoi,почему,<b>Pourquoi</b> as-tu choisi le Canada ?,<b>Почему</b> ты выбрал Канаду?,❓,adv
 trop,слишком,Il fait <b>trop</b> froid pour sortir aujourd'hui.,"Сегодня <b>слишком</b> холодно, чтобы выходить.",📈,adv
 est-ce que,ли (вопрос),<b>Est-ce que</b> tu parles français ?,Ты говоришь по-французски?,❓,adv
 peut-être,может быть,<b>Peut-être</b> qu'il neigera demain.,"<b>Может быть</b>, завтра будет снег.",🤔,adv
@@ -65,9 +59,6 @@ maintenant,сейчас; теперь,<b>Maintenant</b> je comprends mieux le qu
 chez,у; к; в (дом/офис),Je vais <b>chez</b> le médecin cet après-midi.,Я иду <b>к</b> врачу сегодня после обеда.,🏠,prep
 s',себя (перед гласной),Il <b>s'</b>appelle Pierre.,Его зовут Пьер.,🔄,conj
 vraiment,действительно; очень,C'est <b>vraiment</b> difficile de trouver un logement.,<b>Действительно</b> сложно найти жильё.,💯,adv
-déjà,уже,Tu as <b>déjà</b> visité le Vieux-Québec ?,Ты <b>уже</b> был в Старом Квебеке?,✅,adv
-après,после,"<b>Après</b> le travail, je vais au gym.",<b>После</b> работы я иду в спортзал.,➡️,prep
-comment,как,<b>Comment</b> dit-on « car » en québécois ? — Char !,<b>Как</b> по-квебекски «машина»? — Шар!,❓,adv
 oh,о! ох!,"<b>Oh</b>, c'est tellement beau ici !","<b>О</b>, здесь так красиво!",😮,interj
 sous,под,Le chat est caché <b>sous</b> le lit.,Кот спрятался <b>под</b> кроватью.,⬇️,prep
 cela,это; то,<b>Cela</b> ne me plaît pas.,<b>Это</b> мне не нравится.,👆,pron
@@ -77,15 +68,15 @@ voilà,вот; вот и,<b>Voilà</b> pourquoi j'aime le Québec !,<b>Вот</b
 beaucoup,много,J'aime <b>beaucoup</b> la poutine !,Я <b>очень</b> люблю путин!,📈,adv
 entre,между,Le café est <b>entre</b> la banque et la pharmacie.,Кафе <b>между</b> банком и аптекой.,↔️,prep
 mieux,лучше,Tu parles français <b>mieux</b> qu'avant.,"Ты говоришь по-французски <b>лучше</b>, чем раньше.",⬆️,adv
-avant,до; перед,"<b>Avant</b> de partir, vérifie ton passeport.",<b>Перед</b> отъездом проверь паспорт.,⏪,prep
+autre,другой,Tu as une <b>autre</b> idée ?,У тебя есть <b>другая</b> идея?,🔄,pron
 donc,итак; значит,"Tu es fatigué, <b>donc</b> tu devrais te reposer.","Ты устал, <b>значит</b>, тебе нужно отдохнуть.",➡️,conj
 vers,к; около (время),Je finis le travail <b>vers</b> dix-sept heures.,Я заканчиваю работу <b>около</b> пяти.,➡️,prep
 dont,о котором; чей,Le livre <b>dont</b> je parle est célèbre.,"Книга, <b>о которой</b> я говорю, знаменита.",📎,pron
-depuis,с; в течение,J'apprends le français <b>depuis</b> deux ans.,Я учу французский <b>уже</b> два года.,📅,prep
+pourquoi,почему,<b>Pourquoi</b> as-tu choisi le Canada ?,<b>Почему</b> ты выбрал Канаду?,❓,conj
 elles,они (ж.р.),<b>Elles</b> sont arrivées hier.,<b>Они</b> приехали вчера.,👩‍👩‍👧,pron
+comme,как; поскольку,<b>Comme</b> tu veux — c'est toi qui décides.,<b>Как</b> хочешь — ты решаешь.,🔄,adv
 trois,три,J'ai <b>trois</b> soeurs.,У меня <b>три</b> сестры.,3️⃣,num
 ni,ни,Je ne parle <b>ni</b> anglais <b>ni</b> espagnol.,"Я не говорю <b>ни</b> по-английски, <b>ни</b> по-испански.",🚫,conj
-puis,потом; затем,"D'abord on mange, <b>puis</b> on sort.","Сначала поедим, <b>потом</b> выйдем.",➡️,conj
 personne,никто,<b>Personne</b> n'a répondu à mon courriel.,<b>Никто</b> не ответил на мой email.,0️⃣,pron
 ah,а! ах!,"<b>Ah</b>, maintenant je comprends !","<b>А</b>, теперь я понимаю!",💡,interj
 parce que,потому что,Je reste chez moi <b>parce qu</b>'il fait trop frette.,"Я сижу дома, <b>потому что</b> слишком холодно.",🔗,conj
@@ -95,11 +86,9 @@ contre,против,Je suis <b>contre</b> cette idée.,Я <b>против</b> э
 assez,достаточно,J'en ai <b>assez</b> de ce froid !,Мне <b>хватит</b> этого холода!,✋,adv
 mal,плохо,J'ai <b>mal</b> à la gorge depuis hier.,У меня болит горло со вчерашнего дня.,😣,adv
 tant,столько; так,J'ai <b>tant</b> de choses à faire aujourd'hui.,У меня <b>столько</b> дел сегодня.,📊,adv
-devant,перед; впереди,Le parc est <b>devant</b> l'école.,Парк <b>перед</b> школой.,⏩,prep
 eux,они (ударн.),C'est pour <b>eux</b>.,Это для <b>них</b>.,👥,pron
 peu,мало,Il y a <b>peu</b> de neige cette année.,В этом году <b>мало</b> снега.,📉,adv
 pendant,во время,"<b>Pendant</b> l'hiver, je reste souvent à la maison.",<b>Зимой</b> я часто сижу дома.,⏳,prep
-bon,ладно; хорошо (межд.),"<b>Bon</b>, on y va ?","<b>Ладно</b>, идём?",👍,interj
 tard,поздно,"Il est <b>tard</b>, je dois rentrer.","Уже <b>поздно</b>, мне нужно домой.",🌙,adv
 leur,им,Je <b>leur</b> ai donné le livre.,Я дал <b>им</b> книгу.,👥,pron
 enfin,наконец,"<b>Enfin</b>, le printemps est arrivé !",<b>Наконец</b> пришла весна!,🎉,adv
@@ -128,13 +117,14 @@ voici,вот (ближе),<b>Voici</b> mon numéro de téléphone.,<b>Вот</b>
 là-bas,там (далеко),Tu vois le magasin <b>là-bas</b> ?,Видишь магазин <b>там</b>?,👉,adv
 celle,та; эта (ж.р.),<b>Celle</b> que j'aime est partie.,"<b>Та</b>, которую я люблю, уехала.",👆,pron
 quatre,четыре,Il y a <b>quatre</b> saisons.,Есть <b>четыре</b> времени года.,4️⃣,num
-derrière,за; позади,Le parking est <b>derrière</b> le bâtiment.,Парковка <b>за</b> зданием.,⬅️,prep
 autour,вокруг,Il y a beaucoup d'arbres <b>autour</b> de la maison.,<b>Вокруг</b> дома много деревьев.,🔄,adv
 dès,с; начиная с,"<b>Dès</b> que possible, je t'appelle.","<b>Как только</b> возможно, я тебе позвоню.",⏰,prep
 souvent,часто,Je vais <b>souvent</b> au gym.,Я <b>часто</b> хожу в спортзал.,🔁,adv
-près,близко; рядом,J'habite <b>près</b> du centre-ville.,Я живу <b>рядом</b> с центром.,📍,prep
+juste,справедливый; точно,C'est <b>juste</b> ce que je voulais dire.,"Это <b>именно</b> то, что я хотел сказать.",✅,adv
+en,в; на (без артикля),Je vis <b>en</b> France depuis cinq ans.,Я живу <b>во</b> Франции пять лет.,🗺️,adv
 fort,сильно; громко,"Parle plus <b>fort</b>, je ne t'entends pas.","Говори <b>громче</b>, я тебя не слышу.",📢,adv
 autant,столько же; так же,J'aime <b>autant</b> le café que le thé.,"Я люблю кофе <b>так же</b>, как и чай.",⚖️,adv
+puis,потом; затем,"D'abord on mange, <b>puis</b> on sort.","Сначала поедим, <b>потом</b> выйдем.",➡️,adv
 cinq,пять,J'ai <b>cinq</b> doigts.,У меня <b>пять</b> пальцев.,5️⃣,num
 hé,эй,"<b>Hé</b>, attends-moi !","<b>Эй</b>, подожди меня!",👋,interj
 bientôt,скоро,"À <b>bientôt</b>, on se revoit demain !","До скорого, увидимся завтра!",⏰,adv
@@ -142,14 +132,14 @@ tellement,так; настолько,Je suis <b>tellement</b> fatigué aujourd'h
 les gens,люди,Les <b>gens</b> au Québec sont très sympathiques.,<b>Люди</b> в Квебеке очень приятные.,👥,m pl
 d'abord,сначала; прежде всего,"<b>D'abord</b>, je dois finir ce travail.",<b>Сначала</b> я должен закончить эту работу.,1️⃣,adv
 hier,вчера,"<b>Hier</b>, j'ai passé mon examen.",<b>Вчера</b> я сдал экзамен.,📅,adv
-tiens,на (возьми); послушай,"<b>Tiens</b>, prends mon stylo.","<b>На</b>, возьми мою ручку.",👋,interj
+après,после,"<b>Après</b> le travail, je vais au gym.",<b>После</b> работы я иду в спортзал.,➡️,adv
 l'un,один (из),<b>L'un</b> de vous doit venir.,<b>Один</b> из вас должен прийти.,1️⃣,pron
 partout,везде; повсюду,Il y a de la neige <b>partout</b> en hiver.,Зимой <b>везде</b> снег.,🌍,adv
 dix,десять,J'attends depuis <b>dix</b> minutes.,Я жду уже <b>десять</b> минут.,🔟,num
-dehors,снаружи; на улице,"Il fait froid <b>dehors</b>, mets ton manteau.","На <b>улице</b> холодно, надень пальто.",🌲,adv
 merde,чёрт! (межд.),<b>Merde</b> ! J'ai oublié mes clés.,<b>Чёрт</b>! Я забыл ключи.,🤬,interj
 ensuite,затем; потом,"D'abord le travail, <b>ensuite</b> le repos.","Сначала работа, <b>потом</b> отдых.",➡️,adv
 sinon,иначе; а то,"Dépêche-toi, <b>sinon</b> on va être en retard.","Поторопись, <b>а то</b> опоздаем.",⚠️,conj
+depuis,с; в течение,J'apprends le français <b>depuis</b> deux ans.,Я учу французский <b>уже</b> два года.,📅,adv
 six,шесть,Il y a <b>six</b> jours dans la semaine de travail.,В рабочей неделе <b>шесть</b> дней.,6️⃣,num
 pardon,извините; простите,"<b>Pardon</b>, je ne vous ai pas vu.","<b>Извините</b>, я вас не заметил.",🙏,interj
 chacun,каждый,<b>Chacun</b> pour soi.,<b>Каждый</b> сам за себя.,👤,pron
@@ -160,15 +150,16 @@ debout,стоя; на ногах,Je suis resté <b>debout</b> toute la journée.
 laquelle,которая,La maison dans <b>laquelle</b> j'habite.,"Дом, в <b>котором</b> я живу.",❓,pron
 doucement,тихо; медленно,"Parle <b>doucement</b>, le bébé dort.","Говори <b>тихо</b>, малыш спит.",🤫,adv
 lorsque,когда (в тексте),"<b>Lorsque</b> j'étais jeune, j'habitais à Paris.","<b>Когда</b> я был молодым, я жил в Париже.",⏰,conj
+près,близко; рядом,J'habite <b>près</b> du centre-ville.,Я живу <b>рядом</b> с центром.,📍,adv
 parmi,среди,"<b>Parmi</b> tous les candidats, il est le meilleur.",<b>Среди</b> всех кандидатов он лучший.,👥,prep
 sûrement,наверняка; точно,Il viendra <b>sûrement</b> demain.,Он <b>точно</b> придёт завтра.,✅,adv
 lui-même,сам (он),Il l'a fait <b>lui-même</b>.,Он сделал это <b>сам</b>.,👤,pron
+comment,как,<b>Comment</b> dit-on « car » en québécois ? — Char !,<b>Как</b> по-квебекски «машина»? — Шар!,❓,interj
 simplement,просто,"<b>Simplement</b>, dis-moi la vérité.",<b>Просто</b> скажи мне правду.,✅,adv
 malgré,несмотря на,"<b>Malgré</b> le froid, je suis sorti.","<b>Несмотря на</b> холод, я вышел.",💪,prep
 attention,внимание (восклицание),"<b>Attention</b>, la route est glissante !","<b>Осторожно</b>, дорога скользкая!",⚠️,interj
 ceci,это (вот это),<b>Ceci</b> est important.,<b>Это</b> важно.,👆,pron
 sauf,кроме; за исключением,Tout le monde est venu <b>sauf</b> lui.,"Все пришли, <b>кроме</b> него.",🚫,prep
-au-dessus,наверху; над,L'avion vole <b>au-dessus</b> des nuages.,Самолёт летит <b>над</b> облаками.,⬆️,adv
 complètement,полностью; совершенно,J'ai <b>complètement</b> oublié notre rendez-vous.,Я <b>совершенно</b> забыл о нашей встрече.,💯,adv
 soudain,внезапно,"<b>Soudain</b>, il a commencé à neiger.",<b>Внезапно</b> пошёл снег.,⚡,adv
 lequel,который (м.р.),<b>Lequel</b> préfères-tu ?,<b>Который</b> ты предпочитаешь?,❓,pron
@@ -178,13 +169,15 @@ mille,тысяча,J'ai <b>mille</b> euros.,У меня <b>тысяча</b> ев
 dessus,наверху; сверху,Pose ton sac <b>dessus</b>.,Положи сумку <b>сверху</b>.,⬆️,adv
 puisque,поскольку; раз уж,"<b>Puisque</b> tu insistes, je vais venir.","<b>Раз уж</b> ты настаиваешь, я приду.",🔗,conj
 aussitôt,тотчас; сразу,"<b>Aussitôt</b> dit, aussitôt fait.",Сказано — сделано.,⚡,adv
-grâce,благодаря,"<b>Grâce à</b> toi, j'ai réussi.",<b>Благодаря</b> тебе я справился.,🙏,prep
+ok,окей; хорошо,C'est <b>OK</b> pour moi.,Для меня <b>окей</b>.,👌,adv
+quelque,какой-то; несколько,J'ai <b>quelques</b> questions sur l'immigration.,У меня есть <b>несколько</b> вопросов об иммиграции.,🔢,adv
 neuf,девять,"Il y a <b>neuf</b> planètes... pardon, huit.","Есть <b>девять</b> планет... простите, восемь.",9️⃣,num
 hors,вне; за пределами,Il est <b>hors</b> de question.,Это <b>исключено</b>.,🚫,prep
 cent,сто,J'ai <b>cent</b> dollars.,У меня <b>сто</b> долларов.,💯,num
 vingt,двадцать,Il a <b>vingt</b> ans.,Ему <b>двадцать</b> лет.,2️⃣0️⃣,num
 absolument,абсолютно; обязательно,C'est <b>absolument</b> nécessaire.,Это <b>абсолютно</b> необходимо.,💯,adv
 lentement,медленно,"Parle plus <b>lentement</b>, s'il te plaît.","Говори <b>медленнее</b>, пожалуйста.",🐢,adv
+derrière,за; позади,Le parking est <b>derrière</b> le bâtiment.,Парковка <b>за</b> зданием.,⬅️,adv
 huit,восемь,J'ai <b>huit</b> heures de travail.,У меня <b>восемь</b> часов работы.,8️⃣,num
 allô,алло,"<b>Allô</b>, qui est à l'appareil ?","<b>Алло</b>, кто говорит?",📞,interj
 plein,полно (предлог),Il y a <b>plein</b> de monde.,<b>Полно</b> народу.,📦,prep
@@ -193,13 +186,14 @@ euh,э-э (междометие раздумья),"<b>Euh</b>, je ne sais pas.",
 sept,семь,Il y a <b>sept</b> jours dans une semaine.,В неделе <b>семь</b> дней.,7️⃣,num
 celui-là,тот (вон тот),Je préfère <b>celui-là</b>.,Я предпочитаю <b>тот</b>.,👆,pron
 justement,как раз; именно,C'est <b>justement</b> ce que je voulais dire.,"Это <b>как раз</b> то, что я хотел сказать.",✅,adv
-cependant,однако; тем не менее,"Il fait froid, <b>cependant</b> le soleil brille.","Холодно, <b>однако</b> солнце светит.",↩️,adv
+devant,перед; впереди,Le parc est <b>devant</b> l'école.,Парк <b>перед</b> школой.,⏩,adv
 celles,те (ж.р. мн.ч.),<b>Celles</b> qui veulent peuvent partir.,"<b>Те</b>, кто хочет, могут уйти.",👆,pron
 tandis que,тогда как; в то время как,Il dort <b>tandis que</b> je travaille.,"Он спит, <b>в то время как</b> я работаю.",↔️,conj
 dedans,внутри,Qu'est-ce qu'il y a <b>dedans</b> ?,Что там <b>внутри</b>?,📦,adv
 haut,высоко; громко,Parle plus <b>haut</b> !,Говори <b>громче</b>!,⬆️,adv
 l'une,одна (из),<b>L'une</b> d'elles est ma soeur.,<b>Одна</b> из них — моя сестра.,1️⃣,pron
 désormais,отныне,"<b>Désormais</b>, je parle français.",<b>Отныне</b> я говорю по-французски.,➡️,adv
+bon,ладно; хорошо (межд.),"<b>Bon</b>, on y va ?","<b>Ладно</b>, идём?",👍,adv
 là-haut,там наверху,L'oiseau est <b>là-haut</b> dans l'arbre.,Птица <b>там наверху</b> на дереве.,⬆️,adv
 certainement,конечно; безусловно,"<b>Certainement</b>, je serai là.","<b>Конечно</b>, я буду там.",✅,adv
 davantage,больше,J'aimerais en savoir <b>davantage</b>.,Я бы хотел узнать <b>больше</b>.,➕,adv
@@ -210,7 +204,7 @@ parfaitement,совершенно,Je comprends <b>parfaitement</b>.,Я <b>пре
 auprès,при; возле,Je travaille <b>auprès</b> des enfants.,Я работаю <b>с</b> детьми.,👶,prep
 guère,едва; почти не,Je n'ai <b>guère</b> le temps.,У меня почти нет времени.,⏰,adv
 là-dedans,там внутри,Qu'est-ce qu'il y a <b>là-dedans</b> ?,Что <b>там внутри</b>?,📦,adv
-soit,пусть; или; будь,"<b>Soit</b> tu viens, <b>soit</b> tu restes.","<b>Либо</b> ты идёшь, <b>либо</b> остаёшься.",🔀,conj
+un,неопределённый артикль (м.р.),J'ai <b>un</b> ami québécois.,У меня есть друг из Квебека.,📎,num
 évidemment,очевидно; конечно,"<b>Évidemment</b>, tu as raison.","<b>Очевидно</b>, ты прав.",✅,adv
 finalement,в конце концов,"<b>Finalement</b>, il est venu.",<b>В конце концов</b> он пришёл.,🎯,adv
 quinze,пятнадцать,J'ai <b>quinze</b> minutes de retard.,Я опаздываю на <b>пятнадцать</b> минут.,1️⃣5️⃣,num
@@ -220,6 +214,7 @@ soi,себя (неопр.),Chacun pour <b>soi</b>.,Каждый за <b>себя
 lors,во время,"<b>Lors</b> de la réunion, il a parlé.",<b>Во время</b> собрания он выступил.,📅,adv
 autrement,иначе,Fais-le <b>autrement</b>.,Сделай это <b>иначе</b>.,🔄,adv
 cents,сотни,Deux <b>cents</b> personnes.,<b>Двести</b> человек.,💯,num
+même,даже; тот же,"<b>Même</b> en été, il peut faire frais au Québec.",<b>Даже</b> летом в Квебеке может быть прохладно.,🔄,pron
 également,также; тоже,Je viendrai <b>également</b>.,Я тоже приду.,➕,adv
 brusquement,резко; внезапно,Il s'est arrêté <b>brusquement</b>.,Он <b>резко</b> остановился.,⚡,adv
 durant,в течение,"<b>Durant</b> l'hiver, il neige beaucoup.",<b>В течение</b> зимы много снега.,⏳,prep
@@ -235,7 +230,6 @@ chaud,горячо; жарко,Il fait <b>chaud</b> dehors.,На улице <b>�
 apparemment,по-видимому,"<b>Apparemment</b>, il est parti.","<b>По-видимому</b>, он ушёл.",🤔,adv
 par-dessus,поверх,Mets un manteau <b>par-dessus</b>.,Надень пальто <b>поверх</b>.,🧥,prep
 certes,конечно; разумеется,"<b>Certes</b>, tu as raison.","<b>Конечно</b>, ты прав.",✅,adv
-or,однако; итак,"<b>Or</b>, il a refusé.",<b>Однако</b> он отказался.,⚠️,conj
 uns,одни (неопр.),Les <b>uns</b> et les autres.,<b>Одни</b> и другие.,👥,pron
 au-delà,за пределами,<b>Au-delà</b> de cette limite.,<b>За пределами</b> этой границы.,🚧,adv
 pis,хуже; ещё хуже,Tant <b>pis</b> pour lui.,Тем <b>хуже</b> для него.,😔,adv
@@ -263,17 +257,20 @@ volontiers,охотно,<b>Volontiers</b> !,<b>С удовольствием</b>
 jadis,некогда; в старину,"<b>Jadis</b>, il y avait un roi.",<b>Некогда</b> жил-был король.,🏰,adv
 bas,низко; тихо,Parle plus <b>bas</b>.,Говори <b>тише</b>.,🔉,adv
 auquel,которому,L'homme <b>auquel</b> je parle.,"Мужчина, <b>с которым</b> я говорю.",❓,pron
+autrefois,прежде; когда-то,"<b>Autrefois</b>, il n'y avait pas d'internet.",<b>Раньше</b> не было интернета.,📜,adv
 adieu,прощай,"<b>Adieu</b>, mon ami.","<b>Прощай</b>, друг.",👋,interj
 afin de,для того чтобы,"<b>Afin de</b> réussir, travaille dur.","<b>Чтобы</b> преуспеть, работай усердно.",🎯,prep
 vive,да здравствует,<b>Vive</b> le Québec !,Да здравствует Квебек!,🎉,interj
 entièrement,полностью,C'est <b>entièrement</b> vrai.,Это <b>полностью</b> верно.,💯,adv
 forcément,обязательно; неизбежно,C'est <b>forcément</b> lui.,Это <b>наверняка</b> он.,✅,adv
 totalement,полностью; совершенно,Je suis <b>totalement</b> d'accord.,Я <b>полностью</b> согласен.,💯,adv
+une,неопределённый артикль (ж.р.),J'ai <b>une</b> question.,У меня есть вопрос.,📎,num
 longuement,долго,On en a <b>longuement</b> parlé.,Мы <b>долго</b> об этом говорили.,⏳,adv
 lesquels,которые (м.р.),<b>Lesquels</b> préfères-tu ?,<b>Которые</b> ты предпочитаешь?,❓,pron
 profondément,глубоко,Je suis <b>profondément</b> touché.,Я <b>глубоко</b> тронут.,❤️,adv
 eux-mêmes,сами (они м.р.),Ils l'ont fait <b>eux-mêmes</b>.,Они сделали это <b>сами</b>.,👥,pron
 auparavant,ранее; прежде,"<b>Auparavant</b>, j'habitais à Moscou.",<b>Раньше</b> я жил в Москве.,⏮️,adv
+là,там; тут,"Le supermarché est juste <b>là</b>, au coin.","Супермаркет прямо <b>там</b>, на углу.",👉,interj
 lesquelles,которые (ж.р.),Les règles <b>lesquelles</b> tu dois suivre.,"Правила, <b>которые</b> ты должен соблюдать.",❓,pron
 vous-même,сами (Вы),Faites-le <b>vous-même</b>.,Сделайте это <b>сами</b>.,👤,pron
 jusque,до; вплоть до,"<b>Jusque</b> là, tout va bien.",<b>До сих пор</b> всё хорошо.,➡️,prep
@@ -293,6 +290,7 @@ hop,оп! хоп!,"<b>Hop</b>, on y va !","<b>Хоп</b>, поехали!",🏃,
 rarement,редко,Je vais <b>rarement</b> au cinéma.,Я <b>редко</b> хожу в кино.,🎬,adv
 c'est-à-dire,то есть,<b>C'est-à-dire</b> que...,<b>То есть</b>...,💬,adv
 chut,тсс! тихо!,"<b>Chut</b>, ne fais pas de bruit.","<b>Тсс</b>, не шуми.",🤫,interj
+les cieux,небеса,Les <b>cieux</b> sont bleus.,<b>Небеса</b> голубые.,🌤️,m pl
 allo,алло,"<b>Allô</b>, c'est moi.","<b>Алло</b>, это я.",📞,interj
 ceux-là,те (вон те),<b>Ceux-là</b> sont meilleurs.,<b>Те</b> лучше.,👆,pron
 suffisamment,достаточно,C'est <b>suffisamment</b> clair.,Это <b>достаточно</b> ясно.,✅,adv
@@ -300,6 +298,7 @@ tranquillement,спокойно,Il dort <b>tranquillement</b>.,Он <b>спок�
 récemment,недавно,J'ai <b>récemment</b> appris ça.,Я <b>недавно</b> это узнал.,🕐,adv
 clairement,ясно,C'est <b>clairement</b> faux.,Это <b>явно</b> неправда.,💡,adv
 bah,ну; да ладно,"<b>Bah</b>, ce n'est pas grave.","<b>Ну</b>, это не страшно.",🤷,interj
+dehors,снаружи; на улице,"Il fait froid <b>dehors</b>, mets ton manteau.","На <b>улице</b> холодно, надень пальто.",🌲,interj
 lourd,тяжело; сильно,Ça pèse <b>lourd</b>.,Это <b>весит много</b>.,⚖️,adv
 la plupart,большинство,<b>La plupart</b> des gens sont gentils.,<b>Большинство</b> людей добрые.,👥,pron
 dommage,жаль (межд.),C'est <b>dommage</b> !,<b>Жаль</b>!,😔,interj
@@ -324,7 +323,6 @@ définitivement,окончательно,C'est <b>définitivement</b> fini.,Эт
 bye,пока (англ.),"<b>Bye</b>, à plus !","<b>Пока</b>, до скорого!",👋,interj
 effectivement,действительно,"<b>Effectivement</b>, c'est vrai.","<b>Действительно</b>, это правда.",✅,adv
 décidément,определённо,"<b>Décidément</b>, tu as raison.","<b>Определённо</b>, ты прав.",💡,adv
-quoique,хотя,"<b>Quoique</b> fatigué, je continue.","<b>Хотя</b> устал, продолжаю.",🤔,conj
 régulièrement,регулярно,Je m'entraîne <b>régulièrement</b>.,Я <b>регулярно</b> тренируюсь.,📅,adv
 moitié,наполовину,La bouteille est <b>moitié</b> pleine.,Бутылка <b>наполовину</b> полная.,½,adv
 aïe,ай! ой!,"<b>Aïe</b>, ça fait mal !","<b>Ай</b>, больно!",😣,interj
@@ -374,6 +372,7 @@ net,чисто; резко,Couper <b>net</b>.,<b>Резко</b> оборвать
 dix-sept,семнадцать,Il a <b>dix-sept</b> ans.,Ему <b>семнадцать</b> лет.,1️⃣7️⃣,num
 nettement,отчётливо,<b>Nettement</b> meilleur.,<b>Значительно</b> лучше.,📈,adv
 violemment,яростно,Réagir <b>violemment</b>.,Реагировать <b>яростно</b>.,😤,adv
+mince,тонкий; стройный,Elle est très <b>mince</b>.,Она очень <b>стройная</b>.,👩,interj
 unes,одни (неопр. ж.р.),Les <b>unes</b> et les autres.,<b>Одни</b> и другие.,👩‍👩‍👧,pron
 sitôt,тотчас,"<b>Sitôt</b> dit, sitôt fait.",Сказано — <b>сделано</b>.,⚡,adv
 après-demain,послезавтра,On se voit <b>après-demain</b>.,Увидимся <b>послезавтра</b>.,📅,adv
@@ -382,6 +381,7 @@ contrairement,вопреки,<b>Contrairement</b> à toi.,<b>Вопреки</b> 
 notamment,в частности,<b>Notamment</b> en France.,<b>В частности</b> во Франции.,📌,adv
 les maths,математика (разг.),Je suis nul en <b>maths</b>.,Я плох в <b>математике</b>.,🔢,f pl
 machinalement,машинально,Répondre <b>machinalement</b>.,Отвечать <b>машинально</b>.,🤖,adv
+soit,пусть; или; будь,"<b>Soit</b> tu viens, <b>soit</b> tu restes.","<b>Либо</b> ты идёшь, <b>либо</b> остаёшься.",🔀,adv
 librement,свободно,Parler <b>librement</b>.,Говорить <b>свободно</b>.,🗣️,adv
 proprement,собственно; чисто,<b>Proprement</b> dit.,<b>Собственно</b> говоря.,📌,adv
 officiellement,официально,<b>Officiellement</b> annoncé.,<b>Официально</b> объявлено.,📢,adv
@@ -401,14 +401,14 @@ yeah,да! ура!,"<b>Yeah</b>, on a gagné !","<b>Да</b>, мы победи�
 sur-le-champ,немедленно,Partir <b>sur-le-champ</b>.,Уйти <b>немедленно</b>.,⚡,adv
 les entrailles,внутренности,Les <b>entrailles</b> de la terre.,<b>Недра</b> земли.,🌍,f pl
 étrangement,странно,<b>Étrangement</b> silencieux.,<b>Странно</b> тихо.,🤨,adv
-néanmoins,тем не менее,"<b>Néanmoins</b>, il a réussi.",<b>Тем не менее</b> он преуспел.,↔️,conj
 au fur et à mesure,по мере; постепенно,<b>Au fur et à mesure</b> du temps.,<b>По мере</b> того как.,⏳,loc adv
 gaiement,весело,Chanter <b>gaiement</b>.,Петь <b>весело</b>.,🎵,adv
-outre,кроме,<b>Outre</b> cela.,<b>Кроме</b> того.,➕,prep
+déjà,уже,Tu as <b>déjà</b> visité le Vieux-Québec ?,Ты <b>уже</b> был в Старом Квебеке?,✅,interj
 vis-à-vis,по отношению к,<b>Vis-à-vis</b> de la loi.,<b>По отношению</b> к закону.,↔️,prep
 suivant,согласно; в зависимости,<b>Suivant</b> les circonstances.,<b>В зависимости</b> от обстоятельств.,📊,prep
 précédemment,ранее,Comme dit <b>précédemment</b>.,Как сказано <b>ранее</b>.,⏮️,adv
 celles-ci,эти (вот эти ж.р.),<b>Celles-ci</b> sont jolies.,<b>Эти</b> красивые.,👆,pron
+néanmoins,тем не менее,"<b>Néanmoins</b>, il a réussi.",<b>Тем не менее</b> он преуспел.,↔️,adv
 gare,берегись!,<b>Gare</b> à toi !,<b>Берегись</b>!,⚠️,interj
 ci,здесь; вот,<b>Ci</b>-joint le document.,<b>Прилагается</b> документ.,📎,adv
 littéralement,буквально,<b>Littéralement</b> mort de fatigue.,<b>Буквально</b> умираю от усталости.,📖,adv
@@ -434,6 +434,7 @@ différemment,по-разному,Penser <b>différemment</b>.,Думать <b>�
 doux,тихо; мягко,Tout <b>doux</b> !,<b>Тихо</b>!,🤫,adv
 nullement,никоим образом,<b>Nullement</b> satisfait.,<b>Никоим образом</b> не удовлетворён.,❌,adv
 soudainement,внезапно,"<b>Soudainement</b>, il partit.",<b>Внезапно</b> он ушёл.,⚡,adv
+cependant,однако; тем не менее,"Il fait froid, <b>cependant</b> le soleil brille.","Холодно, <b>однако</b> солнце светит.",↩️,conj
 curieusement,любопытно,"<b>Curieusement</b>, il accepta.","<b>Любопытно</b>, он согласился.",🤔,adv
 aisément,легко,Comprendre <b>aisément</b>.,<b>Легко</b> понять.,👌,adv
 manifestement,очевидно,"<b>Manifestement</b>, il ment.","<b>Очевидно</b>, он лжёт.",🤔,adv
@@ -488,6 +489,8 @@ alias,по прозвищу,"Jean, <b>alias</b> Le Renard.","Жан, <b>по п�
 exprès,нарочно,Faire <b>exprès</b>.,Делать <b>нарочно</b>.,😏,adv
 hautement,весьма,<b>Hautement</b> qualifié.,<b>Весьма</b> квалифицированный.,⭐,adv
 bruyamment,шумно,Parler <b>bruyamment</b>.,Говорить <b>шумно</b>.,📢,adv
+outre,кроме,<b>Outre</b> cela.,<b>Кроме</b> того.,➕,adv
+raide,жёсткий; крутой,La pente est <b>raide</b>.,Склон <b>крутой</b>.,⛷️,adv
 fixement,пристально,Regarder <b>fixement</b>.,Смотреть <b>пристально</b>.,👁️,adv
 instinctivement,инстинктивно,Agir <b>instinctivement</b>.,Действовать <b>инстинктивно</b>.,🧠,adv
 précipitamment,поспешно,Partir <b>précipitamment</b>.,Уйти <b>поспешно</b>.,🏃,adv
@@ -498,12 +501,14 @@ timidement,робко,Répondre <b>timidement</b>.,<b>Робко</b> отвеч�
 alentour,вокруг,Les villages <b>alentour</b>.,Окрестные <b>деревни</b>.,🏘️,adv
 desquels,которых (м.р.),Les gens <b>desquels</b> je parle.,"Люди, <b>о которых</b> я говорю.",❓,pron
 publiquement,публично,Déclarer <b>publiquement</b>.,Заявить <b>публично</b>.,📢,adv
+quoique,хотя,"<b>Quoique</b> fatigué, je continue.","<b>Хотя</b> устал, продолжаю.",🤔,adv
 solidement,крепко,Attaché <b>solidement</b>.,<b>Крепко</b> привязанный.,💪,adv
 sacrément,чертовски,<b>Sacrément</b> difficile.,<b>Чертовски</b> трудно.,😤,adv
 hi,хи (смех),"<b>Hi hi hi</b>, c'est drôle !","<b>Хи-хи-хи</b>, смешно!",😂,interj
 joyeusement,радостно,Chanter <b>joyeusement</b>.,Петь <b>радостно</b>.,🎵,adv
 par-delà,за пределами; по ту сторону,<b>Par-delà</b> les frontières.,<b>За пределами</b> границ.,🌍,prep
 obstinément,упорно; настойчиво,Refuser <b>obstinément</b>.,<b>Упорно</b> отказываться.,😤,adv
+out,в ауте; вышедший,Il est <b>out</b>.,Он <b>в ауте</b>.,🚫,adv
 hyper,супер; очень,C'est <b>hyper</b> bien !,Это <b>супер</b> хорошо!,🔥,adv
 cruellement,жестоко,Traiter <b>cruellement</b>.,Обращаться <b>жестоко</b>.,😢,adv
 instantanément,мгновенно,Réagir <b>instantanément</b>.,Реагировать <b>мгновенно</b>.,⚡,adv
@@ -560,6 +565,8 @@ brièvement,кратко,Répondre <b>brièvement</b>.,Ответить <b>кр�
 dangereusement,опасно,<b>Dangereusement</b> proche.,<b>Опасно</b> близко.,⚠️,adv
 essentiellement,по существу,<b>Essentiellement</b> correct.,<b>По существу</b> верно.,✅,adv
 distinctement,отчётливо,Parler <b>distinctement</b>.,Говорить <b>отчётливо</b>.,🗣️,adv
+ici-bas,здесь на земле,La vie <b>ici-bas</b>.,Жизнь <b>здесь на земле</b>.,🌍,adv
+alerte,бодрый,Un esprit <b>alerte</b>.,<b>Бодрый</b> ум.,🧠,interj
 holà,эй-эй,"<b>Holà</b>, du calme !","<b>Эй-эй</b>, спокойно!",✋,interj
 véritablement,по-настоящему,<b>Véritablement</b> impressionnant.,<b>По-настоящему</b> впечатляюще.,✨,adv
 faussement,ложно,<b>Faussement</b> accusé.,<b>Ложно</b> обвинённый.,😔,adv
@@ -595,6 +602,7 @@ ardemment,пылко; страстно,Désirer <b>ardemment</b>.,<b>Страс�
 généreusement,щедро,Donner <b>généreusement</b>.,<b>Щедро</b> давать.,💰,adv
 éperdument,безумно; страстно,Aimer <b>éperdument</b>.,Любить <b>безумно</b>.,💕,adv
 aux aguets,настороже,Être <b>aux aguets</b>.,Быть <b>настороже</b>.,👀,adv
+chouette,классный (разг.),C'est <b>chouette</b> !,Это <b>классно</b>!,🦉,interj
 momentanément,на мгновение,<b>Momentanément</b> absent.,<b>На мгновение</b> отсутствует.,⏱️,adv
 pan,бах,<b>Pan</b> ! Un coup de feu.,<b>Бах</b>! Выстрел.,💥,interj
 douloureusement,болезненно,<b>Douloureusement</b> conscient.,<b>Болезненно</b> осознавая.,😣,adv
@@ -608,12 +616,14 @@ furtivement,украдкой,Regarder <b>furtivement</b>.,Смотреть <b>у
 formellement,формально,<b>Formellement</b> interdit.,<b>Формально</b> запрещено.,🚫,adv
 bonnement,попросту,Tout <b>bonnement</b>.,<b>Попросту</b>.,🤷,adv
 avidement,жадно,Lire <b>avidement</b>.,<b>Жадно</b> читать.,📖,adv
+pardi,ещё бы,"<b>Pardi</b>, c'est évident !","<b>Ещё бы</b>, это очевидно!",😊,interj
 gratos,бесплатно (разг.),C'est <b>gratos</b>.,Это <b>бесплатно</b>.,🆓,adv
 atrocement,ужасно,<b>Atrocement</b> laid.,<b>Ужасно</b> некрасивый.,😱,adv
 théoriquement,теоретически,<b>Théoriquement</b> possible.,<b>Теоретически</b> возможно.,🤔,adv
 beurk,фу,<b>Beurk</b> ! C'est dégoûtant !,<b>Фу</b>! Это отвратительно!,🤢,interj
 sourdement,глухо,Gronder <b>sourdement</b>.,<b>Глухо</b> ворчать.,🔇,adv
 miraculeusement,чудесным образом,<b>Miraculeusement</b> sauvé.,<b>Чудом</b> спасён.,✨,adv
+des chips,чипсы,Un paquet de <b>chips</b>.,Пачка <b>чипсов</b>.,🥔,f pl
 à l'encontre,вопреки; против,Aller <b>à l'encontre</b> de la loi.,Идти <b>вопреки</b> закону.,🚫,prep
 j,я (перед гласной),<b>J'</b>aime le café.,<b>Я</b> люблю кофе.,☕,pron
 tchao,чао,<b>Tchao</b> les amis !,"<b>Чао</b>, друзья!",👋,interj
@@ -627,9 +637,12 @@ vlan,бац,<b>Vlan</b> ! La porte claque.,<b>Бац</b>! Дверь хлопн�
 basta,баста,<b>Basta</b> ! J'en ai marre !,<b>Баста</b>! Хватит!,✋,interj
 bing,бинг! (звук),<b>Bing</b> ! Touché !,<b>Бинг</b>! Попал!,🎯,interj
 alléluia,аллилуйя,<b>Alléluia</b> ! Nous avons réussi !,<b>Аллилуйя</b>! Мы справились!,🙌,interj
+arrière,задний,La roue <b>arrière</b>.,<b>Заднее</b> колесо.,🔙,interj
+sapristi,чёрт побери,<b>Sapristi</b> ! Quel désastre !,<b>Чёрт побери</b>! Какая катастрофа!,😱,interj
 clac,щёлк! хлоп!,<b>Clac</b> ! La porte se ferme.,<b>Хлоп</b>! Дверь закрывается.,🚪,interj
 olé,оле,<b>Olé</b> ! Quel spectacle !,<b>Оле</b>! Какое зрелище!,💃,interj
 bye-bye,пока-пока,<b>Bye-bye</b> ! À bientôt !,<b>Пока-пока</b>! До скорого!,👋,interj
+parbleu,чёрт возьми,<b>Parbleu</b> ! J'ai oublié !,<b>Чёрт возьми</b>! Я забыл!,😤,interj
 quatre-vingt-dix,девяносто (Франция),<b>Quatre-vingt-dix</b> euros.,<b>Девяносто</b> евро.,9️⃣0️⃣,num
 plouf,плюх,<b>Plouf</b> ! Il tombe à l'eau.,<b>Плюх</b>! Он упал в воду.,💦,interj
 jusqu,до (перед гласной),<b>Jusqu'</b>à demain.,<b>До</b> завтра.,📅,prep
@@ -639,6 +652,7 @@ tintin,ничего не выйдет,<b>Tintin</b> ! Tu n'auras rien.,<b>Шиш
 tap,тап! (звук),<b>Tap tap tap</b> sur le clavier.,<b>Тап-тап-тап</b> по клавиатуре.,⌨️,interj
 nonobstant,несмотря на,<b>Nonobstant</b> les difficultés.,<b>Несмотря на</b> трудности.,🤷,prep
 pouah,фу,<b>Pouah</b> ! Quelle odeur !,<b>Фу</b>! Какой запах!,🤢,interj
+fichtre,чёрт,<b>Fichtre</b> ! Quel bazar !,<b>Чёрт</b>! Какой бардак!,😤,interj
 floc,плюх!,<b>Floc</b> ! dans l'eau.,<b>Плюх</b>! в воду.,💧,interj
 berk,фу,<b>Berk</b> ! C'est immonde !,<b>Фу</b>! Это мерзко!,🤮,interj
 ouille,ой,<b>Ouille</b> ! Ça fait mal !,<b>Ой</b>! Больно!,😖,interj
@@ -646,6 +660,7 @@ bang,бах! бум!,<b>Bang</b> ! Une explosion.,<b>Бах</b>! Взрыв.,�
 pff,пф! тьфу!,"""<b>Pff</b>, c'est nul.""","<b>Пф</b>, это отстой.""",😒,interj
 par-dessous,под; снизу,Passer <b>par-dessous</b>.,Пройти <b>снизу</b>.,⬇️,prep
 revoici,вот снова,<b>Revoici</b> le printemps !,<b>Вот снова</b> весна!,🌸,prep
+chic,шикарный,C'est très <b>chic</b>.,Это очень <b>шикарно</b>.,✨,interj
 bé,ну; бе,"""<b>Bé</b>, je ne sais pas.""","<b>Ну</b>, не знаю.""",🤷,interj
 dong,динь-дон!,<b>Ding dong</b> ! La cloche sonne.,<b>Динь-дон</b>! Звонит колокол.,🔔,interj
 motus,молчок,<b>Motus</b> et bouche cousue.,<b>Молчок</b> и рот на замок.,🤐,interj
@@ -662,6 +677,7 @@ wouah,вау,<b>Wouah</b> ! Incroyable !,<b>Вау</b>! Невероятно!,�
 hai,хай! (крик),<b>Haï</b> ! crie le karatéka.,<b>Хай</b>! кричит каратист.,🥋,interj
 ouiche,ага; как же!,"<b>Ouiche</b>, tu parles !","<b>Ага</b>, как же!",🙄,interj
 mouais,ну да,<b>Mouais</b>... Je ne suis pas convaincu.,<b>Ну да</b>... Я не убеждён.,🤔,interj
+chiche,слабо,<b>Chiche</b> ! Tu n'oses pas !,<b>Слабо</b>! Ты не посмеешь!,😏,interj
 hon,хн? (удивление),<b>Hon</b> ? C'est vrai ?,<b>Хм</b>? Правда?,🤔,interj
 dia,тпру! (лошади),<b>Dia</b> ! À gauche !,<b>Тпру</b>! Налево!,🐴,interj
 tagada,тагада (галоп),<b>Tagada tagada</b> !,<b>Цок-цок-цок</b>!,🐎,interj
@@ -673,6 +689,7 @@ miam-miam,ням-ням,"<b>Miam-miam</b>, c'est bon !","<b>Ням-ням</b>, �
 jusqu'à,до (+ сущ.),<b>Jusqu'à</b> demain.,<b>До</b> завтра.,📅,prep
 hisse,взяли! (тяжесть),<b>Oh hisse</b> !,<b>Взяли</b>!,💪,interj
 gnagnagna,бла-бла-бла,<b>Gnagnagna</b>...,<b>Бла-бла-бла</b>...,🗣️,interj
+grâce,благодаря,"<b>Grâce à</b> toi, j'ai réussi.",<b>Благодаря</b> тебе я справился.,🙏,interj
 meuh,му-у (корова),<b>Meuh</b> ! fait la vache.,<b>Му-у</b>! мычит корова.,🐄,interj
 mil,тысяча (в датах),L'an <b>mil</b>.,<b>Тысячный</b> год.,📆,num
 pouce,стоп! пауза!,<b>Pouce</b> ! On arrête.,<b>Стоп</b>! Прекращаем.,✋,interj
@@ -741,7 +758,9 @@ badabam,бадабам! (удар),<b>Badabam</b> ! Quel coup !,<b>Бадаба�
 octante,восемьдесят (Швейцария),<b>Octante</b> personnes.,<b>Восемьдесят</b> человек.,🇨🇭,num
 qui-vive,кто идёт? настороже,Être sur le <b>qui-vive</b>.,Быть <b>настороже</b>.,👀,interj
 afin d,чтобы (перед гласной),<b>Afin d'</b>éviter.,<b>Чтобы</b> избежать.,🎯,prep
+non,нет,"<b>Non</b>, merci, je n'ai pas faim.","<b>Нет</b>, спасибо, я не голоден.",❌,adv
 rantanplan,ра-та-та-та (барабан),<b>Rantanplan</b> ! Le tambour.,<b>Ра-та-та</b>! Барабан.,🥁,interj
+au-dessus,наверху; над,L'avion vole <b>au-dessus</b> des nuages.,Самолёт летит <b>над</b> облаками.,⬆️,prep
 merdasse,блин! (эвфемизм),"<b>Merdasse</b>, j'ai oublié !","<b>Блин</b>, я забыл!",🤦,interj
 beuark,фу! бе!,"<b>Beuark</b>, c'est dégoûtant !","<b>Фу</b>, это отвратительно!",🤮,interj
 tandis qu,тогда как (перед гласной),<b>Tandis qu'</b>il dort.,<b>Тогда как</b> он спит.,😴,conj
@@ -761,231 +780,3 @@ puisqu,раз уж; поскольку,<b>Puisqu'</b>il le faut.,<b>Раз уж<
 gué,гуэ! (возглас),C'est la mère <b>Gué</b>.,Это матушка <b>Гуэ</b>.,🎵,interj
 ollé,оле!,<b>Ollé</b> !,<b>Оле</b>!,💃,interj
 re-belote,и снова-здорово,<b>Re-belote</b> ! Encore lui !,<b>И снова-здорово</b>! Опять он!,🔄,interj
-non,нет,"<b>Non</b>, merci, je n'ai pas faim.","<b>Нет</b>, спасибо, я не голоден.",❌,
-ou,или,Tu préfères le café <b>ou</b> le thé ?,Ты предпочитаешь кофе <b>или</b> чай?,🔀,
-une main,рука (кисть),Lève la <b>main</b> si tu as une question.,"Подними <b>руку</b>, если у тебя есть вопрос.",✋,
-un enfant,ребёнок,Cet <b>enfant</b> parle déjà trois langues.,Этот <b>ребёнок</b> уже говорит на трёх языках.,👶,
-une maison,дом,Nous avons acheté une <b>maison</b> en banlieue de Montréal.,Мы купили <b>дом</b> в пригороде Монреаля.,🏠,
-une mort,смерть,La <b>mort</b> de son chat l'a beaucoup attristé.,<b>Смерть</b> кота его очень опечалила.,💀,
-une voiture,машина,J'ai besoin d'une <b>voiture</b> pour aller au travail.,"Мне нужна <b>машина</b>, чтобы ехать на работу.",🚗,
-s'asseoir,садиться,"<b>Assieds</b>-toi, on va parler.","<b>Садись</b>, поговорим.",🪑,
-une part,часть; доля,Je veux ma <b>part</b> du gâteau.,Я хочу свою <b>долю</b> торта.,🍰,
-se souvenir,помнить,Je me <b>souviens</b> de notre première rencontre.,Я <b>помню</b> нашу первую встречу.,🧠,
-une chance,удача; шанс,Bonne <b>chance</b> pour ton examen !,Удачи на экзамене!,🍀,
-s'excuser,извиняться,Je m'<b>excuse</b> pour le retard.,<b>Извиняюсь</b> за опоздание.,🙏,
-une fin,конец,La <b>fin</b> du film est très triste.,<b>Конец</b> фильма очень грустный.,🔚,
-une tour,башня; тур,La <b>tour</b> Eiffel est à Paris.,Эйфелева <b>башня</b> в Париже.,🗼,
-un chef,начальник; шеф-повар,Mon <b>chef</b> est très exigeant.,Мой <b>начальник</b> очень требовательный.,👨‍💼,
-un cours,курс; занятие,Je suis des <b>cours</b> de francisation.,Я хожу на <b>курсы</b> франсизации.,📚,
-se taire,молчать,"<b>Tais</b>-toi, j'essaie de me concentrer.","<b>Помолчи</b>, я пытаюсь сосредоточиться.",🤫,
-s'amuser,развлекаться,On s'est bien <b>amusés</b> à la fête.,Мы хорошо <b>повеселились</b> на вечеринке.,🎉,
-un geste,жест,Il a fait un <b>geste</b> de la main.,Он сделал <b>жест</b> рукой.,👋,
-une aide,помощь,J'ai besoin de ton <b>aide</b>.,Мне нужна твоя <b>помощь</b>.,🤝,
-une dame,дама,Cette <b>dame</b> cherche la sortie.,Эта <b>дама</b> ищет выход.,👩,
-une ombre,тень,Je me repose à l'<b>ombre</b> de l'arbre.,Я отдыхаю в <b>тени</b> дерева.,🌑,
-une garde,охрана; стража,La <b>garde</b> surveille l'entrée.,<b>Охрана</b> следит за входом.,💂,
-un gosse,ребёнок (разг.),Les <b>gosses</b> jouent dans la cour.,<b>Дети</b> играют во дворе.,👶,
-une poche,карман,J'ai mis les clés dans ma <b>poche</b>.,Я положил ключи в <b>карман</b>.,👖,
-un camarade,товарищ,C'est mon <b>camarade</b> de classe.,Это мой <b>одноклассник</b>.,👋,
-une poste,почта,Je vais à la <b>poste</b> envoyer un colis.,Я иду на <b>почту</b> отправить посылку.,📮,
-un professeur,преподаватель,Le <b>professeur</b> explique bien.,<b>Преподаватель</b> хорошо объясняет.,👨‍🏫,
-une mémoire,память,J'ai une mauvaise <b>mémoire</b>.,У меня плохая <b>память</b>.,🧠,
-se dépêcher,торопиться,"<b>Dépêche</b>-toi, on va être en retard !","<b>Торопись</b>, мы опоздаем!",🏃,
-une page,страница,Tourne la <b>page</b>.,Переверни <b>страницу</b>.,📖,
-une radio,радио,J'écoute la <b>radio</b> en conduisant.,Я слушаю <b>радио</b> за рулём.,📻,
-un plat,блюдо,Ce <b>plat</b> est délicieux.,Это <b>блюдо</b> вкусное.,🍽️,
-nombreux,многочисленный,Il y a de <b>nombreux</b> touristes ici.,Здесь <b>много</b> туристов.,👥,
-précis,точный,Sois plus <b>précis</b>.,Будь <b>точнее</b>.,🎯,
-intelligent,умный,C'est un garçon très <b>intelligent</b>.,Это очень <b>умный</b> мальчик.,🧠,
-principal,главный,C'est le problème <b>principal</b>.,Это <b>главная</b> проблема.,⭐,
-supérieur,высший; выше,L'étage <b>supérieur</b> est fermé.,<b>Верхний</b> этаж закрыт.,⬆️,
-matière,материя; предмет (учебный),C'est ma <b>matière</b> préférée.,Это мой любимый <b>предмет</b>.,📚,
-se moquer,насмехаться,Ne te <b>moque</b> pas de moi.,Не <b>смейся</b> надо мной.,😏,
-une oeuvre,произведение; труд,C'est une <b>œuvre</b> d'art.,Это <b>произведение</b> искусства.,🎨,
-un espace,пространство,Il n'y a pas assez d'<b>espace</b>.,Недостаточно <b>места</b>.,📐,
-un ministre,министр,Le <b>ministre</b> a fait une annonce.,<b>Министр</b> сделал объявление.,🏛️,
-un couple,пара,C'est un beau <b>couple</b>.,Это красивая <b>пара</b>.,💑,
-autrefois,прежде; когда-то,"<b>Autrefois</b>, il n'y avait pas d'internet.",<b>Раньше</b> не было интернета.,📜,
-s'enfuir,убегать,Le voleur s'est <b>enfui</b>.,Вор <b>убежал</b>.,🏃,
-une gorge,горло,J'ai mal à la <b>gorge</b>.,У меня болит <b>горло</b>.,🤒,
-une somme,сумма,C'est une grosse <b>somme</b> d'argent.,Это большая <b>сумма</b> денег.,💰,
-un saint,святой,C'est un <b>saint</b> homme.,Это <b>святой</b> человек.,😇,
-une justice,правосудие,La <b>justice</b> sera faite.,<b>Справедливость</b> восторжествует.,⚖️,
-complet,полный,L'hôtel est <b>complet</b>.,Отель <b>заполнен</b>.,📦,
-futur,будущий,Mon <b>futur</b> mari est canadien.,Мой <b>будущий</b> муж — канадец.,🔮,
-une gloire,слава,Il rêve de <b>gloire</b>.,Он мечтает о <b>славе</b>.,🏆,
-tranquillité,спокойствие,J'aime la <b>tranquillité</b>.,Я люблю <b>спокойствие</b>.,😌,
-précieux,ценный; драгоценный,C'est un objet <b>précieux</b>.,Это <b>ценный</b> предмет.,💎,
-"con, conne",тупой (груб.),Ne sois pas <b>con</b> !,Не будь <b>тупым</b>!,🙄,
-un artiste,художник; артист,C'est un grand <b>artiste</b>.,Это великий <b>художник</b>.,🎨,
-un malade,больной,Le <b>malade</b> va mieux.,<b>Больной</b> чувствует себя лучше.,🏥,
-un môme,ребёнок (разг.),Ce <b>môme</b> est adorable.,Этот <b>малыш</b> очарователен.,👶,
-une mode,мода,C'est à la <b>mode</b>.,Это в <b>моде</b>.,👗,
-un imbécile,идиот,Quel <b>imbécile</b> !,Какой <b>идиот</b>!,🤦,
-une carrière,карьера; карьер,Elle a fait une belle <b>carrière</b>.,Она сделала хорошую <b>карьеру</b>.,📈,
-un secrétaire,секретарь,Le <b>secrétaire</b> a pris des notes.,<b>Секретарь</b> записал.,📋,
-un collègue,коллега,C'est mon <b>collègue</b> de travail.,Это мой <b>коллега</b>.,👔,
-un propriétaire,собственник; хозяин,Le <b>propriétaire</b> de l'immeuble.,<b>Хозяин</b> дома.,🏠,
-une barbe,борода,Il a une longue <b>barbe</b>.,У него длинная <b>борода</b>.,🧔,
-un journaliste,журналист,Le <b>journaliste</b> m'a interviewé.,<b>Журналист</b> взял у меня интервью.,📰,
-une technique,техника,C'est une bonne <b>technique</b>.,Это хорошая <b>техника</b>.,🔧,
-un cher,дорогой,<b>Cher</b> ami !,<b>Дорогой</b> друг!,💕,
-un actrice,актриса,C'est une <b>actrice</b> célèbre.,Это известная <b>актриса</b>.,🎬,
-courageux,смелый,Tu es très <b>courageux</b>.,Ты очень <b>смелый</b>.,🦁,
-dangereux,опасный,C'est <b>dangereux</b>.,Это <b>опасно</b>.,⚠️,
-différent,различный,C'est <b>différent</b>.,Это <b>по-другому</b>.,↔️,
-une manche,рукав; раунд,Relève tes <b>manches</b>.,Засучи <b>рукава</b>.,👕,
-une voile,парус; вуаль,Le bateau a une grande <b>voile</b>.,У лодки большой <b>парус</b>.,⛵,
-un esclave,раб,L'<b>esclave</b> a été libéré.,<b>Раба</b> освободили.,⛓️,
-un prof,учитель (разг.),Le <b>prof</b> est sympa.,<b>Учитель</b> классный.,👨‍🏫,
-un peintre,художник,C'est un grand <b>peintre</b>.,Это великий <b>художник</b>.,🎨,
-une auto,машина (разг.),J'ai une nouvelle <b>auto</b>.,У меня новая <b>машина</b>.,🚗,
-un pilote,пилот,Le <b>pilote</b> d'avion.,<b>Пилот</b> самолёта.,✈️,
-un adulte,взрослый,C'est un comportement d'<b>adulte</b>.,Это <b>взрослое</b> поведение.,👨,
-nouveau,новый,C'est <b>nouveau</b>.,Это <b>новое</b>.,✨,
-"las, lasse",усталый; утомлённый,Je suis <b>las</b>.,Я <b>устал</b>.,😴,
-un partenaire,партнёр,C'est mon <b>partenaire</b> d'affaires.,Это мой деловой <b>партнёр</b>.,🤝,
-une souris,мышь,La <b>souris</b> d'ordinateur.,Компьютерная <b>мышь</b>.,🖱️,
-une crème,крем,La <b>crème</b> glacée.,<b>Мороженое</b>.,🍦,
-un arabe,араб; арабский,J'apprends l'<b>arabe</b>.,Я учу <b>арабский</b>.,🇸🇦,
-"tendu, tenue",напряжённый,L'atmosphère est <b>tendue</b>.,Атмосфера <b>напряжённая</b>.,😬,
-un guide,гид,Le <b>guide</b> nous montre le chemin.,<b>Гид</b> показывает нам путь.,🗺️,
-un vase,ваза,Mets les fleurs dans le <b>vase</b>.,Поставь цветы в <b>вазу</b>.,🏺,
-une cousine,кузина; двоюродная сестра,C'est ma <b>cousine</b>.,Это моя <b>двоюродная сестра</b>.,👧,
-une belle-mère,тёща; свекровь; мачеха,C'est ma <b>belle-mère</b>.,Это моя <b>тёща</b>.,👩,
-une belle-soeur,невестка; золовка; свояченица,C'est ma <b>belle-sœur</b>.,Это моя <b>невестка</b>.,👩,
-une bru,невестка (жена сына),C'est ma <b>bru</b>.,Это моя <b>невестка</b>.,👩,
-un arrière-grand-père,прадед,C'est mon <b>arrière-grand-père</b>.,Это мой <b>прадед</b>.,👴,
-une arrière-grand-mère,прабабушка,C'est mon <b>arrière-grand-mère</b>.,Это моя <b>прабабушка</b>.,👵,
-un veuve,вдова,Elle est <b>veuve</b>.,Она <b>вдова</b>.,🖤,
-une fiancée,невеста,C'est ma <b>fiancée</b>.,Это моя <b>невеста</b>.,💍,
-un conjoint,супруг,Mon <b>conjoint</b> travaille.,Мой <b>супруг</b> работает.,💑,
-une conjointe,супруга,Ma <b>conjointe</b> est professeure.,Моя <b>супруга</b> — учительница.,💑,
-un filleul,крестник,C'est mon <b>filleul</b>.,Это мой <b>крестник</b>.,👶,
-une filleule,крестница,C'est ma <b>filleule</b>.,Это моя <b>крестница</b>.,👶,
-une orpheline,сирота (ж.),Elle est <b>orpheline</b>.,Она <b>сирота</b>.,😢,
-une héritière,наследница,C'est l'<b>héritière</b>.,Это <b>наследница</b>.,👑,
-une pub,реклама (разг.),Je déteste la <b>pub</b>.,Я ненавижу <b>рекламу</b>.,📺,
-une vapeur,пар,La <b>vapeur</b> s'élève.,<b>Пар</b> поднимается.,💨,
-une ordonnance,рецепт; указ,L'<b>ordonnance</b> du médecin.,<b>Рецепт</b> врача.,📋,
-une remarque,замечание,Une <b>remarque</b> pertinente.,Уместное <b>замечание</b>.,💡,
-une mousse,пена; мох,La <b>mousse</b> de bière.,Пивная <b>пена</b>.,🍺,
-un fan,фанат,Je suis <b>fan</b> de toi.,Я твой <b>фанат</b>.,🎉,
-un malaise,недомогание,J'ai un <b>malaise</b>.,Мне <b>нехорошо</b>.,😵,
-une foudre,молния,Frappé par la <b>foudre</b>.,Поражённый <b>молнией</b>.,⚡,
-une peste,чума; зараза,La <b>peste</b> noire.,Чёрная <b>чума</b>.,☠️,
-un proche,близкий человек,Mes <b>proches</b>.,Мои <b>близкие</b>.,👨‍👩‍👧,
-un comptable,бухгалтер,Le <b>comptable</b> calcule.,<b>Бухгалтер</b> считает.,🧮,
-un poêle,печь; сковорода,Le <b>poêle</b> à bois.,Дровяная <b>печь</b>.,🔥,
-un micro,микрофон,Parle dans le <b>micro</b>.,Говори в <b>микрофон</b>.,🎤,
-un ivrogne,пьяница,C'est un <b>ivrogne</b>.,Он <b>пьяница</b>.,🍺,
-un psy,психолог (разг.),Je vois un <b>psy</b>.,Я хожу к <b>психологу</b>.,🧠,
-un mannequin,манекен; модель,Un <b>mannequin</b> de vitrine.,Витринный <b>манекен</b>.,👤,
-un dentiste,стоматолог,J'ai rendez-vous chez le <b>dentiste</b>.,У меня приём у <b>стоматолога</b>.,🦷,
-un philosophe,философ,Un grand <b>philosophe</b>.,Великий <b>философ</b>.,🤔,
-un psychiatre,психиатр,Consulter un <b>psychiatre</b>.,Обратиться к <b>психиатру</b>.,🧠,
-un basket,баскетбол; кроссовок,Jouer au <b>basket</b>.,Играть в <b>баскетбол</b>.,🏀,
-un terroriste,террорист,Arrêter un <b>terroriste</b>.,Арестовать <b>террориста</b>.,🚔,
-un dingue,сумасшедший (разг.),C'est un <b>dingue</b>.,Он <b>чокнутый</b>.,🤪,
-un bougre,малый (разг.),Un pauvre <b>bougre</b>.,Бедный <b>малый</b>.,👨,
-complémentaire,дополнительный,Une information <b>complémentaire</b>.,<b>Дополнительная</b> информация.,➕,
-une bévue,промах,Commettre une <b>bévue</b>.,Допустить <b>промах</b>.,🤦,
-exécrable,отвратительный,Un temps <b>exécrable</b>.,<b>Отвратительная</b> погода.,🌧️,
-râper,тереть,<b>Râper</b> du fromage.,<b>Тереть</b> сыр.,🧀,
-une allocation,пособие,Une <b>allocation</b> chômage.,Пособие по <b>безработице</b>.,💰,
-"hardi, hardie",смелый,Un geste <b>hardi</b>.,<b>Смелый</b> жест.,💪,
-une imbécile,дура,Quelle <b>imbécile</b> !,Какая <b>дура</b>!,🤦‍♀️,
-"navrant, navrante",печальный,Une histoire <b>navrante</b>.,<b>Печальная</b> история.,😢,
-tripler,утраивать,<b>Tripler</b> le prix.,<b>Утроить</b> цену.,3️⃣,
-un giron,лоно,Dans le <b>giron</b> familial.,В <b>лоне</b> семьи.,👨‍👩‍👧,
-un prêteur,кредитор,Un <b>prêteur</b> sur gages.,<b>Ростовщик</b>.,💰,
-une émancipation,эмансипация,L'<b>émancipation</b> des femmes.,<b>Эмансипация</b> женщин.,✊,
-un mélo,мелодрама,Un vrai <b>mélo</b>.,Настоящая <b>мелодрама</b>.,🎭,
-un bêlement,блеяние,Le <b>bêlement</b> des moutons.,<b>Блеяние</b> овец.,🐑,
-une chaloupe,шлюпка,Une <b>chaloupe</b> de sauvetage.,Спасательная <b>шлюпка</b>.,🚤,
-bramer,трубить (олень),Le cerf <b>brame</b>.,Олень <b>трубит</b>.,🦌,
-une chaumière,хижина,Une humble <b>chaumière</b>.,Скромная <b>хижина</b>.,🏠,
-un retardataire,опоздавший,Un <b>retardataire</b> excusé.,<b>Опоздавший</b> с уважительной причиной.,⏰,
-une greffe,пересадка,Une <b>greffe</b> de cœur.,<b>Пересадка</b> сердца.,❤️,
-un hérisson,ёж,Un <b>hérisson</b> dans le jardin.,<b>Ёж</b> в саду.,🦔,
-une procuration,доверенность,Une <b>procuration</b> légale.,Юридическая <b>доверенность</b>.,📜,
-un échafaud,эшафот,Monter sur l'<b>échafaud</b>.,Подняться на <b>эшафот</b>.,⚔️,
-un pépiement,чириканье,Le <b>pépiement</b> des oiseaux.,<b>Чириканье</b> птиц.,🐦,
-un mémoire,докладная записка,Rédiger un <b>mémoire</b>.,Написать <b>докладную записку</b>.,📝,
-pardi,ещё бы,"<b>Pardi</b>, c'est évident !","<b>Ещё бы</b>, это очевидно!",😊,
-ici-bas,здесь на земле,La vie <b>ici-bas</b>.,Жизнь <b>здесь на земле</b>.,🌍,
-parbleu,чёрт возьми,<b>Parbleu</b> ! J'ai oublié !,<b>Чёрт возьми</b>! Я забыл!,😤,
-sapristi,чёрт побери,<b>Sapristi</b> ! Quel désastre !,<b>Чёрт побери</b>! Какая катастрофа!,😱,
-dame,ну конечно,<b>Dame</b> ! C'est évident.,<b>Ну конечно</b>! Это очевидно.,🤷,
-fichtre,чёрт,<b>Fichtre</b> ! Quel bazar !,<b>Чёрт</b>! Какой бардак!,😤,
-un tour,круг; очередь,C'est ton <b>tour</b> de jouer.,Твоя <b>очередь</b> играть.,🔄,
-une livre,фунт (мера веса),"Une <b>livre</b> de beurre, s'il vous plaît.","<b>Фунт</b> масла, пожалуйста.",⚖️,
-un chéri,дорогой; милый,"Mon <b>chéri</b>, je t'aime.","<b>Дорогой</b>, я тебя люблю.",💕,
-un poste,пост; должность,Il a obtenu un <b>poste</b> important.,Он получил важную <b>должность</b>.,💼,
-Mme,госпожа (сокр.),<b>Mme</b> Dupont est arrivée.,<b>Госпожа</b> Дюпон приехала.,👩,
-un commissaire,комиссар; следователь,Le <b>commissaire</b> mène l'enquête.,<b>Комиссар</b> ведёт расследование.,🕵️,
-un voile,вуаль; завеса,Elle porte un <b>voile</b>.,Она носит <b>вуаль</b>.,🧕,
-Mlle,мадемуазель (сокр.),<b>Mlle</b> Dupont est arrivée.,<b>Мадемуазель</b> Дюпон приехала.,👩,
-juin,июнь,"En <b>juin</b>, c'est l'été.",В <b>июне</b> — лето.,☀️,
-août,август,"En <b>août</b>, je pars en vacances.",В <b>августе</b> я еду в отпуск.,🏖️,
-septembre,сентябрь,"En <b>septembre</b>, c'est la rentrée.",В <b>сентябре</b> — начало учёбы.,📚,
-juillet,июль,"En <b>juillet</b>, il fait chaud.",В <b>июле</b> жарко.,🌞,
-octobre,октябрь,"En <b>octobre</b>, les feuilles tombent.",В <b>октябре</b> падают листья.,🍂,
-mardi,вторник,On se voit <b>mardi</b>.,Увидимся во <b>вторник</b>.,📅,
-une vase,ил; тина,Les pieds dans la <b>vase</b>.,Ноги в <b>иле</b>.,🌿,
-avril,апрель,"En <b>avril</b>, ne te découvre pas d'un fil.",В <b>апреле</b> не снимай одежду.,🌷,
-novembre,ноябрь,"En <b>novembre</b>, il fait froid.",В <b>ноябре</b> холодно.,🍂,
-mars,март,"En <b>mars</b>, c'est le printemps.",В <b>марте</b> — весна.,🌸,
-mercredi,среда,On se voit <b>mercredi</b>.,Увидимся в <b>среду</b>.,📅,
-monseigneur,монсеньор; ваше высочество,<b>Monseigneur</b> est servi.,"<b>Ваше высочество</b>, подано.",👑,
-quant,касательно (+ à),"<b>Quant</b> à moi, je refuse.","<b>Что касается</b> меня, я отказываюсь.",📌,
-décembre,декабрь,"En <b>décembre</b>, c'est Noël.",В <b>декабре</b> — Рождество.,🎄,
-janvier,январь,"En <b>janvier</b>, il neige.",В <b>январе</b> идёт снег.,❄️,
-une donne,расклад; раздача,La <b>donne</b> a changé.,<b>Расклад</b> изменился.,🃏,
-un boche,немец (пренебр.),Les <b>Boches</b> pendant la guerre. (péjoratif),<b>Боши</b> во время войны. (пренебр.),🇩🇪,
-les cieux,небеса,Les <b>cieux</b> sont bleus.,<b>Небеса</b> голубые.,🌤️,
-un office,служба; ведомство,L'<b>office</b> du tourisme.,Туристическое <b>бюро</b>.,🏢,
-février,февраль,"En <b>février</b>, il fait froid.",В <b>феврале</b> холодно.,❄️,
-un major,майор,Le <b>major</b> dirige le bataillon.,<b>Майор</b> командует батальоном.,🎖️,
-un clair,ясность; свет,Tirer au <b>clair</b>.,<b>Прояснить</b>.,💡,
-Virginie,Вирджиния,La <b>Virginie</b> est un état américain.,<b>Вирджиния</b> — американский штат.,🇺🇸,
-un pro,профи (разг.),C'est un vrai <b>pro</b>.,Он настоящий <b>профи</b>.,💼,
-une poêle,сковородка,La <b>poêle</b> est chaude.,<b>Сковородка</b> горячая.,🍳,
-une casse,слом; разбитое,Il y a de la <b>casse</b>.,Есть <b>поломки</b>.,💔,
-go,старт; поехали,C'est <b>go</b> !,<b>Поехали</b>!,🚦,
-une claque,пощёчина,Recevoir une <b>claque</b>.,Получить <b>пощёчину</b>.,👋,
-un coca,кока-кола,Je voudrais un <b>coca</b>.,Я хочу <b>колу</b>.,🥤,
-une trompette,труба,Jouer de la <b>trompette</b>.,Играть на <b>трубе</b>.,🎺,
-une bosse,шишка; горб,J'ai une <b>bosse</b> sur la tête.,У меня <b>шишка</b> на голове.,🤕,
-un disciple,ученик; последователь,Le <b>disciple</b> suit le maître.,<b>Ученик</b> следует за учителем.,📚,
-une clope,сигарета (разг.),T'as une <b>clope</b> ?,Есть <b>сигаретка</b>?,🚬,
-un architecte,архитектор,L'<b>architecte</b> dessine les plans.,<b>Архитектор</b> рисует планы.,📐,
-une crêpe,блин,Une <b>crêpe</b> au sucre.,<b>Блин</b> с сахаром.,🥞,
-un aigle,орёл,L'<b>aigle</b> vole haut.,<b>Орёл</b> летит высоко.,🦅,
-un coco,кокос; тип (разг.),C'est un drôle de <b>coco</b>.,Странный <b>тип</b>.,🥥,
-une Ève,Ева,<b>Ève</b> et Adam.,<b>Ева</b> и Адам.,🍎,
-une enseigne,вывеска; знамя,L'<b>enseigne</b> du magasin.,<b>Вывеска</b> магазина.,🪧,
-un solde,остаток; распродажа,Les <b>soldes</b> d'hiver.,Зимняя <b>распродажа</b>.,🏷️,
-une pendule,настенные часы,La <b>pendule</b> sonne midi.,<b>Часы</b> бьют полдень.,🕰️,
-un moule,форма; мидия,Un <b>moule</b> à gâteau.,<b>Форма</b> для торта.,🍰,
-une coke,кокаин (разг.),La <b>coke</b> est une drogue.,<b>Кокс</b> — наркотик.,🚫,
-une cartouche,патрон; картридж,Une <b>cartouche</b> d'encre.,<b>Картридж</b> с чернилами.,🖨️,
-un hymne,гимн,L'<b>hymne</b> national.,Национальный <b>гимн</b>.,🎵,
-un pique,пика (карты),L'as de <b>pique</b>.,<b>Пиковый</b> туз.,♠️,
-un faux,подделка; фальшивка,C'est un <b>faux</b>.,Это <b>подделка</b>.,❌,
-un arbitre,арбитр; судья,L'<b>arbitre</b> siffle.,<b>Судья</b> свистит.,⚽,
-un compatriote,соотечественник,C'est mon <b>compatriote</b>.,Это мой <b>соотечественник</b>.,🤝,
-un interprète,переводчик,L'<b>interprète</b> traduit.,<b>Переводчик</b> переводит.,🗣️,
-une dope,наркотик (разг.),Accro à la <b>dope</b>.,Подсел на <b>наркоту</b>.,💊,
-une bourre,набивка; спешка,Être à la <b>bourre</b>.,Быть в <b>запарке</b>.,⏰,
-Notre-Dame,Богоматерь,La cathédrale <b>Notre-Dame</b>.,Собор <b>Нотр-Дам</b>.,⛪,
-un paillasse,паяц; клоун,Faire le <b>paillasse</b>.,Паясничать.,🤡,
-un martyre,мученичество,Subir le <b>martyre</b>.,Претерпеть <b>мученичество</b>.,😣,
-mesdemoiselles,мадемуазели,"Bonjour, <b>mesdemoiselles</b>.","Здравствуйте, <b>барышни</b>.",👩‍👩‍👧,
-Noël,Рождество,Joyeux <b>Noël</b> !,Счастливого <b>Рождества</b>!,🎄,
-des chips,чипсы,Un paquet de <b>chips</b>.,Пачка <b>чипсов</b>.,🥔,
-une finale,финал,La <b>finale</b> de la coupe.,<b>Финал</b> кубка.,🏆,
-un jockey,жокей,Le <b>jockey</b> monte le cheval.,<b>Жокей</b> на лошади.,🏇,
-une cache,тайник,Une <b>cache</b> secrète.,Тайный <b>тайник</b>.,🗝️,
-une romance,романс,Chanter une <b>romance</b>.,Петь <b>романс</b>.,🎶,
-une matricule,номер (служебный),Le <b>matricule</b> du soldat.,<b>Номер</b> солдата.,🔢,

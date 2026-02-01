@@ -324,8 +324,11 @@ def process_nouns(
     professions_f: list[dict],
 ) -> list[VocabEntry]:
     """Process NOM category."""
+    import pandas as pd
+
     vocab = []
     seen = set()
+    nan_genre_count = 0
 
     # Add regular nouns
     for row in entries:
@@ -336,9 +339,34 @@ def process_nouns(
             continue
         seen.add(lemme.lower())
 
-        genre = row.get("genre", "").strip()
+        genre = row.get("genre", "")
         freqlem = float(row.get("freqlem", 0) or 0)
 
+        # For NaN/empty genre: treat as common gender, create both m and f entries
+        # This handles epicene nouns (enfant, élève, artiste) and homonyms
+        if pd.isna(genre) or str(genre).strip() in ("", "nan"):
+            nan_genre_count += 1
+            # Add masculine form
+            vocab.append(VocabEntry(
+                french=f"un {lemme}",
+                wordtype="m",
+                notes="common gender",
+                freqlem=freqlem,
+                source="lexique",
+                cgram="NOM",
+            ))
+            # Add feminine form
+            vocab.append(VocabEntry(
+                french=f"une {lemme}",
+                wordtype="f",
+                notes="common gender",
+                freqlem=freqlem,
+                source="lexique",
+                cgram="NOM",
+            ))
+            continue
+
+        genre = str(genre).strip()
         french = format_noun(lemme, genre)
         wordtype = "m" if genre == "m" else "f" if genre == "f" else "m/f"
 
@@ -349,6 +377,9 @@ def process_nouns(
             source="lexique",
             cgram="NOM",
         ))
+
+    if nan_genre_count:
+        print(f"  INFO: {nan_genre_count} nouns with NaN genre -> created both un/une forms")
 
     # Add feminine profession forms
     for row in professions_f:
@@ -623,7 +654,10 @@ def process_vocabulary_fixes(entries: list[dict]) -> list[VocabEntry]:
             french = format_noun(lemme, wordtype)
         elif wordtype in ("m pl", "f pl"):
             # Pluralia tantum - use "les" or "des"
-            if lemme in ("vacances",):
+            # If lemme already starts with article, use as-is
+            if lemme.startswith(("les ", "des ", "l'")):
+                french = lemme
+            elif lemme in ("vacances", "chips"):
                 french = f"des {lemme}"
             else:
                 french = f"les {lemme}"
