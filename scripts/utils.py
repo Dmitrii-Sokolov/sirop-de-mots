@@ -57,6 +57,10 @@ def slugify(text: str, max_length: int = MAX_SLUG_LENGTH) -> str:
     if len(slug) > max_length:
         slug = slug[:max_length].rstrip('_')
 
+    # Prefix reserved Windows filenames (aux, nul, con, prn, com1-9, lpt1-9)
+    if re.match(r'^(aux|nul|con|prn|com[1-9]|lpt[1-9])$', slug):
+        slug = f"w_{slug}"
+
     return slug
 
 
