@@ -322,6 +322,7 @@ def process_nouns(
     entries: list[dict],
     blacklist: set[str],
     professions_f: list[dict],
+    fixes_lemmes: set[str] | None = None,
 ) -> list[VocabEntry]:
     """Process NOM category."""
     import pandas as pd
@@ -329,6 +330,7 @@ def process_nouns(
     vocab = []
     seen = set()
     nan_genre_count = 0
+    skipped_fixes = 0
 
     # Add regular nouns
     for row in entries:
@@ -342,9 +344,12 @@ def process_nouns(
         genre = row.get("genre", "")
         freqlem = float(row.get("freqlem", 0) or 0)
 
-        # For NaN/empty genre: treat as common gender, create both m and f entries
-        # This handles epicene nouns (enfant, élève, artiste) and homonyms
+        # For NaN/empty genre: skip if already covered by vocabulary_fixes,
+        # otherwise treat as common gender and create both m and f entries
         if pd.isna(genre) or str(genre).strip() in ("", "nan"):
+            if fixes_lemmes and lemme.lower() in fixes_lemmes:
+                skipped_fixes += 1
+                continue
             nan_genre_count += 1
             # Add masculine form
             vocab.append(VocabEntry(
@@ -380,6 +385,8 @@ def process_nouns(
 
     if nan_genre_count:
         print(f"  INFO: {nan_genre_count} nouns with NaN genre -> created both un/une forms")
+    if skipped_fixes:
+        print(f"  INFO: {skipped_fixes} nouns with NaN genre skipped (covered by vocabulary_fixes)")
 
     # Add feminine profession forms
     for row in professions_f:
@@ -780,7 +787,8 @@ def main():
     # Nouns
     print("\nProcessing NOM...")
     nom_entries = load_category(CATEGORIES_DIR / "NOM.csv")
-    nom_vocab = process_nouns(nom_entries, blacklist, professions_f)
+    fixes_lemmes = {row["lemme"].strip().lower() for row in vocabulary_fixes}
+    nom_vocab = process_nouns(nom_entries, blacklist, professions_f, fixes_lemmes)
     print(f"  NOM: {len(nom_vocab)} entries")
     all_vocab.extend(nom_vocab)
 

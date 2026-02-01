@@ -66,7 +66,7 @@ sortir,выходить,On <b>sort</b> prendre une marche ?,<b>Выйдем</b> 
 arrêter,останавливать(ся),"<b>Arrête</b> de t'inquiéter, tout ira bien.","<b>Перестань</b> волноваться, всё будет хорошо.",🛑,v
 une fille,дочь; девушка,Ma <b>fille</b> apprend le français à l'école.,Моя <b>дочь</b> учит французский в школе.,👧,f
 un oeil,глаз (мн. yeux),J'ai mal à l'<b>œil</b> — je dois voir un optométriste.,У меня болит <b>глаз</b> — нужно к офтальмологу.,👁️,m
-un enfant,ребёнок,Cet <b>enfant</b> parle déjà trois langues.,Этот <b>ребёнок</b> уже говорит на трёх языках.,👶,m
+un enfant,ребёнок,Cet <b>enfant</b> parle déjà trois langues.,Этот <b>ребёнок</b> уже говорит на трёх языках.,👶,m/f
 "sûr, sûre",уверенный,Tu es <b>sûr</b> que c'est le bon chemin ?,"Ты <b>уверен</b>, что это правильная дорога?",✅,adj
 entendre,слышать,J'<b>entends</b> mes voisins parler en québécois.,"Я <b>слышу</b>, как соседи говорят на квебекском.",👂,v
 une mère,мать,Ma <b>mère</b> me manque beaucoup.,Я очень скучаю по <b>маме</b>.,👩‍👧,f
@@ -144,6 +144,7 @@ un bonjour,здравствуй; привет,"<b>Bonjour</b>, comment ça va ?"
 une histoire,история; рассказ,C'est une longue <b>histoire</b> — assieds-toi.,Это длинная <b>история</b> — садись.,📖,f
 une terre,земля,La <b>terre</b> est gelée en hiver au Québec.,Зимой в Квебеке <b>земля</b> замёрзшая.,🌍,f
 s'asseoir,садиться,"<b>Assieds</b>-toi, on va parler.","<b>Садись</b>, поговорим.",🪑,v
+asseoir,сажать; усаживать,<b>Assieds</b> le bébé sur la chaise.,<b>Посади</b> малыша на стул.,🪑,v
 un problème,проблема,J'ai un <b>problème</b> avec mon permis de travail.,У меня <b>проблема</b> с разрешением на работу.,⚠️,m
 marcher,идти пешком; работать (о механизме),Le wifi ne <b>marche</b> pas bien ici.,WiFi здесь плохо <b>работает</b>.,🚶,v
 changer,менять(ся),Le temps <b>change</b> vite au Québec.,Погода в Квебеке быстро <b>меняется</b>.,🔄,v
@@ -375,6 +376,7 @@ couper,резать,"<b>Coupe</b> le pain, s'il te plaît.","<b>Порежь</b>
 un cheval,лошадь,Mon fils adore les <b>chevaux</b>.,Мой сын обожает <b>лошадей</b>.,🐴,m
 approcher,приближаться,L'hiver <b>approche</b> vite au Québec.,Зима в Квебеке быстро <b>приближается</b>.,➡️,v
 toute,вся; целая,<b>Toute</b> la famille est réunie.,<b>Вся</b> семья в сборе.,👨‍👩‍👧‍👦,adj
+taire,скрывать; замалчивать,Il a <b>tu</b> la vérité.,Он <b>скрыл</b> правду.,🤫,v
 se taire,молчать,"<b>Tais</b>-toi, j'essaie de me concentrer.","<b>Помолчи</b>, я пытаюсь сосредоточиться.",🤫,v
 libre,свободный,Tu es <b>libre</b> ce soir ?,Ты <b>свободен</b> сегодня вечером?,🕊️,adj
 une musique,музыка,J'écoute de la <b>musique</b> en travaillant.,"Я слушаю <b>музыку</b>, когда работаю.",🎵,f
@@ -631,7 +633,7 @@ un goût,вкус,Ce plat a un bon <b>goût</b>.,У этого блюда хор
 un bas,низ; нижняя часть,Le <b>bas</b> de la page.,<b>Низ</b> страницы.,⬇️,m
 une classe,класс,Il est en première <b>classe</b>.,Он в первом <b>классе</b>.,🏫,f
 reposer,отдыхать,Je dois me <b>reposer</b> après le travail.,Мне нужно <b>отдохнуть</b> после работы.,😴,v
-un gosse,ребёнок (разг.),Les <b>gosses</b> jouent dans la cour.,<b>Дети</b> играют во дворе.,👶,m
+un gosse,ребёнок (разг.),Les <b>gosses</b> jouent dans la cour.,<b>Дети</b> играют во дворе.,👶,m/f
 une preuve,доказательство,Tu as une <b>preuve</b> de ce que tu dis ?,У тебя есть <b>доказательство</b>?,📋,f
 un été,лето,"L'<b>été</b> dernier, j'étais au Québec.",<b>Прошлым летом</b> я был в Квебеке.,☀️,m
 un ton,тон,Parle-moi sur un autre <b>ton</b> !,Говори со мной другим <b>тоном</b>!,🔊,m
@@ -672,7 +674,7 @@ une liberté,свобода,La <b>liberté</b> est importante.,<b>Свобода
 respirer,дышать,<b>Respire</b> profondément.,<b>Дыши</b> глубоко.,🌬️,v
 un agent,агент; полицейский,L'<b>agent</b> m'a demandé mes papiers.,<b>Полицейский</b> попросил мои документы.,👮,m
 tel,такой,Un <b>tel</b> comportement est inacceptable.,<b>Такое</b> поведение неприемлемо.,👆,adj
-un camarade,товарищ,C'est mon <b>camarade</b> de classe.,Это мой <b>одноклассник</b>.,👋,m
+un camarade,товарищ,C'est mon <b>camarade</b> de classe.,Это мой <b>одноклассник</b>.,👋,m/f
 un conseil,совет,Je te donne un bon <b>conseil</b>.,Даю тебе хороший <b>совет</b>.,💡,m
 un poste,пост; должность,Il a obtenu un <b>poste</b> important.,Он получил важную <b>должность</b>.,💼,m
 une poste,почта,Je vais à la <b>poste</b> envoyer un colis.,Я иду на <b>почту</b> отправить посылку.,📮,f
@@ -685,8 +687,8 @@ durer,длиться,Le film <b>dure</b> deux heures.,Фильм <b>длится
 obtenir,получать,J'ai <b>obtenu</b> mon permis de travail.,Я <b>получил</b> разрешение на работу.,📄,v
 un ventre,живот,J'ai mal au <b>ventre</b>.,У меня болит <b>живот</b>.,🤢,m
 "génial, géniale",гениальный; отличный (разг.),C'est une idée <b>géniale</b> !,Это <b>отличная</b> идея!,💡,adj
-dégager,освобождать; убирать,<b>Dégage</b> de là !,<b>Уходи</b> отсюда!,👋,v
 un professeur,преподаватель,Le <b>professeur</b> explique bien.,<b>Преподаватель</b> хорошо объясняет.,👨‍🏫,m
+dégager,освобождать; убирать,<b>Dégage</b> de là !,<b>Уходи</b> отсюда!,👋,v
 un calme,спокойствие,Le <b>calme</b> de la campagne me plaît.,Мне нравится <b>спокойствие</b> деревни.,😌,m
 baisser,опускать; снижать,"<b>Baisse</b> le volume, s'il te plaît.","<b>Убавь</b> громкость, пожалуйста.",⬇️,v
 un quartier,квартал; район,C'est un <b>quartier</b> tranquille.,Это тихий <b>район</b>.,🏘️,m
@@ -739,3 +741,47 @@ un rôle,роль,Il joue le <b>rôle</b> principal dans le film.,Он игра�
 un cousin,кузен; двоюродный брат,Mon <b>cousin</b> vit à Québec.,Мой <b>кузен</b> живёт в Квебеке.,👦,m
 un art,искусство,L'<b>art</b> québécois est très riche.,Квебекское <b>искусство</b> очень богатое.,🎨,m
 un effort,усилие,"Fais un <b>effort</b>, tu peux y arriver !","Сделай <b>усилие</b>, ты справишься!",💪,m
+"dangereux, dangereuse",опасный,C'est un quartier <b>dangereux</b>.,Это <b>опасный</b> район.,⚠️,adj
+mériter,заслуживать,Tu <b>mérites</b> une pause.,Ты <b>заслуживаешь</b> отдых.,🏆,v
+blesser,ранить,Je ne voulais pas te <b>blesser</b>.,Я не хотел тебя <b>обидеть</b>.,😢,v
+une occasion,возможность; случай,C'est une bonne <b>occasion</b>.,Это хорошая <b>возможность</b>.,✨,f
+allumer,включать; зажигать,"<b>Allume</b> la lumière, s'il te plaît.","<b>Включи</b> свет, пожалуйста.",💡,v
+un espoir,надежда,J'ai <b>espoir</b> que tout ira bien.,"Я <b>надеюсь</b>, что всё будет хорошо.",🤞,m
+partager,делить(ся),Je veux <b>partager</b> cette nouvelle avec toi.,Хочу <b>поделиться</b> этой новостью с тобой.,🤝,v
+un escalier,лестница,Monte l'<b>escalier</b> jusqu'au deuxième étage.,Поднимись по <b>лестнице</b> на второй этаж.,🪜,m
+un dimanche,воскресенье,"Le <b>dimanche</b>, je me repose.",В <b>воскресенье</b> я отдыхаю.,📅,m
+un fil,нитка; провод,Je n'ai plus de <b>fil</b> pour coudre.,У меня больше нет <b>нитки</b> для шитья.,🧵,m
+un fou,сумасшедший; безумец,Il conduit comme un <b>fou</b>.,Он водит как <b>сумасшедший</b>.,🤪,m
+étonner,удивлять,Ça m'<b>étonne</b> qu'il soit venu.,"Меня <b>удивляет</b>, что он пришёл.",😮,v
+engager,нанимать; обязывать,L'entreprise a <b>engagé</b> dix personnes.,Компания <b>наняла</b> десять человек.,🤝,v
+un morceau,кусок,Tu veux un <b>morceau</b> de gâteau ?,Хочешь <b>кусок</b> торта?,🍰,m
+un hasard,случай; случайность,"Par <b>hasard</b>, je l'ai rencontré dans la rue.",<b>Случайно</b> я его встретил на улице.,🎲,m
+une île,остров,J'ai visité une petite <b>île</b> au Québec.,Я посетил маленький <b>остров</b> в Квебеке.,🏝️,f
+un mètre,метр,Il mesure un <b>mètre</b> quatre-vingts.,Его рост — <b>метр</b> восемьдесят.,📏,m
+éloigner,отдалять,<b>Éloigne</b>-toi du feu.,<b>Отойди</b> от огня.,➡️,v
+un diable,дьявол; чёрт,Qu'est-ce que c'est que ce <b>diable</b> ?,Что это за <b>чёртовщина</b>?,😈,m
+un bain,ванна,Je vais prendre un <b>bain</b> chaud.,Я приму горячую <b>ванну</b>.,🛁,m
+arracher,вырывать,Le vent a <b>arraché</b> l'affiche.,Ветер <b>сорвал</b> плакат.,💨,v
+prévoir,предвидеть,La météo <b>prévoit</b> de la neige.,Погода <b>предвещает</b> снег.,🔮,v
+énorme,огромный,C'est une <b>énorme</b> erreur.,Это <b>огромная</b> ошибка.,🐘,adj
+mêler,смешивать,Ne te <b>mêle</b> pas de mes affaires.,Не <b>вмешивайся</b> в мои дела.,🔀,v
+diriger,управлять; руководить,Elle <b>dirige</b> une grande entreprise.,Она <b>руководит</b> большой компанией.,👩‍💼,v
+un objet,предмет; объект,C'est un <b>objet</b> précieux.,Это ценный <b>предмет</b>.,📦,m
+un lendemain,следующий день,"Le <b>lendemain</b>, il a neigé.",На <b>следующий день</b> выпал снег.,📅,m
+couler,течь; тонуть,L'eau <b>coule</b> du robinet.,Вода <b>течёт</b> из крана.,💧,v
+un champ,поле,Les <b>champs</b> sont couverts de neige.,<b>Поля</b> покрыты снегом.,🌾,m
+"ouvert, ouverte","открытый, -ая",Le magasin est <b>ouvert</b>.,Магазин <b>открыт</b>.,🔓,adj
+profiter,пользоваться; наслаждаться,<b>Profite</b> bien de tes vacances !,Хорошо <b>отдохни</b> в отпуске!,🎉,v
+telle,такая,Une <b>telle</b> situation est rare.,<b>Такая</b> ситуация редка.,👆,adj
+une pluie,дождь,La <b>pluie</b> va bientôt arriver.,Скоро пойдёт <b>дождь</b>.,🌧️,f
+fuir,бежать; избегать,Il a <b>fui</b> le pays.,Он <b>сбежал</b> из страны.,🏃,v
+un rendez-vous,встреча; свидание,J'ai un <b>rendez-vous</b> à quatorze heures.,У меня <b>встреча</b> в два часа.,📅,m
+une action,действие; акция,C'est une <b>action</b> courageuse.,Это смелое <b>действие</b>.,⚡,f
+une glace,лёд; мороженое; зеркало,Tu veux une <b>glace</b> au chocolat ?,Хочешь шоколадное <b>мороженое</b>?,🍦,f
+une moitié,половина,J'ai mangé la <b>moitié</b> du gâteau.,Я съел <b>половину</b> торта.,½,f
+saisir,хватать; понимать,Je n'ai pas <b>saisi</b> ce qu'il a dit.,"Я не <b>понял</b>, что он сказал.",✊,v
+une entrée,вход; входное блюдо,L'<b>entrée</b> est gratuite.,<b>Вход</b> бесплатный.,🚪,f
+parvenir,достигать; удаваться,Je suis <b>parvenu</b> à le convaincre.,Мне <b>удалось</b> его убедить.,🎯,v
+"lourd, lourde","тяжёлый, -ая",Ce sac est trop <b>lourd</b>.,Эта сумка слишком <b>тяжёлая</b>.,🏋️,adj
+fixer,фиксировать; смотреть пристально,Il me <b>fixe</b> du regard.,Он <b>смотрит</b> на меня пристально.,👀,v
+se dépêcher,торопиться,"<b>Dépêche</b>-toi, on va être en retard !","<b>Торопись</b>, мы опоздаем!",🏃,v

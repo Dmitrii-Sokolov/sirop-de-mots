@@ -135,8 +135,17 @@ def merge_with_skeleton(batches: pd.DataFrame, skeleton: pd.DataFrame) -> pd.Dat
         # Try exact match first
         if french in exact_lookup:
             wt, notes, freq, rank = exact_lookup[french]
-        # For nouns with articles, require exact match to prevent
-        # substantivized forms from matching base word (un malade -> malade/adj)
+        # For nouns with articles, try epicene form (un X -> un/une X)
+        # before giving up. This prevents substantivized forms from matching
+        # base adjectives (un malade -> malade/adj) while still matching
+        # common-gender nouns (un enfant -> un/une enfant).
+        elif french.startswith(('un ', 'une ')):
+            epicene_key = f"un/une {french.split(' ', 1)[1]}"
+            if epicene_key in exact_lookup:
+                wt, notes, freq, rank = exact_lookup[epicene_key]
+            else:
+                unmatched.append(french)
+                continue
         elif french.startswith(NOUN_PREFIXES):
             unmatched.append(french)
             continue

@@ -76,6 +76,7 @@ VOCAB_CSS = """
 .main-word.gender-num { color: #6a1b9a; background: linear-gradient(135deg, #f3e5f5 0%, #ce93d8 100%); }
 .main-word.gender-interj { color: #d84315; background: linear-gradient(135deg, #fbe9e7 0%, #ffccbc 100%); }
 .main-word.gender-expr { color: #00695c; background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%); }
+.main-word.gender-m_f { color: #4a148c; background: linear-gradient(135deg, #e3f2fd 0%, #fce4ec 100%); }
 .gender-tag {
     font-size: 14px;
     padding: 3px 10px;
@@ -95,6 +96,7 @@ VOCAB_CSS = """
 .gender-tag.gender-num { background-color: #6a1b9a; color: white; }
 .gender-tag.gender-interj { background-color: #d84315; color: white; }
 .gender-tag.gender-expr { background-color: #00695c; color: white; }
+.gender-tag.gender-m_f { background: linear-gradient(135deg, #1565c0 50%, #c2185b 50%); color: white; }
 .gender-tag.gender-other { background-color: #616161; color: white; }
 .answer-word { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); color: #2e7d32; }
 .example {
