@@ -34,7 +34,7 @@ from utils import slugify, get_audio_prefix
 VALID_WORD_TYPES = {
     'm', 'f', 'm/f', 'v', 'adj', 'adv', 'conj', 'prep',
     'pron', 'num', 'interj', 'expr', 'loc', 'art',
-    'f pl', 'm pl', 'loc adv',
+    'f_pl', 'm_pl', 'loc_adv',
 }
 
 # Vocabulary-only decks (for strict duplicate checking)
