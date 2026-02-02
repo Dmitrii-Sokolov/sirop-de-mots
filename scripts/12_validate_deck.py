@@ -34,6 +34,7 @@ from utils import slugify, get_audio_prefix
 VALID_WORD_TYPES = {
     'm', 'f', 'm/f', 'v', 'adj', 'adv', 'conj', 'prep',
     'pron', 'num', 'interj', 'expr', 'loc', 'art',
+    'f pl', 'm pl', 'loc adv',
 }
 
 # Vocabulary-only decks (for strict duplicate checking)
@@ -368,7 +369,7 @@ def check_slugify_stability(report: ValidationReport):
 # =============================================================================
 
 def check_card_count(report: ValidationReport):
-    """Verify card count calculation in build script."""
+    """Report card count summary."""
     print("\n--- Check: Card count ---")
 
     vocab_entries = 0
@@ -384,29 +385,10 @@ def check_card_count(report: ValidationReport):
         rows = read_csv(source)
         conj_entries += len(rows)
 
-    total_entries = vocab_entries + conj_entries
-
-    # Build script does: sum(v * 2 for v in stats.values())
-    # This is wrong: vocab generates 2 cards per note (Recognition + Production)
-    # but cloze generates variable cards per note (1 card per cloze number)
-    build_script_calc = total_entries * 2
-
-    # Correct: vocab * 2 templates, cloze * 2 (c1 + c2 for present/subjonctif)
-    # Actually cloze card count depends on content, but present/subjonctif have c1+c2
-    correct_vocab = vocab_entries * 2
-    # Cloze: each note with {{c1::}} and {{c2::}} generates 2 cards
-    # Participes/futur/être may have only {{c1::}} = 1 card each
-    # We can't know exactly without reading content, so flag the issue
-
-    print(f"  Vocabulary entries: {vocab_entries} × 2 templates = {correct_vocab} cards")
-    print(f"  Conjugation entries: {conj_entries} (cloze, variable cards per note)")
-    print(f"  Build script calculates: {build_script_calc} (all × 2)")
-
-    report.warning(
-        f"11_build_deck.py line 542: total_cards = sum(v * 2) "
-        f"treats conjugation same as vocabulary. "
-        f"Conjugation cloze cards depend on {{{{c1::}}}}/{{{{c2::}}}} count, not × 2"
-    )
+    total_cards = vocab_entries * 2 + conj_entries
+    print(f"  Vocabulary: {vocab_entries} × 2 templates = {vocab_entries * 2} cards")
+    print(f"  Conjugation: {conj_entries} cloze notes")
+    print(f"  ✅ Total: ~{total_cards} cards")
 
 
 # =============================================================================

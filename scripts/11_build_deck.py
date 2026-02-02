@@ -77,6 +77,9 @@ VOCAB_CSS = """
 .main-word.gender-interj { color: #d84315; background: linear-gradient(135deg, #fbe9e7 0%, #ffccbc 100%); }
 .main-word.gender-expr { color: #00695c; background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%); }
 .main-word.gender-m_f { color: #4a148c; background: linear-gradient(135deg, #e3f2fd 0%, #fce4ec 100%); }
+.main-word.gender-f_pl { color: #c2185b; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); }
+.main-word.gender-m_pl { color: #1565c0; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
+.main-word.gender-loc_adv { color: #00838f; background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); }
 .gender-tag {
     font-size: 14px;
     padding: 3px 10px;
@@ -97,6 +100,9 @@ VOCAB_CSS = """
 .gender-tag.gender-interj { background-color: #d84315; color: white; }
 .gender-tag.gender-expr { background-color: #00695c; color: white; }
 .gender-tag.gender-m_f { background: linear-gradient(135deg, #1565c0 50%, #c2185b 50%); color: white; }
+.gender-tag.gender-f_pl { background-color: #c2185b; color: white; }
+.gender-tag.gender-m_pl { background-color: #1565c0; color: white; }
+.gender-tag.gender-loc_adv { background-color: #00838f; color: white; }
 .gender-tag.gender-other { background-color: #616161; color: white; }
 .answer-word { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); color: #2e7d32; }
 .example {
@@ -151,10 +157,10 @@ RECOG_FRONT = """
 <div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
 <script>
 (function() {
-    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_');
+    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_').replace(/\s+/g, '_');
     var mw = document.getElementById('main-word');
     var gt = document.getElementById('gender-tag');
-    var types = ['m','f','m_f','v','adj','adv','conj','prep','pron','num','interj','expr'];
+    var types = ['m','f','m_f','m_pl','f_pl','v','adj','adv','loc_adv','conj','prep','pron','num','interj','expr'];
     if (types.includes(g)) { mw.classList.add('gender-' + g); gt.classList.add('gender-' + g); }
     else { gt.classList.add('gender-other'); }
 })();
@@ -171,10 +177,10 @@ RECOG_BACK = """
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 <script>
 (function() {
-    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_');
+    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_').replace(/\s+/g, '_');
     var mw = document.getElementById('main-word');
     var gt = document.getElementById('gender-tag');
-    var types = ['m','f','m_f','v','adj','adv','conj','prep','pron','num','interj','expr'];
+    var types = ['m','f','m_f','m_pl','f_pl','v','adj','adv','loc_adv','conj','prep','pron','num','interj','expr'];
     if (types.includes(g)) { mw.classList.add('gender-' + g); gt.classList.add('gender-' + g); }
     else { gt.classList.add('gender-other'); }
 })();
@@ -197,10 +203,10 @@ PROD_BACK = """
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 <script>
 (function() {
-    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_');
+    var g = '{{WordType}}'.trim().toLowerCase().replace('/', '_').replace(/\s+/g, '_');
     var mw = document.getElementById('main-word');
     var gt = document.getElementById('gender-tag');
-    var types = ['m','f','m_f','v','adj','adv','conj','prep','pron','num','interj','expr'];
+    var types = ['m','f','m_f','m_pl','f_pl','v','adj','adv','loc_adv','conj','prep','pron','num','interj','expr'];
     if (types.includes(g)) { mw.classList.add('gender-' + g); gt.classList.add('gender-' + g); }
     else { gt.classList.add('gender-other'); }
 })();
@@ -539,12 +545,15 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
 
         # Summary
         total_entries = sum(stats.values())
-        total_cards = sum(v * 2 for v in stats.values())
+        conj_deck_names = set(CONJUGATION_DECKS.keys())
+        vocab_entries = sum(v for k, v in stats.items() if k not in conj_deck_names)
+        conj_entries = sum(v for k, v in stats.items() if k in conj_deck_names)
+        total_cards = vocab_entries * 2 + conj_entries  # vocab: 2 templates, cloze: ~1 per note
 
         print(f"\nSaved: {output_path}")
         print(f"Decks: {len(decks)}")
         print(f"Entries: {total_entries}")
-        print(f"Cards: ~{total_cards}")
+        print(f"Cards: ~{total_cards} (vocab {vocab_entries}×2 + conj {conj_entries})")
         if media_files:
             print(f"Audio files: {len(media_files)}")
 
