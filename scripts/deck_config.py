@@ -58,7 +58,7 @@ CONTENT_DECKS = {
 CONJUGATION_DECKS = {
     f"{ROOT_DECK}::Conjugaison::Présent": {
         "source": "content/conjugation/present.csv",
-        "count": 360,
+        "count": 355,
         "description": "Present tense - 3rd group + stem-changing",
     },
     f"{ROOT_DECK}::Conjugaison::Subjonctif": {

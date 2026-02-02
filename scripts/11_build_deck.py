@@ -10,6 +10,7 @@ Usage:
 import argparse
 import csv
 import hashlib
+import re
 import shutil
 import sys
 import tempfile
@@ -37,6 +38,17 @@ VALID_WORD_TYPES = {
     'pron', 'num', 'interj', 'expr', 'loc', 'art',
     'f pl', 'm pl', 'loc adv',
 }
+
+# Regex for emoji detection (Unicode emoji ranges)
+_EMOJI_RE = re.compile(
+    r'[\U0001F300-\U0001F9FF\U00002702-\U000027B0\U0000FE00-\U0000FE0F'
+    r'\U0000200D\U00002600-\U000026FF\U0001FA00-\U0001FA6F\U0001FA70-\U0001FAFF]'
+)
+
+# Regex for HTML tags
+_HTML_TAG_RE = re.compile(r'<(/?)(\w+)[^>]*>')
+
+_CLOZE_RE = re.compile(r'\{\{c\d+::')
 
 
 class BuildErrors:
@@ -66,6 +78,22 @@ class BuildErrors:
             print(f"⚠️  {len(self.warnings)} warning(s)")
 
 
+def _check_html_balance(text: str) -> str | None:
+    """Return first unclosed/mismatched tag, or None if balanced."""
+    stack = []
+    for m in _HTML_TAG_RE.finditer(text):
+        is_close, tag = m.group(1), m.group(2).lower()
+        if is_close:
+            if not stack or stack[-1] != tag:
+                return f"</{tag}> without <{tag}>"
+            stack.pop()
+        else:
+            stack.append(tag)
+    if stack:
+        return f"unclosed <{stack[-1]}>"
+    return None
+
+
 def validate_vocab_rows(
     rows: list[dict],
     deck_short: str,
@@ -81,17 +109,52 @@ def validate_vocab_rows(
             errors.error(f"{deck_short}: empty French field")
             continue
 
-        # Duplicate check (within vocabulary group)
+        # [2] Duplicate check (within vocabulary group)
         seen_french[french] += 1
         if seen_french[french] == 2:
             errors.error(f"{deck_short}: duplicate «{french}»")
 
-        # WordType check
+        # [3] WordType check
         wt = row.get('WordType', '').strip()
         if wt and wt not in VALID_WORD_TYPES:
             errors.warning(f"{deck_short}: unknown WordType «{wt}» for «{french}»")
 
+        # [14] Empty required fields
+        russian = row.get('Russian', '').strip()
+        if not russian:
+            errors.error(f"{deck_short}: empty Russian for «{french}»")
+
+        # [15] Unclosed HTML in examples
+        for field in ('ExampleFrench', 'ExampleRussian'):
+            val = row.get(field, '')
+            if '<' in val:
+                issue = _check_html_balance(val)
+                if issue:
+                    errors.error(f"{deck_short}: {field} {issue} in «{french}»")
+
+        # [16] Emoji in French field
+        if _EMOJI_RE.search(french):
+            errors.error(f"{deck_short}: emoji in French field «{french}»")
+
     return rows
+
+
+def validate_conj_rows(rows: list[dict], deck_short: str, errors: BuildErrors):
+    """Validate conjugation rows — check cloze markup."""
+    for row in rows:
+        verb = row.get('Verb', '').strip()
+        if not verb:
+            errors.error(f"{deck_short}: empty Verb field")
+            continue
+
+        # [23] Cloze markup required in ConjSingular or ConjPlural
+        singular = row.get('ConjSingular', '')
+        plural = row.get('ConjPlural', '')
+        has_cloze = _CLOZE_RE.search(singular) or _CLOZE_RE.search(plural)
+        if not has_cloze:
+            errors.error(
+                f"{deck_short}: no {{{{c1::}}}} cloze markup for «{verb}»"
+            )
 
 
 def validate_count(actual: int, expected: int, deck_short: str, errors: BuildErrors):
@@ -445,11 +508,11 @@ def get_audio_field(
 # =============================================================================
 
 def read_csv(path: Path) -> list[dict]:
-    """Read CSV file and return list of dicts."""
+    """Read CSV file and return list of dicts. Handles BOM."""
     if not path.exists():
         print(f"  Warning: {path} not found")
         return []
-    with open(path, 'r', encoding='utf-8') as f:
+    with open(path, 'r', encoding='utf-8-sig') as f:
         return list(csv.DictReader(f))
 
 
@@ -466,6 +529,16 @@ def get_audio_context(
     if not include_audio:
         return None, ""
     return get_audio_dir(source), get_audio_prefix(source, CONTENT_DIR)
+
+
+def _note_guid(tag: str, key: str) -> str:
+    """
+    Generate unique guid from tag + key.
+
+    Prevents Anki from merging notes with same French/Verb across decks
+    (e.g. «barrer» in B1 vocabulary vs «barrer» in Expressions).
+    """
+    return hashlib.sha256(f"{tag}:{key}".encode()).hexdigest()[:10]
 
 
 def create_vocab_note(
@@ -496,7 +569,12 @@ def create_vocab_note(
         audio,
         audio_example,
     ]
-    return genanki.Note(model=vocab_model, fields=fields, tags=[tag])
+    return genanki.Note(
+        model=vocab_model,
+        fields=fields,
+        tags=[tag],
+        guid=_note_guid(tag, french),
+    )
 
 
 def create_conj_note(row: dict, tag: str) -> genanki.Note:
@@ -509,7 +587,12 @@ def create_conj_note(row: dict, tag: str) -> genanki.Note:
         row.get('Pattern', ''),
         row.get('Notes', ''),
     ]
-    return genanki.Note(model=cloze_model, fields=fields, tags=[tag])
+    return genanki.Note(
+        model=cloze_model,
+        fields=fields,
+        tags=[tag],
+        guid=_note_guid(tag, row.get('Verb', '')),
+    )
 
 
 # =============================================================================
@@ -603,11 +686,29 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
 
             validate_count(len(rows), info['count'], short, errors)
 
+            # [23] Only validate cloze for decks that use ConjSingular/ConjPlural
+            if 'ConjSingular' in (rows[0] if rows else {}):
+                validate_conj_rows(rows, short, errors)
+
             for row in rows:
                 deck.add_note(create_conj_note(row, tag))
 
             stats[deck_name] = len(rows)
             print(f"  {short}: {len(rows)} entries")
+
+        # [21] Check stable_id collisions across all decks and models
+        print("\n--- Integrity ---")
+        all_ids: dict[int, str] = {}
+        for name in decks:
+            sid = stable_id(name)
+            if sid in all_ids:
+                errors.error(f"stable_id collision: «{name}» and «{all_ids[sid]}»")
+            all_ids[sid] = name
+        for label, mid in [("vocab_model", VOCAB_MODEL_ID), ("cloze_model", CLOZE_MODEL_ID)]:
+            if mid in all_ids:
+                errors.error(f"stable_id collision: model {label} and deck «{all_ids[mid]}»")
+            all_ids[mid] = label
+        print(f"  ✅ {len(all_ids)} unique IDs (no collisions)")
 
         # Fail fast on validation errors
         if errors.has_errors():
@@ -624,6 +725,35 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             if total_audio_missing > 0:
                 print(f"  Missing: {total_audio_missing}/{total_audio_expected} word audio files")
             collector.report_issues()
+
+            # [19] Check for orphaned audio files
+            all_audio_dirs = set()
+            for deck_name, info in {**VOCABULARY_DECKS, **AUTRES_DECK, **CONTENT_DECKS}.items():
+                source = PROJECT_ROOT / info['source']
+                all_audio_dirs.add(get_audio_dir(source))
+
+            referenced_files: set[str] = set()
+            for deck_name, info in {**VOCABULARY_DECKS, **AUTRES_DECK, **CONTENT_DECKS}.items():
+                source = PROJECT_ROOT / info['source']
+                rows = read_csv(source)
+                audio_dir = get_audio_dir(source)
+                for row in rows:
+                    french = row.get('French', '').strip()
+                    if french:
+                        slug = slugify(french)
+                        referenced_files.add(str(audio_dir / f"{slug}.mp3"))
+                        referenced_files.add(str(audio_dir / f"{slug}_ex.mp3"))
+
+            orphaned = 0
+            for audio_dir in all_audio_dirs:
+                if audio_dir.exists():
+                    for mp3 in audio_dir.glob("*.mp3"):
+                        if str(mp3) not in referenced_files:
+                            orphaned += 1
+            if orphaned > 0:
+                errors.warning(f"{orphaned} orphaned audio files across content/audio/")
+            else:
+                print(f"  ✅ No orphaned audio files")
 
         # Create package
         print("\n--- Exporting ---")

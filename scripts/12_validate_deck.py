@@ -61,7 +61,7 @@ def read_csv(path: Path) -> list[dict]:
     """Read CSV, return list of dicts. Empty list if file missing."""
     if not path.exists():
         return []
-    with open(path, 'r', encoding='utf-8') as f:
+    with open(path, 'r', encoding='utf-8-sig') as f:
         return list(csv.DictReader(f))
 
 
