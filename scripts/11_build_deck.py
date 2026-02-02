@@ -27,7 +27,7 @@ from deck_config import (
     CONTENT_DECKS,
     CONJUGATION_DECKS,
 )
-from utils import slugify, get_audio_prefix
+from utils import slugify, get_audio_prefix, strip_html
 
 # =============================================================================
 # Validation
@@ -49,6 +49,9 @@ _EMOJI_RE = re.compile(
 _HTML_TAG_RE = re.compile(r'<(/?)(\w+)[^>]*>')
 
 _CLOZE_RE = re.compile(r'\{\{c\d+::')
+_CLOZE_BALANCED_RE = re.compile(r'\{\{c\d+::.*?\}\}')
+_CLOZE_OPEN_RE = re.compile(r'\{\{c\d+::')
+_BOLD_RE = re.compile(r'<b>(.*?)</b>', re.IGNORECASE)
 
 
 class BuildErrors:
@@ -136,6 +139,34 @@ def validate_vocab_rows(
         if _EMOJI_RE.search(french):
             errors.error(f"{deck_short}: emoji in French field «{french}»")
 
+        # [6/7] Bold text in ExampleFrench should relate to French field
+        example_fr = row.get('ExampleFrench', '')
+        if example_fr:
+            bold_matches = _BOLD_RE.findall(example_fr)
+            if not bold_matches:
+                errors.warning(
+                    f"{deck_short}: ExampleFrench has no <b> highlight for «{french}»"
+                )
+            else:
+                # Check that bold text relates to French field
+                # Skip verbs — conjugated forms differ too much from infinitive
+                wt = row.get('WordType', '').strip()
+                if wt != 'v':
+                    french_lower = strip_html(french).lower()
+                    bold_text = ' '.join(b.lower() for b in bold_matches)
+                    skip = {'un', 'une', 'le', 'la', 'les', 'l', 'des', 'du', 'de', 'd'}
+                    # Split on ; , / and whitespace to get individual keywords
+                    keywords = re.split(r"[;,/]\s*|\s+", french_lower)
+                    keywords = [k for k in keywords if k not in skip and len(k) > 2]
+
+                    if keywords:
+                        found = any(k in bold_text for k in keywords)
+                        if not found:
+                            errors.warning(
+                                f"{deck_short}: <b> text «{'|'.join(bold_matches[:2])}» "
+                                f"doesn't match «{french}»"
+                            )
+
     return rows
 
 
@@ -155,6 +186,16 @@ def validate_conj_rows(rows: list[dict], deck_short: str, errors: BuildErrors):
             errors.error(
                 f"{deck_short}: no {{{{c1::}}}} cloze markup for «{verb}»"
             )
+
+        # [8] Check cloze balance — every {{cN:: must have matching }}
+        for field_name, field_val in [('ConjSingular', singular), ('ConjPlural', plural)]:
+            open_count = len(_CLOZE_OPEN_RE.findall(field_val))
+            close_count = len(_CLOZE_BALANCED_RE.findall(field_val))
+            if open_count != close_count:
+                errors.error(
+                    f"{deck_short}: unbalanced cloze in {field_name} for «{verb}» "
+                    f"({open_count} opened, {close_count} closed)"
+                )
 
 
 def validate_count(actual: int, expected: int, deck_short: str, errors: BuildErrors):
