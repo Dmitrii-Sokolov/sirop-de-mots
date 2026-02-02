@@ -11,7 +11,9 @@ import argparse
 import csv
 import hashlib
 import shutil
+import sys
 import tempfile
+from collections import Counter
 from pathlib import Path
 
 import genanki
@@ -25,6 +27,81 @@ from deck_config import (
     CONJUGATION_DECKS,
 )
 from utils import slugify, get_audio_prefix
+
+# =============================================================================
+# Validation
+# =============================================================================
+
+VALID_WORD_TYPES = {
+    'm', 'f', 'm/f', 'v', 'adj', 'adv', 'conj', 'prep',
+    'pron', 'num', 'interj', 'expr', 'loc', 'art',
+    'f pl', 'm pl', 'loc adv',
+}
+
+
+class BuildErrors:
+    """Collects build validation errors."""
+
+    def __init__(self):
+        self.errors: list[str] = []
+        self.warnings: list[str] = []
+
+    def error(self, msg: str):
+        self.errors.append(msg)
+        print(f"  ❌ {msg}")
+
+    def warning(self, msg: str):
+        self.warnings.append(msg)
+        print(f"  ⚠️  {msg}")
+
+    def has_errors(self) -> bool:
+        return len(self.errors) > 0
+
+    def summary(self):
+        if self.errors:
+            print(f"\n❌ Build blocked: {len(self.errors)} error(s)")
+            for e in self.errors:
+                print(f"  {e}")
+        if self.warnings:
+            print(f"⚠️  {len(self.warnings)} warning(s)")
+
+
+def validate_vocab_rows(
+    rows: list[dict],
+    deck_short: str,
+    seen_french: Counter,
+    errors: BuildErrors,
+    include_audio: bool,
+    audio_dir: Path | None,
+):
+    """Validate vocabulary rows. Mutates seen_french counter."""
+    for row in rows:
+        french = row.get('French', '').strip()
+        if not french:
+            errors.error(f"{deck_short}: empty French field")
+            continue
+
+        # Duplicate check (within vocabulary group)
+        seen_french[french] += 1
+        if seen_french[french] == 2:
+            errors.error(f"{deck_short}: duplicate «{french}»")
+
+        # WordType check
+        wt = row.get('WordType', '').strip()
+        if wt and wt not in VALID_WORD_TYPES:
+            errors.warning(f"{deck_short}: unknown WordType «{wt}» for «{french}»")
+
+    return rows
+
+
+def validate_count(actual: int, expected: int, deck_short: str, errors: BuildErrors):
+    """Check actual row count against deck_config expected count."""
+    if actual != expected:
+        diff = actual - expected
+        sign = "+" if diff > 0 else ""
+        errors.error(
+            f"{deck_short}: expected {expected} rows, got {actual} ({sign}{diff})"
+        )
 
 # =============================================================================
 # IDs (must be stable for Anki updates)
@@ -152,7 +229,7 @@ CLOZE_CSS = """
 # Templates
 # =============================================================================
 
-RECOG_FRONT = """
+RECOG_FRONT = r"""
 <div class="direction">FR → RU</div>
 <div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
 <script>
@@ -167,7 +244,7 @@ RECOG_FRONT = """
 </script>
 """
 
-RECOG_BACK = """
+RECOG_BACK = r"""
 <div class="direction">FR → RU</div>
 <div class="main-word" id="main-word">{{French}}<span class="gender-tag" id="gender-tag">{{WordType}}</span>{{#Audio}}<span class="audio-inline">{{Audio}}</span>{{/Audio}}</div>
 {{#ExampleFrench}}<div class="example">{{ExampleFrench}}{{#AudioExample}}<span class="audio-inline">{{AudioExample}}</span>{{/AudioExample}}</div>{{/ExampleFrench}}
@@ -193,7 +270,7 @@ PROD_FRONT = """
 {{#ExampleRussian}}<div class="example">{{ExampleRussian}}</div>{{/ExampleRussian}}
 """
 
-PROD_BACK = """
+PROD_BACK = r"""
 <div class="direction">RU → FR</div>
 <div class="main-word">{{Russian}}</div>
 {{#ExampleRussian}}<div class="example">{{ExampleRussian}}</div>{{/ExampleRussian}}
@@ -441,12 +518,18 @@ def create_conj_note(row: dict, tag: str) -> genanki.Note:
 
 def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = True):
     """Build complete Anki deck."""
-    print("="*60)
+    print("=" * 60)
     print("Building Anki Deck")
-    print("="*60)
+    print("=" * 60)
 
+    errors = BuildErrors()
     decks = {}
     stats = {}
+    # Track duplicates within vocabulary group (A1-C1 + Autres)
+    seen_vocab: Counter = Counter()
+    # Track audio coverage
+    total_audio_expected = 0
+    total_audio_missing = 0
 
     # Use context manager for automatic cleanup of temp directory
     with tempfile.TemporaryDirectory(prefix="anki_audio_") as temp_dir_str:
@@ -459,57 +542,55 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
                 decks[name] = genanki.Deck(stable_id(name), name)
             return decks[name]
 
-        # Process vocabulary decks
-        print("\n--- Vocabulary ---")
-        for deck_name, info in VOCABULARY_DECKS.items():
+        def process_vocab_deck(deck_name, info, tag, seen_counter):
+            nonlocal total_audio_expected, total_audio_missing
             source = PROJECT_ROOT / info['source']
             rows = read_csv(source)
             deck = get_deck(deck_name)
-            tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
+            short = deck_name.split("::")[-1]
 
+            validate_count(len(rows), info['count'], short, errors)
             audio_dir, audio_prefix = get_audio_context(source, include_audio)
+            validate_vocab_rows(rows, short, seen_counter, errors, include_audio, audio_dir)
 
-            for row in rows:
-                deck.add_note(create_vocab_note(
-                    row, tag, audio_dir, audio_prefix, collector
-                ))
-
-            stats[deck_name] = len(rows)
-            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
-
-        # Process Autres deck
-        for deck_name, info in AUTRES_DECK.items():
-            source = PROJECT_ROOT / info['source']
-            rows = read_csv(source)
-            deck = get_deck(deck_name)
-            audio_dir, audio_prefix = get_audio_context(source, include_audio)
-
-            for row in rows:
-                deck.add_note(create_vocab_note(
-                    row, 'autres', audio_dir, audio_prefix, collector
-                ))
-
-            stats[deck_name] = len(rows)
-            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
-
-        # Process content decks (expressions, quebecismes)
-        print("\n--- Content ---")
-        for deck_name, info in CONTENT_DECKS.items():
-            source = PROJECT_ROOT / info['source']
-            rows = read_csv(source)
-            deck = get_deck(deck_name)
-            tag = deck_name.split("::")[-1].lower()
-            audio_dir, audio_prefix = get_audio_context(source, include_audio)
-
+            deck_missing = 0
             for row in rows:
                 if not row.get('WordType'):
                     row['WordType'] = 'expr'
-                deck.add_note(create_vocab_note(
-                    row, tag, audio_dir, audio_prefix, collector
-                ))
+                note = create_vocab_note(row, tag, audio_dir, audio_prefix, collector)
+                deck.add_note(note)
+
+                # Track audio coverage
+                if include_audio and audio_dir:
+                    total_audio_expected += 1
+                    french = row.get('French', '').strip()
+                    if french:
+                        slug = slugify(french)
+                        if not (audio_dir / f"{slug}.mp3").exists():
+                            deck_missing += 1
+
+            if deck_missing > 0:
+                errors.warning(f"{short}: {deck_missing} entries missing word audio")
+            total_audio_missing += deck_missing
 
             stats[deck_name] = len(rows)
-            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+            print(f"  {short}: {len(rows)} entries")
+
+        # Process vocabulary decks (shared duplicate tracker)
+        print("\n--- Vocabulary ---")
+        for deck_name, info in VOCABULARY_DECKS.items():
+            tag = deck_name.split("::")[-1].lower().replace(" ", "_").replace("+", "plus")
+            process_vocab_deck(deck_name, info, tag, seen_vocab)
+
+        for deck_name, info in AUTRES_DECK.items():
+            process_vocab_deck(deck_name, info, 'autres', seen_vocab)
+
+        # Content decks (separate duplicate trackers — polysemy is expected)
+        print("\n--- Content ---")
+        for deck_name, info in CONTENT_DECKS.items():
+            tag = deck_name.split("::")[-1].lower()
+            seen_content: Counter = Counter()
+            process_vocab_deck(deck_name, info, tag, seen_content)
 
         # Process conjugation decks
         print("\n--- Conjugation ---")
@@ -517,13 +598,22 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             source = PROJECT_ROOT / info['source']
             rows = read_csv(source)
             deck = get_deck(deck_name)
-            tag = deck_name.split("::")[-1].lower().replace(" ", "_")
+            short = deck_name.split("::")[-1]
+            tag = short.lower().replace(" ", "_")
+
+            validate_count(len(rows), info['count'], short, errors)
 
             for row in rows:
                 deck.add_note(create_conj_note(row, tag))
 
             stats[deck_name] = len(rows)
-            print(f"  {deck_name.split('::')[-1]}: {len(rows)} entries")
+            print(f"  {short}: {len(rows)} entries")
+
+        # Fail fast on validation errors
+        if errors.has_errors():
+            errors.summary()
+            print("\nBuild aborted. Fix errors above and retry.")
+            sys.exit(1)
 
         # Collect media files with unique names
         media_files: list[str] = []
@@ -531,6 +621,8 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
             print(f"\n--- Audio ---")
             media_files = collector.get_media_paths()
             print(f"  Collected {len(media_files)} audio files")
+            if total_audio_missing > 0:
+                print(f"  Missing: {total_audio_missing}/{total_audio_expected} word audio files")
             collector.report_issues()
 
         # Create package
@@ -548,7 +640,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
         conj_deck_names = set(CONJUGATION_DECKS.keys())
         vocab_entries = sum(v for k, v in stats.items() if k not in conj_deck_names)
         conj_entries = sum(v for k, v in stats.items() if k in conj_deck_names)
-        total_cards = vocab_entries * 2 + conj_entries  # vocab: 2 templates, cloze: ~1 per note
+        total_cards = vocab_entries * 2 + conj_entries
 
         print(f"\nSaved: {output_path}")
         print(f"Decks: {len(decks)}")
@@ -556,6 +648,7 @@ def build_deck(output_path: str = "French_TEF_TCF.apkg", include_audio: bool = T
         print(f"Cards: ~{total_cards} (vocab {vocab_entries}×2 + conj {conj_entries})")
         if media_files:
             print(f"Audio files: {len(media_files)}")
+        errors.summary()
 
         return stats
 
