@@ -35,7 +35,7 @@ VOCABULARY_DECKS = {
 AUTRES_DECK = {
     f"{ROOT_DECK}::Vocabulaire::Autres": {
         "source": "content/vocabulary/autres.csv",
-        "count": 781,
+        "count": 718,
         "description": "Adverbs, pronouns, prepositions, conjunctions, etc.",
     },
 }

@@ -8,17 +8,14 @@ from pathlib import Path
 # Maximum slug length to avoid filesystem issues (255 char limit minus prefix/suffix room)
 MAX_SLUG_LENGTH = 200
 
-# Accent map for French characters (lowercase only - input is lowercased first)
-ACCENT_MAP = {
-    'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e',
-    'à': 'a', 'â': 'a', 'ä': 'a',
-    'ù': 'u', 'û': 'u', 'ü': 'u',
-    'î': 'i', 'ï': 'i',
-    'ô': 'o', 'ö': 'o',
-    'ç': 'c',
+# Ligature expansion (only ligatures, accented chars are preserved in slugs)
+LIGATURE_MAP = {
     'œ': 'oe', 'æ': 'ae',
-    'ÿ': 'y',
 }
+
+# Characters allowed in slugs (lowercase ASCII + digits + French accented chars)
+SLUG_ALLOWED_RE = re.compile(r'[^a-z0-9àâäéèêëïîôùûüçÿ]+')
+
 
 
 def slugify(text: str, max_length: int = MAX_SLUG_LENGTH) -> str:
@@ -39,13 +36,13 @@ def slugify(text: str, max_length: int = MAX_SLUG_LENGTH) -> str:
     # Normalize apostrophes
     text = text.replace("'", "_").replace("'", "_")
 
-    # Lowercase first, then remove accents (handles uppercase accents too)
+    # Lowercase, expand ligatures only (preserve accented chars)
     slug = text.lower()
-    for accented, plain in ACCENT_MAP.items():
-        slug = slug.replace(accented, plain)
+    for ligature, expansion in LIGATURE_MAP.items():
+        slug = slug.replace(ligature, expansion)
 
-    # Replace spaces and special chars with underscore
-    slug = re.sub(r'[^a-z0-9]+', '_', slug)
+    # Replace non-allowed chars with underscore
+    slug = SLUG_ALLOWED_RE.sub('_', slug)
 
     # Remove leading/trailing underscores
     slug = slug.strip('_')

@@ -36,9 +36,20 @@ VALID_WORD_TYPES = {
     'pron', 'num', 'interj', 'expr', 'loc', 'art',
 }
 
+# Vocabulary-only decks (for strict duplicate checking)
+STRICT_VOCAB_CONFIGS = {**VOCABULARY_DECKS, **AUTRES_DECK}
+
 # All vocab/content deck configs (not conjugation)
-VOCAB_DECK_CONFIGS = {**VOCABULARY_DECKS, **AUTRES_DECK, **CONTENT_DECKS}
+VOCAB_DECK_CONFIGS = {**STRICT_VOCAB_CONFIGS, **CONTENT_DECKS}
 ALL_DECK_CONFIGS = {**VOCAB_DECK_CONFIGS, **CONJUGATION_DECKS}
+
+# Deck groups — duplicates within same group are errors,
+# cross-group duplicates are expected (polysemy/different context)
+DECK_GROUPS = {
+    'vocabulary': set(d.split("::")[-1] for d in STRICT_VOCAB_CONFIGS),
+    'expressions': {'Expressions'},
+    'quebecismes': {'Québécismes'},
+}
 
 
 # =============================================================================
@@ -106,23 +117,49 @@ def check_duplicates(report: ValidationReport):
             if french:
                 seen[french].append(short)
 
+    def get_group(deck: str) -> str:
+        for group, members in DECK_GROUPS.items():
+            if deck in members:
+                return group
+        return deck
+
     # Find words appearing in multiple decks
     cross_deck_dupes = {
         word: sources for word, sources in seen.items()
         if len(set(sources)) > 1
     }
+
+    # Separate same-group dupes (errors) from cross-group dupes (info)
+    same_group_dupes = {}
+    cross_group_dupes = {}
+    for word, sources in cross_deck_dupes.items():
+        groups = set(get_group(s) for s in set(sources))
+        if len(groups) == 1:
+            same_group_dupes[word] = sources
+        else:
+            cross_group_dupes[word] = sources
+
     # Find words duplicated within same deck
     intra_deck_dupes = {
         word: sources for word, sources in seen.items()
         if len(sources) > len(set(sources)) or (len(set(sources)) == 1 and len(sources) > 1)
     }
 
-    if cross_deck_dupes:
-        report.error(f"{len(cross_deck_dupes)} words appear in multiple decks")
-        for word, sources in sorted(cross_deck_dupes.items())[:10]:
+    if same_group_dupes:
+        report.error(f"{len(same_group_dupes)} words duplicated within same group")
+        for word, sources in sorted(same_group_dupes.items())[:10]:
             print(f"    «{word}» → {', '.join(sources)}")
-        if len(cross_deck_dupes) > 10:
-            print(f"    ... and {len(cross_deck_dupes) - 10} more")
+        if len(same_group_dupes) > 10:
+            print(f"    ... and {len(same_group_dupes) - 10} more")
+    else:
+        print("  ✅ No same-group duplicates")
+
+    if cross_group_dupes:
+        print(f"  ℹ️  {len(cross_group_dupes)} words shared across groups (polysemy, expected)")
+        for word, sources in sorted(cross_group_dupes.items())[:5]:
+            print(f"    «{word}» → {', '.join(sources)}")
+        if len(cross_group_dupes) > 5:
+            print(f"    ... and {len(cross_group_dupes) - 5} more")
     else:
         print("  ✅ No cross-deck duplicates")
 
