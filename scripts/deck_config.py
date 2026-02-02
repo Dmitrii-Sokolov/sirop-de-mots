@@ -16,17 +16,17 @@ VOCABULARY_DECKS = {
     },
     f"{ROOT_DECK}::Vocabulaire::B1": {
         "source": "content/vocabulary/b1.csv",
-        "count": 1854,
+        "count": 1850,
         "description": "Words 1001-3000 by frequency",
     },
     f"{ROOT_DECK}::Vocabulaire::B2": {
         "source": "content/vocabulary/b2.csv",
-        "count": 1814,
+        "count": 1805,
         "description": "Words 3001-5000 by frequency",
     },
     f"{ROOT_DECK}::Vocabulaire::C1+": {
         "source": "content/vocabulary/c1.csv",
-        "count": 5285,
+        "count": 5250,
         "description": "Words 5001+ by frequency",
     },
 }
@@ -35,7 +35,7 @@ VOCABULARY_DECKS = {
 AUTRES_DECK = {
     f"{ROOT_DECK}::Vocabulaire::Autres": {
         "source": "content/vocabulary/autres.csv",
-        "count": 718,
+        "count": 712,
         "description": "Adverbs, pronouns, prepositions, conjunctions, etc.",
     },
 }
@@ -44,12 +44,12 @@ AUTRES_DECK = {
 CONTENT_DECKS = {
     f"{ROOT_DECK}::Expressions": {
         "source": "content/expressions/all.csv",
-        "count": 469,
+        "count": 466,
         "description": "French expressions and idioms",
     },
     f"{ROOT_DECK}::Québécismes": {
         "source": "content/quebecismes/all.csv",
-        "count": 566,
+        "count": 540,
         "description": "Quebec French words",
     },
 }

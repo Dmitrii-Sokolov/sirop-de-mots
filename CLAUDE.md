@@ -40,21 +40,21 @@ Hierarchical deck organization by CEFR level:
 French TEF-TCF/
 ├── Vocabulaire/
 │   ├── A1-A2 (786)      ← NOM/VER/ADJ, top 1000 by frequency
-│   ├── B1 (1854)        ← NOM/VER/ADJ, 1001-3000
-│   ├── B2 (1814)        ← NOM/VER/ADJ, 3001-5000
-│   ├── C1+ (5285)       ← NOM/VER/ADJ, 5001+
-│   └── Autres (781)     ← adv, pron, prep, conj, interj, num
-├── Expressions (469)
-├── Québécismes (566)
+│   ├── B1 (1850)        ← NOM/VER/ADJ, 1001-3000
+│   ├── B2 (1805)        ← NOM/VER/ADJ, 3001-5000
+│   ├── C1+ (5250)       ← NOM/VER/ADJ, 5001+
+│   └── Autres (712)     ← adv, pron, prep, conj, interj, num
+├── Expressions (466)
+├── Québécismes (540)
 └── Conjugaison/
-    ├── Présent (341)
+    ├── Présent (355)
     ├── Subjonctif (10)
     ├── Participes (110)
     ├── Futur (22)
     └── Verbes être (17)
 ```
 
-**Total: 12074 cards** (10520 vocab + 1035 expr/qc + 519 conj)
+**Total: 11923 cards** (10403 vocab + 1006 expr/qc + 514 conj)
 **Audio: 23104 mp3 files** (793 MB, fr-CA voices via Azure TTS)
 
 Vocabulary files: `content/vocabulary/{a1_a2,b1,b2,c1,autres}.csv`
@@ -69,7 +69,7 @@ Two note types in `French_Learning_Deck_v3.apkg`:
 - Fields: French, Russian, WordType, ExampleFrench, ExampleRussian, Notes, Emoji, Audio, AudioExample
 - Nouns must include article: `une maison`, `l'immigration (f)`
 - Adjectives with both forms: `grand, grande` (variable) or `possible` (invariable)
-- WordType codes: `m`/`f` (noun gender), `v`, `adj`, `adv`, `conj`, `prep`, `pron`, `num`, `interj`, `expr`, `loc`
+- WordType codes: `m`/`f`/`m/f` (noun gender), `v`, `adj`, `adv`, `conj`, `prep`, `pron`, `num`, `interj`, `expr`, `loc`, `art`, `m_pl`, `f_pl`, `loc_adv`
 - Examples use `<b>...</b>` for keyword highlighting
 
 **Adjective Format Rules (3 types):**
@@ -98,7 +98,7 @@ Common patterns:
 **Conjugation (restructured, pattern-based):**
 Five card types instead of all tenses × all verbs:
 
-1. **Présent** (343 cards) — 3e groupe + samples 1er/2e groupe
+1. **Présent** (355 cards) — 3e groupe + samples 1er/2e groupe
    - Fields: Verb, Translation, ConjSingular, ConjPlural, Pattern, Notes
    - Cloze: `{{c1::vais}}` singular, `{{c2::allons}}` plural
 
@@ -114,7 +114,7 @@ Five card types instead of all tenses × all verbs:
 5. **Être verbs** (17 cards) — DR MRS VANDERTRAMP
    - Fields: Verb, Translation, Participe, Notes
 
-**Total: ~500 cards** (vs ~16700 with old 8-tense approach)
+**Total: ~514 cards** (vs ~16700 with old 8-tense approach)
 
 ## Frequency Recommendation
 
@@ -171,7 +171,7 @@ Two detailed instructions for generating CSV files with Claude:
 - `exionnaire_quebecismes.csv` — 225 words (from exionnaire.com)
 
 **Expressions & Idioms:**
-- `content/expressions/all.csv` — **469 expressions** in final Anki format (complete)
+- `content/expressions/all.csv` — **466 expressions** in final Anki format (complete)
 
 **Expression sources (in `data/`):**
 - `expressions_idiomatiques.csv` — 67 French idioms (avoir le cafard, poser un lapin, etc.)
@@ -228,8 +228,8 @@ From `05b_generate_conjugation.py` (restructured):
 - `conj_etre_verbs_skeleton.csv` — 17 entries (Verb, Participe, freqlem)
 
 **AI content (in `content/`, tracked in git):**
-- `expressions/all.csv` — 469 expressions (complete, audio needed)
-- `quebecismes/all.csv` — 566 québécismes (complete, audio needed)
+- `expressions/all.csv` — 466 expressions (complete, audio needed)
+- `quebecismes/all.csv` — 540 québécismes (complete, audio needed)
 - `vocabulary/*.csv` — French, Russian, ExampleFrench, ExampleRussian, Emoji
 - `conjugation/present.csv` — Verb, Translation, ConjSingular, ConjPlural, Notes
 - `conjugation/subjonctif.csv` — Verb, Translation, ConjSingular, ConjPlural, Notes
@@ -297,6 +297,6 @@ AudioExample: [sound:v_a1a2_un_homme_ex.mp3]
 ## Project Status: COMPLETE ✓
 
 All tasks finished on 2025-01-21:
-- Content generation (12083 cards)
+- Content generation (11923 cards)
 - Audio generation (23104 files via Azure TTS)
 - Final deck assembly (`French_TEF_TCF.apkg`, 750 MB)

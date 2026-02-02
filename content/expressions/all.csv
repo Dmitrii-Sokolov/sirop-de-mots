@@ -106,7 +106,6 @@ tu m'niaises,ты шутишь?; серьёзно?,expr,<b>Tu m'niaises</b> ? C'
 être fin,быть милым; добрым,expr,"Ton voisin est vraiment <b>fin</b>, il m'a aidé avec mes valises.","Твой сосед очень <b>милый</b>, помог мне с чемоданами.","Québec. France: gentil, aimable.",😊💕,québec_expr
 être smatt,быть классным; симпатичным,expr,C'est <b>smatt</b> de ta part de m'aider.,<b>Классно</b> с твоей стороны помочь мне.,De l'anglais smart. Québec.,😎👍,québec_expr
 magané,потрёпанный; изношенный,expr,"Après ce voyage, je suis vraiment <b>magané</b>.",После этой поездки я совсем <b>измотан</b>.,Québec. Aussi: abîmé (pour objets).,😩,québec_expr
-un char,машина; автомобиль,m,Mon <b>char</b> est au garage pour réparation.,Моя <b>машина</b> в мастерской на ремонте.,Québec. France: une voiture.,🚗,québec_vocab
 chauffer,водить (машину),v,C'est mon père qui <b>chauffe</b> ce soir.,Сегодня вечером за рулём <b>мой папа</b>.,Québec. France: conduire.,🚘,québec_vocab
 le gaz,бензин,m,Il faut mettre du <b>gaz</b> dans le char.,Надо <b>заправить</b> машину.,Québec. France: l'essence.,⛽,québec_vocab
 gazer; tinker,заправляться,v,Je dois <b>gazer</b> avant de partir.,Мне нужно <b>заправиться</b> перед отъездом.,Québec. France: faire le plein.,⛽,québec_vocab
@@ -130,7 +129,6 @@ un chum de gars,друг (мужчина),m,"C'est mon <b>chum de gars</b>, on s
 donner un bec,поцеловать (в щёку),expr,Donne-moi un <b>bec</b> avant de partir !,<b>Поцелуй</b> меня перед уходом!,Québec. France: faire la bise.,💋,québec_vocab
 une tuque,шапка; вязаная шапка,f,"Mets ta <b>tuque</b>, il fait frette !","Надень <b>шапку</b>, холодно!",Québec. France: un bonnet.,🧢,québec_vocab
 des mitaines,варежки; перчатки,f pl,N'oublie pas tes <b>mitaines</b> !,Не забудь <b>варежки</b>!,"Québec. France: des moufles, des gants.",🧤,québec_vocab
-un chandail,свитер; кофта,m,"Mets un <b>chandail</b>, il fait froid.","Надень <b>свитер</b>, холодно.",Québec. France: un pull.,🧥,québec_vocab
 des bas,носки,m pl,Il me faut des <b>bas</b> chauds pour l'hiver.,Мне нужны тёплые <b>носки</b> на зиму.,Québec. France: des chaussettes.,🧦,québec_vocab
 des bobettes,трусы; нижнее бельё,f pl,Change tes <b>bobettes</b> !,Смени <b>трусы</b>!,"Québec. Familier. France: slip, caleçon.",🩲,québec_vocab
 des gougounes,шлёпанцы; сланцы,f pl,"En été, je porte toujours des <b>gougounes</b>.",Летом я всегда ношу <b>шлёпанцы</b>.,Québec. Aussi: babouches. France: des tongs.,🩴,québec_vocab
@@ -424,7 +422,6 @@ en attendant,тем временем; пока,adv,"<b>En attendant</b>, prenez 
 entre-temps,тем временем; между тем,adv,"<b>Entre-temps</b>, j'ai changé d'avis.",<b>Тем временем</b> я передумал.,Pendant cette période.,⏳,temps
 à partir de,начиная с,prep,"<b>À partir de</b> lundi, je serai en vacances.",<b>Начиная с</b> понедельника я буду в отпуске.,Point de départ temporel.,📅,temps
 jusqu'à,до,prep,Je travaille <b>jusqu'à</b> 18h.,Я работаю <b>до</b> 18:00.,Point final temporel.,📅,temps
-avant,до; перед,prep,"<b>Avant</b> de partir, vérifie tout.",<b>Перед</b> уходом проверь всё.,Antériorité.,⏪,temps
 après,после,prep,"<b>Après</b> le dîner, on regardera un film.",<b>После</b> ужина посмотрим фильм.,Postériorité.,⏩,temps
 lors de,во время; при,prep,"<b>Lors de</b> mon voyage, j'ai rencontré des gens incroyables.",<b>Во время</b> путешествия я встретил удивительных людей.,Moment précis. Formel. TEF B2.,📅,temps
 dès que,как только,conj,"<b>Dès que</b> possible, envoyez-moi le rapport.","<b>Как только</b> возможно, пришлите мне отчёт.",Immédiatement après. + indicatif (futur en français!).,⚡,temps
