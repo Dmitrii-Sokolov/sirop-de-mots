@@ -394,7 +394,16 @@ PROD_BACK = r"""
 </script>
 """
 
-CLOZE_TEMPLATE = """
+CLOZE_FRONT = """
+<div class="verb-header">{{Verb}}</div>
+<div class="verb-translation">{{Translation}}</div>
+<div class="group-label">Singulier</div>
+<div class="conjugation">{{cloze:ConjSingular}}</div>
+<div class="group-label">Pluriel</div>
+<div class="conjugation">{{cloze:ConjPlural}}</div>
+"""
+
+CLOZE_BACK = """
 <div class="verb-header">{{Verb}}</div>
 <div class="verb-translation">{{Translation}}</div>
 {{#Pattern}}<div class="pattern">{{Pattern}}</div>{{/Pattern}}
@@ -442,7 +451,7 @@ cloze_model = genanki.Model(
         {'name': 'Pattern'},
         {'name': 'Notes'},
     ],
-    templates=[{'name': 'Conjugation Cloze', 'qfmt': CLOZE_TEMPLATE, 'afmt': CLOZE_TEMPLATE}],
+    templates=[{'name': 'Conjugation Cloze', 'qfmt': CLOZE_FRONT, 'afmt': CLOZE_BACK}],
     css=CLOZE_CSS,
 )
 
